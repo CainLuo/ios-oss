@@ -163,6 +163,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4DDC9E44256CFC3A0034D86E /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				4DE81C6C256CAC440013C1F9 /* Setting.storyboard */,
+				4DE81C69256CAC400013C1F9 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		4DDC9E47256CFC450034D86E /* My */ = {
+			isa = PBXGroup;
+			children = (
+				4DE81C63256CAC350013C1F9 /* My.storyboard */,
+				4DE81C66256CAC3B0013C1F9 /* MyViewController.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
 		4DE81BE1256CA02D0013C1F9 = {
 			isa = PBXGroup;
 			children = (
@@ -211,8 +229,8 @@
 			children = (
 				4DE81C40256CA6930013C1F9 /* Launch */,
 				4DE81CF7256CE26A0013C1F9 /* Logins */,
-				4DE81C62256CAC2D0013C1F9 /* My */,
-				4DE81C61256CAC280013C1F9 /* Setting */,
+				4DE81C62256CAC2D0013C1F9 /* Mys */,
+				4DE81C61256CAC280013C1F9 /* Settings */,
 				4DE81C21256CA4E90013C1F9 /* TabBar */,
 				4DE81CFE256CE3230013C1F9 /* Webs */,
 			);
@@ -303,22 +321,20 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		4DE81C61256CAC280013C1F9 /* Setting */ = {
+		4DE81C61256CAC280013C1F9 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				4DE81C6C256CAC440013C1F9 /* Setting.storyboard */,
-				4DE81C69256CAC400013C1F9 /* SettingViewController.swift */,
+				4DDC9E44256CFC3A0034D86E /* Setting */,
 			);
-			path = Setting;
+			path = Settings;
 			sourceTree = "<group>";
 		};
-		4DE81C62256CAC2D0013C1F9 /* My */ = {
+		4DE81C62256CAC2D0013C1F9 /* Mys */ = {
 			isa = PBXGroup;
 			children = (
-				4DE81C63256CAC350013C1F9 /* My.storyboard */,
-				4DE81C66256CAC3B0013C1F9 /* MyViewController.swift */,
+				4DDC9E47256CFC450034D86E /* My */,
 			);
-			path = My;
+			path = Mys;
 			sourceTree = "<group>";
 		};
 		4DE81C92256CB9110013C1F9 /* API */ = {
