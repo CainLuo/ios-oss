@@ -20,7 +20,7 @@ extension UIScreen {
         return self.bounds.size
     }
     
-    public static func fitScreen(value: CGFloat) -> CGFloat {
+    public static func fitScreen(_ value: CGFloat) -> CGFloat {
         let width = Float(UIScreen.main.bounds.size.width)
         let newValue: Float = Float((value / 2.0))
         if UIDevice.current.model == "iPad" {
@@ -30,7 +30,7 @@ extension UIScreen {
         }
     }
 
-    public static func fitPlusScreen(value: CGFloat) -> CGFloat {
+    public static func fitPlusScreen(_ value: CGFloat) -> CGFloat {
         let width = Float(UIScreen.main.bounds.size.width)
         let newValue: Float = Float((value / 2.0))
         if UIDevice.current.model == "iPad" {

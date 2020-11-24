@@ -62,7 +62,7 @@ extension FileManager {
     }
     
     static func checkHasFile(_ path: String) -> Bool {
-        return FileManager.default.fileExists(atPath: path)
+        FileManager.default.fileExists(atPath: path)
     }
     
     static func checkDirectoryHasFiels(_ path: String) -> Bool {
@@ -92,7 +92,6 @@ extension FileManager {
     }
     
     static func getFileCount (_ path: String) -> Int {
-        let fileCount = FileManager.default.enumerator(atPath: path)?.allObjects.count
-        return fileCount ?? 0
+        FileManager.default.enumerator(atPath: path)?.allObjects.count ?? 0
     }
 }

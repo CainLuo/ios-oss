@@ -9,18 +9,18 @@ import UIKit
 
 extension UIFont {
     static func fitFont(_ size: CGFloat) -> UIFont {
-        UIFont.systemFont(ofSize: UIScreen.fitScreen(value: size))
+        UIFont.systemFont(ofSize: UIScreen.fitScreen(size))
     }
     
     static func fitPlusFont(_ size: CGFloat) -> UIFont {
-        UIFont.systemFont(ofSize: UIScreen.fitPlusScreen(value: size))
+        UIFont.systemFont(ofSize: UIScreen.fitPlusScreen(size))
     }
     
     static func fitBoldFont(_ size: CGFloat) -> UIFont {
-        UIFont.boldSystemFont(ofSize: UIScreen.fitScreen(value: size))
+        UIFont.boldSystemFont(ofSize: UIScreen.fitScreen(size))
     }
     
     static func fitPlusBoldFont(_ size: CGFloat) -> UIFont {
-        UIFont.boldSystemFont(ofSize: UIScreen.fitPlusScreen(value: size))
+        UIFont.boldSystemFont(ofSize: UIScreen.fitPlusScreen(size))
     }
 }
