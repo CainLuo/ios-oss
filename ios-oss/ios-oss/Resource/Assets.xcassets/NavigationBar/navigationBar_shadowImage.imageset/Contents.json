@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "navigationBar_shadowImage.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
