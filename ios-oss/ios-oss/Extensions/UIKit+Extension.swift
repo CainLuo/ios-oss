@@ -49,16 +49,6 @@ extension UIView {
             return layer.contents as! UIImage
         }
     }
-
-    func cornerView(_ corners: UIRectCorner, size: CGSize) {
-        let mark = CAShapeLayer()
-        let bezierPath = UIBezierPath(roundedRect: bounds,
-                                      byRoundingCorners: corners,
-                                      cornerRadii: size)
-        mark.frame = bounds
-        mark.path = bezierPath.cgPath
-        layer.mask = mark
-    }
 }
 
 extension UIApplication {
