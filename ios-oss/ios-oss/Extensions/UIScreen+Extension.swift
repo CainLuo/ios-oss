@@ -22,7 +22,7 @@ extension UIScreen {
     
     public static func fitScreen(_ value: CGFloat) -> CGFloat {
         let width = Float(UIScreen.main.bounds.size.width)
-        let newValue: Float = Float((value / 2.0))
+        let newValue: Float = Float((value))
         if UIDevice.current.model == "iPad" {
             return CGFloat(ceilf(width / 834.0 * newValue))
         } else {
@@ -32,7 +32,7 @@ extension UIScreen {
 
     public static func fitPlusScreen(_ value: CGFloat) -> CGFloat {
         let width = Float(UIScreen.main.bounds.size.width)
-        let newValue: Float = Float((value / 2.0))
+        let newValue: Float = Float((value))
         if UIDevice.current.model == "iPad" {
             return CGFloat(ceilf(width / 834.0 * newValue))
         } else {
