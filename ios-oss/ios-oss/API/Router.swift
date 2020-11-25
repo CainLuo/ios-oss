@@ -14,14 +14,14 @@ enum Router {
 
 extension Router: TargetType {
     var baseURL: URL {
-        return URL(string: "")!
+        return URL(string: "http://www.baidu.com")!
     }
     
     var path: String {
         switch self {
         
         case .login:
-            return ""
+            return "/login"
         }
     }
         
