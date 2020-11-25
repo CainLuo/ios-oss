@@ -7,7 +7,8 @@
 
 import Alamofire
 import Moya
+import RxSwift
 
 protocol ApiServiceType {
-    
+    func login() -> Single<CodeResponse>
 }
