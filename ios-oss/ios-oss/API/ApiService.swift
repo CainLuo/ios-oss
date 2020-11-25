@@ -8,6 +8,7 @@
 import Alamofire
 import Moya
 import ObjectMapper
+import RxSwift
 
 class ApiService: ApiServiceType {
     
@@ -18,3 +19,8 @@ class ApiService: ApiServiceType {
     }
 }
 
+extension ApiService {
+    func login() -> Single<CodeResponse> {
+        return requestObject(.login, type: CodeResponse.self)
+    }
+}
