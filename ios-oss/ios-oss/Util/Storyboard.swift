@@ -12,7 +12,20 @@ enum Storyboard: String {
     case Launch
     case TabBar
     case Login
+    
     case About
+    case Collections
+    case Follows
+    case Comments
+    case Feedback
+    case General
+    case My
+    case Niche
+    case NotifyList
+    case NotifySetup
+    case Personal
+    case Privacy
+    case QRCode
     
     func instantiate<VC: UIViewController>(_ viewController: VC.Type) -> VC {
         guard let vc = UIStoryboard(name: self.rawValue, bundle: Bundle.main)

@@ -9,6 +9,11 @@ import UIKit
 
 class PrivacyViewController: BaseTableViewController {
 
+    static func configureWith() -> PrivacyViewController {
+        let vc = Storyboard.Privacy.instantiate(PrivacyViewController.self)
+        return vc
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

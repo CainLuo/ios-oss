@@ -9,6 +9,11 @@ import UIKit
 
 class QRCodeViewController: BaseViewController {
 
+    static func configureWith() -> QRCodeViewController {
+        let vc = Storyboard.QRCode.instantiate(QRCodeViewController.self)
+        return vc
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

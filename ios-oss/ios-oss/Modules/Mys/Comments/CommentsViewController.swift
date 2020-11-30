@@ -9,6 +9,11 @@ import UIKit
 
 class CommentsViewController: BaseViewController {
 
+    static func configureWith() -> CommentsViewController {
+        let vc = Storyboard.Comments.instantiate(CommentsViewController.self)
+        return vc
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

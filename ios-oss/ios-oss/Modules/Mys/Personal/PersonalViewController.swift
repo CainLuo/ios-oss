@@ -9,6 +9,11 @@ import UIKit
 
 class PersonalViewController: BaseViewController {
 
+    static func configureWith() -> PersonalViewController {
+        let vc = Storyboard.Personal.instantiate(PersonalViewController.self)
+        return vc
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

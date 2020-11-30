@@ -9,6 +9,11 @@ import UIKit
 
 class GeneralController: BaseTableViewController {
 
+    static func configureWith() -> GeneralController {
+        let vc = Storyboard.General.instantiate(GeneralController.self)
+        return vc
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -8,6 +8,11 @@
 import UIKit
 
 class AboutViewController: BaseViewController {
+    
+    static func configureWith() -> AboutViewController {
+        let vc = Storyboard.About.instantiate(AboutViewController.self)
+        return vc
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

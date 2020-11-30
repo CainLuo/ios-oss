@@ -11,6 +11,11 @@ class NotifyListViewController: BaseViewController {
     
     @IBOutlet weak var tableView: UITableView!
 
+    static func configureWith() -> NotifyListViewController {
+        let vc = Storyboard.NotifyList.instantiate(NotifyListViewController.self)
+        return vc
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

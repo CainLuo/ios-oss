@@ -9,6 +9,11 @@ import UIKit
 
 class CollectionsViewController: BaseViewController {
 
+    static func configureWith() -> CollectionsViewController {
+        let vc = Storyboard.Collections.instantiate(CollectionsViewController.self)
+        return vc
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

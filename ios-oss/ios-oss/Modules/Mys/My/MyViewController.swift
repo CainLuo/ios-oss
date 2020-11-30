@@ -9,6 +9,11 @@ import UIKit
 
 class MyViewController: BaseTableViewController {
     
+    static func configureWith() -> MyViewController {
+        let vc = Storyboard.My.instantiate(MyViewController.self)
+        return vc
+    }
+    
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var phoneLabel: UILabel!
     @IBOutlet weak var accreditation: UILabel!
