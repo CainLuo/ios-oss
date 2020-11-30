@@ -31,6 +31,17 @@
 		4D02B4E22574D8F00002C981 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4E12574D8F00002C981 /* CommentsViewController.swift */; };
 		4D02B4E52574D8F50002C981 /* FollowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4E42574D8F50002C981 /* FollowsViewController.swift */; };
 		4D02B4E82574D8F80002C981 /* Follows.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4E72574D8F80002C981 /* Follows.storyboard */; };
+		4D02B4EE2574DA9B0002C981 /* CollectionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4ED2574DA9B0002C981 /* CollectionsViewModel.swift */; };
+		4D02B4F12574DAB30002C981 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4F02574DAB30002C981 /* CommentsViewModel.swift */; };
+		4D02B4F42574DACC0002C981 /* FollowsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4F32574DACC0002C981 /* FollowsViewModel.swift */; };
+		4D02B4F72574DAEF0002C981 /* GeneralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4F62574DAEF0002C981 /* GeneralViewModel.swift */; };
+		4D02B4FA2574DB040002C981 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4F92574DB040002C981 /* MyViewModel.swift */; };
+		4D02B4FD2574DB230002C981 /* NicheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4FC2574DB230002C981 /* NicheViewModel.swift */; };
+		4D02B5002574DB370002C981 /* NotifyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4FF2574DB370002C981 /* NotifyListViewModel.swift */; };
+		4D02B5032574DB530002C981 /* NotifySetupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5022574DB530002C981 /* NotifySetupViewModel.swift */; };
+		4D02B5062574DB680002C981 /* PersonalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5052574DB680002C981 /* PersonalViewModel.swift */; };
+		4D02B5092574DB790002C981 /* PrivacyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5082574DB790002C981 /* PrivacyViewModel.swift */; };
+		4D02B50C2574DB890002C981 /* QRCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B50B2574DB890002C981 /* QRCodeViewModel.swift */; };
 		4DDC9E28256CF3960034D86E /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E27256CF3960034D86E /* CALayer+Extension.swift */; };
 		4DDC9E2B256CF3DA0034D86E /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E2A256CF3DA0034D86E /* UITextField+Extension.swift */; };
 		4DDC9E31256CF4230034D86E /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E30256CF4230034D86E /* UILabel+Extension.swift */; };
@@ -120,6 +131,17 @@
 		4D02B4E12574D8F00002C981 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		4D02B4E42574D8F50002C981 /* FollowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowsViewController.swift; sourceTree = "<group>"; };
 		4D02B4E72574D8F80002C981 /* Follows.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Follows.storyboard; sourceTree = "<group>"; };
+		4D02B4ED2574DA9B0002C981 /* CollectionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewModel.swift; sourceTree = "<group>"; };
+		4D02B4F02574DAB30002C981 /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		4D02B4F32574DACC0002C981 /* FollowsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowsViewModel.swift; sourceTree = "<group>"; };
+		4D02B4F62574DAEF0002C981 /* GeneralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewModel.swift; sourceTree = "<group>"; };
+		4D02B4F92574DB040002C981 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		4D02B4FC2574DB230002C981 /* NicheViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheViewModel.swift; sourceTree = "<group>"; };
+		4D02B4FF2574DB370002C981 /* NotifyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyListViewModel.swift; sourceTree = "<group>"; };
+		4D02B5022574DB530002C981 /* NotifySetupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifySetupViewModel.swift; sourceTree = "<group>"; };
+		4D02B5052574DB680002C981 /* PersonalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewModel.swift; sourceTree = "<group>"; };
+		4D02B5082574DB790002C981 /* PrivacyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewModel.swift; sourceTree = "<group>"; };
+		4D02B50B2574DB890002C981 /* QRCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewModel.swift; sourceTree = "<group>"; };
 		4DDC9E27256CF3960034D86E /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		4DDC9E2A256CF3DA0034D86E /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		4DDC9E30256CF4230034D86E /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
@@ -227,6 +249,7 @@
 			children = (
 				4D02B4932574D1100002C981 /* Privacy.storyboard */,
 				4D02B48F2574D10D0002C981 /* PrivacyViewController.swift */,
+				4D02B5082574DB790002C981 /* PrivacyViewModel.swift */,
 			);
 			path = Privacy;
 			sourceTree = "<group>";
@@ -236,6 +259,7 @@
 			children = (
 				4D02B4982574D1EA0002C981 /* NotifyList.storyboard */,
 				4D02B49B2574D1F00002C981 /* NotifyListViewController.swift */,
+				4D02B4FF2574DB370002C981 /* NotifyListViewModel.swift */,
 			);
 			path = NotifyList;
 			sourceTree = "<group>";
@@ -245,6 +269,7 @@
 			children = (
 				4D02B4A22574D2FA0002C981 /* General.storyboard */,
 				4D02B49E2574D2E20002C981 /* GeneralController.swift */,
+				4D02B4F62574DAEF0002C981 /* GeneralViewModel.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -263,6 +288,7 @@
 			children = (
 				4D02B4B32574D46F0002C981 /* Niche.storyboard */,
 				4D02B4AF2574D45D0002C981 /* NicheViewController.swift */,
+				4D02B4FC2574DB230002C981 /* NicheViewModel.swift */,
 			);
 			path = Niche;
 			sourceTree = "<group>";
@@ -272,6 +298,7 @@
 			children = (
 				4D02B4B82574D4A60002C981 /* NotifySetup.storyboard */,
 				4D02B4BB2574D4AC0002C981 /* NotifySetupViewController.swift */,
+				4D02B5022574DB530002C981 /* NotifySetupViewModel.swift */,
 			);
 			path = NotifySetup;
 			sourceTree = "<group>";
@@ -281,6 +308,7 @@
 			children = (
 				4D02B4C42574D5870002C981 /* Personal.storyboard */,
 				4D02B4C02574D5820002C981 /* PersonalViewController.swift */,
+				4D02B5052574DB680002C981 /* PersonalViewModel.swift */,
 			);
 			path = Personal;
 			sourceTree = "<group>";
@@ -290,6 +318,7 @@
 			children = (
 				4D02B4C82574D62F0002C981 /* QRCode.storyboard */,
 				4D02B4CB2574D6360002C981 /* QRCodeViewController.swift */,
+				4D02B50B2574DB890002C981 /* QRCodeViewModel.swift */,
 			);
 			path = QRCode;
 			sourceTree = "<group>";
@@ -299,6 +328,7 @@
 			children = (
 				4D02B4D72574D88B0002C981 /* Collections.storyboard */,
 				4D02B4D32574D8870002C981 /* CollectionsViewController.swift */,
+				4D02B4ED2574DA9B0002C981 /* CollectionsViewModel.swift */,
 			);
 			path = Collections;
 			sourceTree = "<group>";
@@ -308,6 +338,7 @@
 			children = (
 				4D02B4E72574D8F80002C981 /* Follows.storyboard */,
 				4D02B4E42574D8F50002C981 /* FollowsViewController.swift */,
+				4D02B4F32574DACC0002C981 /* FollowsViewModel.swift */,
 			);
 			path = Follows;
 			sourceTree = "<group>";
@@ -317,6 +348,7 @@
 			children = (
 				4D02B4DE2574D8EB0002C981 /* Comments.storyboard */,
 				4D02B4E12574D8F00002C981 /* CommentsViewController.swift */,
+				4D02B4F02574DAB30002C981 /* CommentsViewModel.swift */,
 			);
 			path = Comments;
 			sourceTree = "<group>";
@@ -335,6 +367,7 @@
 			children = (
 				4DE81C63256CAC350013C1F9 /* My.storyboard */,
 				4DE81C66256CAC3B0013C1F9 /* MyViewController.swift */,
+				4D02B4F92574DB040002C981 /* MyViewModel.swift */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -754,28 +787,38 @@
 				4DE81C67256CAC3B0013C1F9 /* MyViewController.swift in Sources */,
 				4DE81C3A256CA64B0013C1F9 /* FileManager+Extension.swift in Sources */,
 				4DE81CE8256CD4F40013C1F9 /* RegisterViewController.swift in Sources */,
+				4D02B4F12574DAB30002C981 /* CommentsViewModel.swift in Sources */,
 				4DE81C33256CA5D60013C1F9 /* UIViewController+Swizzle.swift in Sources */,
 				4DE81C36256CA6220013C1F9 /* UIViewController+Debug.swift in Sources */,
 				4DE81C77256CB2450013C1F9 /* BaseNavigationController.swift in Sources */,
+				4D02B4EE2574DA9B0002C981 /* CollectionsViewModel.swift in Sources */,
 				4D02B4CC2574D6360002C981 /* QRCodeViewController.swift in Sources */,
 				4DE81CAD256CB9C40013C1F9 /* ApiService.swift in Sources */,
 				4DDC9E3B256CF5290034D86E /* UIButton+Extension.swift in Sources */,
+				4D02B4F42574DACC0002C981 /* FollowsViewModel.swift in Sources */,
+				4D02B4F72574DAEF0002C981 /* GeneralViewModel.swift in Sources */,
 				4D02B4AC2574D4220002C981 /* FeedbackViewController.swift in Sources */,
 				4DE81CA1256CB9410013C1F9 /* CodeResponse.swift in Sources */,
 				4DE81CA2256CB9410013C1F9 /* SessionManager.swift in Sources */,
 				4DE81CA6256CB9570013C1F9 /* ActivityIndicator.swift in Sources */,
 				4DE81CAA256CB9B40013C1F9 /* Router.swift in Sources */,
 				4DE81CF4256CD5180013C1F9 /* ForgetViewController.swift in Sources */,
+				4D02B4FD2574DB230002C981 /* NicheViewModel.swift in Sources */,
+				4D02B5032574DB530002C981 /* NotifySetupViewModel.swift in Sources */,
 				4DE81D00256CE3490013C1F9 /* WebViewController.swift in Sources */,
 				4D02B49F2574D2E20002C981 /* GeneralController.swift in Sources */,
 				4DE81C23256CA4FB0013C1F9 /* TabBarViewController.swift in Sources */,
 				4DE81C2D256CA5920013C1F9 /* UIKit+Extension.swift in Sources */,
 				4D02B4B02574D45D0002C981 /* NicheViewController.swift in Sources */,
+				4D02B50C2574DB890002C981 /* QRCodeViewModel.swift in Sources */,
+				4D02B5002574DB370002C981 /* NotifyListViewModel.swift in Sources */,
 				4DE81C42256CA6AB0013C1F9 /* LaunchViewController.swift in Sources */,
 				4DE81CA0256CB9410013C1F9 /* ErrorType.swift in Sources */,
 				4DE81C4E256CA7350013C1F9 /* BaseCollectionViewController.swift in Sources */,
+				4D02B5092574DB790002C981 /* PrivacyViewModel.swift in Sources */,
 				4DE81C8D256CB67E0013C1F9 /* UIColor+Extension.swift in Sources */,
 				4DE81C74256CB09E0013C1F9 /* PushNotification.swift in Sources */,
+				4D02B5062574DB680002C981 /* PersonalViewModel.swift in Sources */,
 				4DE81BEE256CA02D0013C1F9 /* AppDelegate.swift in Sources */,
 				4DE81C4B256CA72C0013C1F9 /* BaseTableViewController.swift in Sources */,
 				4DE81C9C256CB9410013C1F9 /* ApiNetworking.swift in Sources */,
@@ -785,6 +828,7 @@
 				4DE81C5A256CAA170013C1F9 /* LoginViewController.swift in Sources */,
 				4DE81C1F256CA4CC0013C1F9 /* Storyboard.swift in Sources */,
 				4D02B4902574D10D0002C981 /* PrivacyViewController.swift in Sources */,
+				4D02B4FA2574DB040002C981 /* MyViewModel.swift in Sources */,
 				4D02B4C12574D5820002C981 /* PersonalViewController.swift in Sources */,
 				4DE81CE3256CBE930013C1F9 /* Observable+Rx.swift in Sources */,
 				4DDC9E28256CF3960034D86E /* CALayer+Extension.swift in Sources */,
