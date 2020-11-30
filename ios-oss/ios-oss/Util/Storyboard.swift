@@ -12,6 +12,7 @@ enum Storyboard: String {
     case Launch
     case TabBar
     case Login
+    case About
     
     func instantiate<VC: UIViewController>(_ viewController: VC.Type) -> VC {
         guard let vc = UIStoryboard(name: self.rawValue, bundle: Bundle.main)

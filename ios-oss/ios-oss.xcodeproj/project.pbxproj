@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D02B43F2574CDAA0002C981 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B43E2574CDAA0002C981 /* AboutViewController.swift */; };
+		4D02B4422574CDB50002C981 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4412574CDB50002C981 /* About.storyboard */; };
+		4D02B4902574D10D0002C981 /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B48F2574D10D0002C981 /* PrivacyViewController.swift */; };
+		4D02B4942574D1100002C981 /* Privacy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4932574D1100002C981 /* Privacy.storyboard */; };
+		4D02B4992574D1EA0002C981 /* NotifyList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4982574D1EA0002C981 /* NotifyList.storyboard */; };
+		4D02B49C2574D1F00002C981 /* NotifyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B49B2574D1F00002C981 /* NotifyListViewController.swift */; };
+		4D02B49F2574D2E20002C981 /* GeneralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B49E2574D2E20002C981 /* GeneralController.swift */; };
+		4D02B4A32574D2FA0002C981 /* General.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4A22574D2FA0002C981 /* General.storyboard */; };
+		4D02B4A92574D4150002C981 /* Feedback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4A82574D4150002C981 /* Feedback.storyboard */; };
+		4D02B4AC2574D4220002C981 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4AB2574D4220002C981 /* FeedbackViewController.swift */; };
+		4D02B4B02574D45D0002C981 /* NicheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4AF2574D45D0002C981 /* NicheViewController.swift */; };
+		4D02B4B42574D46F0002C981 /* Niche.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4B32574D46F0002C981 /* Niche.storyboard */; };
+		4D02B4B92574D4A60002C981 /* NotifySetup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4B82574D4A60002C981 /* NotifySetup.storyboard */; };
+		4D02B4BC2574D4AC0002C981 /* NotifySetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4BB2574D4AC0002C981 /* NotifySetupViewController.swift */; };
+		4D02B4C12574D5820002C981 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4C02574D5820002C981 /* PersonalViewController.swift */; };
+		4D02B4C52574D5870002C981 /* Personal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4C42574D5870002C981 /* Personal.storyboard */; };
+		4D02B4C92574D62F0002C981 /* QRCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4C82574D62F0002C981 /* QRCode.storyboard */; };
+		4D02B4CC2574D6360002C981 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4CB2574D6360002C981 /* QRCodeViewController.swift */; };
+		4D02B4D42574D8870002C981 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4D32574D8870002C981 /* CollectionsViewController.swift */; };
+		4D02B4D82574D88B0002C981 /* Collections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4D72574D88B0002C981 /* Collections.storyboard */; };
+		4D02B4DF2574D8EB0002C981 /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4DE2574D8EB0002C981 /* Comments.storyboard */; };
+		4D02B4E22574D8F00002C981 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4E12574D8F00002C981 /* CommentsViewController.swift */; };
+		4D02B4E52574D8F50002C981 /* FollowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B4E42574D8F50002C981 /* FollowsViewController.swift */; };
+		4D02B4E82574D8F80002C981 /* Follows.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D02B4E72574D8F80002C981 /* Follows.storyboard */; };
 		4DDC9E28256CF3960034D86E /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E27256CF3960034D86E /* CALayer+Extension.swift */; };
 		4DDC9E2B256CF3DA0034D86E /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E2A256CF3DA0034D86E /* UITextField+Extension.swift */; };
 		4DDC9E31256CF4230034D86E /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E30256CF4230034D86E /* UILabel+Extension.swift */; };
@@ -72,6 +96,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D02B43E2574CDAA0002C981 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4D02B4412574CDB50002C981 /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
+		4D02B48F2574D10D0002C981 /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		4D02B4932574D1100002C981 /* Privacy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Privacy.storyboard; sourceTree = "<group>"; };
+		4D02B4982574D1EA0002C981 /* NotifyList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NotifyList.storyboard; sourceTree = "<group>"; };
+		4D02B49B2574D1F00002C981 /* NotifyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyListViewController.swift; sourceTree = "<group>"; };
+		4D02B49E2574D2E20002C981 /* GeneralController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralController.swift; sourceTree = "<group>"; };
+		4D02B4A22574D2FA0002C981 /* General.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = General.storyboard; sourceTree = "<group>"; };
+		4D02B4A82574D4150002C981 /* Feedback.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feedback.storyboard; sourceTree = "<group>"; };
+		4D02B4AB2574D4220002C981 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		4D02B4AF2574D45D0002C981 /* NicheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheViewController.swift; sourceTree = "<group>"; };
+		4D02B4B32574D46F0002C981 /* Niche.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Niche.storyboard; sourceTree = "<group>"; };
+		4D02B4B82574D4A60002C981 /* NotifySetup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NotifySetup.storyboard; sourceTree = "<group>"; };
+		4D02B4BB2574D4AC0002C981 /* NotifySetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifySetupViewController.swift; sourceTree = "<group>"; };
+		4D02B4C02574D5820002C981 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		4D02B4C42574D5870002C981 /* Personal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Personal.storyboard; sourceTree = "<group>"; };
+		4D02B4C82574D62F0002C981 /* QRCode.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QRCode.storyboard; sourceTree = "<group>"; };
+		4D02B4CB2574D6360002C981 /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		4D02B4D32574D8870002C981 /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
+		4D02B4D72574D88B0002C981 /* Collections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collections.storyboard; sourceTree = "<group>"; };
+		4D02B4DE2574D8EB0002C981 /* Comments.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Comments.storyboard; sourceTree = "<group>"; };
+		4D02B4E12574D8F00002C981 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		4D02B4E42574D8F50002C981 /* FollowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowsViewController.swift; sourceTree = "<group>"; };
+		4D02B4E72574D8F80002C981 /* Follows.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Follows.storyboard; sourceTree = "<group>"; };
 		4DDC9E27256CF3960034D86E /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		4DDC9E2A256CF3DA0034D86E /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		4DDC9E30256CF4230034D86E /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
@@ -163,6 +211,114 @@
 				6EA5C715A9C6BFBBEC89045D /* Pods-ios-oss.preview.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D02B43C2574CD9E0002C981 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4412574CDB50002C981 /* About.storyboard */,
+				4D02B43E2574CDAA0002C981 /* AboutViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		4D02B48E2574D0FD0002C981 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4932574D1100002C981 /* Privacy.storyboard */,
+				4D02B48F2574D10D0002C981 /* PrivacyViewController.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		4D02B4972574D1DB0002C981 /* NotifyList */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4982574D1EA0002C981 /* NotifyList.storyboard */,
+				4D02B49B2574D1F00002C981 /* NotifyListViewController.swift */,
+			);
+			path = NotifyList;
+			sourceTree = "<group>";
+		};
+		4D02B4A12574D2E50002C981 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4A22574D2FA0002C981 /* General.storyboard */,
+				4D02B49E2574D2E20002C981 /* GeneralController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		4D02B4A62574D4020002C981 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4A82574D4150002C981 /* Feedback.storyboard */,
+				4D02B4AB2574D4220002C981 /* FeedbackViewController.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		4D02B4B22574D4650002C981 /* Niche */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4B32574D46F0002C981 /* Niche.storyboard */,
+				4D02B4AF2574D45D0002C981 /* NicheViewController.swift */,
+			);
+			path = Niche;
+			sourceTree = "<group>";
+		};
+		4D02B4B72574D4970002C981 /* NotifySetup */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4B82574D4A60002C981 /* NotifySetup.storyboard */,
+				4D02B4BB2574D4AC0002C981 /* NotifySetupViewController.swift */,
+			);
+			path = NotifySetup;
+			sourceTree = "<group>";
+		};
+		4D02B4BF2574D5730002C981 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4C42574D5870002C981 /* Personal.storyboard */,
+				4D02B4C02574D5820002C981 /* PersonalViewController.swift */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		4D02B4CF2574D63C0002C981 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4C82574D62F0002C981 /* QRCode.storyboard */,
+				4D02B4CB2574D6360002C981 /* QRCodeViewController.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		4D02B4D22574D87F0002C981 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4D72574D88B0002C981 /* Collections.storyboard */,
+				4D02B4D32574D8870002C981 /* CollectionsViewController.swift */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		4D02B4DA2574D8B20002C981 /* Follows */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4E72574D8F80002C981 /* Follows.storyboard */,
+				4D02B4E42574D8F50002C981 /* FollowsViewController.swift */,
+			);
+			path = Follows;
+			sourceTree = "<group>";
+		};
+		4D02B4DB2574D8BA0002C981 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				4D02B4DE2574D8EB0002C981 /* Comments.storyboard */,
+				4D02B4E12574D8F00002C981 /* CommentsViewController.swift */,
+			);
+			path = Comments;
 			sourceTree = "<group>";
 		};
 		4DDC9E44256CFC3A0034D86E /* Setting */ = {
@@ -335,7 +491,19 @@
 		4DE81C62256CAC2D0013C1F9 /* Mys */ = {
 			isa = PBXGroup;
 			children = (
+				4D02B43C2574CD9E0002C981 /* About */,
+				4D02B4D22574D87F0002C981 /* Collections */,
+				4D02B4DB2574D8BA0002C981 /* Comments */,
+				4D02B4A62574D4020002C981 /* Feedback */,
+				4D02B4DA2574D8B20002C981 /* Follows */,
+				4D02B4A12574D2E50002C981 /* General */,
 				4DDC9E47256CFC450034D86E /* My */,
+				4D02B4B22574D4650002C981 /* Niche */,
+				4D02B4972574D1DB0002C981 /* NotifyList */,
+				4D02B4B72574D4970002C981 /* NotifySetup */,
+				4D02B4BF2574D5730002C981 /* Personal */,
+				4D02B48E2574D0FD0002C981 /* Privacy */,
+				4D02B4CF2574D63C0002C981 /* QRCode */,
 			);
 			path = Mys;
 			sourceTree = "<group>";
@@ -496,12 +664,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE81C64256CAC350013C1F9 /* My.storyboard in Resources */,
+				4D02B4A92574D4150002C981 /* Feedback.storyboard in Resources */,
+				4D02B4992574D1EA0002C981 /* NotifyList.storyboard in Resources */,
+				4D02B4B42574D46F0002C981 /* Niche.storyboard in Resources */,
+				4D02B4942574D1100002C981 /* Privacy.storyboard in Resources */,
 				4DE81BFA256CA02E0013C1F9 /* LaunchScreen.storyboard in Resources */,
 				4DE81C6D256CAC440013C1F9 /* Setting.storyboard in Resources */,
+				4D02B4B92574D4A60002C981 /* NotifySetup.storyboard in Resources */,
 				4DE81C27256CA5070013C1F9 /* TabBar.storyboard in Resources */,
 				4DE81BF7256CA02E0013C1F9 /* Assets.xcassets in Resources */,
+				4D02B4C92574D62F0002C981 /* QRCode.storyboard in Resources */,
+				4D02B4C52574D5870002C981 /* Personal.storyboard in Resources */,
+				4D02B4D82574D88B0002C981 /* Collections.storyboard in Resources */,
 				4DE81CEB256CD4F80013C1F9 /* Register.storyboard in Resources */,
+				4D02B4422574CDB50002C981 /* About.storyboard in Resources */,
 				4DE81C55256CA8610013C1F9 /* Launch.storyboard in Resources */,
+				4D02B4DF2574D8EB0002C981 /* Comments.storyboard in Resources */,
+				4D02B4A32574D2FA0002C981 /* General.storyboard in Resources */,
+				4D02B4E82574D8F80002C981 /* Follows.storyboard in Resources */,
 				4DE81C5E256CAC060013C1F9 /* Login.storyboard in Resources */,
 				4DE81CF1256CD5140013C1F9 /* Forget.storyboard in Resources */,
 			);
@@ -568,6 +748,7 @@
 				4DDC9E34256CF44D0034D86E /* UITextView+Extension.swift in Sources */,
 				4DDC9E31256CF4230034D86E /* UILabel+Extension.swift in Sources */,
 				4DE81C89256CB5540013C1F9 /* UIFont+Extension.swift in Sources */,
+				4D02B4D42574D8870002C981 /* CollectionsViewController.swift in Sources */,
 				4DE81C9E256CB9410013C1F9 /* ErrorTracker.swift in Sources */,
 				4DDC9E3E256CF5610034D86E /* UIBarButtonItem+Extension.swift in Sources */,
 				4DE81C67256CAC3B0013C1F9 /* MyViewController.swift in Sources */,
@@ -576,16 +757,20 @@
 				4DE81C33256CA5D60013C1F9 /* UIViewController+Swizzle.swift in Sources */,
 				4DE81C36256CA6220013C1F9 /* UIViewController+Debug.swift in Sources */,
 				4DE81C77256CB2450013C1F9 /* BaseNavigationController.swift in Sources */,
+				4D02B4CC2574D6360002C981 /* QRCodeViewController.swift in Sources */,
 				4DE81CAD256CB9C40013C1F9 /* ApiService.swift in Sources */,
 				4DDC9E3B256CF5290034D86E /* UIButton+Extension.swift in Sources */,
+				4D02B4AC2574D4220002C981 /* FeedbackViewController.swift in Sources */,
 				4DE81CA1256CB9410013C1F9 /* CodeResponse.swift in Sources */,
 				4DE81CA2256CB9410013C1F9 /* SessionManager.swift in Sources */,
 				4DE81CA6256CB9570013C1F9 /* ActivityIndicator.swift in Sources */,
 				4DE81CAA256CB9B40013C1F9 /* Router.swift in Sources */,
 				4DE81CF4256CD5180013C1F9 /* ForgetViewController.swift in Sources */,
 				4DE81D00256CE3490013C1F9 /* WebViewController.swift in Sources */,
+				4D02B49F2574D2E20002C981 /* GeneralController.swift in Sources */,
 				4DE81C23256CA4FB0013C1F9 /* TabBarViewController.swift in Sources */,
 				4DE81C2D256CA5920013C1F9 /* UIKit+Extension.swift in Sources */,
+				4D02B4B02574D45D0002C981 /* NicheViewController.swift in Sources */,
 				4DE81C42256CA6AB0013C1F9 /* LaunchViewController.swift in Sources */,
 				4DE81CA0256CB9410013C1F9 /* ErrorType.swift in Sources */,
 				4DE81C4E256CA7350013C1F9 /* BaseCollectionViewController.swift in Sources */,
@@ -595,16 +780,23 @@
 				4DE81C4B256CA72C0013C1F9 /* BaseTableViewController.swift in Sources */,
 				4DE81C9C256CB9410013C1F9 /* ApiNetworking.swift in Sources */,
 				4DE81C9F256CB9410013C1F9 /* ApiProvider.swift in Sources */,
+				4D02B4E22574D8F00002C981 /* CommentsViewController.swift in Sources */,
+				4D02B49C2574D1F00002C981 /* NotifyListViewController.swift in Sources */,
 				4DE81C5A256CAA170013C1F9 /* LoginViewController.swift in Sources */,
 				4DE81C1F256CA4CC0013C1F9 /* Storyboard.swift in Sources */,
+				4D02B4902574D10D0002C981 /* PrivacyViewController.swift in Sources */,
+				4D02B4C12574D5820002C981 /* PersonalViewController.swift in Sources */,
 				4DE81CE3256CBE930013C1F9 /* Observable+Rx.swift in Sources */,
 				4DDC9E28256CF3960034D86E /* CALayer+Extension.swift in Sources */,
 				4DDC9E38256CF4A50034D86E /* NSLayoutConstraint+Extension.swift in Sources */,
 				4DE81CDF256CBD970013C1F9 /* UIViewController+Rx.swift in Sources */,
 				4DE81C6A256CAC400013C1F9 /* SettingViewController.swift in Sources */,
+				4D02B4BC2574D4AC0002C981 /* NotifySetupViewController.swift in Sources */,
 				4DE81C1C256CA4BA0013C1F9 /* Logger.swift in Sources */,
 				4DE81C9D256CB9410013C1F9 /* ApiService+Request.swift in Sources */,
+				4D02B43F2574CDAA0002C981 /* AboutViewController.swift in Sources */,
 				4DE81CFB256CE2BC0013C1F9 /* HUD.swift in Sources */,
+				4D02B4E52574D8F50002C981 /* FollowsViewController.swift in Sources */,
 				4DE81CB0256CB9CD0013C1F9 /* ApiServiceType.swift in Sources */,
 				4DE81D04256CE3870013C1F9 /* JSWebViewController.swift in Sources */,
 				4DE81C30256CA5BF0013C1F9 /* UIView+Swizzle.swift in Sources */,
