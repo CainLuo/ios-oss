@@ -108,15 +108,11 @@ class MyViewController: BaseTableViewController {
     }
     
     @IBAction func qrCodeAction(_ sender: Any) {
-        
     }
     
     @IBAction func collectionAction(_ sender: Any) {
-        Localize.setCurrentLanguage("en")
     }
     
-    
     @IBAction func followAction(_ sender: Any) {
-        Localize.setCurrentLanguage("zh-Hans")
     }
 }
