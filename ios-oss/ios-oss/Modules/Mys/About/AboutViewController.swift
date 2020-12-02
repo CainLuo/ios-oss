@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class AboutViewController: BaseViewController {
     
@@ -16,6 +17,12 @@ class AboutViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        log.debug(navigationItem.backBarButtonItem)
+        if Localize.currentLanguage() == "zh-Hans" {
+            Localize.setCurrentLanguage("en")
+        } else {
+            Localize.setCurrentLanguage(Localize.availableLanguages().first!)
+        }
+        
+        log.debug(Localize.availableLanguages())
     }
 }

@@ -56,6 +56,8 @@
 		4D02B5342574E1060002C981 /* PersonalViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5332574E1060002C981 /* PersonalViewController+Component.swift */; };
 		4D02B5372574E11B0002C981 /* PrivacyViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5362574E11B0002C981 /* PrivacyViewController+Component.swift */; };
 		4D02B53A2574E1310002C981 /* QRCodeViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5392574E1310002C981 /* QRCodeViewController+Component.swift */; };
+		4D15D5572577AA9400FC7CE9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D15D5592577AA9400FC7CE9 /* Localizable.strings */; };
+		4D4C376D2577C0130021090F /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C376C2577C0130021090F /* My.storyboard */; };
 		4DDC9E28256CF3960034D86E /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E27256CF3960034D86E /* CALayer+Extension.swift */; };
 		4DDC9E2B256CF3DA0034D86E /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E2A256CF3DA0034D86E /* UITextField+Extension.swift */; };
 		4DDC9E31256CF4230034D86E /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E30256CF4230034D86E /* UILabel+Extension.swift */; };
@@ -86,7 +88,6 @@
 		4DE81C55256CA8610013C1F9 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE81C54256CA8610013C1F9 /* Launch.storyboard */; };
 		4DE81C5A256CAA170013C1F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C59256CAA170013C1F9 /* LoginViewController.swift */; };
 		4DE81C5E256CAC060013C1F9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE81C5D256CAC060013C1F9 /* Login.storyboard */; };
-		4DE81C64256CAC350013C1F9 /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE81C63256CAC350013C1F9 /* My.storyboard */; };
 		4DE81C67256CAC3B0013C1F9 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C66256CAC3B0013C1F9 /* MyViewController.swift */; };
 		4DE81C6A256CAC400013C1F9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C69256CAC400013C1F9 /* SettingViewController.swift */; };
 		4DE81C6D256CAC440013C1F9 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE81C6C256CAC440013C1F9 /* Setting.storyboard */; };
@@ -170,6 +171,16 @@
 		4D02B5332574E1060002C981 /* PersonalViewController+Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonalViewController+Component.swift"; sourceTree = "<group>"; };
 		4D02B5362574E11B0002C981 /* PrivacyViewController+Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrivacyViewController+Component.swift"; sourceTree = "<group>"; };
 		4D02B5392574E1310002C981 /* QRCodeViewController+Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCodeViewController+Component.swift"; sourceTree = "<group>"; };
+		4D15D52C25779E7A00FC7CE9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4D15D5582577AA9400FC7CE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D15D55B2577AA9600FC7CE9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4D4C37642577BFE00021090F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4D4C37652577BFE00021090F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4D4C37672577BFE40021090F /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4D4C37682577BFE40021090F /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4D4C376C2577C0130021090F /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
+		4D4C376F2577C0450021090F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4D4C37702577C0450021090F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4DDC9E27256CF3960034D86E /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		4DDC9E2A256CF3DA0034D86E /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		4DDC9E30256CF4230034D86E /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
@@ -202,7 +213,6 @@
 		4DE81C54256CA8610013C1F9 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		4DE81C59256CAA170013C1F9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4DE81C5D256CAC060013C1F9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		4DE81C63256CAC350013C1F9 /* My.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
 		4DE81C66256CAC3B0013C1F9 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		4DE81C69256CAC400013C1F9 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		4DE81C6C256CAC440013C1F9 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
@@ -413,7 +423,7 @@
 		4DDC9E47256CFC450034D86E /* My */ = {
 			isa = PBXGroup;
 			children = (
-				4DE81C63256CAC350013C1F9 /* My.storyboard */,
+				4D4C376C2577C0130021090F /* My.storyboard */,
 				4DE81C66256CAC3B0013C1F9 /* MyViewController.swift */,
 				4D02B4F92574DB040002C981 /* MyViewModel.swift */,
 				4D02B5272574E07E0002C981 /* MyViewController+Component.swift */,
@@ -461,6 +471,7 @@
 				4DE81BF6256CA02E0013C1F9 /* Assets.xcassets */,
 				4DE81BF8256CA02E0013C1F9 /* LaunchScreen.storyboard */,
 				4DE81BFB256CA02E0013C1F9 /* Info.plist */,
+				4D15D5592577AA9400FC7CE9 /* Localizable.strings */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -730,6 +741,10 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
+				"zh-HK",
+				ja,
 			);
 			mainGroup = 4DE81BE1256CA02D0013C1F9;
 			productRefGroup = 4DE81BEB256CA02D0013C1F9 /* Products */;
@@ -746,7 +761,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE81C64256CAC350013C1F9 /* My.storyboard in Resources */,
 				4D02B4A92574D4150002C981 /* Feedback.storyboard in Resources */,
 				4D02B4992574D1EA0002C981 /* NotifyList.storyboard in Resources */,
 				4D02B4B42574D46F0002C981 /* Niche.storyboard in Resources */,
@@ -759,6 +773,7 @@
 				4D02B4C92574D62F0002C981 /* QRCode.storyboard in Resources */,
 				4D02B4C52574D5870002C981 /* Personal.storyboard in Resources */,
 				4D02B4D82574D88B0002C981 /* Collections.storyboard in Resources */,
+				4D15D5572577AA9400FC7CE9 /* Localizable.strings in Resources */,
 				4DE81CEB256CD4F80013C1F9 /* Register.storyboard in Resources */,
 				4D02B4422574CDB50002C981 /* About.storyboard in Resources */,
 				4DE81C55256CA8610013C1F9 /* Launch.storyboard in Resources */,
@@ -766,6 +781,7 @@
 				4D02B4A32574D2FA0002C981 /* General.storyboard in Resources */,
 				4D02B4E82574D8F80002C981 /* Follows.storyboard in Resources */,
 				4DE81C5E256CAC060013C1F9 /* Login.storyboard in Resources */,
+				4D4C376D2577C0130021090F /* My.storyboard in Resources */,
 				4DE81CF1256CD5140013C1F9 /* Forget.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -914,10 +930,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4D15D5592577AA9400FC7CE9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D15D5582577AA9400FC7CE9 /* en */,
+				4D15D55B2577AA9600FC7CE9 /* zh-Hans */,
+				4D4C37652577BFE00021090F /* zh-Hant */,
+				4D4C37682577BFE40021090F /* zh-HK */,
+				4D4C37702577C0450021090F /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		4DE81BF8256CA02E0013C1F9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4DE81BF9256CA02E0013C1F9 /* Base */,
+				4D15D52C25779E7A00FC7CE9 /* zh-Hans */,
+				4D4C37642577BFE00021090F /* zh-Hant */,
+				4D4C37672577BFE40021090F /* zh-HK */,
+				4D4C376F2577C0450021090F /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -929,6 +961,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -990,6 +1023,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1087,6 +1121,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1169,6 +1204,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

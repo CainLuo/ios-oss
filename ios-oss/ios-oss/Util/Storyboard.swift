@@ -26,6 +26,7 @@ enum Storyboard: String {
     case Personal
     case Privacy
     case QRCode
+    case Setting
     
     func instantiate<VC: UIViewController>(_ viewController: VC.Type) -> VC {
         guard let vc = UIStoryboard(name: self.rawValue, bundle: Bundle.main)

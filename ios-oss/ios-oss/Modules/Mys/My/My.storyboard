@@ -124,6 +124,7 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="31" height="44"/>
                                                                     <state key="normal" title="收藏"/>
                                                                     <connections>
+                                                                        <action selector="collectionAction:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="BDA-Xz-QDr"/>
                                                                         <segue destination="s1p-VU-AU1" kind="show" id="kkE-vC-kQn"/>
                                                                     </connections>
                                                                 </button>
@@ -131,6 +132,7 @@
                                                                     <rect key="frame" x="41" y="0.0" width="31" height="44"/>
                                                                     <state key="normal" title="关注"/>
                                                                     <connections>
+                                                                        <action selector="followAction:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="Yne-Te-cr9"/>
                                                                         <segue destination="Pe7-hb-lnF" kind="show" id="k5X-j5-eZx"/>
                                                                     </connections>
                                                                 </button>
@@ -422,9 +424,21 @@
                         </connections>
                     </tableView>
                     <connections>
-                        <outlet property="accreditation" destination="g4S-Hu-DJc" id="LJ9-zz-yc1"/>
+                        <outlet property="aboutLabel" destination="0r0-mB-u7n" id="j1S-OM-M9t"/>
                         <outlet property="avatarImageView" destination="ghJ-Q6-byO" id="5Ht-vb-ed1"/>
+                        <outlet property="certifiedLabel" destination="g4S-Hu-DJc" id="c6r-bq-A9U"/>
+                        <outlet property="collectionButton" destination="iTU-ia-wlG" id="s1Y-qv-7VI"/>
+                        <outlet property="commentButton" destination="b8z-uc-uS2" id="W5t-7Z-TcM"/>
+                        <outlet property="feedbackLabel" destination="vXm-eU-yqc" id="3gA-kM-X5f"/>
+                        <outlet property="followButton" destination="6ek-U7-TIH" id="Ebc-1A-pHf"/>
+                        <outlet property="generalLabel" destination="ziG-Oi-qK2" id="vGi-qu-gX0"/>
+                        <outlet property="logoutButton" destination="BRl-D2-lSq" id="QvR-HQ-tpB"/>
+                        <outlet property="nicheLabel" destination="Gpt-XS-wPQ" id="c8v-uf-eLS"/>
+                        <outlet property="notifyListLabel" destination="tzt-jG-aAW" id="gUQ-oA-mo4"/>
+                        <outlet property="notifySetupLabel" destination="ELU-pS-KGJ" id="QBM-vk-vg2"/>
                         <outlet property="phoneLabel" destination="Y8C-eR-OQL" id="dOs-fP-JAc"/>
+                        <outlet property="privacyLabel" destination="tU1-6Q-hXP" id="muC-wM-bbq"/>
+                        <outlet property="qrCodeButton" destination="f7t-Za-reC" id="6Hm-xB-YfB"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPj-J1-9bw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
