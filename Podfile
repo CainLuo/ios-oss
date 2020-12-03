@@ -41,18 +41,14 @@ target 'ios-oss' do
   # UI
   pod 'STPopup'# https://github.com/kevin0571/STPopup.git
   pod 'MJRefresh' # https://github.com/CoderMJLee/MJRefresh.git
+  pod 'HBDNavigationBar' # https://github.com/listenzz/HBDNavigationBar
+  pod 'MBProgressHUD' # https://github.com/jdg/MBProgressHUD
 
   # Auto Layout
   pod 'SnapKit' # https://github.com/SnapKit/SnapKit
 
   # WKWebView Javascript
   pod 'WKWebViewJavascriptBridge' # https://github.com/Lision/WKWebViewJavascriptBridge
-
-  # HUD
-  pod 'MBProgressHUD' # https://github.com/jdg/MBProgressHUD
- 
-  # NavigationBar
-  pod 'HBDNavigationBar' # https://github.com/listenzz/HBDNavigationBar
   
   # UI Test Tools
   pod 'LookinServer', :configurations => ['Debug', 'Preview', 'Live']
