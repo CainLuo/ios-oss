@@ -16,6 +16,9 @@ class PrivacyViewController: BaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "隐私"
+        self.hbd_barTintColor = UIColor.red
+        self.hbd_tintColor = UIColor.white
+        self.hbd_titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
     }
 }

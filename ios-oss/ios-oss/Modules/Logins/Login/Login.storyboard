@@ -93,7 +93,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Noc-nB-UUQ" customClass="BaseNavigationController" customModule="ios_oss" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B3v-d3-aYx">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B3v-d3-aYx" customClass="BaseNavigationBar" customModule="ios_oss" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
