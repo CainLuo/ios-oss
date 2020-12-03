@@ -8,8 +8,9 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import HBDNavigationBar
 
-class BaseNavigationController: UINavigationController {
+class BaseNavigationController: HBDNavigationController {
 
     let disposeBag = DisposeBag()
 
@@ -20,7 +21,6 @@ class BaseNavigationController: UINavigationController {
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        navigationBar.hiddenShadow()
     }
     
     deinit {

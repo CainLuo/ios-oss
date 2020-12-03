@@ -37,6 +37,7 @@ class MyViewController: BaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hbd_barHidden = true
     }
                 
     override func bindViewModel() {

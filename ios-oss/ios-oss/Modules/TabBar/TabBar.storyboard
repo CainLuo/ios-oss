@@ -31,7 +31,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P0p-Y0-bzz" customClass="BaseNavigationController" customModule="ios_oss" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item 1" id="5CC-oy-94E"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gB5-jn-xNy">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gB5-jn-xNy" customClass="BaseNavigationBar" customModule="ios_oss" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -60,7 +60,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YjG-9N-fYg" customClass="BaseNavigationController" customModule="ios_oss" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item 2" id="Pvf-sT-GCx"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2vf-nJ-Rxs">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2vf-nJ-Rxs" customClass="BaseNavigationBar" customModule="ios_oss" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

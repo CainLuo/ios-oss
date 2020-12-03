@@ -50,6 +50,9 @@ target 'ios-oss' do
 
   # HUD
   pod 'MBProgressHUD' # https://github.com/jdg/MBProgressHUD
+ 
+  # NavigationBar
+  pod 'HBDNavigationBar' # https://github.com/listenzz/HBDNavigationBar
   
   # UI Test Tools
   pod 'LookinServer', :configurations => ['Debug', 'Preview', 'Live']
