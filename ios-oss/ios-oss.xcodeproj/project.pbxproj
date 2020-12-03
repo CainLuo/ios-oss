@@ -58,6 +58,8 @@
 		4D02B53A2574E1310002C981 /* QRCodeViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5392574E1310002C981 /* QRCodeViewController+Component.swift */; };
 		4D15D5572577AA9400FC7CE9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D15D5592577AA9400FC7CE9 /* Localizable.strings */; };
 		4D4C376D2577C0130021090F /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C376C2577C0130021090F /* My.storyboard */; };
+		4DA46F1E257892D700C91078 /* ios_ossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46F1D257892D700C91078 /* ios_ossUITests.swift */; };
+		4DA46F30257892DC00C91078 /* ios_ossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46F2F257892DC00C91078 /* ios_ossTests.swift */; };
 		4DDC9E28256CF3960034D86E /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E27256CF3960034D86E /* CALayer+Extension.swift */; };
 		4DDC9E2B256CF3DA0034D86E /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E2A256CF3DA0034D86E /* UITextField+Extension.swift */; };
 		4DDC9E31256CF4230034D86E /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E30256CF4230034D86E /* UILabel+Extension.swift */; };
@@ -121,6 +123,23 @@
 		AC4D7706F9F8989C73731B60 /* Pods_ios_oss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E69E6E0AF006C41D128308 /* Pods_ios_oss.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4DA46F20257892D700C91078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE81BE2256CA02D0013C1F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE81BE9256CA02D0013C1F9;
+			remoteInfo = "ios-oss";
+		};
+		4DA46F32257892DC00C91078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE81BE2256CA02D0013C1F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE81BE9256CA02D0013C1F9;
+			remoteInfo = "ios-oss";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		4D02B43E2574CDAA0002C981 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		4D02B4412574CDB50002C981 /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
@@ -181,6 +200,12 @@
 		4D4C376C2577C0130021090F /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
 		4D4C376F2577C0450021090F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4D4C37702577C0450021090F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4DA46F1B257892D700C91078 /* ios-ossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ossUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA46F1D257892D700C91078 /* ios_ossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ossUITests.swift; sourceTree = "<group>"; };
+		4DA46F1F257892D700C91078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA46F2D257892DC00C91078 /* ios-ossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ossTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA46F2F257892DC00C91078 /* ios_ossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ossTests.swift; sourceTree = "<group>"; };
+		4DA46F31257892DC00C91078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DDC9E27256CF3960034D86E /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		4DDC9E2A256CF3DA0034D86E /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		4DDC9E30256CF4230034D86E /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
@@ -251,6 +276,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4DA46F18257892D700C91078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA46F2A257892DC00C91078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DE81BE7256CA02D0013C1F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,6 +450,24 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		4DA46F1C257892D700C91078 /* ios-ossUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DA46F1D257892D700C91078 /* ios_ossUITests.swift */,
+				4DA46F1F257892D700C91078 /* Info.plist */,
+			);
+			path = "ios-ossUITests";
+			sourceTree = "<group>";
+		};
+		4DA46F2E257892DC00C91078 /* ios-ossTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DA46F2F257892DC00C91078 /* ios_ossTests.swift */,
+				4DA46F31257892DC00C91078 /* Info.plist */,
+			);
+			path = "ios-ossTests";
+			sourceTree = "<group>";
+		};
 		4DDC9E44256CFC3A0034D86E /* Setting */ = {
 			isa = PBXGroup;
 			children = (
@@ -435,6 +492,8 @@
 			isa = PBXGroup;
 			children = (
 				4DE81BEC256CA02D0013C1F9 /* ios-oss */,
+				4DA46F1C257892D700C91078 /* ios-ossUITests */,
+				4DA46F2E257892DC00C91078 /* ios-ossTests */,
 				4DE81BEB256CA02D0013C1F9 /* Products */,
 				3CA5A5F38281E1A5C7CE87F4 /* Pods */,
 				7A5BD1161A8313DC7D49ECF2 /* Frameworks */,
@@ -445,6 +504,8 @@
 			isa = PBXGroup;
 			children = (
 				4DE81BEA256CA02D0013C1F9 /* ios-oss.app */,
+				4DA46F1B257892D700C91078 /* ios-ossUITests.xctest */,
+				4DA46F2D257892DC00C91078 /* ios-ossTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -701,6 +762,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4DA46F1A257892D700C91078 /* ios-ossUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA46F26257892D700C91078 /* Build configuration list for PBXNativeTarget "ios-ossUITests" */;
+			buildPhases = (
+				4DA46F17257892D700C91078 /* Sources */,
+				4DA46F18257892D700C91078 /* Frameworks */,
+				4DA46F19257892D700C91078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DA46F21257892D700C91078 /* PBXTargetDependency */,
+			);
+			name = "ios-ossUITests";
+			productName = "ios-ossUITests";
+			productReference = 4DA46F1B257892D700C91078 /* ios-ossUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4DA46F2C257892DC00C91078 /* ios-ossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA46F34257892DC00C91078 /* Build configuration list for PBXNativeTarget "ios-ossTests" */;
+			buildPhases = (
+				4DA46F29257892DC00C91078 /* Sources */,
+				4DA46F2A257892DC00C91078 /* Frameworks */,
+				4DA46F2B257892DC00C91078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DA46F33257892DC00C91078 /* PBXTargetDependency */,
+			);
+			name = "ios-ossTests";
+			productName = "ios-ossTests";
+			productReference = 4DA46F2D257892DC00C91078 /* ios-ossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4DE81BE9256CA02D0013C1F9 /* ios-oss */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DE81BFE256CA02E0013C1F9 /* Build configuration list for PBXNativeTarget "ios-oss" */;
@@ -729,6 +826,14 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					4DA46F1A257892D700C91078 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4DE81BE9256CA02D0013C1F9;
+					};
+					4DA46F2C257892DC00C91078 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4DE81BE9256CA02D0013C1F9;
+					};
 					4DE81BE9256CA02D0013C1F9 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -752,11 +857,27 @@
 			projectRoot = "";
 			targets = (
 				4DE81BE9256CA02D0013C1F9 /* ios-oss */,
+				4DA46F1A257892D700C91078 /* ios-ossUITests */,
+				4DA46F2C257892DC00C91078 /* ios-ossTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4DA46F19257892D700C91078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA46F2B257892DC00C91078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DE81BE8256CA02D0013C1F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -831,6 +952,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4DA46F17257892D700C91078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA46F1E257892D700C91078 /* ios_ossUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA46F29257892DC00C91078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA46F30257892DC00C91078 /* ios_ossTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DE81BE6256CA02D0013C1F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -929,6 +1066,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4DA46F21257892D700C91078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DE81BE9256CA02D0013C1F9 /* ios-oss */;
+			targetProxy = 4DA46F20257892D700C91078 /* PBXContainerItemProxy */;
+		};
+		4DA46F33257892DC00C91078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DE81BE9256CA02D0013C1F9 /* ios-oss */;
+			targetProxy = 4DA46F32257892DC00C91078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		4D15D5592577AA9400FC7CE9 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
@@ -957,6 +1107,156 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4DA46F22257892D700C91078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "ios-ossUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-ossUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-oss";
+			};
+			name = Debug;
+		};
+		4DA46F23257892D700C91078 /* Live */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-ossUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-ossUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-oss";
+			};
+			name = Live;
+		};
+		4DA46F24257892D700C91078 /* Preview */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-ossUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-ossUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-oss";
+			};
+			name = Preview;
+		};
+		4DA46F25257892D700C91078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-ossUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-ossUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-oss";
+			};
+			name = Release;
+		};
+		4DA46F35257892DC00C91078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "ios-ossTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-ossTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-oss.app/ios-oss";
+			};
+			name = Debug;
+		};
+		4DA46F36257892DC00C91078 /* Live */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-ossTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-ossTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-oss.app/ios-oss";
+			};
+			name = Live;
+		};
+		4DA46F37257892DC00C91078 /* Preview */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-ossTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-ossTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-oss.app/ios-oss";
+			};
+			name = Preview;
+		};
+		4DA46F38257892DC00C91078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-ossTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-ossTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-oss.app/ios-oss";
+			};
+			name = Release;
+		};
 		4DE81BFC256CA02E0013C1F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1286,6 +1586,28 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4DA46F26257892D700C91078 /* Build configuration list for PBXNativeTarget "ios-ossUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA46F22257892D700C91078 /* Debug */,
+				4DA46F23257892D700C91078 /* Live */,
+				4DA46F24257892D700C91078 /* Preview */,
+				4DA46F25257892D700C91078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA46F34257892DC00C91078 /* Build configuration list for PBXNativeTarget "ios-ossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA46F35257892DC00C91078 /* Debug */,
+				4DA46F36257892DC00C91078 /* Live */,
+				4DA46F37257892DC00C91078 /* Preview */,
+				4DA46F38257892DC00C91078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4DE81BE5256CA02D0013C1F9 /* Build configuration list for PBXProject "ios-oss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

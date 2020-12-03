@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4DA46F1A257892D700C91078"
+               BuildableName = "ios-ossUITests.xctest"
+               BlueprintName = "ios-ossUITests"
+               ReferencedContainer = "container:ios-oss.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4DA46F2C257892DC00C91078"
+               BuildableName = "ios-ossTests.xctest"
+               BlueprintName = "ios-ossTests"
+               ReferencedContainer = "container:ios-oss.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
