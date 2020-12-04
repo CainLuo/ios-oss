@@ -1,0 +1,280 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Live: :release
+  Preview: :release
+  Release: :release
+CACHE_KEYS:
+  Action:
+    BUILD_SETTINGS_CHECKSUM:
+      Action:
+        :debug: 559c54d6b0d6d7d52fed03d7a17dd3b2
+        :release: 559c54d6b0d6d7d52fed03d7a17dd3b2
+    CHECKSUM: 5dc2194f7a0b77857c82a677b0da655f197c005f
+    PROJECT_NAME: Action
+    SPECS:
+      - Action (4.2.0)
+  Alamofire:
+    BUILD_SETTINGS_CHECKSUM:
+      Alamofire:
+        :debug: cb66d51be460d9f9755497fd23959e4b
+        :release: cb66d51be460d9f9755497fd23959e4b
+    CHECKSUM: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+    PROJECT_NAME: Alamofire
+    SPECS:
+      - Alamofire (5.4.0)
+  Differentiator:
+    BUILD_SETTINGS_CHECKSUM:
+      Differentiator:
+        :debug: 22c6c7e1a13837475033e4e6619f6dcd
+        :release: 22c6c7e1a13837475033e4e6619f6dcd
+    CHECKSUM: 886080237d9f87f322641dedbc5be257061b0602
+    PROJECT_NAME: Differentiator
+    SPECS:
+      - Differentiator (4.0.1)
+  HBDNavigationBar:
+    BUILD_SETTINGS_CHECKSUM:
+      HBDNavigationBar:
+        :debug: c39b79acbf374c857117055755e43c04
+        :release: c39b79acbf374c857117055755e43c04
+    CHECKSUM: 6ba38b99637039c831ce460364d5398f29fa0685
+    PROJECT_NAME: HBDNavigationBar
+    SPECS:
+      - HBDNavigationBar (1.7.7)
+  Localize-Swift:
+    BUILD_SETTINGS_CHECKSUM:
+      Localize-Swift:
+        :debug: a87b2341ecb9a38486ee01383b5604bd
+        :release: a87b2341ecb9a38486ee01383b5604bd
+    CHECKSUM: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+    PROJECT_NAME: Localize-Swift
+    SPECS:
+      - Localize-Swift (3.2.0)
+      - Localize-Swift/LocalizeSwiftCore (3.2.0)
+      - Localize-Swift/UIKit (3.2.0)
+  LookinServer:
+    BUILD_SETTINGS_CHECKSUM:
+      LookinServer:
+        :debug: 6129b31e9e2ee78422bd24a2a9a6fdd1
+        :release: 6129b31e9e2ee78422bd24a2a9a6fdd1
+    CHECKSUM: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+    PROJECT_NAME: LookinServer
+    SPECS:
+      - LookinServer (1.0.0)
+  MBProgressHUD:
+    BUILD_SETTINGS_CHECKSUM:
+      MBProgressHUD:
+        :debug: ac3155e98ee3e26a56f9c8aaa08f0f9f
+        :release: ac3155e98ee3e26a56f9c8aaa08f0f9f
+    CHECKSUM: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+    PROJECT_NAME: MBProgressHUD
+    SPECS:
+      - MBProgressHUD (1.2.0)
+  MJRefresh:
+    BUILD_SETTINGS_CHECKSUM:
+      MJRefresh:
+        :debug: 2f12f6ed2a208df7437e4e29e1226ad0
+        :release: 2f12f6ed2a208df7437e4e29e1226ad0
+    CHECKSUM: 6afc955813966afb08305477dd7a0d9ad5e79a16
+    PROJECT_NAME: MJRefresh
+    SPECS:
+      - MJRefresh (3.5.0)
+  Moya:
+    BUILD_SETTINGS_CHECKSUM:
+      Moya:
+        :debug: 986190fb5b4625cd2b8c1b86d8aa4442
+        :release: 986190fb5b4625cd2b8c1b86d8aa4442
+    CHECKSUM: 5b45dacb75adb009f97fde91c204c1e565d31916
+    PROJECT_NAME: Moya
+    SPECS:
+      - Moya (14.0.0)
+      - Moya/Core (14.0.0)
+      - Moya/RxSwift (14.0.0)
+  Moya-ObjectMapper:
+    BUILD_SETTINGS_CHECKSUM:
+      Moya-ObjectMapper:
+        :debug: 3598b9c3cfae3e5757abd0e81771a2b8
+        :release: 3598b9c3cfae3e5757abd0e81771a2b8
+    CHECKSUM: 967a99d9ea3aa9c93ddbe112aeca3667f53bfe93
+    PROJECT_NAME: Moya-ObjectMapper
+    SPECS:
+      - Moya-ObjectMapper/Core (2.9)
+      - Moya-ObjectMapper/RxSwift (2.9)
+  "NSObject+Rx":
+    BUILD_SETTINGS_CHECKSUM:
+      "NSObject+Rx":
+        :debug: a7d3d7b8cf43cf201bc44c4089ceb0c2
+        :release: a7d3d7b8cf43cf201bc44c4089ceb0c2
+    CHECKSUM: fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
+    PROJECT_NAME: "NSObject+Rx"
+    SPECS:
+      - "NSObject+Rx (5.1.0)"
+  ObjcExceptionBridging:
+    BUILD_SETTINGS_CHECKSUM:
+      ObjcExceptionBridging:
+        :debug: d3660a21eb11214d005e4c383cd265d5
+        :release: d3660a21eb11214d005e4c383cd265d5
+    CHECKSUM: c30e00eb3700467e695faeea30e26e18bd445001
+    PROJECT_NAME: ObjcExceptionBridging
+    SPECS:
+      - ObjcExceptionBridging (1.0.1)
+      - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  ObjectMapper:
+    BUILD_SETTINGS_CHECKSUM:
+      ObjectMapper:
+        :debug: 0502d5d0cf2c01a4864953f8d80e49f2
+        :release: 0502d5d0cf2c01a4864953f8d80e49f2
+    CHECKSUM: 1eb41f610210777375fa806bf161dc39fb832b81
+    PROJECT_NAME: ObjectMapper
+    SPECS:
+      - ObjectMapper (4.2.0)
+  Pods-ios-oss:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 0322b672372c07b4caf93e16929aa029
+      Live: 0322b672372c07b4caf93e16929aa029
+      Preview: 0322b672372c07b4caf93e16929aa029
+      Release: 85b639ccbc104343b59715d017621ad6
+  RxCocoa:
+    BUILD_SETTINGS_CHECKSUM:
+      RxCocoa:
+        :debug: c79753a5bb7ca1c2931ef2c4621556a0
+        :release: c79753a5bb7ca1c2931ef2c4621556a0
+    CHECKSUM: 32065309a38d29b5b0db858819b5bf9ef038b601
+    PROJECT_NAME: RxCocoa
+    SPECS:
+      - RxCocoa (5.1.1)
+  RxDataSources:
+    BUILD_SETTINGS_CHECKSUM:
+      RxDataSources:
+        :debug: e9b6fdfcff751ae337e21192ed64fe5b
+        :release: e9b6fdfcff751ae337e21192ed64fe5b
+    CHECKSUM: efee07fa4de48477eca0a4611e6d11e2da9c1114
+    PROJECT_NAME: RxDataSources
+    SPECS:
+      - RxDataSources (4.0.1)
+  RxGesture:
+    BUILD_SETTINGS_CHECKSUM:
+      RxGesture:
+        :debug: a4582049025b85f491c1514fc0caaa9a
+        :release: a4582049025b85f491c1514fc0caaa9a
+    CHECKSUM: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+    PROJECT_NAME: RxGesture
+    SPECS:
+      - RxGesture (3.0.2)
+  RxOptional:
+    BUILD_SETTINGS_CHECKSUM:
+      RxOptional:
+        :debug: 703107729ea39776e645550627144b3e
+        :release: 703107729ea39776e645550627144b3e
+    CHECKSUM: b1fcd60856807a564c0215c2184b8d33e7826dc2
+    PROJECT_NAME: RxOptional
+    SPECS:
+      - RxOptional (4.1.0)
+  RxRelay:
+    BUILD_SETTINGS_CHECKSUM:
+      RxRelay:
+        :debug: c66896be75f0944f65234d1455245499
+        :release: c66896be75f0944f65234d1455245499
+    CHECKSUM: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+    PROJECT_NAME: RxRelay
+    SPECS:
+      - RxRelay (5.1.1)
+  RxSwift:
+    BUILD_SETTINGS_CHECKSUM:
+      RxSwift:
+        :debug: 38832ea5e7b01382e947e0e4be31e73f
+        :release: 38832ea5e7b01382e947e0e4be31e73f
+    CHECKSUM: 81470a2074fa8780320ea5fe4102807cb7118178
+    PROJECT_NAME: RxSwift
+    SPECS:
+      - RxSwift (5.1.1)
+  RxSwiftExt:
+    BUILD_SETTINGS_CHECKSUM:
+      RxSwiftExt:
+        :debug: 4b1608d17213fdc7e21d533b972a72bf
+        :release: 4b1608d17213fdc7e21d533b972a72bf
+    CHECKSUM: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+    PROJECT_NAME: RxSwiftExt
+    SPECS:
+      - RxSwiftExt (5.2.0)
+      - RxSwiftExt/Core (5.2.0)
+      - RxSwiftExt/RxCocoa (5.2.0)
+  RxWebKit:
+    BUILD_SETTINGS_CHECKSUM:
+      RxWebKit:
+        :debug: 7b4b21f004c3ccddd88b4376c06c2114
+        :release: 7b4b21f004c3ccddd88b4376c06c2114
+    CHECKSUM: a3085e7cd8b57182b452692686675702474014dd
+    PROJECT_NAME: RxWebKit
+    SPECS:
+      - RxWebKit (1.0.2)
+  SDWebImage:
+    BUILD_SETTINGS_CHECKSUM:
+      SDWebImage:
+        :debug: 93d285ff7461c228fe2b1d20b64d8b5f
+        :release: 93d285ff7461c228fe2b1d20b64d8b5f
+    CHECKSUM: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+    PROJECT_NAME: SDWebImage
+    SPECS:
+      - SDWebImage (5.9.4)
+      - SDWebImage/Core (5.9.4)
+  SnapKit:
+    BUILD_SETTINGS_CHECKSUM:
+      SnapKit:
+        :debug: c42d326c65512d5a06996842d8a5cf51
+        :release: c42d326c65512d5a06996842d8a5cf51
+    CHECKSUM: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+    PROJECT_NAME: SnapKit
+    SPECS:
+      - SnapKit (5.0.1)
+  STPopup:
+    BUILD_SETTINGS_CHECKSUM:
+      STPopup:
+        :debug: dbb43eb664679cfff89ae0d09ccba8d6
+        :release: dbb43eb664679cfff89ae0d09ccba8d6
+    CHECKSUM: a9045557bc48a0df51fbb7bf0544447c5fe84d34
+    PROJECT_NAME: STPopup
+    SPECS:
+      - STPopup (1.8.7)
+  SwifterSwift:
+    BUILD_SETTINGS_CHECKSUM:
+      SwifterSwift:
+        :debug: daf7bbcbf26cd2e0398c0ab59d9cb880
+        :release: daf7bbcbf26cd2e0398c0ab59d9cb880
+    CHECKSUM: 334181863c416882d97b7a60c05054d9e4d799e2
+    PROJECT_NAME: SwifterSwift
+    SPECS:
+      - SwifterSwift (5.2.0)
+      - SwifterSwift/AppKit (5.2.0)
+      - SwifterSwift/CoreAnimation (5.2.0)
+      - SwifterSwift/CoreGraphics (5.2.0)
+      - SwifterSwift/CoreLocation (5.2.0)
+      - SwifterSwift/Dispatch (5.2.0)
+      - SwifterSwift/Foundation (5.2.0)
+      - SwifterSwift/MapKit (5.2.0)
+      - SwifterSwift/SceneKit (5.2.0)
+      - SwifterSwift/SpriteKit (5.2.0)
+      - SwifterSwift/StoreKit (5.2.0)
+      - SwifterSwift/SwiftStdlib (5.2.0)
+      - SwifterSwift/UIKit (5.2.0)
+  WKWebViewJavascriptBridge:
+    BUILD_SETTINGS_CHECKSUM:
+      WKWebViewJavascriptBridge:
+        :debug: 7b716f015c1fed8518cd4dcc307514b6
+        :release: 7b716f015c1fed8518cd4dcc307514b6
+    CHECKSUM: 07ad0cab27cd61ccdb90b5deb223f6df3a03c3d7
+    PROJECT_NAME: WKWebViewJavascriptBridge
+    SPECS:
+      - WKWebViewJavascriptBridge (1.2.1)
+  XCGLogger:
+    BUILD_SETTINGS_CHECKSUM:
+      XCGLogger:
+        :debug: 44da0c233092237d77fea084aa7927c8
+        :release: 44da0c233092237d77fea084aa7927c8
+    CHECKSUM: 1943831ef907df55108b0b18657953f868de973b
+    PROJECT_NAME: XCGLogger
+    SPECS:
+      - XCGLogger (7.0.1)
+      - XCGLogger/Core (7.0.1)
+OBJECT_VERSION: 51
+PLUGINS:
+  {}

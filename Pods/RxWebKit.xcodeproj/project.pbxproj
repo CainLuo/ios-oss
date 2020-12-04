@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2D9EEAA150978C2517A8D9434D75BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C50B68E5BCB17C7DFF9A5D61F2D38C0 /* Foundation.framework */; };
+		4F8D903F4AC55F307BC6BE88753AFEFA /* RxWKNavigationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2DE1F851C5F156D6E832D858379DD /* RxWKNavigationDelegateProxy.swift */; };
+		50ECEB1F2D3BE27FF4E04DA434985479 /* WKNavigationDelegateEvents+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC6EE4D3B080D803F2C6F22A6EE8F7 /* WKNavigationDelegateEvents+Rx.swift */; };
+		7C7C8D0CC48D7214BD6EBF3C9B3F2FB1 /* RxWKUIDelegateEvents+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907AE97501519A0F3AF34AFE661D32CD /* RxWKUIDelegateEvents+Rx.swift */; };
+		92B6FA62FA3951C3CADCD4AC2871E997 /* RxWKUserContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B650CCB90FB76D948A41E3427703D3E /* RxWKUserContentController.swift */; };
+		ABAAF46CB2109D2F5F538DE78B7781FB /* Rx+WebKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8381CFA66C2E93C914668F656B51207 /* Rx+WebKit.swift */; };
+		BC647937A2975D649AB1EC4000E682E8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6D0E436AE8161F0D02B96FC2B29251 /* RxSwift.framework */; };
+		C76025DD2467C425369BDD31E63F5557 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF30E5EE7B916AB1ECA8BE6F4C157612 /* RxCocoa.framework */; };
+		CAB70659208C0637BB54DE1BBD7994DE /* RxWebKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B4549D86E8460605F07A6EDA6CFC /* RxWebKit-dummy.m */; };
+		D10303A2880361EB4D7BC3500B639C64 /* RxWKUIDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165A2EB74516F4BA5DC0C0307B3F5D57 /* RxWKUIDelegateProxy.swift */; };
+		E24A08D3AE8754704CDAA21FE9E32067 /* RxWebKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7031C54540D4B94836E6B182EBC11F0 /* RxWebKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71FE338C1C07E36766CC02398A64F4A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB63FD509B1DAC54702E5CB8A25C0403 /* RxSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F0179EE061353B7A322F596E97844774;
+			remoteInfo = RxSwift;
+		};
+		74A1FCE71851E49611F73CCC9332882D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B672F08097FF677BB5E53003D47563 /* RxCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5183FBB16A06C1D86620B00CFE6269;
+			remoteInfo = RxCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B650CCB90FB76D948A41E3427703D3E /* RxWKUserContentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxWKUserContentController.swift; path = RxWebKit/Sources/RxWKUserContentController.swift; sourceTree = "<group>"; };
+		165A2EB74516F4BA5DC0C0307B3F5D57 /* RxWKUIDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxWKUIDelegateProxy.swift; path = RxWebKit/Sources/RxWKUIDelegateProxy.swift; sourceTree = "<group>"; };
+		37B672F08097FF677BB5E53003D47563 /* RxCocoa */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxCocoa; path = RxCocoa.xcodeproj; sourceTree = "<group>"; };
+		51F65AD68903D6B60225073C9FC2FF5C /* RxWebKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxWebKit-prefix.pch"; sourceTree = "<group>"; };
+		57ED1351C8D6BC8BC1297CF6A477E2B6 /* RxWebKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxWebKit.modulemap; sourceTree = "<group>"; };
+		5B6D0E436AE8161F0D02B96FC2B29251 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C2DE1F851C5F156D6E832D858379DD /* RxWKNavigationDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxWKNavigationDelegateProxy.swift; path = RxWebKit/Sources/RxWKNavigationDelegateProxy.swift; sourceTree = "<group>"; };
+		6CBC6EE4D3B080D803F2C6F22A6EE8F7 /* WKNavigationDelegateEvents+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKNavigationDelegateEvents+Rx.swift"; path = "RxWebKit/Sources/WKNavigationDelegateEvents+Rx.swift"; sourceTree = "<group>"; };
+		7C50B68E5BCB17C7DFF9A5D61F2D38C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8C50B4549D86E8460605F07A6EDA6CFC /* RxWebKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxWebKit-dummy.m"; sourceTree = "<group>"; };
+		907AE97501519A0F3AF34AFE661D32CD /* RxWKUIDelegateEvents+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RxWKUIDelegateEvents+Rx.swift"; path = "RxWebKit/Sources/RxWKUIDelegateEvents+Rx.swift"; sourceTree = "<group>"; };
+		989682639F12DEE3CA1739D09CABAE0A /* RxWebKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxWebKit.release.xcconfig; sourceTree = "<group>"; };
+		A7031C54540D4B94836E6B182EBC11F0 /* RxWebKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxWebKit-umbrella.h"; sourceTree = "<group>"; };
+		C7F8694EA3AF59F273EC915B8D1D3FA9 /* RxWebKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxWebKit.debug.xcconfig; sourceTree = "<group>"; };
+		CF30E5EE7B916AB1ECA8BE6F4C157612 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01B8B959F4C7911F1213E76CFEC5F61 /* RxWebKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxWebKit-Info.plist"; sourceTree = "<group>"; };
+		DB63FD509B1DAC54702E5CB8A25C0403 /* RxSwift */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxSwift; path = RxSwift.xcodeproj; sourceTree = "<group>"; };
+		E7D3A41D970F86ACD7660163831265BC /* RxWebKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxWebKit.framework; path = RxWebKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8381CFA66C2E93C914668F656B51207 /* Rx+WebKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rx+WebKit.swift"; path = "RxWebKit/Sources/Rx+WebKit.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8478EE149154AC53C071EFA96CFA319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2D9EEAA150978C2517A8D9434D75BC /* Foundation.framework in Frameworks */,
+				C76025DD2467C425369BDD31E63F5557 /* RxCocoa.framework in Frameworks */,
+				BC647937A2975D649AB1EC4000E682E8 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17BB8573B8BBB7EE5F836500CBBB9926 /* RxWebKit */ = {
+			isa = PBXGroup;
+			children = (
+				F8381CFA66C2E93C914668F656B51207 /* Rx+WebKit.swift */,
+				62C2DE1F851C5F156D6E832D858379DD /* RxWKNavigationDelegateProxy.swift */,
+				907AE97501519A0F3AF34AFE661D32CD /* RxWKUIDelegateEvents+Rx.swift */,
+				165A2EB74516F4BA5DC0C0307B3F5D57 /* RxWKUIDelegateProxy.swift */,
+				0B650CCB90FB76D948A41E3427703D3E /* RxWKUserContentController.swift */,
+				6CBC6EE4D3B080D803F2C6F22A6EE8F7 /* WKNavigationDelegateEvents+Rx.swift */,
+				AD80BFC76DD461061B105D3AA3C448DD /* Support Files */,
+			);
+			name = RxWebKit;
+			path = RxWebKit;
+			sourceTree = "<group>";
+		};
+		54518EEE25280BE8061F7A5D1233D790 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				37B672F08097FF677BB5E53003D47563 /* RxCocoa */,
+				DB63FD509B1DAC54702E5CB8A25C0403 /* RxSwift */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		98B885EAC77847EF0C10C0D797C28961 = {
+			isa = PBXGroup;
+			children = (
+				54518EEE25280BE8061F7A5D1233D790 /* Dependencies */,
+				9E5BE973783B051812DBEDB77A543E39 /* Frameworks */,
+				AB727FCF3984C590E0247883D5F00A5C /* Products */,
+				17BB8573B8BBB7EE5F836500CBBB9926 /* RxWebKit */,
+			);
+			sourceTree = "<group>";
+		};
+		9E5BE973783B051812DBEDB77A543E39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF30E5EE7B916AB1ECA8BE6F4C157612 /* RxCocoa.framework */,
+				5B6D0E436AE8161F0D02B96FC2B29251 /* RxSwift.framework */,
+				B36CF7B54076D03069854856CDEAEF10 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB727FCF3984C590E0247883D5F00A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D3A41D970F86ACD7660163831265BC /* RxWebKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD80BFC76DD461061B105D3AA3C448DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57ED1351C8D6BC8BC1297CF6A477E2B6 /* RxWebKit.modulemap */,
+				8C50B4549D86E8460605F07A6EDA6CFC /* RxWebKit-dummy.m */,
+				D01B8B959F4C7911F1213E76CFEC5F61 /* RxWebKit-Info.plist */,
+				51F65AD68903D6B60225073C9FC2FF5C /* RxWebKit-prefix.pch */,
+				A7031C54540D4B94836E6B182EBC11F0 /* RxWebKit-umbrella.h */,
+				C7F8694EA3AF59F273EC915B8D1D3FA9 /* RxWebKit.debug.xcconfig */,
+				989682639F12DEE3CA1739D09CABAE0A /* RxWebKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RxWebKit";
+			sourceTree = "<group>";
+		};
+		B36CF7B54076D03069854856CDEAEF10 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7C50B68E5BCB17C7DFF9A5D61F2D38C0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7CF3F982D79F734B70BED17C80392470 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24A08D3AE8754704CDAA21FE9E32067 /* RxWebKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B4D89BC98E598F84A079407879005A60 /* RxWebKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB6A4BBEF9F0751E8B2CD19139EDDEB /* Build configuration list for PBXNativeTarget "RxWebKit" */;
+			buildPhases = (
+				7CF3F982D79F734B70BED17C80392470 /* Headers */,
+				505BF363A56227332417BE129E8A3DF4 /* Sources */,
+				E8478EE149154AC53C071EFA96CFA319 /* Frameworks */,
+				AF1821BAD5F640BD99BDA9F8B66A8D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEFB4E656E454C53F891F7F7DA775D9 /* PBXTargetDependency */,
+				2D54AC86ACAE0A85D426EBEC023249C5 /* PBXTargetDependency */,
+			);
+			name = RxWebKit;
+			productName = RxWebKit;
+			productReference = E7D3A41D970F86ACD7660163831265BC /* RxWebKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69A2201E612C56E4AECE49495A0780C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 1E5EEBFD4120E05F484006B718999773 /* Build configuration list for PBXProject "RxWebKit" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98B885EAC77847EF0C10C0D797C28961;
+			productRefGroup = AB727FCF3984C590E0247883D5F00A5C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = DB63FD509B1DAC54702E5CB8A25C0403 /* RxSwift */;
+				},
+				{
+					ProjectRef = 37B672F08097FF677BB5E53003D47563 /* RxCocoa */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B4D89BC98E598F84A079407879005A60 /* RxWebKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF1821BAD5F640BD99BDA9F8B66A8D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505BF363A56227332417BE129E8A3DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAAF46CB2109D2F5F538DE78B7781FB /* Rx+WebKit.swift in Sources */,
+				CAB70659208C0637BB54DE1BBD7994DE /* RxWebKit-dummy.m in Sources */,
+				4F8D903F4AC55F307BC6BE88753AFEFA /* RxWKNavigationDelegateProxy.swift in Sources */,
+				7C7C8D0CC48D7214BD6EBF3C9B3F2FB1 /* RxWKUIDelegateEvents+Rx.swift in Sources */,
+				D10303A2880361EB4D7BC3500B639C64 /* RxWKUIDelegateProxy.swift in Sources */,
+				92B6FA62FA3951C3CADCD4AC2871E997 /* RxWKUserContentController.swift in Sources */,
+				50ECEB1F2D3BE27FF4E04DA434985479 /* WKNavigationDelegateEvents+Rx.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D54AC86ACAE0A85D426EBEC023249C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			targetProxy = 71FE338C1C07E36766CC02398A64F4A2 /* PBXContainerItemProxy */;
+		};
+		EEEFB4E656E454C53F891F7F7DA775D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxCocoa;
+			targetProxy = 74A1FCE71851E49611F73CCC9332882D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FFB95F9418F0E0B30A2671BCC9A385D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		12562957FC5F12B34B3FA1C25E89B09B /* Live */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989682639F12DEE3CA1739D09CABAE0A /* RxWebKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxWebKit/RxWebKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxWebKit/RxWebKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxWebKit/RxWebKit.modulemap";
+				PRODUCT_MODULE_NAME = RxWebKit;
+				PRODUCT_NAME = RxWebKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Live;
+		};
+		3A84780095C1907E60746907A9050720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F8694EA3AF59F273EC915B8D1D3FA9 /* RxWebKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxWebKit/RxWebKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxWebKit/RxWebKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxWebKit/RxWebKit.modulemap";
+				PRODUCT_MODULE_NAME = RxWebKit;
+				PRODUCT_NAME = RxWebKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6862DB1A25D12E50CF9D680C2ED9B418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989682639F12DEE3CA1739D09CABAE0A /* RxWebKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxWebKit/RxWebKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxWebKit/RxWebKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxWebKit/RxWebKit.modulemap";
+				PRODUCT_MODULE_NAME = RxWebKit;
+				PRODUCT_NAME = RxWebKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8136013EE31C05521D0CC506F9743DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A99A14591E973977D9298CC80403695E /* Live */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_LIVE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Live;
+		};
+		ACC0E5AC5BA50CE7AD14D0EE2CBF0A81 /* Preview */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PREVIEW=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Preview;
+		};
+		C8081828DA7D23ABB731901712913A4F /* Preview */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989682639F12DEE3CA1739D09CABAE0A /* RxWebKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxWebKit/RxWebKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxWebKit/RxWebKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxWebKit/RxWebKit.modulemap";
+				PRODUCT_MODULE_NAME = RxWebKit;
+				PRODUCT_NAME = RxWebKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Preview;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5EEBFD4120E05F484006B718999773 /* Build configuration list for PBXProject "RxWebKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFB95F9418F0E0B30A2671BCC9A385D /* Debug */,
+				A99A14591E973977D9298CC80403695E /* Live */,
+				ACC0E5AC5BA50CE7AD14D0EE2CBF0A81 /* Preview */,
+				A8136013EE31C05521D0CC506F9743DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB6A4BBEF9F0751E8B2CD19139EDDEB /* Build configuration list for PBXNativeTarget "RxWebKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A84780095C1907E60746907A9050720 /* Debug */,
+				12562957FC5F12B34B3FA1C25E89B09B /* Live */,
+				C8081828DA7D23ABB731901712913A4F /* Preview */,
+				6862DB1A25D12E50CF9D680C2ED9B418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69A2201E612C56E4AECE49495A0780C /* Project object */;
+}
