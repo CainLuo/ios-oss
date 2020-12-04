@@ -7,15 +7,16 @@
 
 import UIKit
 import Localize_Swift
+import OAGlobalKit
+import OAServiceKit
 
-class AboutViewController: BaseViewController {
+public class AboutViewController: BaseViewController {
     
-    static func configureWith() -> AboutViewController {
-        let vc = Storyboard.About.instantiate(AboutViewController.self)
-        return vc
+    public static func configureWith() -> AboutViewController? {
+        return MyStoryboard.About.instantiate(AboutViewController.self)
     }
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         if Localize.currentLanguage() == "zh-Hans" {
             Localize.setCurrentLanguage("en")

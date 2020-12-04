@@ -12,7 +12,7 @@
         <!--关于商会之家-->
         <scene sceneID="7m7-TW-vYr">
             <objects>
-                <viewController storyboardIdentifier="AboutViewController" title="关于商会之家" hidesBottomBarWhenPushed="YES" id="QS0-u3-qcH" customClass="AboutViewController" customModule="ios_oss" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutViewController" title="关于商会之家" hidesBottomBarWhenPushed="YES" id="QS0-u3-qcH" customClass="AboutViewController" customModule="OAMyKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VFt-l9-WFm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

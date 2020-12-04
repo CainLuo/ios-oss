@@ -16,8 +16,7 @@ import OAGlobalKit
 public class MyViewController: BaseTableViewController {
     
     public static func configureWith() -> UIViewController? {
-        let bundle = Bundle(identifier: "com.yunyu.OAMyKit")
-        return UIStoryboard(name: "My", bundle: bundle).instantiateInitialViewController()
+        return MyStoryboard.My.instantiate(MyViewController.self)
     }
     
     @IBOutlet weak var avatarImageView: UIImageView!

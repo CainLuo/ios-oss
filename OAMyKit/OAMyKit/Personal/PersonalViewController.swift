@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import OAGlobalKit
+import OAServiceKit
 
 class PersonalViewController: BaseViewController {
 
     static func configureWith() -> PersonalViewController {
-        let vc = Storyboard.Personal.instantiate(PersonalViewController.self)
+        let vc = MyStoryboard.Personal.instantiate(PersonalViewController.self)
         return vc
     }
 

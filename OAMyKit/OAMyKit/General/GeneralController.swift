@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import OAGlobalKit
+import OAServiceKit
 
 class GeneralController: BaseTableViewController {
 
     static func configureWith() -> GeneralController {
-        let vc = Storyboard.General.instantiate(GeneralController.self)
+        let vc = MyStoryboard.General.instantiate(GeneralController.self)
         return vc
     }
 

@@ -15,7 +15,26 @@
 		4D6D1369257A6C99009AE5D9 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1363257A6C99009AE5D9 /* BaseNavigationController.swift */; };
 		4D6D136A257A6C99009AE5D9 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1364257A6C99009AE5D9 /* BaseTableViewController.swift */; };
 		4DC0A659257A65BD0008BB39 /* OAServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC0A657257A65BD0008BB39 /* OAServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF5D03F2257A90C400E191ED /* OAGlobalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5D03F1257A90C400E191ED /* OAGlobalKit.framework */; };
+		BF5D03F3257A90C400E191ED /* OAGlobalKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF5D03F1257A90C400E191ED /* OAGlobalKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BF5D03F6257A90D500E191ED /* OAExtensionsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5D03F5257A90D500E191ED /* OAExtensionsKit.framework */; };
+		BF5D03F7257A90D500E191ED /* OAExtensionsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF5D03F5257A90D500E191ED /* OAExtensionsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF5D03F4257A90C400E191ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BF5D03F3257A90C400E191ED /* OAGlobalKit.framework in Embed Frameworks */,
+				BF5D03F7257A90D500E191ED /* OAExtensionsKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4D6D135F257A6C98009AE5D9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +49,8 @@
 		7BDD533EC92435DF5B30284D /* Pods-OAServiceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAServiceKit.release.xcconfig"; path = "Target Support Files/Pods-OAServiceKit/Pods-OAServiceKit.release.xcconfig"; sourceTree = "<group>"; };
 		99DB40061A10131D73FB5292 /* Pods_OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91F5D96315FB34D79B8EA61 /* Pods-OAServiceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAServiceKit.debug.xcconfig"; path = "Target Support Files/Pods-OAServiceKit/Pods-OAServiceKit.debug.xcconfig"; sourceTree = "<group>"; };
+		BF5D03F1257A90C400E191ED /* OAGlobalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAGlobalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5D03F5257A90D500E191ED /* OAExtensionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAExtensionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5D03F6257A90D500E191ED /* OAExtensionsKit.framework in Frameworks */,
+				BF5D03F2257A90C400E191ED /* OAGlobalKit.framework in Frameworks */,
 				2722DB43933C303250973380 /* Pods_OAServiceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +113,8 @@
 		E926C58CBBBF81EA5556E1B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF5D03F5257A90D500E191ED /* OAExtensionsKit.framework */,
+				BF5D03F1257A90C400E191ED /* OAGlobalKit.framework */,
 				99DB40061A10131D73FB5292 /* Pods_OAServiceKit.framework */,
 			);
 			name = Frameworks;
@@ -118,6 +143,7 @@
 				4DC0A650257A65BD0008BB39 /* Sources */,
 				4DC0A651257A65BD0008BB39 /* Frameworks */,
 				4DC0A652257A65BD0008BB39 /* Resources */,
+				BF5D03F4257A90C400E191ED /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

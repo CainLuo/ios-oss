@@ -8,16 +8,16 @@
 import UIKit
 
 public class Storyboard {
-    public static func instantiate<VC: UIViewController>(_ name: String, _ viewController: VC.Type, bundle: Bundle = .main) -> VC {
-        guard let vc = UIStoryboard(name: name, bundle: bundle)
+    public static func instantiate<VC: UIViewController>(_ name: String, _ viewController: VC.Type, bundle: Bundle? = nil) -> VC {
+        guard let vc = UIStoryboard(name: name, bundle: bundle ?? .main)
             .instantiateViewController(withIdentifier: VC.storyboardIdentifier) as? VC else {
             fatalError("Couldn't instantiate \(VC.storyboardIdentifier) from \(name)")
         }
         return vc
     }
     
-    public static func instantiateRoot(_ name: String, bundle: Bundle = .main) -> UIViewController {
-        guard let vc = UIStoryboard(name: name, bundle: bundle)
+    public static func instantiateRoot(_ name: String, bundle: Bundle? = nil) -> UIViewController {
+        guard let vc = UIStoryboard(name: name, bundle: bundle ?? .main)
             .instantiateInitialViewController() else {
             fatalError("Couldn't instantiate root from \(name)")
         }
@@ -25,8 +25,8 @@ public class Storyboard {
         return vc
     }
     
-    public static func instantiateName<VC: UIViewController>(_ name: String, _ identifier: String) -> VC {
-        guard let vc = UIStoryboard(name: name, bundle: Bundle.main)
+    public static func instantiateName<VC: UIViewController>(_ name: String, _ identifier: String, bundle: Bundle? = nil) -> VC {
+        guard let vc = UIStoryboard(name: name, bundle: bundle ?? .main)
             .instantiateViewController(withIdentifier: identifier) as? VC else {
             fatalError("Couldn't instantiate \(identifier) from \(name)")
         }

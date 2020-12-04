@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import OAGlobalKit
+import OAServiceKit
 
 class FollowsViewController: BaseViewController {
 
     static func configureWith() -> FollowsViewController {
-        let vc = Storyboard.Follows.instantiate(FollowsViewController.self)
+        let vc = MyStoryboard.Follows.instantiate(FollowsViewController.self)
         return vc
     }
 

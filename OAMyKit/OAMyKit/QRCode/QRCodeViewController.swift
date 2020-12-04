@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import OAGlobalKit
+import OAServiceKit
 
 class QRCodeViewController: BaseViewController {
 
     static func configureWith() -> QRCodeViewController {
-        let vc = Storyboard.QRCode.instantiate(QRCodeViewController.self)
+        let vc = MyStoryboard.QRCode.instantiate(QRCodeViewController.self)
         return vc
     }
 

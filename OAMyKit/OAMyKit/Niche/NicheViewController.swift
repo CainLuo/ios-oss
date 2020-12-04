@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import OAGlobalKit
+import OAServiceKit
 
 class NicheViewController: BaseViewController {
 
     static func configureWith() -> NicheViewController {
-        let vc = Storyboard.Niche.instantiate(NicheViewController.self)
+        let vc = MyStoryboard.Niche.instantiate(NicheViewController.self)
         return vc
     }
 

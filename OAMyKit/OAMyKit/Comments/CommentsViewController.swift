@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import OAGlobalKit
+import OAServiceKit
 
 class CommentsViewController: BaseViewController {
 
     static func configureWith() -> CommentsViewController {
-        let vc = Storyboard.Comments.instantiate(CommentsViewController.self)
+        let vc = MyStoryboard.Comments.instantiate(CommentsViewController.self)
         return vc
     }
 

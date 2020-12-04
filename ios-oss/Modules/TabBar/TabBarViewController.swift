@@ -36,6 +36,10 @@ class TabBarViewController: BaseTabBarController {
 // MARK: Config ViewControllers
 extension TabBarViewController {
     func configViewControllers() -> [UIViewController] {
-        return [MyConnector.instance().connectToOpenURL(Constants.Scheme.my, parameters: nil, completion: nil)!]
+        
+        let my = MyConnector.instance().connectToOpenURL(Constants.Scheme.my, parameters: nil, completion: nil)!
+        let myNavi = BaseNavigationController(rootViewController: my)
+        
+        return [myNavi]
     }
 }

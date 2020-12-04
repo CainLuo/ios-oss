@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import OAGlobalKit
+import OAServiceKit
 
 class NotifySetupViewController: BaseViewController {
 
     static func configureWith() -> NotifySetupViewController {
-        let vc = Storyboard.NotifySetup.instantiate(NotifySetupViewController.self)
+        let vc = MyStoryboard.NotifySetup.instantiate(NotifySetupViewController.self)
         return vc
     }
 

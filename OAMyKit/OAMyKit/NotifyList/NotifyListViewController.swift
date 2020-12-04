@@ -6,13 +6,15 @@
 //
 
 import UIKit
+import OAGlobalKit
+import OAServiceKit
 
 class NotifyListViewController: BaseViewController {
     
     @IBOutlet weak var tableView: UITableView!
 
     static func configureWith() -> NotifyListViewController {
-        let vc = Storyboard.NotifyList.instantiate(NotifyListViewController.self)
+        let vc = MyStoryboard.NotifyList.instantiate(NotifyListViewController.self)
         return vc
     }
 

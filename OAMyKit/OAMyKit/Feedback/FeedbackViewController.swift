@@ -6,11 +6,14 @@
 //
 
 import UIKit
+import Localize_Swift
+import OAGlobalKit
+import OAServiceKit
 
 class FeedbackViewController: BaseViewController {
 
     static func configureWith() -> FeedbackViewController {
-        let vc = Storyboard.Feedback.instantiate(FeedbackViewController.self)
+        let vc = MyStoryboard.Feedback.instantiate(FeedbackViewController.self)
         return vc
     }
 

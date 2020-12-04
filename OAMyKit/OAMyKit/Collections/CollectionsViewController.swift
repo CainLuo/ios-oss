@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import OAGlobalKit
+import OAServiceKit
 
 class CollectionsViewController: BaseViewController {
 
     static func configureWith() -> CollectionsViewController {
-        let vc = Storyboard.Collections.instantiate(CollectionsViewController.self)
+        let vc = MyStoryboard.Collections.instantiate(CollectionsViewController.self)
         return vc
     }
 

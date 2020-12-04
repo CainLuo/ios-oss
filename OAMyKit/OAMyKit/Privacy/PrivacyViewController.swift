@@ -6,11 +6,14 @@
 //
 
 import UIKit
+import OAGlobalKit
+import OAServiceKit
+import OAExtensionsKit
 
 class PrivacyViewController: BaseTableViewController {
 
     static func configureWith() -> PrivacyViewController {
-        let vc = Storyboard.Privacy.instantiate(PrivacyViewController.self)
+        let vc = MyStoryboard.Privacy.instantiate(PrivacyViewController.self)
         return vc
     }
 
