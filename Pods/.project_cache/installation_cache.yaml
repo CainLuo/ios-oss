@@ -212,11 +212,11 @@ CACHE_KEYS:
       SDWebImage:
         :debug: 93d285ff7461c228fe2b1d20b64d8b5f
         :release: 93d285ff7461c228fe2b1d20b64d8b5f
-    CHECKSUM: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+    CHECKSUM: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
     PROJECT_NAME: SDWebImage
     SPECS:
-      - SDWebImage (5.9.4)
-      - SDWebImage/Core (5.9.4)
+      - SDWebImage (5.10.0)
+      - SDWebImage/Core (5.10.0)
   SnapKit:
     BUILD_SETTINGS_CHECKSUM:
       SnapKit:
