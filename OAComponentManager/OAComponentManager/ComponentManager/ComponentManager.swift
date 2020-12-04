@@ -58,6 +58,7 @@ class ComponentManager {
                         
                         #if DEBUG
                         // Show Debug
+                        assert(false, "传入的参数有误")
                         #endif
                     }
                     
@@ -75,6 +76,7 @@ class ComponentManager {
         }
         
         #if DEBUG
+        assert(false, "传入的参数有误")
         if !isSuccess && queryCount == connectorMap.count {
             // Show Debug
             return false
