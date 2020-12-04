@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import OANavigatorKit
 
 public let routerModeKey = "routerModeKey"
 public let routeViewControllerKey = "routeViewControllerKey"

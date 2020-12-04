@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D6D120F257A67B3009AE5D9 /* OANavigatorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D120E257A67B3009AE5D9 /* OANavigatorKit.framework */; };
+		4D6D1210257A67B3009AE5D9 /* OANavigatorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D120E257A67B3009AE5D9 /* OANavigatorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DE2261B257A50150051BF90 /* OAComponentManagerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE22619257A50150051BF90 /* OAComponentManagerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE22626257A50220051BF90 /* ComponentManagerPrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE22622257A50220051BF90 /* ComponentManagerPrt.swift */; };
-		4DE22628257A50220051BF90 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE22624257A50220051BF90 /* Navigator.swift */; };
 		4DE22629257A50220051BF90 /* ComponentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE22625257A50220051BF90 /* ComponentManager.swift */; };
 		4DE74A11257A578800EEFBB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE74A10257A578800EEFBB0 /* AppDelegate.swift */; };
 		4DE74A15257A578800EEFBB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE74A14257A578800EEFBB0 /* ViewController.swift */; };
@@ -26,14 +27,28 @@
 		F567FEC7644281C91B7CCB73 /* Pods_OAComponentManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A392E4A790EB255985F8788 /* Pods_OAComponentManagerKit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4D6D1211257A67B3009AE5D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D6D1210257A67B3009AE5D9 /* OANavigatorKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1A392E4A790EB255985F8788 /* Pods_OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0E6CF6326878F549509E89 /* Pods-OAComponentManagerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAComponentManagerExample.release.xcconfig"; path = "Target Support Files/Pods-OAComponentManagerExample/Pods-OAComponentManagerExample.release.xcconfig"; sourceTree = "<group>"; };
+		4D6D120E257A67B3009AE5D9 /* OANavigatorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OANavigatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE22616257A50150051BF90 /* OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE22619257A50150051BF90 /* OAComponentManagerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAComponentManagerKit.h; sourceTree = "<group>"; };
 		4DE2261A257A50150051BF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DE22622257A50220051BF90 /* ComponentManagerPrt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentManagerPrt.swift; sourceTree = "<group>"; };
-		4DE22624257A50220051BF90 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		4DE22625257A50220051BF90 /* ComponentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentManager.swift; sourceTree = "<group>"; };
 		4DE74A0E257A578800EEFBB0 /* OAComponentManagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAComponentManagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE74A10257A578800EEFBB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F567FEC7644281C91B7CCB73 /* Pods_OAComponentManagerKit.framework in Frameworks */,
+				4D6D120F257A67B3009AE5D9 /* OANavigatorKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +93,7 @@
 		3A1390DBC4A3EA2551F3A774 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D6D120E257A67B3009AE5D9 /* OANavigatorKit.framework */,
 				1A392E4A790EB255985F8788 /* Pods_OAComponentManagerKit.framework */,
 				BC1CA05DF7494FCDD9682E02 /* Pods_OAComponentManagerExample.framework */,
 			);
@@ -109,7 +126,6 @@
 				4DE22625257A50220051BF90 /* ComponentManager.swift */,
 				4DE22622257A50220051BF90 /* ComponentManagerPrt.swift */,
 				4DE2261A257A50150051BF90 /* Info.plist */,
-				4DE22624257A50220051BF90 /* Navigator.swift */,
 				4DE22619257A50150051BF90 /* OAComponentManagerKit.h */,
 			);
 			path = OAComponentManagerKit;
@@ -177,6 +193,7 @@
 				4DE22612257A50150051BF90 /* Sources */,
 				4DE22613257A50150051BF90 /* Frameworks */,
 				4DE22614257A50150051BF90 /* Resources */,
+				4D6D1211257A67B3009AE5D9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,7 +349,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE22626257A50220051BF90 /* ComponentManagerPrt.swift in Sources */,
-				4DE22628257A50220051BF90 /* Navigator.swift in Sources */,
 				4DE22629257A50220051BF90 /* ComponentManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

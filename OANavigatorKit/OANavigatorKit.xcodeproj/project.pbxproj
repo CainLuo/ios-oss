@@ -7,72 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2722DB43933C303250973380 /* Pods_OAServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DB40061A10131D73FB5292 /* Pods_OAServiceKit.framework */; };
-		4DC0A659257A65BD0008BB39 /* OAServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC0A657257A65BD0008BB39 /* OAServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D6D1209257A678B009AE5D9 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1208257A678B009AE5D9 /* Navigator.swift */; };
+		4DC0A6F8257A67280008BB39 /* OANavigatorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC0A6F6257A67280008BB39 /* OANavigatorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D9F20886A813D42A744E6C /* Pods_OANavigatorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACE4F4FD8CBFEF8A45276A6 /* Pods_OANavigatorKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4DC0A654257A65BD0008BB39 /* OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DC0A657257A65BD0008BB39 /* OAServiceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAServiceKit.h; sourceTree = "<group>"; };
-		4DC0A658257A65BD0008BB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BDD533EC92435DF5B30284D /* Pods-OAServiceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAServiceKit.release.xcconfig"; path = "Target Support Files/Pods-OAServiceKit/Pods-OAServiceKit.release.xcconfig"; sourceTree = "<group>"; };
-		99DB40061A10131D73FB5292 /* Pods_OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A91F5D96315FB34D79B8EA61 /* Pods-OAServiceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAServiceKit.debug.xcconfig"; path = "Target Support Files/Pods-OAServiceKit/Pods-OAServiceKit.debug.xcconfig"; sourceTree = "<group>"; };
+		4D6D1208257A678B009AE5D9 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		4DC0A6F3257A67280008BB39 /* OANavigatorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OANavigatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC0A6F6257A67280008BB39 /* OANavigatorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OANavigatorKit.h; sourceTree = "<group>"; };
+		4DC0A6F7257A67280008BB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502F738148751C68FB18FC8F /* Pods-OANavigatorKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OANavigatorKit.release.xcconfig"; path = "Target Support Files/Pods-OANavigatorKit/Pods-OANavigatorKit.release.xcconfig"; sourceTree = "<group>"; };
+		6ACE4F4FD8CBFEF8A45276A6 /* Pods_OANavigatorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OANavigatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC1D98C6C17DE34B8F29450 /* Pods-OANavigatorKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OANavigatorKit.debug.xcconfig"; path = "Target Support Files/Pods-OANavigatorKit/Pods-OANavigatorKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DC0A651257A65BD0008BB39 /* Frameworks */ = {
+		4DC0A6F0257A67280008BB39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2722DB43933C303250973380 /* Pods_OAServiceKit.framework in Frameworks */,
+				B6D9F20886A813D42A744E6C /* Pods_OANavigatorKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DC0A64A257A65BD0008BB39 = {
+		3DF26768874928395F61842F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4DC0A656257A65BD0008BB39 /* OAServiceKit */,
-				4DC0A655257A65BD0008BB39 /* Products */,
-				9A0BE51879BED9448CD8658F /* Pods */,
-				E926C58CBBBF81EA5556E1B9 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		4DC0A655257A65BD0008BB39 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4DC0A654257A65BD0008BB39 /* OAServiceKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4DC0A656257A65BD0008BB39 /* OAServiceKit */ = {
-			isa = PBXGroup;
-			children = (
-				4DC0A657257A65BD0008BB39 /* OAServiceKit.h */,
-				4DC0A658257A65BD0008BB39 /* Info.plist */,
-			);
-			path = OAServiceKit;
-			sourceTree = "<group>";
-		};
-		9A0BE51879BED9448CD8658F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A91F5D96315FB34D79B8EA61 /* Pods-OAServiceKit.debug.xcconfig */,
-				7BDD533EC92435DF5B30284D /* Pods-OAServiceKit.release.xcconfig */,
+				AEC1D98C6C17DE34B8F29450 /* Pods-OANavigatorKit.debug.xcconfig */,
+				502F738148751C68FB18FC8F /* Pods-OANavigatorKit.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
-		E926C58CBBBF81EA5556E1B9 /* Frameworks */ = {
+		4DC0A6E9257A67280008BB39 = {
 			isa = PBXGroup;
 			children = (
-				99DB40061A10131D73FB5292 /* Pods_OAServiceKit.framework */,
+				4DC0A6F5257A67280008BB39 /* OANavigatorKit */,
+				4DC0A6F4257A67280008BB39 /* Products */,
+				3DF26768874928395F61842F /* Pods */,
+				EE2BDDFD3496A116E304FF9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC0A6F4257A67280008BB39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0A6F3257A67280008BB39 /* OANavigatorKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC0A6F5257A67280008BB39 /* OANavigatorKit */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0A6F7257A67280008BB39 /* Info.plist */,
+				4D6D1208257A678B009AE5D9 /* Navigator.swift */,
+				4DC0A6F6257A67280008BB39 /* OANavigatorKit.h */,
+			);
+			path = OANavigatorKit;
+			sourceTree = "<group>";
+		};
+		EE2BDDFD3496A116E304FF9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ACE4F4FD8CBFEF8A45276A6 /* Pods_OANavigatorKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,50 +83,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4DC0A64F257A65BD0008BB39 /* Headers */ = {
+		4DC0A6EE257A67280008BB39 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC0A659257A65BD0008BB39 /* OAServiceKit.h in Headers */,
+				4DC0A6F8257A67280008BB39 /* OANavigatorKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4DC0A653257A65BD0008BB39 /* OAServiceKit */ = {
+		4DC0A6F2257A67280008BB39 /* OANavigatorKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DC0A65C257A65BD0008BB39 /* Build configuration list for PBXNativeTarget "OAServiceKit" */;
+			buildConfigurationList = 4DC0A6FB257A67280008BB39 /* Build configuration list for PBXNativeTarget "OANavigatorKit" */;
 			buildPhases = (
-				DCCEFF91D0EA5F41399BB123 /* [CP] Check Pods Manifest.lock */,
-				4DC0A64F257A65BD0008BB39 /* Headers */,
-				4DC0A650257A65BD0008BB39 /* Sources */,
-				4DC0A651257A65BD0008BB39 /* Frameworks */,
-				4DC0A652257A65BD0008BB39 /* Resources */,
+				BAFA0582701BB45D2A473781 /* [CP] Check Pods Manifest.lock */,
+				4DC0A6EE257A67280008BB39 /* Headers */,
+				4DC0A6EF257A67280008BB39 /* Sources */,
+				4DC0A6F0257A67280008BB39 /* Frameworks */,
+				4DC0A6F1257A67280008BB39 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OAServiceKit;
-			productName = OAServiceKit;
-			productReference = 4DC0A654257A65BD0008BB39 /* OAServiceKit.framework */;
+			name = OANavigatorKit;
+			productName = OANavigatorKit;
+			productReference = 4DC0A6F3257A67280008BB39 /* OANavigatorKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4DC0A64B257A65BD0008BB39 /* Project object */ = {
+		4DC0A6EA257A67280008BB39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					4DC0A653257A65BD0008BB39 = {
+					4DC0A6F2257A67280008BB39 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
-			buildConfigurationList = 4DC0A64E257A65BD0008BB39 /* Build configuration list for PBXProject "OAServiceKit" */;
+			buildConfigurationList = 4DC0A6ED257A67280008BB39 /* Build configuration list for PBXProject "OANavigatorKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,18 +135,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 4DC0A64A257A65BD0008BB39;
-			productRefGroup = 4DC0A655257A65BD0008BB39 /* Products */;
+			mainGroup = 4DC0A6E9257A67280008BB39;
+			productRefGroup = 4DC0A6F4257A67280008BB39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DC0A653257A65BD0008BB39 /* OAServiceKit */,
+				4DC0A6F2257A67280008BB39 /* OANavigatorKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4DC0A652257A65BD0008BB39 /* Resources */ = {
+		4DC0A6F1257A67280008BB39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -152,7 +156,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DCCEFF91D0EA5F41399BB123 /* [CP] Check Pods Manifest.lock */ = {
+		BAFA0582701BB45D2A473781 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -167,7 +171,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OAServiceKit-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OANavigatorKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -177,17 +181,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DC0A650257A65BD0008BB39 /* Sources */ = {
+		4DC0A6EF257A67280008BB39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6D1209257A678B009AE5D9 /* Navigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4DC0A65A257A65BD0008BB39 /* Debug */ = {
+		4DC0A6F9257A67280008BB39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		4DC0A65B257A65BD0008BB39 /* Release */ = {
+		4DC0A6FA257A67280008BB39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,16 +314,17 @@
 			};
 			name = Release;
 		};
-		4DC0A65D257A65BD0008BB39 /* Debug */ = {
+		4DC0A6FC257A67280008BB39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A91F5D96315FB34D79B8EA61 /* Pods-OAServiceKit.debug.xcconfig */;
+			baseConfigurationReference = AEC1D98C6C17DE34B8F29450 /* Pods-OANavigatorKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OAServiceKit/Info.plist;
+				INFOPLIST_FILE = OANavigatorKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,24 +332,26 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunyu.OAServiceKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunyu.OANavigatorKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4DC0A65E257A65BD0008BB39 /* Release */ = {
+		4DC0A6FD257A67280008BB39 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BDD533EC92435DF5B30284D /* Pods-OAServiceKit.release.xcconfig */;
+			baseConfigurationReference = 502F738148751C68FB18FC8F /* Pods-OANavigatorKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OAServiceKit/Info.plist;
+				INFOPLIST_FILE = OANavigatorKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -351,7 +359,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunyu.OAServiceKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunyu.OANavigatorKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -362,25 +370,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DC0A64E257A65BD0008BB39 /* Build configuration list for PBXProject "OAServiceKit" */ = {
+		4DC0A6ED257A67280008BB39 /* Build configuration list for PBXProject "OANavigatorKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DC0A65A257A65BD0008BB39 /* Debug */,
-				4DC0A65B257A65BD0008BB39 /* Release */,
+				4DC0A6F9257A67280008BB39 /* Debug */,
+				4DC0A6FA257A67280008BB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DC0A65C257A65BD0008BB39 /* Build configuration list for PBXNativeTarget "OAServiceKit" */ = {
+		4DC0A6FB257A67280008BB39 /* Build configuration list for PBXNativeTarget "OANavigatorKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DC0A65D257A65BD0008BB39 /* Debug */,
-				4DC0A65E257A65BD0008BB39 /* Release */,
+				4DC0A6FC257A67280008BB39 /* Debug */,
+				4DC0A6FD257A67280008BB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4DC0A64B257A65BD0008BB39 /* Project object */;
+	rootObject = 4DC0A6EA257A67280008BB39 /* Project object */;
 }

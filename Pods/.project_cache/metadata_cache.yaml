@@ -94,6 +94,10 @@ Pods-OAMyKit:
   LABEL: Pods-OAMyKit
   PROJECT_PATH: Pods.xcodeproj
   UUID: CF22EF906FEF85FCF79B484959536522
+Pods-OANavigatorKit:
+  LABEL: Pods-OANavigatorKit
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 39B8220684CD85EDEB68C2FF0329E6E7
 Pods-OAServiceKit:
   LABEL: Pods-OAServiceKit
   PROJECT_PATH: Pods.xcodeproj

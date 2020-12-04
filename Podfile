@@ -61,7 +61,7 @@ def sharePods
 end
 
 target 'ios-oss' do
-
+  sharePods
   
   # UI Test Tools
   pod 'LookinServer', :configurations => ['Debug', 'Preview', 'Live']
@@ -120,6 +120,10 @@ end
 target 'OAServiceKit' do
   sharePods
   project 'OAServiceKit/OAServiceKit.xcodeproj'
+end
+
+target 'OANavigatorKit' do
+  project 'OANavigatorKit/OANavigatorKit.xcodeproj'
 end
 
 # Examples

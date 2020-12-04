@@ -22,4 +22,7 @@
    <FileRef
       location = "group:OAServiceKit/OAServiceKit.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:OANavigatorKit/OANavigatorKit.xcodeproj">
+   </FileRef>
 </Workspace>

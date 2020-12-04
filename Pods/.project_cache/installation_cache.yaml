@@ -156,10 +156,10 @@ CACHE_KEYS:
       - ObjectMapper (4.2.0)
   Pods-ios-oss:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 77d6a1ddbc96ff2a0e3e9532af914c8f
-      Live: 77d6a1ddbc96ff2a0e3e9532af914c8f
-      Preview: 77d6a1ddbc96ff2a0e3e9532af914c8f
-      Release: a44bcbdc62ecdcff23c3a1fbbd61884f
+      Debug: 6226ae2a07f18567ab4465c058c35492
+      Live: 6226ae2a07f18567ab4465c058c35492
+      Preview: 6226ae2a07f18567ab4465c058c35492
+      Release: 69e0317deb4cd3294be0241964879b80
   Pods-OAComponentManagerExample:
     BUILD_SETTINGS_CHECKSUM:
       Debug: 132f859d0cd92662333d8a1448fc1229
@@ -184,6 +184,10 @@ CACHE_KEYS:
     BUILD_SETTINGS_CHECKSUM:
       Debug: e0378e781bca8877a5693f97c9da457f
       Release: e0378e781bca8877a5693f97c9da457f
+  Pods-OANavigatorKit:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: b95286beeb8ea407e13ee26874fb1254
+      Release: b95286beeb8ea407e13ee26874fb1254
   Pods-OAServiceKit:
     BUILD_SETTINGS_CHECKSUM:
       Debug: e0378e781bca8877a5693f97c9da457f
