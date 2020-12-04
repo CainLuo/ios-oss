@@ -10,19 +10,9 @@
 		494DF04D71B822066D8F3A81 /* Pods_OAMyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A89AA260560E1C6559E966 /* Pods_OAMyKit.framework */; };
 		4D4455D3257A61190098204F /* OAComponentManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4455D2257A61190098204F /* OAComponentManagerKit.framework */; };
 		4D4455D4257A61190098204F /* OAComponentManagerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4455D2257A61190098204F /* OAComponentManagerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4D6D1374257A6CB8009AE5D9 /* MyViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D136D257A6CB8009AE5D9 /* MyViewController+Component.swift */; };
-		4D6D1376257A6CB8009AE5D9 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1371257A6CB8009AE5D9 /* MyViewModel.swift */; };
-		4D6D1377257A6CB8009AE5D9 /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6D1372257A6CB8009AE5D9 /* My.storyboard */; };
-		4D6D1378257A6CB8009AE5D9 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1373257A6CB8009AE5D9 /* MyViewController.swift */; };
 		4D6D137C257A6CDF009AE5D9 /* OAServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D137B257A6CDF009AE5D9 /* OAServiceKit.framework */; };
 		4D6D137D257A6CDF009AE5D9 /* OAServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D137B257A6CDF009AE5D9 /* OAServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D6D1386257A6FC1009AE5D9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D6D1388257A6FC1009AE5D9 /* Localizable.strings */; };
-		4D6D138D257A70CF009AE5D9 /* MyConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D138C257A70CF009AE5D9 /* MyConnector.swift */; };
-		4D6D138F257A7131009AE5D9 /* My.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1372257A6CB8009AE5D9 /* My.storyboard */; };
-		4D6D1390257A7132009AE5D9 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1373257A6CB8009AE5D9 /* MyViewController.swift */; };
-		4D6D1391257A7132009AE5D9 /* MyViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D136D257A6CB8009AE5D9 /* MyViewController+Component.swift */; };
-		4D6D1392257A7132009AE5D9 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1371257A6CB8009AE5D9 /* MyViewModel.swift */; };
-		4D6D1393257A7132009AE5D9 /* MyConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D138C257A70CF009AE5D9 /* MyConnector.swift */; };
 		4DE8A19F257A5E2D0078B93B /* OAMyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8A19D257A5E2D0078B93B /* OAMyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE8A1AD257A5E3D0078B93B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8A1AC257A5E3D0078B93B /* AppDelegate.swift */; };
 		4DE8A1B6257A5E3D0078B93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8A1B5257A5E3D0078B93B /* Assets.xcassets */; };
@@ -75,6 +65,64 @@
 		BF5D04A5257AA0D700E191ED /* Personal.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0467257AA06500E191ED /* Personal.storyboard */; };
 		BF5D04A6257AA0D700E191ED /* Privacy.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = BF5D046B257AA06500E191ED /* Privacy.storyboard */; };
 		BF5D04A7257AA0D700E191ED /* QRCode.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0443257AA06400E191ED /* QRCode.storyboard */; };
+		BF5D04B1257AA17500E191ED /* MyViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D04AC257AA17500E191ED /* MyViewController+Component.swift */; };
+		BF5D04B2257AA17500E191ED /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D04AD257AA17500E191ED /* MyViewModel.swift */; };
+		BF5D04B4257AA17500E191ED /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D04AF257AA17500E191ED /* MyViewController.swift */; };
+		BF5D04B5257AA17500E191ED /* MyConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D04B0257AA17500E191ED /* MyConnector.swift */; };
+		BF5D04B8257AA17F00E191ED /* My.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = BF5D04AE257AA17500E191ED /* My.storyboard */; };
+		BF5D04BA257AA19200E191ED /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D04AE257AA17500E191ED /* My.storyboard */; };
+		BF5D04BC257AA19800E191ED /* MyViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D04AC257AA17500E191ED /* MyViewController+Component.swift */; };
+		BF5D04BD257AA19800E191ED /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D04AD257AA17500E191ED /* MyViewModel.swift */; };
+		BF5D04BE257AA19800E191ED /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D04AF257AA17500E191ED /* MyViewController.swift */; };
+		BF5D04BF257AA19800E191ED /* MyConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D04B0257AA17500E191ED /* MyConnector.swift */; };
+		BF5D04C1257AA1CD00E191ED /* MyStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0426257A9F4A00E191ED /* MyStoryboard.swift */; };
+		BF5D04C2257AA1CD00E191ED /* AboutConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D042A257A9F6F00E191ED /* AboutConnector.swift */; };
+		BF5D04C3257AA1CD00E191ED /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D042C257A9F6F00E191ED /* AboutViewController.swift */; };
+		BF5D04C4257AA1CD00E191ED /* AboutViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D042D257A9F6F00E191ED /* AboutViewController+Component.swift */; };
+		BF5D04C5257AA1CD00E191ED /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D045C257AA06400E191ED /* CollectionsViewController.swift */; };
+		BF5D04C6257AA1CD00E191ED /* CollectionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D045D257AA06400E191ED /* CollectionsViewModel.swift */; };
+		BF5D04C7257AA1CD00E191ED /* CollectionsViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D045E257AA06400E191ED /* CollectionsViewController+Component.swift */; };
+		BF5D04C8257AA1CD00E191ED /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D046F257AA06500E191ED /* CommentsViewModel.swift */; };
+		BF5D04C9257AA1CD00E191ED /* CommentsViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0470257AA06500E191ED /* CommentsViewController+Component.swift */; };
+		BF5D04CA257AA1CD00E191ED /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0471257AA06500E191ED /* CommentsViewController.swift */; };
+		BF5D04CB257AA1CD00E191ED /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0438257A9FD500E191ED /* FeedbackViewController.swift */; };
+		BF5D04CC257AA1CD00E191ED /* FeedbackViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0439257A9FD500E191ED /* FeedbackViewController+Component.swift */; };
+		BF5D04CD257AA1CD00E191ED /* FollowsViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0452257AA06400E191ED /* FollowsViewController+Component.swift */; };
+		BF5D04CE257AA1CD00E191ED /* FollowsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0453257AA06400E191ED /* FollowsViewModel.swift */; };
+		BF5D04CF257AA1CD00E191ED /* FollowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0454257AA06400E191ED /* FollowsViewController.swift */; };
+		BF5D04D0257AA1CD00E191ED /* GeneralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0456257AA06400E191ED /* GeneralViewModel.swift */; };
+		BF5D04D1257AA1CD00E191ED /* GeneralController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0457257AA06400E191ED /* GeneralController+Component.swift */; };
+		BF5D04D2257AA1CD00E191ED /* GeneralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0459257AA06400E191ED /* GeneralController.swift */; };
+		BF5D04D3257AA1CD00E191ED /* NicheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0447257AA06400E191ED /* NicheViewController.swift */; };
+		BF5D04D4257AA1CD00E191ED /* NicheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0449257AA06400E191ED /* NicheViewModel.swift */; };
+		BF5D04D5257AA1CD00E191ED /* NicheViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D044A257AA06400E191ED /* NicheViewController+Component.swift */; };
+		BF5D04D6257AA1CD00E191ED /* NotifyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0460257AA06400E191ED /* NotifyListViewModel.swift */; };
+		BF5D04D7257AA1CD00E191ED /* NotifyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0461257AA06400E191ED /* NotifyListViewController.swift */; };
+		BF5D04D8257AA1CD00E191ED /* NotifyListViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0462257AA06400E191ED /* NotifyListViewController+Component.swift */; };
+		BF5D04D9257AA1CD00E191ED /* NotifySetupViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D044C257AA06400E191ED /* NotifySetupViewController+Component.swift */; };
+		BF5D04DA257AA1CD00E191ED /* NotifySetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D044D257AA06400E191ED /* NotifySetupViewController.swift */; };
+		BF5D04DB257AA1CD00E191ED /* NotifySetupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D044E257AA06400E191ED /* NotifySetupViewModel.swift */; };
+		BF5D04DC257AA1CD00E191ED /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0465257AA06500E191ED /* PersonalViewController.swift */; };
+		BF5D04DD257AA1CD00E191ED /* PersonalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0466257AA06500E191ED /* PersonalViewModel.swift */; };
+		BF5D04DE257AA1CD00E191ED /* PersonalViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0468257AA06500E191ED /* PersonalViewController+Component.swift */; };
+		BF5D04DF257AA1CD00E191ED /* PrivacyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D046A257AA06500E191ED /* PrivacyViewModel.swift */; };
+		BF5D04E0257AA1CD00E191ED /* PrivacyViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D046C257AA06500E191ED /* PrivacyViewController+Component.swift */; };
+		BF5D04E1257AA1CD00E191ED /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D046D257AA06500E191ED /* PrivacyViewController.swift */; };
+		BF5D04E2257AA1CD00E191ED /* QRCodeViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0442257AA06400E191ED /* QRCodeViewController+Component.swift */; };
+		BF5D04E3257AA1CD00E191ED /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0444257AA06400E191ED /* QRCodeViewController.swift */; };
+		BF5D04E4257AA1CD00E191ED /* QRCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D0445257AA06400E191ED /* QRCodeViewModel.swift */; };
+		BF5D04E8257AA1D600E191ED /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D042B257A9F6F00E191ED /* About.storyboard */; };
+		BF5D04E9257AA1D600E191ED /* Collections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D045B257AA06400E191ED /* Collections.storyboard */; };
+		BF5D04EA257AA1D600E191ED /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0472257AA06500E191ED /* Comments.storyboard */; };
+		BF5D04EB257AA1D600E191ED /* Feedback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0437257A9FD500E191ED /* Feedback.storyboard */; };
+		BF5D04EC257AA1D600E191ED /* Follows.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0451257AA06400E191ED /* Follows.storyboard */; };
+		BF5D04ED257AA1D600E191ED /* General.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0458257AA06400E191ED /* General.storyboard */; };
+		BF5D04EE257AA1D600E191ED /* Niche.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0448257AA06400E191ED /* Niche.storyboard */; };
+		BF5D04EF257AA1D600E191ED /* NotifyList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0463257AA06400E191ED /* NotifyList.storyboard */; };
+		BF5D04F0257AA1D600E191ED /* NotifySetup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D044F257AA06400E191ED /* NotifySetup.storyboard */; };
+		BF5D04F1257AA1D600E191ED /* Personal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0467257AA06500E191ED /* Personal.storyboard */; };
+		BF5D04F2257AA1D600E191ED /* Privacy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D046B257AA06500E191ED /* Privacy.storyboard */; };
+		BF5D04F3257AA1D600E191ED /* QRCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0443257AA06400E191ED /* QRCode.storyboard */; };
 		C61AE652E23F037738F028FC /* Pods_OAMyExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CC0D737F2D79F804299C88 /* Pods_OAMyExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,14 +144,9 @@
 /* Begin PBXFileReference section */
 		1DEE89DE66043B8736101BA0 /* Pods-OAMyKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAMyKit.release.xcconfig"; path = "Target Support Files/Pods-OAMyKit/Pods-OAMyKit.release.xcconfig"; sourceTree = "<group>"; };
 		4D4455D2257A61190098204F /* OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D6D136D257A6CB8009AE5D9 /* MyViewController+Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyViewController+Component.swift"; sourceTree = "<group>"; };
-		4D6D1371257A6CB8009AE5D9 /* MyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
-		4D6D1372257A6CB8009AE5D9 /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
-		4D6D1373257A6CB8009AE5D9 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		4D6D137B257A6CDF009AE5D9 /* OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6D1387257A6FC1009AE5D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4D6D138A257A6FC4009AE5D9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		4D6D138C257A70CF009AE5D9 /* MyConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConnector.swift; sourceTree = "<group>"; };
 		4DE8A19A257A5E2D0078B93B /* OAMyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAMyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE8A19D257A5E2D0078B93B /* OAMyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAMyKit.h; sourceTree = "<group>"; };
 		4DE8A19E257A5E2D0078B93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -165,6 +208,11 @@
 		BF5D0470257AA06500E191ED /* CommentsViewController+Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CommentsViewController+Component.swift"; sourceTree = "<group>"; };
 		BF5D0471257AA06500E191ED /* CommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		BF5D0472257AA06500E191ED /* Comments.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Comments.storyboard; sourceTree = "<group>"; };
+		BF5D04AC257AA17500E191ED /* MyViewController+Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyViewController+Component.swift"; sourceTree = "<group>"; };
+		BF5D04AD257AA17500E191ED /* MyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		BF5D04AE257AA17500E191ED /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
+		BF5D04AF257AA17500E191ED /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		BF5D04B0257AA17500E191ED /* MyConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConnector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,18 +237,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D6D136C257A6CB8009AE5D9 /* My */ = {
-			isa = PBXGroup;
-			children = (
-				4D6D1372257A6CB8009AE5D9 /* My.storyboard */,
-				4D6D1373257A6CB8009AE5D9 /* MyViewController.swift */,
-				4D6D136D257A6CB8009AE5D9 /* MyViewController+Component.swift */,
-				4D6D1371257A6CB8009AE5D9 /* MyViewModel.swift */,
-				4D6D138C257A70CF009AE5D9 /* MyConnector.swift */,
-			);
-			path = My;
-			sourceTree = "<group>";
-		};
 		4DE8A190257A5E2D0078B93B = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +269,7 @@
 				BF5D0436257A9FD500E191ED /* Feedback */,
 				BF5D0450257AA06400E191ED /* Follows */,
 				BF5D0455257AA06400E191ED /* General */,
+				BF5D04AB257AA17500E191ED /* My */,
 				BF5D0446257AA06400E191ED /* Niche */,
 				BF5D045F257AA06400E191ED /* NotifyList */,
 				BF5D044B257AA06400E191ED /* NotifySetup */,
@@ -251,7 +288,6 @@
 				4DE8A1BA257A5E3D0078B93B /* Info.plist */,
 				4DE8A1B7257A5E3D0078B93B /* LaunchScreen.storyboard */,
 				4D6D1388257A6FC1009AE5D9 /* Localizable.strings */,
-				4D6D136C257A6CB8009AE5D9 /* My */,
 			);
 			path = OAMyExample;
 			sourceTree = "<group>";
@@ -410,6 +446,18 @@
 			path = Comments;
 			sourceTree = "<group>";
 		};
+		BF5D04AB257AA17500E191ED /* My */ = {
+			isa = PBXGroup;
+			children = (
+				BF5D04AC257AA17500E191ED /* MyViewController+Component.swift */,
+				BF5D04AD257AA17500E191ED /* MyViewModel.swift */,
+				BF5D04AE257AA17500E191ED /* My.storyboard */,
+				BF5D04AF257AA17500E191ED /* MyViewController.swift */,
+				BF5D04B0257AA17500E191ED /* MyConnector.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -512,10 +560,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5D04E8257AA1D600E191ED /* About.storyboard in Resources */,
+				BF5D04E9257AA1D600E191ED /* Collections.storyboard in Resources */,
+				BF5D04EA257AA1D600E191ED /* Comments.storyboard in Resources */,
+				BF5D04EB257AA1D600E191ED /* Feedback.storyboard in Resources */,
+				BF5D04EC257AA1D600E191ED /* Follows.storyboard in Resources */,
+				BF5D04ED257AA1D600E191ED /* General.storyboard in Resources */,
+				BF5D04EE257AA1D600E191ED /* Niche.storyboard in Resources */,
+				BF5D04EF257AA1D600E191ED /* NotifyList.storyboard in Resources */,
+				BF5D04F0257AA1D600E191ED /* NotifySetup.storyboard in Resources */,
+				BF5D04F1257AA1D600E191ED /* Personal.storyboard in Resources */,
+				BF5D04F2257AA1D600E191ED /* Privacy.storyboard in Resources */,
+				BF5D04F3257AA1D600E191ED /* QRCode.storyboard in Resources */,
+				BF5D04BA257AA19200E191ED /* My.storyboard in Resources */,
 				4DE8A1B9257A5E3D0078B93B /* LaunchScreen.storyboard in Resources */,
 				4D6D1386257A6FC1009AE5D9 /* Localizable.strings in Resources */,
 				4DE8A1B6257A5E3D0078B93B /* Assets.xcassets in Resources */,
-				4D6D1377257A6CB8009AE5D9 /* My.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +648,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5D04B8257AA17F00E191ED /* My.storyboard in Sources */,
 				BF5D049E257AA0D700E191ED /* Collections.storyboard in Sources */,
 				BF5D049F257AA0D700E191ED /* Comments.storyboard in Sources */,
 				BF5D04A0257AA0D700E191ED /* Follows.storyboard in Sources */,
@@ -595,6 +656,7 @@
 				BF5D04A2257AA0D700E191ED /* Niche.storyboard in Sources */,
 				BF5D04A3257AA0D700E191ED /* NotifyList.storyboard in Sources */,
 				BF5D04A4257AA0D700E191ED /* NotifySetup.storyboard in Sources */,
+				BF5D04B4257AA17500E191ED /* MyViewController.swift in Sources */,
 				BF5D04A5257AA0D700E191ED /* Personal.storyboard in Sources */,
 				BF5D04A6257AA0D700E191ED /* Privacy.storyboard in Sources */,
 				BF5D04A7257AA0D700E191ED /* QRCode.storyboard in Sources */,
@@ -602,7 +664,6 @@
 				BF5D0479257AA06500E191ED /* NicheViewModel.swift in Sources */,
 				BF5D043E257A9FDE00E191ED /* Feedback.storyboard in Sources */,
 				BF5D0433257A9F8A00E191ED /* About.storyboard in Sources */,
-				4D6D138F257A7131009AE5D9 /* My.storyboard in Sources */,
 				BF5D0497257AA06500E191ED /* CommentsViewModel.swift in Sources */,
 				BF5D043B257A9FD500E191ED /* FeedbackViewController.swift in Sources */,
 				BF5D048F257AA06500E191ED /* PersonalViewController.swift in Sources */,
@@ -617,10 +678,9 @@
 				BF5D042E257A9F6F00E191ED /* AboutConnector.swift in Sources */,
 				BF5D0483257AA06500E191ED /* GeneralViewModel.swift in Sources */,
 				BF5D048D257AA06500E191ED /* NotifyListViewController+Component.swift in Sources */,
-				4D6D1390257A7132009AE5D9 /* MyViewController.swift in Sources */,
+				BF5D04B5257AA17500E191ED /* MyConnector.swift in Sources */,
 				BF5D0482257AA06500E191ED /* FollowsViewController.swift in Sources */,
 				BF5D0484257AA06500E191ED /* GeneralController+Component.swift in Sources */,
-				4D6D1391257A7132009AE5D9 /* MyViewController+Component.swift in Sources */,
 				BF5D0481257AA06500E191ED /* FollowsViewModel.swift in Sources */,
 				BF5D0473257AA06500E191ED /* QRCodeViewController+Component.swift in Sources */,
 				BF5D0477257AA06500E191ED /* NicheViewController.swift in Sources */,
@@ -630,13 +690,13 @@
 				BF5D048B257AA06500E191ED /* NotifyListViewModel.swift in Sources */,
 				BF5D0496257AA06500E191ED /* PrivacyViewController.swift in Sources */,
 				BF5D0488257AA06500E191ED /* CollectionsViewController.swift in Sources */,
-				4D6D1392257A7132009AE5D9 /* MyViewModel.swift in Sources */,
+				BF5D04B1257AA17500E191ED /* MyViewController+Component.swift in Sources */,
 				BF5D047D257AA06500E191ED /* NotifySetupViewModel.swift in Sources */,
 				BF5D0431257A9F6F00E191ED /* AboutViewController+Component.swift in Sources */,
 				BF5D0427257A9F4A00E191ED /* MyStoryboard.swift in Sources */,
 				BF5D0490257AA06500E191ED /* PersonalViewModel.swift in Sources */,
+				BF5D04B2257AA17500E191ED /* MyViewModel.swift in Sources */,
 				BF5D0430257A9F6F00E191ED /* AboutViewController.swift in Sources */,
-				4D6D1393257A7132009AE5D9 /* MyConnector.swift in Sources */,
 				BF5D048A257AA06500E191ED /* CollectionsViewController+Component.swift in Sources */,
 				BF5D0493257AA06500E191ED /* PrivacyViewModel.swift in Sources */,
 				BF5D047C257AA06500E191ED /* NotifySetupViewController.swift in Sources */,
@@ -648,11 +708,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D6D138D257A70CF009AE5D9 /* MyConnector.swift in Sources */,
-				4D6D1374257A6CB8009AE5D9 /* MyViewController+Component.swift in Sources */,
+				BF5D04C1257AA1CD00E191ED /* MyStoryboard.swift in Sources */,
+				BF5D04C2257AA1CD00E191ED /* AboutConnector.swift in Sources */,
+				BF5D04C3257AA1CD00E191ED /* AboutViewController.swift in Sources */,
+				BF5D04C4257AA1CD00E191ED /* AboutViewController+Component.swift in Sources */,
+				BF5D04C5257AA1CD00E191ED /* CollectionsViewController.swift in Sources */,
+				BF5D04C6257AA1CD00E191ED /* CollectionsViewModel.swift in Sources */,
+				BF5D04C7257AA1CD00E191ED /* CollectionsViewController+Component.swift in Sources */,
+				BF5D04C8257AA1CD00E191ED /* CommentsViewModel.swift in Sources */,
+				BF5D04C9257AA1CD00E191ED /* CommentsViewController+Component.swift in Sources */,
+				BF5D04CA257AA1CD00E191ED /* CommentsViewController.swift in Sources */,
+				BF5D04CB257AA1CD00E191ED /* FeedbackViewController.swift in Sources */,
+				BF5D04CC257AA1CD00E191ED /* FeedbackViewController+Component.swift in Sources */,
+				BF5D04CD257AA1CD00E191ED /* FollowsViewController+Component.swift in Sources */,
+				BF5D04CE257AA1CD00E191ED /* FollowsViewModel.swift in Sources */,
+				BF5D04CF257AA1CD00E191ED /* FollowsViewController.swift in Sources */,
+				BF5D04D0257AA1CD00E191ED /* GeneralViewModel.swift in Sources */,
+				BF5D04D1257AA1CD00E191ED /* GeneralController+Component.swift in Sources */,
+				BF5D04D2257AA1CD00E191ED /* GeneralController.swift in Sources */,
+				BF5D04D3257AA1CD00E191ED /* NicheViewController.swift in Sources */,
+				BF5D04D4257AA1CD00E191ED /* NicheViewModel.swift in Sources */,
+				BF5D04D5257AA1CD00E191ED /* NicheViewController+Component.swift in Sources */,
+				BF5D04D6257AA1CD00E191ED /* NotifyListViewModel.swift in Sources */,
+				BF5D04D7257AA1CD00E191ED /* NotifyListViewController.swift in Sources */,
+				BF5D04D8257AA1CD00E191ED /* NotifyListViewController+Component.swift in Sources */,
+				BF5D04D9257AA1CD00E191ED /* NotifySetupViewController+Component.swift in Sources */,
+				BF5D04DA257AA1CD00E191ED /* NotifySetupViewController.swift in Sources */,
+				BF5D04DB257AA1CD00E191ED /* NotifySetupViewModel.swift in Sources */,
+				BF5D04DC257AA1CD00E191ED /* PersonalViewController.swift in Sources */,
+				BF5D04DD257AA1CD00E191ED /* PersonalViewModel.swift in Sources */,
+				BF5D04DE257AA1CD00E191ED /* PersonalViewController+Component.swift in Sources */,
+				BF5D04DF257AA1CD00E191ED /* PrivacyViewModel.swift in Sources */,
+				BF5D04E0257AA1CD00E191ED /* PrivacyViewController+Component.swift in Sources */,
+				BF5D04E1257AA1CD00E191ED /* PrivacyViewController.swift in Sources */,
+				BF5D04E2257AA1CD00E191ED /* QRCodeViewController+Component.swift in Sources */,
+				BF5D04E3257AA1CD00E191ED /* QRCodeViewController.swift in Sources */,
+				BF5D04E4257AA1CD00E191ED /* QRCodeViewModel.swift in Sources */,
+				BF5D04BC257AA19800E191ED /* MyViewController+Component.swift in Sources */,
+				BF5D04BD257AA19800E191ED /* MyViewModel.swift in Sources */,
+				BF5D04BE257AA19800E191ED /* MyViewController.swift in Sources */,
+				BF5D04BF257AA19800E191ED /* MyConnector.swift in Sources */,
 				4DE8A1AD257A5E3D0078B93B /* AppDelegate.swift in Sources */,
-				4D6D1378257A6CB8009AE5D9 /* MyViewController.swift in Sources */,
-				4D6D1376257A6CB8009AE5D9 /* MyViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

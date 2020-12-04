@@ -27,7 +27,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
                                             <state key="normal" title="退出登录"/>
                                             <connections>
-                                                <action selector="logout:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="KoW-E0-V4J"/>
+                                                <action selector="logout:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="Qsv-kf-WIX"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -89,7 +89,8 @@
                                                                 <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             </state>
                                                             <connections>
-                                                                <action selector="qrCodeAction:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="S3v-xr-B8U"/>
+                                                                <action selector="qrCodeAction:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="QEN-cv-x1m"/>
+                                                                <segue destination="b2t-Wf-ejf" kind="show" id="Ddb-S8-yOm"/>
                                                             </connections>
                                                         </button>
                                                     </subviews>
@@ -102,6 +103,9 @@
                                                 <constraint firstItem="foE-Qr-WcS" firstAttribute="top" secondItem="1or-Md-yHR" secondAttribute="top" id="zP2-hq-7Uz"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Rlq-Dg-dgJ" kind="show" id="me7-if-LVI"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="wQr-u3-bBU">
                                         <rect key="frame" x="0.0" y="98" width="414" height="43.5"/>
@@ -120,21 +124,23 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="31" height="44"/>
                                                                     <state key="normal" title="收藏"/>
                                                                     <connections>
-                                                                        <action selector="collectionAction:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="Rjp-Y6-4xp"/>
+                                                                        <action selector="collectionAction:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="BDA-Xz-QDr"/>
+                                                                        <segue destination="s1p-VU-AU1" kind="show" id="kkE-vC-kQn"/>
                                                                     </connections>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ek-U7-TIH">
                                                                     <rect key="frame" x="41" y="0.0" width="31" height="44"/>
                                                                     <state key="normal" title="关注"/>
                                                                     <connections>
-                                                                        <action selector="followAction:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="9Ft-dy-4PV"/>
+                                                                        <action selector="followAction:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="Yne-Te-cr9"/>
+                                                                        <segue destination="Pe7-hb-lnF" kind="show" id="k5X-j5-eZx"/>
                                                                     </connections>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8z-uc-uS2">
                                                                     <rect key="frame" x="82" y="0.0" width="31" height="44"/>
                                                                     <state key="normal" title="评论"/>
                                                                     <connections>
-                                                                        <action selector="commentAction:" destination="Y35-dM-ZQn" eventType="touchUpInside" id="sTC-YE-qlM"/>
+                                                                        <segue destination="9gD-mw-ljN" kind="show" id="bDT-5B-42j"/>
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
@@ -183,6 +189,9 @@
                                                 <constraint firstAttribute="trailing" secondItem="2h3-ou-h3g" secondAttribute="trailing" id="uRz-ce-MPl"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="MCx-dp-5Kp" kind="show" id="BiW-GN-KPl"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="cki-xg-DCw">
                                         <rect key="frame" x="0.0" y="185" width="414" height="43.5"/>
@@ -217,6 +226,9 @@
                                                 <constraint firstAttribute="trailing" secondItem="HeM-z6-3fP" secondAttribute="trailing" id="xR3-W7-p92"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="uuz-te-hQD" kind="show" id="a6F-tZ-ZBc"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="SEw-b2-ALs">
                                         <rect key="frame" x="0.0" y="228.5" width="414" height="43.5"/>
@@ -251,6 +263,9 @@
                                                 <constraint firstAttribute="bottom" secondItem="pIl-yL-bas" secondAttribute="bottom" id="hBQ-XQ-6Bm"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ebd-qN-Aeo" kind="show" id="fEi-jo-qIc"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="EPL-i3-0nA">
                                         <rect key="frame" x="0.0" y="272" width="414" height="43.5"/>
@@ -285,6 +300,9 @@
                                                 <constraint firstAttribute="trailing" secondItem="R0m-Ow-Vrc" secondAttribute="trailing" id="TBF-nx-2D2"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="pLp-sN-ojM" kind="show" id="lyl-tW-tIz"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="v6K-Ws-BMp">
                                         <rect key="frame" x="0.0" y="315.5" width="414" height="43.5"/>
@@ -319,6 +337,9 @@
                                                 <constraint firstAttribute="trailing" secondItem="3IZ-kE-CAx" secondAttribute="trailing" id="vZQ-zC-6qZ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="dmj-gk-CA6" kind="show" id="3AZ-vs-iTI"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="T9A-SW-bdM">
                                         <rect key="frame" x="0.0" y="359" width="414" height="43.5"/>
@@ -353,6 +374,9 @@
                                                 <constraint firstItem="cGP-px-r6s" firstAttribute="leading" secondItem="ePc-qn-dPu" secondAttribute="leading" constant="15" id="mhq-Cc-qMl"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="TFj-7c-B5M" kind="show" id="Coi-e8-UEY"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="miK-Rv-hUz">
                                         <rect key="frame" x="0.0" y="402.5" width="414" height="43.5"/>
@@ -387,6 +411,9 @@
                                                 <constraint firstItem="BnR-Nw-5lH" firstAttribute="top" secondItem="buo-A6-daX" secondAttribute="top" id="zB4-fc-VLY"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="iz5-Rx-oJl" kind="show" id="Kfa-0L-kbJ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -396,28 +423,147 @@
                             <outlet property="delegate" destination="Y35-dM-ZQn" id="CUA-ME-Z2f"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="OJa-YU-Azc"/>
                     <connections>
-                        <outlet property="aboutLabel" destination="0r0-mB-u7n" id="kvP-vI-CL4"/>
-                        <outlet property="avatarImageView" destination="ghJ-Q6-byO" id="rpo-BB-roG"/>
-                        <outlet property="certifiedLabel" destination="g4S-Hu-DJc" id="LcW-Tc-Jol"/>
-                        <outlet property="collectionButton" destination="iTU-ia-wlG" id="quC-R4-ZaB"/>
-                        <outlet property="commentButton" destination="b8z-uc-uS2" id="6ft-JY-lRI"/>
-                        <outlet property="feedbackLabel" destination="vXm-eU-yqc" id="k6L-br-fyb"/>
-                        <outlet property="followButton" destination="6ek-U7-TIH" id="JeT-tI-SEH"/>
-                        <outlet property="generalLabel" destination="ziG-Oi-qK2" id="VtX-hy-v68"/>
-                        <outlet property="logoutButton" destination="BRl-D2-lSq" id="QeN-R6-mDY"/>
-                        <outlet property="nicheLabel" destination="Gpt-XS-wPQ" id="fF0-SB-iLU"/>
-                        <outlet property="notifyListLabel" destination="tzt-jG-aAW" id="gRB-0r-phn"/>
-                        <outlet property="notifySetupLabel" destination="ELU-pS-KGJ" id="6Kf-WT-eGD"/>
-                        <outlet property="phoneLabel" destination="Y8C-eR-OQL" id="jzz-9b-a62"/>
-                        <outlet property="privacyLabel" destination="tU1-6Q-hXP" id="nLL-Nz-5Vf"/>
-                        <outlet property="qrCodeButton" destination="f7t-Za-reC" id="JcN-ea-6b9"/>
+                        <outlet property="aboutLabel" destination="0r0-mB-u7n" id="j1S-OM-M9t"/>
+                        <outlet property="avatarImageView" destination="ghJ-Q6-byO" id="5Ht-vb-ed1"/>
+                        <outlet property="certifiedLabel" destination="g4S-Hu-DJc" id="c6r-bq-A9U"/>
+                        <outlet property="collectionButton" destination="iTU-ia-wlG" id="s1Y-qv-7VI"/>
+                        <outlet property="commentButton" destination="b8z-uc-uS2" id="W5t-7Z-TcM"/>
+                        <outlet property="feedbackLabel" destination="vXm-eU-yqc" id="3gA-kM-X5f"/>
+                        <outlet property="followButton" destination="6ek-U7-TIH" id="Ebc-1A-pHf"/>
+                        <outlet property="generalLabel" destination="ziG-Oi-qK2" id="vGi-qu-gX0"/>
+                        <outlet property="logoutButton" destination="BRl-D2-lSq" id="QvR-HQ-tpB"/>
+                        <outlet property="nicheLabel" destination="Gpt-XS-wPQ" id="c8v-uf-eLS"/>
+                        <outlet property="notifyListLabel" destination="tzt-jG-aAW" id="gUQ-oA-mo4"/>
+                        <outlet property="notifySetupLabel" destination="ELU-pS-KGJ" id="QBM-vk-vg2"/>
+                        <outlet property="phoneLabel" destination="Y8C-eR-OQL" id="dOs-fP-JAc"/>
+                        <outlet property="privacyLabel" destination="tU1-6Q-hXP" id="muC-wM-bbq"/>
+                        <outlet property="qrCodeButton" destination="f7t-Za-reC" id="6Hm-xB-YfB"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPj-J1-9bw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2684.057971014493" y="128.57142857142856"/>
+            <point key="canvasLocation" x="865" y="129"/>
+        </scene>
+        <!--General-->
+        <scene sceneID="OPR-sX-gz7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="General" id="dmj-gk-CA6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bC7-LE-RBH"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TGv-Sl-fXo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1430" y="177"/>
+        </scene>
+        <!--Privacy-->
+        <scene sceneID="lv6-eO-Iyy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Privacy" id="pLp-sN-ojM" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HLO-fl-N5u"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="feF-gK-h7j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1427" y="143"/>
+        </scene>
+        <!--Feedback-->
+        <scene sceneID="Dj2-8m-l9w">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Feedback" id="iz5-Rx-oJl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="IOT-Mj-Zar"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Rs-k8-zFZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1440" y="246"/>
+        </scene>
+        <!--Comments-->
+        <scene sceneID="xNd-fh-ops">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Comments" id="9gD-mw-ljN" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="kNW-wc-n17"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R6B-w6-5dG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1110" y="590"/>
+        </scene>
+        <!--NotifySetup-->
+        <scene sceneID="4tg-Hz-kAF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NotifySetup" id="ebd-qN-Aeo" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="4Cj-VE-wEM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VZf-6j-1LB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1446" y="111"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="aEY-r6-GFl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="About" id="TFj-7c-B5M" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="IXm-TF-Vra"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fXx-X6-j9H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1420" y="212"/>
+        </scene>
+        <!--Niche-->
+        <scene sceneID="XmT-P2-bgo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Niche" id="uuz-te-hQD" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="1oi-iH-Cby"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ilA-Ed-VGy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1420" y="77"/>
+        </scene>
+        <!--QRCode-->
+        <scene sceneID="oKL-rB-dGO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="QRCode" id="b2t-Wf-ejf" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="O8R-mV-JVh"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yRa-Tk-n74" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1432" y="12"/>
+        </scene>
+        <!--Personal-->
+        <scene sceneID="0ZK-JM-Xi6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Personal" id="Rlq-Dg-dgJ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="U3o-ug-zEN"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9mp-UM-afb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="609" y="590"/>
+        </scene>
+        <!--NotifyList-->
+        <scene sceneID="zre-3Y-Cvo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NotifyList" id="MCx-dp-5Kp" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="MXq-MW-8eU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bDD-1V-rfS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1438" y="45"/>
+        </scene>
+        <!--Collections-->
+        <scene sceneID="X6F-Hw-UJ5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Collections" id="s1p-VU-AU1" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="axv-tl-tTx"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YqS-on-8zI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="778" y="590"/>
+        </scene>
+        <!--Follows-->
+        <scene sceneID="vgy-aP-UGb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Follows" id="Pe7-hb-lnF" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hpc-w2-QEx"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xxy-nh-d3r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="942" y="590"/>
         </scene>
     </scenes>
     <resources>

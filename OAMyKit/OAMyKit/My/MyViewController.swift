@@ -15,7 +15,7 @@ import OAGlobalKit
 
 public class MyViewController: BaseTableViewController {
     
-    public static func configureWith() -> MyViewController? {
+    public static func configureWith() -> UIViewController? {
         return MyStoryboard.My.instantiate(MyViewController.self)
     }
     
