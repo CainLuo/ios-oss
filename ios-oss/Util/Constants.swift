@@ -17,3 +17,9 @@ struct Constants {
         case success = 0
     }
 }
+
+extension Constants {
+    enum Scheme {
+        static let my = URL(string: "productScheme://ModuleMy")!
+    }
+}

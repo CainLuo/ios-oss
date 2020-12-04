@@ -7,6 +7,7 @@
 
 import UIKit
 import SwifterSwift
+import OAMyKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIViewController.doBadSwizzleStuff()
         UIView.doBadSwizzleStuff()
         configNavigationBar()
-
+        
+        MyConnector.instance().register()
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = Storyboard.Launch.instantiate(LaunchViewController.self)
         window?.makeKeyAndVisible()

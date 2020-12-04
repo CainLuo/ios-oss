@@ -9,11 +9,11 @@ import UIKit
 import OAComponentManagerKit
 
 extension MyViewController: ComponentManagerPrt {
-    func canOpenURL(_ url: URL) -> Bool {
+    public func canOpenURL(_ url: URL) -> Bool {
         return url.host == "ModuleMy"
     }
 
-    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>?, completion: (([String : Any]) -> Void)?) -> UIViewController? {
+    public func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>?, completion: (([String : Any]) -> Void)?) -> UIViewController? {
         let vc = MyViewController.configureWith()
         return vc
     }

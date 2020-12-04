@@ -7,6 +7,7 @@
 
 import UIKit
 import OAGlobalKit
+import OAMyKit
 
 class TabBarViewController: BaseTabBarController {
 
@@ -17,6 +18,7 @@ class TabBarViewController: BaseTabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewControllers = configViewControllers()
     }
     
     override func bindViewModel() {
@@ -28,5 +30,12 @@ class TabBarViewController: BaseTabBarController {
                 }
             })
             .disposed(by: disposeBag)
+    }
+}
+
+// MARK: Config ViewControllers
+extension TabBarViewController {
+    func configViewControllers() -> [UIViewController] {
+        return [MyConnector.instance().connectToOpenURL(Constants.Scheme.my, parameters: nil, completion: nil)!]
     }
 }

@@ -8,10 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2722DB43933C303250973380 /* Pods_OAServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DB40061A10131D73FB5292 /* Pods_OAServiceKit.framework */; };
+		4D6D1365257A6C99009AE5D9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D135F257A6C98009AE5D9 /* BaseViewController.swift */; };
+		4D6D1366257A6C99009AE5D9 /* BaseNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1360257A6C98009AE5D9 /* BaseNavigationBar.swift */; };
+		4D6D1367257A6C99009AE5D9 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1361257A6C98009AE5D9 /* BaseTabBarController.swift */; };
+		4D6D1368257A6C99009AE5D9 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1362257A6C99009AE5D9 /* BaseCollectionViewController.swift */; };
+		4D6D1369257A6C99009AE5D9 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1363257A6C99009AE5D9 /* BaseNavigationController.swift */; };
+		4D6D136A257A6C99009AE5D9 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1364257A6C99009AE5D9 /* BaseTableViewController.swift */; };
 		4DC0A659257A65BD0008BB39 /* OAServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC0A657257A65BD0008BB39 /* OAServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D6D135F257A6C98009AE5D9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4D6D1360257A6C98009AE5D9 /* BaseNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationBar.swift; sourceTree = "<group>"; };
+		4D6D1361257A6C98009AE5D9 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		4D6D1362257A6C99009AE5D9 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		4D6D1363257A6C99009AE5D9 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		4D6D1364257A6C99009AE5D9 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		4DC0A654257A65BD0008BB39 /* OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC0A657257A65BD0008BB39 /* OAServiceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAServiceKit.h; sourceTree = "<group>"; };
 		4DC0A658257A65BD0008BB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +65,12 @@
 		4DC0A656257A65BD0008BB39 /* OAServiceKit */ = {
 			isa = PBXGroup;
 			children = (
+				4D6D1362257A6C99009AE5D9 /* BaseCollectionViewController.swift */,
+				4D6D1360257A6C98009AE5D9 /* BaseNavigationBar.swift */,
+				4D6D1363257A6C99009AE5D9 /* BaseNavigationController.swift */,
+				4D6D1361257A6C98009AE5D9 /* BaseTabBarController.swift */,
+				4D6D1364257A6C99009AE5D9 /* BaseTableViewController.swift */,
+				4D6D135F257A6C98009AE5D9 /* BaseViewController.swift */,
 				4DC0A657257A65BD0008BB39 /* OAServiceKit.h */,
 				4DC0A658257A65BD0008BB39 /* Info.plist */,
 			);
@@ -120,6 +138,7 @@
 				TargetAttributes = {
 					4DC0A653257A65BD0008BB39 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -181,6 +200,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6D136A257A6C99009AE5D9 /* BaseTableViewController.swift in Sources */,
+				4D6D1366257A6C99009AE5D9 /* BaseNavigationBar.swift in Sources */,
+				4D6D1365257A6C99009AE5D9 /* BaseViewController.swift in Sources */,
+				4D6D1367257A6C99009AE5D9 /* BaseTabBarController.swift in Sources */,
+				4D6D1369257A6C99009AE5D9 /* BaseNavigationController.swift in Sources */,
+				4D6D1368257A6C99009AE5D9 /* BaseCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A91F5D96315FB34D79B8EA61 /* Pods-OAServiceKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -329,6 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunyu.OAServiceKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -338,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BDD533EC92435DF5B30284D /* Pods-OAServiceKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
