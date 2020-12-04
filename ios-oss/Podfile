@@ -41,6 +41,7 @@ target 'ios-oss' do
   # UI
   pod 'STPopup'# https://github.com/kevin0571/STPopup.git
   pod 'MJRefresh' # https://github.com/CoderMJLee/MJRefresh.git
+  pod 'DZNEmptyDataSet' # https://github.com/dzenbot/DZNEmptyDataSet
 
   # Auto Layout
   pod 'SnapKit' # https://github.com/SnapKit/SnapKit
