@@ -10,6 +10,10 @@ Differentiator:
   LABEL: Differentiator
   PROJECT_PATH: Differentiator.xcodeproj
   UUID: F291182B2B4D411554E59174A5380856
+DZNEmptyDataSet:
+  LABEL: DZNEmptyDataSet
+  PROJECT_PATH: DZNEmptyDataSet.xcodeproj
+  UUID: 5390A4813CA895AB17A02E741571EB33
 HBDNavigationBar:
   LABEL: HBDNavigationBar
   PROJECT_PATH: HBDNavigationBar.xcodeproj

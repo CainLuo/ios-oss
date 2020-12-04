@@ -120,6 +120,7 @@
 		4DE81CFB256CE2BC0013C1F9 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CFA256CE2BC0013C1F9 /* HUD.swift */; };
 		4DE81D00256CE3490013C1F9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CFF256CE3490013C1F9 /* WebViewController.swift */; };
 		4DE81D04256CE3870013C1F9 /* JSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81D03256CE3870013C1F9 /* JSWebViewController.swift */; };
+		7D0CABA9257A060C00074173 /* UIViewController+EmptyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CABA8257A060C00074173 /* UIViewController+EmptyData.swift */; };
 		7D0E9F572578893C007F321A /* BaseNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E9F562578893C007F321A /* BaseNavigationBar.swift */; };
 		AC4D7706F9F8989C73731B60 /* Pods_ios_oss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E69E6E0AF006C41D128308 /* Pods_ios_oss.framework */; };
 /* End PBXBuildFile section */
@@ -270,6 +271,7 @@
 		4DE81CFF256CE3490013C1F9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		4DE81D03256CE3870013C1F9 /* JSWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSWebViewController.swift; sourceTree = "<group>"; };
 		6EA5C715A9C6BFBBEC89045D /* Pods-ios-oss.preview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-oss.preview.xcconfig"; path = "Target Support Files/Pods-ios-oss/Pods-ios-oss.preview.xcconfig"; sourceTree = "<group>"; };
+		7D0CABA8257A060C00074173 /* UIViewController+EmptyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+EmptyData.swift"; sourceTree = "<group>"; };
 		7D0E9F562578893C007F321A /* BaseNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationBar.swift; sourceTree = "<group>"; };
 		9E4484CF2A05AF49022748FA /* Pods-ios-oss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-oss.release.xcconfig"; path = "Target Support Files/Pods-ios-oss/Pods-ios-oss.release.xcconfig"; sourceTree = "<group>"; };
 		A4E69E6E0AF006C41D128308 /* Pods_ios_oss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_oss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -593,6 +595,7 @@
 				4DE81CDE256CBD970013C1F9 /* UIViewController+Rx.swift */,
 				4DE81C32256CA5D60013C1F9 /* UIViewController+Swizzle.swift */,
 				4DDC9E3D256CF5610034D86E /* UIBarButtonItem+Extension.swift */,
+				7D0CABA8257A060C00074173 /* UIViewController+EmptyData.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1000,6 +1003,7 @@
 				4DE81C77256CB2450013C1F9 /* BaseNavigationController.swift in Sources */,
 				4D02B4EE2574DA9B0002C981 /* CollectionsViewModel.swift in Sources */,
 				4D02B4CC2574D6360002C981 /* QRCodeViewController.swift in Sources */,
+				7D0CABA9257A060C00074173 /* UIViewController+EmptyData.swift in Sources */,
 				4DE81CAD256CB9C40013C1F9 /* ApiService.swift in Sources */,
 				7D0E9F572578893C007F321A /* BaseNavigationBar.swift in Sources */,
 				4DDC9E3B256CF5290034D86E /* UIButton+Extension.swift in Sources */,

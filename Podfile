@@ -49,6 +49,7 @@ target 'ios-oss' do
   pod 'MJRefresh' # https://github.com/CoderMJLee/MJRefresh.git
   pod 'HBDNavigationBar' # https://github.com/listenzz/HBDNavigationBar
   pod 'MBProgressHUD' # https://github.com/jdg/MBProgressHUD
+  pod 'DZNEmptyDataSet' # https://github.com/dzenbot/DZNEmptyDataSet
 
   # Auto Layout
   pod 'SnapKit' # https://github.com/SnapKit/SnapKit
