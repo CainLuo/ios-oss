@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D6D1296257A68E1009AE5D9 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1295257A68E1009AE5D9 /* Storyboard.swift */; };
+		4D6D1312257A6950009AE5D9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1311257A6950009AE5D9 /* Logger.swift */; };
 		4DC0A643257A658B0008BB39 /* OAGlobalKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC0A641257A658B0008BB39 /* OAGlobalKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6C77AA351DA6FC7E68E949C /* Pods_OAGlobalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C7290D7053D4889FD6514D /* Pods_OAGlobalKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B46DFAC1F6B6B1CC060C363 /* Pods-OAGlobalKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAGlobalKit.release.xcconfig"; path = "Target Support Files/Pods-OAGlobalKit/Pods-OAGlobalKit.release.xcconfig"; sourceTree = "<group>"; };
+		4D6D1295257A68E1009AE5D9 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		4D6D1311257A6950009AE5D9 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		4DC0A63E257A658B0008BB39 /* OAGlobalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAGlobalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC0A641257A658B0008BB39 /* OAGlobalKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAGlobalKit.h; sourceTree = "<group>"; };
 		4DC0A642257A658B0008BB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,10 +39,10 @@
 		4DC0A634257A658B0008BB39 = {
 			isa = PBXGroup;
 			children = (
-				4DC0A640257A658B0008BB39 /* OAGlobalKit */,
-				4DC0A63F257A658B0008BB39 /* Products */,
-				E76200B4BAC7E2153231A287 /* Pods */,
 				EBAA091739159E997FC0DED5 /* Frameworks */,
+				4DC0A640257A658B0008BB39 /* OAGlobalKit */,
+				E76200B4BAC7E2153231A287 /* Pods */,
+				4DC0A63F257A658B0008BB39 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,8 +57,10 @@
 		4DC0A640257A658B0008BB39 /* OAGlobalKit */ = {
 			isa = PBXGroup;
 			children = (
-				4DC0A641257A658B0008BB39 /* OAGlobalKit.h */,
 				4DC0A642257A658B0008BB39 /* Info.plist */,
+				4DC0A641257A658B0008BB39 /* OAGlobalKit.h */,
+				4D6D1295257A68E1009AE5D9 /* Storyboard.swift */,
+				4D6D1311257A6950009AE5D9 /* Logger.swift */,
 			);
 			path = OAGlobalKit;
 			sourceTree = "<group>";
@@ -120,6 +126,7 @@
 				TargetAttributes = {
 					4DC0A63D257A658B0008BB39 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -181,6 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6D1296257A68E1009AE5D9 /* Storyboard.swift in Sources */,
+				4D6D1312257A6950009AE5D9 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E41CC67587EF8EEDF0DA3EAA /* Pods-OAGlobalKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -329,6 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunyu.OAGlobalKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -338,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0B46DFAC1F6B6B1CC060C363 /* Pods-OAGlobalKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

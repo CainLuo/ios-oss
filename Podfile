@@ -12,8 +12,6 @@ install! 'cocoapods',
 
 def sharePods
   
-  pod 'CLExtensions+Rx'
-  
   # Network
   pod 'Moya/RxSwift' # https://github.com/Moya/Moya
   pod 'Moya-ObjectMapper/RxSwift' # https://github.com/bmoliveira/Moya-ObjectMapper

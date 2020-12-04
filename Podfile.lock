@@ -3,11 +3,6 @@ PODS:
     - RxCocoa (< 7.0, >= 5.0)
     - RxSwift (< 7.0, >= 5.0)
   - Alamofire (5.4.0)
-  - CLExtensions (1.1.4)
-  - "CLExtensions+Rx (1.1.4)":
-    - CLExtensions
-    - RxCocoa
-    - RxSwift
   - Differentiator (4.0.1)
   - DZNEmptyDataSet (1.8.1)
   - HBDNavigationBar (1.7.7)
@@ -105,7 +100,6 @@ PODS:
 
 DEPENDENCIES:
   - Action
-  - "CLExtensions+Rx"
   - DZNEmptyDataSet
   - HBDNavigationBar
   - Localize-Swift
@@ -133,8 +127,6 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Action
     - Alamofire
-    - CLExtensions
-    - "CLExtensions+Rx"
     - Differentiator
     - DZNEmptyDataSet
     - HBDNavigationBar
@@ -165,8 +157,6 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Action: 5dc2194f7a0b77857c82a677b0da655f197c005f
   Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
-  CLExtensions: 9d7046ef04835f9824d04fef822ba738ba17022b
-  "CLExtensions+Rx": 786fb8602edad2ed405870add70a90322374f394
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
@@ -194,6 +184,6 @@ SPEC CHECKSUMS:
   WKWebViewJavascriptBridge: 07ad0cab27cd61ccdb90b5deb223f6df3a03c3d7
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
 
-PODFILE CHECKSUM: 5a67bc0fff6ffcd7e9c2b18f71a84adc1f5e49b9
+PODFILE CHECKSUM: 765571be03123586fa166a317c2d2e157f7043e1
 
 COCOAPODS: 1.10.0

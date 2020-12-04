@@ -7,11 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D6D1329257A6999009AE5D9 /* Observable+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1316257A6999009AE5D9 /* Observable+Rx.swift */; };
+		4D6D132A257A6999009AE5D9 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1317257A6999009AE5D9 /* UIFont+Extension.swift */; };
+		4D6D132B257A6999009AE5D9 /* UIView+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1318257A6999009AE5D9 /* UIView+Swizzle.swift */; };
+		4D6D132C257A6999009AE5D9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1319257A6999009AE5D9 /* UIColor+Extension.swift */; };
+		4D6D132D257A6999009AE5D9 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D131A257A6999009AE5D9 /* UILabel+Extension.swift */; };
+		4D6D132E257A6999009AE5D9 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D131B257A6999009AE5D9 /* UIButton+Extension.swift */; };
+		4D6D132F257A6999009AE5D9 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D131C257A6999009AE5D9 /* NSLayoutConstraint+Extension.swift */; };
+		4D6D1330257A6999009AE5D9 /* UIViewController+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D131D257A6999009AE5D9 /* UIViewController+Swizzle.swift */; };
+		4D6D1331257A6999009AE5D9 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D131E257A6999009AE5D9 /* FileManager+Extension.swift */; };
+		4D6D1332257A6999009AE5D9 /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D131F257A6999009AE5D9 /* UIKit+Extension.swift */; };
+		4D6D1333257A6999009AE5D9 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1320257A6999009AE5D9 /* UIScreen+Extension.swift */; };
+		4D6D1334257A6999009AE5D9 /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1321257A6999009AE5D9 /* Foundation+Extension.swift */; };
+		4D6D1335257A6999009AE5D9 /* UIViewController+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1322257A6999009AE5D9 /* UIViewController+Debug.swift */; };
+		4D6D1336257A6999009AE5D9 /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1323257A6999009AE5D9 /* UIViewController+Rx.swift */; };
+		4D6D1337257A6999009AE5D9 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1324257A6999009AE5D9 /* UITextView+Extension.swift */; };
+		4D6D1338257A6999009AE5D9 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1325257A6999009AE5D9 /* UIBarButtonItem+Extension.swift */; };
+		4D6D1339257A6999009AE5D9 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1326257A6999009AE5D9 /* UITextField+Extension.swift */; };
+		4D6D133A257A6999009AE5D9 /* UIViewController+EmptyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1327257A6999009AE5D9 /* UIViewController+EmptyData.swift */; };
+		4D6D133B257A6999009AE5D9 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D1328257A6999009AE5D9 /* CALayer+Extension.swift */; };
+		4D6D133F257A69C2009AE5D9 /* OAGlobalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D133E257A69C2009AE5D9 /* OAGlobalKit.framework */; };
+		4D6D1340257A69C2009AE5D9 /* OAGlobalKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D133E257A69C2009AE5D9 /* OAGlobalKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DC0A66F257A65DB0008BB39 /* OAExtensionsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC0A66D257A65DB0008BB39 /* OAExtensionsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67A365288CD9CB206E7B363D /* Pods_OAExtensionsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4656737501E0750BFBE6960 /* Pods_OAExtensionsKit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4D6D1341257A69C2009AE5D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D6D1340257A69C2009AE5D9 /* OAGlobalKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4D6D1316257A6999009AE5D9 /* Observable+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Rx.swift"; sourceTree = "<group>"; };
+		4D6D1317257A6999009AE5D9 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		4D6D1318257A6999009AE5D9 /* UIView+Swizzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Swizzle.swift"; sourceTree = "<group>"; };
+		4D6D1319257A6999009AE5D9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		4D6D131A257A6999009AE5D9 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		4D6D131B257A6999009AE5D9 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		4D6D131C257A6999009AE5D9 /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
+		4D6D131D257A6999009AE5D9 /* UIViewController+Swizzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Swizzle.swift"; sourceTree = "<group>"; };
+		4D6D131E257A6999009AE5D9 /* FileManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		4D6D131F257A6999009AE5D9 /* UIKit+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
+		4D6D1320257A6999009AE5D9 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		4D6D1321257A6999009AE5D9 /* Foundation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
+		4D6D1322257A6999009AE5D9 /* UIViewController+Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Debug.swift"; sourceTree = "<group>"; };
+		4D6D1323257A6999009AE5D9 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Rx.swift"; sourceTree = "<group>"; };
+		4D6D1324257A6999009AE5D9 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		4D6D1325257A6999009AE5D9 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		4D6D1326257A6999009AE5D9 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		4D6D1327257A6999009AE5D9 /* UIViewController+EmptyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+EmptyData.swift"; sourceTree = "<group>"; };
+		4D6D1328257A6999009AE5D9 /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		4D6D133E257A69C2009AE5D9 /* OAGlobalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAGlobalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC0A66A257A65DB0008BB39 /* OAExtensionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAExtensionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC0A66D257A65DB0008BB39 /* OAExtensionsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAExtensionsKit.h; sourceTree = "<group>"; };
 		4DC0A66E257A65DB0008BB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -25,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6D133F257A69C2009AE5D9 /* OAGlobalKit.framework in Frameworks */,
 				67A365288CD9CB206E7B363D /* Pods_OAExtensionsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,9 +91,36 @@
 		15D81C77B0191E3EE205839E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D6D133E257A69C2009AE5D9 /* OAGlobalKit.framework */,
 				F4656737501E0750BFBE6960 /* Pods_OAExtensionsKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D6D1315257A6999009AE5D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D1328257A6999009AE5D9 /* CALayer+Extension.swift */,
+				4D6D131E257A6999009AE5D9 /* FileManager+Extension.swift */,
+				4D6D1321257A6999009AE5D9 /* Foundation+Extension.swift */,
+				4D6D131C257A6999009AE5D9 /* NSLayoutConstraint+Extension.swift */,
+				4D6D1316257A6999009AE5D9 /* Observable+Rx.swift */,
+				4D6D1325257A6999009AE5D9 /* UIBarButtonItem+Extension.swift */,
+				4D6D131B257A6999009AE5D9 /* UIButton+Extension.swift */,
+				4D6D1319257A6999009AE5D9 /* UIColor+Extension.swift */,
+				4D6D1317257A6999009AE5D9 /* UIFont+Extension.swift */,
+				4D6D131F257A6999009AE5D9 /* UIKit+Extension.swift */,
+				4D6D131A257A6999009AE5D9 /* UILabel+Extension.swift */,
+				4D6D1320257A6999009AE5D9 /* UIScreen+Extension.swift */,
+				4D6D1326257A6999009AE5D9 /* UITextField+Extension.swift */,
+				4D6D1324257A6999009AE5D9 /* UITextView+Extension.swift */,
+				4D6D1318257A6999009AE5D9 /* UIView+Swizzle.swift */,
+				4D6D1322257A6999009AE5D9 /* UIViewController+Debug.swift */,
+				4D6D1327257A6999009AE5D9 /* UIViewController+EmptyData.swift */,
+				4D6D1323257A6999009AE5D9 /* UIViewController+Rx.swift */,
+				4D6D131D257A6999009AE5D9 /* UIViewController+Swizzle.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		4DC0A660257A65DB0008BB39 = {
@@ -61,6 +144,7 @@
 		4DC0A66C257A65DB0008BB39 /* OAExtensionsKit */ = {
 			isa = PBXGroup;
 			children = (
+				4D6D1315257A6999009AE5D9 /* Extensions */,
 				4DC0A66D257A65DB0008BB39 /* OAExtensionsKit.h */,
 				4DC0A66E257A65DB0008BB39 /* Info.plist */,
 			);
@@ -100,6 +184,7 @@
 				4DC0A666257A65DB0008BB39 /* Sources */,
 				4DC0A667257A65DB0008BB39 /* Frameworks */,
 				4DC0A668257A65DB0008BB39 /* Resources */,
+				4D6D1341257A69C2009AE5D9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,6 +266,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6D133A257A6999009AE5D9 /* UIViewController+EmptyData.swift in Sources */,
+				4D6D1338257A6999009AE5D9 /* UIBarButtonItem+Extension.swift in Sources */,
+				4D6D132A257A6999009AE5D9 /* UIFont+Extension.swift in Sources */,
+				4D6D1330257A6999009AE5D9 /* UIViewController+Swizzle.swift in Sources */,
+				4D6D132F257A6999009AE5D9 /* NSLayoutConstraint+Extension.swift in Sources */,
+				4D6D1333257A6999009AE5D9 /* UIScreen+Extension.swift in Sources */,
+				4D6D133B257A6999009AE5D9 /* CALayer+Extension.swift in Sources */,
+				4D6D132B257A6999009AE5D9 /* UIView+Swizzle.swift in Sources */,
+				4D6D1332257A6999009AE5D9 /* UIKit+Extension.swift in Sources */,
+				4D6D1336257A6999009AE5D9 /* UIViewController+Rx.swift in Sources */,
+				4D6D132D257A6999009AE5D9 /* UILabel+Extension.swift in Sources */,
+				4D6D1337257A6999009AE5D9 /* UITextView+Extension.swift in Sources */,
+				4D6D1329257A6999009AE5D9 /* Observable+Rx.swift in Sources */,
+				4D6D1334257A6999009AE5D9 /* Foundation+Extension.swift in Sources */,
+				4D6D132C257A6999009AE5D9 /* UIColor+Extension.swift in Sources */,
+				4D6D1335257A6999009AE5D9 /* UIViewController+Debug.swift in Sources */,
+				4D6D132E257A6999009AE5D9 /* UIButton+Extension.swift in Sources */,
+				4D6D1331257A6999009AE5D9 /* FileManager+Extension.swift in Sources */,
+				4D6D1339257A6999009AE5D9 /* UITextField+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

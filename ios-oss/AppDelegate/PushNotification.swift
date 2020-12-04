@@ -7,6 +7,7 @@
 
 import UIKit
 import UserNotifications
+import OAGlobalKit
 
 extension AppDelegate {
     private func registerDevice(_ application: UIApplication) {

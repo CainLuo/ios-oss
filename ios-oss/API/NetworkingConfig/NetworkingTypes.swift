@@ -10,7 +10,7 @@ import Foundation
 import Moya
 import RxSwift
 import Alamofire
-
+import OAGlobalKit
 
 protocol NetworkingType {
     associatedtype T: TargetType

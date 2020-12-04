@@ -10,6 +10,7 @@ import Foundation
 import Moya
 import RxSwift
 import Alamofire
+import OAGlobalKit
 
 final class ApiProvider<Target> where Target: TargetType {
     fileprivate let provider: MoyaProvider<Target>

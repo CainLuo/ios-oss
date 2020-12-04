@@ -22,24 +22,6 @@ CACHE_KEYS:
     PROJECT_NAME: Alamofire
     SPECS:
       - Alamofire (5.4.0)
-  CLExtensions:
-    BUILD_SETTINGS_CHECKSUM:
-      CLExtensions:
-        :debug: 66ce6c2fdf553054d9677fce9d298877
-        :release: 66ce6c2fdf553054d9677fce9d298877
-    CHECKSUM: 9d7046ef04835f9824d04fef822ba738ba17022b
-    PROJECT_NAME: CLExtensions
-    SPECS:
-      - CLExtensions (1.1.4)
-  "CLExtensions+Rx":
-    BUILD_SETTINGS_CHECKSUM:
-      "CLExtensions+Rx":
-        :debug: baa0bcfc2b94a88ef79b275cd49fb94f
-        :release: baa0bcfc2b94a88ef79b275cd49fb94f
-    CHECKSUM: 786fb8602edad2ed405870add70a90322374f394
-    PROJECT_NAME: "CLExtensions+Rx"
-    SPECS:
-      - "CLExtensions+Rx (1.1.4)"
   Differentiator:
     BUILD_SETTINGS_CHECKSUM:
       Differentiator:
@@ -156,42 +138,42 @@ CACHE_KEYS:
       - ObjectMapper (4.2.0)
   Pods-ios-oss:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 6226ae2a07f18567ab4465c058c35492
-      Live: 6226ae2a07f18567ab4465c058c35492
-      Preview: 6226ae2a07f18567ab4465c058c35492
-      Release: 69e0317deb4cd3294be0241964879b80
+      Debug: a1d951c5e027a842693c8a00cfce9203
+      Live: a1d951c5e027a842693c8a00cfce9203
+      Preview: a1d951c5e027a842693c8a00cfce9203
+      Release: aea2ea25b77860f1e12f0508871d9279
   Pods-OAComponentManagerExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 132f859d0cd92662333d8a1448fc1229
-      Release: 132f859d0cd92662333d8a1448fc1229
+      Debug: afc5dcf911807294e620f648b39d8e33
+      Release: afc5dcf911807294e620f648b39d8e33
   Pods-OAComponentManagerKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: e0378e781bca8877a5693f97c9da457f
-      Release: e0378e781bca8877a5693f97c9da457f
+      Debug: 97745ebadae58685d86d9fd7a6c9afff
+      Release: 97745ebadae58685d86d9fd7a6c9afff
   Pods-OAExtensionsKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: e0378e781bca8877a5693f97c9da457f
-      Release: e0378e781bca8877a5693f97c9da457f
+      Debug: 97745ebadae58685d86d9fd7a6c9afff
+      Release: 97745ebadae58685d86d9fd7a6c9afff
   Pods-OAGlobalKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: e0378e781bca8877a5693f97c9da457f
-      Release: e0378e781bca8877a5693f97c9da457f
+      Debug: 97745ebadae58685d86d9fd7a6c9afff
+      Release: 97745ebadae58685d86d9fd7a6c9afff
   Pods-OAMyExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 132f859d0cd92662333d8a1448fc1229
-      Release: 132f859d0cd92662333d8a1448fc1229
+      Debug: afc5dcf911807294e620f648b39d8e33
+      Release: afc5dcf911807294e620f648b39d8e33
   Pods-OAMyKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: e0378e781bca8877a5693f97c9da457f
-      Release: e0378e781bca8877a5693f97c9da457f
+      Debug: 97745ebadae58685d86d9fd7a6c9afff
+      Release: 97745ebadae58685d86d9fd7a6c9afff
   Pods-OANavigatorKit:
     BUILD_SETTINGS_CHECKSUM:
       Debug: b95286beeb8ea407e13ee26874fb1254
       Release: b95286beeb8ea407e13ee26874fb1254
   Pods-OAServiceKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: e0378e781bca8877a5693f97c9da457f
-      Release: e0378e781bca8877a5693f97c9da457f
+      Debug: 97745ebadae58685d86d9fd7a6c9afff
+      Release: 97745ebadae58685d86d9fd7a6c9afff
   RxCocoa:
     BUILD_SETTINGS_CHECKSUM:
       RxCocoa:
