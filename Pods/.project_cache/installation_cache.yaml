@@ -275,6 +275,6 @@ CACHE_KEYS:
     SPECS:
       - XCGLogger (7.0.1)
       - XCGLogger/Core (7.0.1)
-OBJECT_VERSION: 51
+OBJECT_VERSION: 50
 PLUGINS:
   {}

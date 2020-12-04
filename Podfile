@@ -74,6 +74,7 @@ post_install do |installer|
         config.build_settings['ENABLE_BITCODE'] = 'YES'
 #          if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 12.0
             config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+            config.build_settings['MACOS_DEPLOYMENT_TARGET'] = '10.15'
 #          end
       end
       project.targets.each do |target|
@@ -81,6 +82,7 @@ post_install do |installer|
           config.build_settings['ENABLE_BITCODE'] = 'YES'
 #          if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 12.0
             config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+            config.build_settings['MACOS_DEPLOYMENT_TARGET'] = '10.15'
 #          end
         end
       end
