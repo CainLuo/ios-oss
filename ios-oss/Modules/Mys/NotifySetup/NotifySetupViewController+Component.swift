@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import OAComponentManagerKit
 
 extension NotifySetupViewController: ComponentManagerPrt {
-    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>) -> UIViewController? {
+    func canOpenURL(_ url: URL) -> Bool {
+        return url.host == "ModuleNotifySetup"
+    }
+
+    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>?, completion: (([String : Any]) -> Void)?) -> UIViewController? {
         let vc = NotifySetupViewController.configureWith()
         return vc
-    }
-    
-    func connectToHandle(_ prt: Protocol) -> Any? {
-        return nil
     }
 }

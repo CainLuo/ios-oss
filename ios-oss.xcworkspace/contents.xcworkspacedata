@@ -8,6 +8,6 @@
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:OAComponentManager/OAComponentManager.xcodeproj">
+      location = "group:OAComponentManagerKit/OAComponentManagerKit.xcodeproj">
    </FileRef>
 </Workspace>

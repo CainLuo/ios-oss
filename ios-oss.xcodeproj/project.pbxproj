@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -42,7 +42,6 @@
 		4D02B5062574DB680002C981 /* PersonalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5052574DB680002C981 /* PersonalViewModel.swift */; };
 		4D02B5092574DB790002C981 /* PrivacyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5082574DB790002C981 /* PrivacyViewModel.swift */; };
 		4D02B50C2574DB890002C981 /* QRCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B50B2574DB890002C981 /* QRCodeViewModel.swift */; };
-		4D02B5122574DF730002C981 /* ComponentManagerPrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5112574DF730002C981 /* ComponentManagerPrt.swift */; };
 		4D02B5162574DFA80002C981 /* AboutViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5152574DFA80002C981 /* AboutViewController+Component.swift */; };
 		4D02B5192574DFF00002C981 /* CollectionsViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5182574DFF00002C981 /* CollectionsViewController+Component.swift */; };
 		4D02B51C2574E0190002C981 /* CommentsViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B51B2574E0190002C981 /* CommentsViewController+Component.swift */; };
@@ -58,6 +57,8 @@
 		4D02B53A2574E1310002C981 /* QRCodeViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5392574E1310002C981 /* QRCodeViewController+Component.swift */; };
 		4D15D5572577AA9400FC7CE9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D15D5592577AA9400FC7CE9 /* Localizable.strings */; };
 		4D4C376D2577C0130021090F /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C376C2577C0130021090F /* My.storyboard */; };
+		4D67DA0B257A534200FDB68A /* OAComponentManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D67DA0A257A534200FDB68A /* OAComponentManagerKit.framework */; };
+		4D67DA0C257A534200FDB68A /* OAComponentManagerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D67DA0A257A534200FDB68A /* OAComponentManagerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DA46F1E257892D700C91078 /* ios_ossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46F1D257892D700C91078 /* ios_ossUITests.swift */; };
 		4DA46F30257892DC00C91078 /* ios_ossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46F2F257892DC00C91078 /* ios_ossTests.swift */; };
 		4DDC9E28256CF3960034D86E /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E27256CF3960034D86E /* CALayer+Extension.swift */; };
@@ -142,6 +143,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4D67DA0D257A534200FDB68A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D67DA0C257A534200FDB68A /* OAComponentManagerKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4D02B43E2574CDAA0002C981 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		4D02B4412574CDB50002C981 /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
@@ -178,7 +193,6 @@
 		4D02B5052574DB680002C981 /* PersonalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewModel.swift; sourceTree = "<group>"; };
 		4D02B5082574DB790002C981 /* PrivacyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewModel.swift; sourceTree = "<group>"; };
 		4D02B50B2574DB890002C981 /* QRCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewModel.swift; sourceTree = "<group>"; };
-		4D02B5112574DF730002C981 /* ComponentManagerPrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentManagerPrt.swift; sourceTree = "<group>"; };
 		4D02B5152574DFA80002C981 /* AboutViewController+Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AboutViewController+Component.swift"; sourceTree = "<group>"; };
 		4D02B5182574DFF00002C981 /* CollectionsViewController+Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionsViewController+Component.swift"; sourceTree = "<group>"; };
 		4D02B51B2574E0190002C981 /* CommentsViewController+Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommentsViewController+Component.swift"; sourceTree = "<group>"; };
@@ -202,6 +216,7 @@
 		4D4C376C2577C0130021090F /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
 		4D4C376F2577C0450021090F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4D4C37702577C0450021090F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D67DA0A257A534200FDB68A /* OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA46F1B257892D700C91078 /* ios-ossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ossUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA46F1D257892D700C91078 /* ios_ossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ossUITests.swift; sourceTree = "<group>"; };
 		4DA46F1F257892D700C91078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -299,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4D7706F9F8989C73731B60 /* Pods_ios_oss.framework in Frameworks */,
+				4D67DA0B257A534200FDB68A /* OAComponentManagerKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,14 +462,6 @@
 			path = Comments;
 			sourceTree = "<group>";
 		};
-		4D02B5102574DF510002C981 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				4D02B5112574DF730002C981 /* ComponentManagerPrt.swift */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
 		4DA46F1C257892D700C91078 /* ios-ossUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -517,7 +525,6 @@
 		4DE81BEC256CA02D0013C1F9 /* ios-oss */ = {
 			isa = PBXGroup;
 			children = (
-				4D02B5102574DF510002C981 /* Protocol */,
 				4DE81C92256CB9110013C1F9 /* API */,
 				4DE81C0B256CA4380013C1F9 /* AppDelegate */,
 				4DE81C45256CA6B30013C1F9 /* Base */,
@@ -760,6 +767,7 @@
 		7A5BD1161A8313DC7D49ECF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D67DA0A257A534200FDB68A /* OAComponentManagerKit.framework */,
 				A4E69E6E0AF006C41D128308 /* Pods_ios_oss.framework */,
 			);
 			name = Frameworks;
@@ -813,6 +821,7 @@
 				4DE81BE7256CA02D0013C1F9 /* Frameworks */,
 				4DE81BE8256CA02D0013C1F9 /* Resources */,
 				5B4C270B0C9C8C433F15004B /* [CP] Embed Pods Frameworks */,
+				4D67DA0D257A534200FDB68A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -944,9 +953,11 @@
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-oss/Pods-ios-oss-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-oss/Pods-ios-oss-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1044,7 +1055,6 @@
 				4D02B4E22574D8F00002C981 /* CommentsViewController.swift in Sources */,
 				4D02B5312574E0EC0002C981 /* NotifySetupViewController+Component.swift in Sources */,
 				4D02B49C2574D1F00002C981 /* NotifyListViewController.swift in Sources */,
-				4D02B5122574DF730002C981 /* ComponentManagerPrt.swift in Sources */,
 				4DE81C5A256CAA170013C1F9 /* LoginViewController.swift in Sources */,
 				4DE81C1F256CA4CC0013C1F9 /* Storyboard.swift in Sources */,
 				4D02B4902574D10D0002C981 /* PrivacyViewController.swift in Sources */,

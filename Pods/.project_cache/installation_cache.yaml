@@ -142,7 +142,7 @@ CACHE_KEYS:
       Live: a1d951c5e027a842693c8a00cfce9203
       Preview: a1d951c5e027a842693c8a00cfce9203
       Release: aea2ea25b77860f1e12f0508871d9279
-  Pods-OAComponentManager:
+  Pods-OAComponentManagerKit:
     BUILD_SETTINGS_CHECKSUM:
       Debug: b95286beeb8ea407e13ee26874fb1254
       Release: b95286beeb8ea407e13ee26874fb1254

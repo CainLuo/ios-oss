@@ -5,10 +5,10 @@ use_frameworks!
 inhibit_all_warnings!
 
 workspace 'ios-oss.xcworkspace'
-install! 'cocoapods',
-         disable_input_output_paths: true,
-         generate_multiple_pod_projects: true,
-         incremental_installation: true
+#install! 'cocoapods',
+#         disable_input_output_paths: true,
+#         generate_multiple_pod_projects: true,
+#         incremental_installation: true
 
 target 'ios-oss' do
 
@@ -90,6 +90,6 @@ post_install do |installer|
     end
 end
 
-target 'OAComponentManager' do
-  project 'OAComponentManager/OAComponentManager.xcodeproj'
+target 'OAComponentManagerKit' do
+  project 'OAComponentManagerKit/OAComponentManagerKit.xcodeproj'
 end

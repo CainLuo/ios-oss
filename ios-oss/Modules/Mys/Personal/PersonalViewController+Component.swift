@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import OAComponentManagerKit
 
 extension PersonalViewController: ComponentManagerPrt {
-    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>) -> UIViewController? {
+    func canOpenURL(_ url: URL) -> Bool {
+        return url.host == "ModulePersonal"
+    }
+
+    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>?, completion: (([String : Any]) -> Void)?) -> UIViewController? {
         let vc = PersonalViewController.configureWith()
         return vc
-    }
-    
-    func connectToHandle(_ prt: Protocol) -> Any? {
-        return nil
     }
 }

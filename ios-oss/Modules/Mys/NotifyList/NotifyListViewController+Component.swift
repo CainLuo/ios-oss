@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import OAComponentManagerKit
 
 extension NotifyListViewController: ComponentManagerPrt {
-    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>) -> UIViewController? {
+    func canOpenURL(_ url: URL) -> Bool {
+        return url.host == "ModuleNotifyList"
+    }
+
+    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>?, completion: (([String : Any]) -> Void)?) -> UIViewController? {
         let vc = NotifyListViewController.configureWith()
         return vc
-    }
-    
-    func connectToHandle(_ prt: Protocol) -> Any? {
-        return nil
     }
 }

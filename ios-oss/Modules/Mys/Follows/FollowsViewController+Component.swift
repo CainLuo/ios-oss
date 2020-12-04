@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import OAComponentManagerKit
 
 extension FollowsViewController: ComponentManagerPrt {
-    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>) -> UIViewController? {
+    func canOpenURL(_ url: URL) -> Bool {
+        return url.host == "ModuleFollows"
+    }
+
+    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>?, completion: (([String : Any]) -> Void)?) -> UIViewController? {
         let vc = FollowsViewController.configureWith()
         return vc
-    }
-    
-    func connectToHandle(_ prt: Protocol) -> Any? {
-        return nil
     }
 }

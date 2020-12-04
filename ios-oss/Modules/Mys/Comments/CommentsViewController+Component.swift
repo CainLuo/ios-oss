@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import OAComponentManagerKit
 
 extension CommentsViewController: ComponentManagerPrt {
-    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>) -> UIViewController? {
+    func canOpenURL(_ url: URL) -> Bool {
+        return url.host == "ModuleComments"
+    }
+
+    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>?, completion: (([String : Any]) -> Void)?) -> UIViewController? {
         let vc = CommentsViewController.configureWith()
         return vc
-    }
-    
-    func connectToHandle(_ prt: Protocol) -> Any? {
-        return nil
     }
 }

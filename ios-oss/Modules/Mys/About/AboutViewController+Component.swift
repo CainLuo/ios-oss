@@ -6,14 +6,16 @@
 //
 
 import UIKit
+import OAComponentManagerKit
 
 extension AboutViewController: ComponentManagerPrt {
-    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>) -> UIViewController? {
-        let vc = AboutViewController.configureWith()
-        return vc
+    func canOpenURL(_ url: URL) -> Bool {
+        return url.host == "ModuleAbout"
     }
     
-    func connectToHandle(_ prt: Protocol) -> Any? {
-        return nil
+    func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>?, completion: (([String : Any]) -> Void)?) -> UIViewController? {
+        guard canOpenURL(url) else { return nil }
+        let vc = AboutViewController.configureWith()
+        return vc
     }
 }
