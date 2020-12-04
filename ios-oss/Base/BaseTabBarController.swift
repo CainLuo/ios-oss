@@ -8,8 +8,8 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import OAExtensionsKit
 import OAGlobalKit
+import OAExtensionsKit
 
 class BaseTabBarController: UITabBarController {
 

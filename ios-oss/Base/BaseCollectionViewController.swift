@@ -9,6 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 import OAGlobalKit
+import OAExtensionsKit
 
 class BaseCollectionViewController: UICollectionViewController {
 

@@ -64,6 +64,12 @@
 		4D6D1348257A6A8B009AE5D9 /* OAGlobalKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1346257A6A8B009AE5D9 /* OAGlobalKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D6D134C257A6A91009AE5D9 /* OAExtensionsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D134B257A6A91009AE5D9 /* OAExtensionsKit.framework */; };
 		4D6D134D257A6A91009AE5D9 /* OAExtensionsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D134B257A6A91009AE5D9 /* OAExtensionsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D6D1353257A6C3B009AE5D9 /* OANavigatorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1352257A6C3B009AE5D9 /* OANavigatorKit.framework */; };
+		4D6D1354257A6C3B009AE5D9 /* OANavigatorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1352257A6C3B009AE5D9 /* OANavigatorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D6D1358257A6C41009AE5D9 /* OAServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1357257A6C41009AE5D9 /* OAServiceKit.framework */; };
+		4D6D1359257A6C41009AE5D9 /* OAServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1357257A6C41009AE5D9 /* OAServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D6D135B257A6C4B009AE5D9 /* OAMyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D135A257A6C4B009AE5D9 /* OAMyKit.framework */; };
+		4D6D135C257A6C4B009AE5D9 /* OAMyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D135A257A6C4B009AE5D9 /* OAMyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DA46F1E257892D700C91078 /* ios_ossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46F1D257892D700C91078 /* ios_ossUITests.swift */; };
 		4DA46F30257892DC00C91078 /* ios_ossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46F2F257892DC00C91078 /* ios_ossTests.swift */; };
 		4DDC9E82256E36B90034D86E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC9E81256E36B90034D86E /* LoginViewModel.swift */; };
@@ -135,8 +141,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				4D6D1354257A6C3B009AE5D9 /* OANavigatorKit.framework in Embed Frameworks */,
+				4D6D135C257A6C4B009AE5D9 /* OAMyKit.framework in Embed Frameworks */,
 				4D67DA0C257A534200FDB68A /* OAComponentManagerKit.framework in Embed Frameworks */,
 				4D6D134D257A6A91009AE5D9 /* OAExtensionsKit.framework in Embed Frameworks */,
+				4D6D1359257A6C41009AE5D9 /* OAServiceKit.framework in Embed Frameworks */,
 				4D2C8C85257A5DB6001C832B /* Pods_OAMyKit.framework in Embed Frameworks */,
 				4D6D1348257A6A8B009AE5D9 /* OAGlobalKit.framework in Embed Frameworks */,
 			);
@@ -208,6 +217,9 @@
 		4D67DA0A257A534200FDB68A /* OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6D1346257A6A8B009AE5D9 /* OAGlobalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAGlobalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6D134B257A6A91009AE5D9 /* OAExtensionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAExtensionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6D1352257A6C3B009AE5D9 /* OANavigatorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OANavigatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6D1357257A6C41009AE5D9 /* OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6D135A257A6C4B009AE5D9 /* OAMyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAMyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA46F1B257892D700C91078 /* ios-ossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ossUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA46F1D257892D700C91078 /* ios_ossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ossUITests.swift; sourceTree = "<group>"; };
 		4DA46F1F257892D700C91078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -284,8 +296,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6D1353257A6C3B009AE5D9 /* OANavigatorKit.framework in Frameworks */,
+				4D6D135B257A6C4B009AE5D9 /* OAMyKit.framework in Frameworks */,
 				AC4D7706F9F8989C73731B60 /* Pods_ios_oss.framework in Frameworks */,
 				4D6D134C257A6A91009AE5D9 /* OAExtensionsKit.framework in Frameworks */,
+				4D6D1358257A6C41009AE5D9 /* OAServiceKit.framework in Frameworks */,
 				4D67DA0B257A534200FDB68A /* OAComponentManagerKit.framework in Frameworks */,
 				4D6D1347257A6A8B009AE5D9 /* OAGlobalKit.framework in Frameworks */,
 			);
@@ -721,6 +736,9 @@
 		7A5BD1161A8313DC7D49ECF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D6D135A257A6C4B009AE5D9 /* OAMyKit.framework */,
+				4D6D1357257A6C41009AE5D9 /* OAServiceKit.framework */,
+				4D6D1352257A6C3B009AE5D9 /* OANavigatorKit.framework */,
 				4D6D134B257A6A91009AE5D9 /* OAExtensionsKit.framework */,
 				4D6D1346257A6A8B009AE5D9 /* OAGlobalKit.framework */,
 				4D67DA0A257A534200FDB68A /* OAComponentManagerKit.framework */,

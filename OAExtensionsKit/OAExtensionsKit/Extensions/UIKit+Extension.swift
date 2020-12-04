@@ -65,3 +65,9 @@ public extension UIApplication {
         }
     }
 }
+
+public extension UIViewController {
+    func setBackTitleEmpty() {
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+    }
+}

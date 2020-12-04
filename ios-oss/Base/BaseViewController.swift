@@ -9,6 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 import OAGlobalKit
+import OAExtensionsKit
 
 class BaseViewController: UIViewController {
 
@@ -33,11 +34,5 @@ extension NSObject {
     
     public var className: String {
         return type(of: self).className
-    }
-}
-
-extension UIViewController {
-    func setBackTitleEmpty() {
-        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
 }
