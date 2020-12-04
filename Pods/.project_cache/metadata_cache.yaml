@@ -54,6 +54,10 @@ Pods-ios-oss:
   LABEL: Pods-ios-oss
   PROJECT_PATH: Pods.xcodeproj
   UUID: 90A78E4CAB812688A486078E7DF21489
+Pods-OAComponentManager:
+  LABEL: Pods-OAComponentManager
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 1117C53D1ABAACABE0D26919FE7D691E
 RxCocoa:
   LABEL: RxCocoa
   PROJECT_PATH: RxCocoa.xcodeproj

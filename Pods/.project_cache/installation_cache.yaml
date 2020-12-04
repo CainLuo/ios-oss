@@ -133,6 +133,10 @@ CACHE_KEYS:
       Live: 0322b672372c07b4caf93e16929aa029
       Preview: 0322b672372c07b4caf93e16929aa029
       Release: 85b639ccbc104343b59715d017621ad6
+  Pods-OAComponentManager:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: b95286beeb8ea407e13ee26874fb1254
+      Release: b95286beeb8ea407e13ee26874fb1254
   RxCocoa:
     BUILD_SETTINGS_CHECKSUM:
       RxCocoa:

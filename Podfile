@@ -88,3 +88,7 @@ post_install do |installer|
       end
     end
 end
+
+target 'OAComponentManager' do
+  project 'OAComponentManager/OAComponentManager.xcodeproj'
+end
