@@ -6,6 +6,14 @@ Alamofire:
   LABEL: Alamofire
   PROJECT_PATH: Alamofire.xcodeproj
   UUID: 81B7E9B7CD0CADA087A4BB042FBA92E7
+CLExtensions:
+  LABEL: CLExtensions
+  PROJECT_PATH: CLExtensions.xcodeproj
+  UUID: 13E71CDCBF6019C06E3AB83869AC2241
+"CLExtensions+Rx":
+  LABEL: "CLExtensions+Rx"
+  PROJECT_PATH: "CLExtensions+Rx.xcodeproj"
+  UUID: 935E7BC08C1B6EF7663E70D1435D4440
 Differentiator:
   LABEL: Differentiator
   PROJECT_PATH: Differentiator.xcodeproj
@@ -62,10 +70,34 @@ Pods-OAComponentManager:
   LABEL: Pods-OAComponentManager
   PROJECT_PATH: Pods.xcodeproj
   UUID: 1117C53D1ABAACABE0D26919FE7D691E
+Pods-OAComponentManagerExample:
+  LABEL: Pods-OAComponentManagerExample
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 1750F0319AFA44BC19532D5F1FD4C29E
 Pods-OAComponentManagerKit:
   LABEL: Pods-OAComponentManagerKit
   PROJECT_PATH: Pods.xcodeproj
   UUID: 3651447EB3682999147B0E61F1523C82
+Pods-OAExtensionsKit:
+  LABEL: Pods-OAExtensionsKit
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 99943AD631241469DF03DAFB540A8A54
+Pods-OAGlobalKit:
+  LABEL: Pods-OAGlobalKit
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 692BED3FB6A20DEDADF803708B5B6393
+Pods-OAMyExample:
+  LABEL: Pods-OAMyExample
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 72C98043376BB86889C937010DC2793D
+Pods-OAMyKit:
+  LABEL: Pods-OAMyKit
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: CF22EF906FEF85FCF79B484959536522
+Pods-OAServiceKit:
+  LABEL: Pods-OAServiceKit
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 8023FBC04C3C3167A0C816F0D1683595
 RxCocoa:
   LABEL: RxCocoa
   PROJECT_PATH: RxCocoa.xcodeproj

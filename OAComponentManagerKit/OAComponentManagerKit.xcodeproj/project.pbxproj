@@ -22,11 +22,13 @@
 		4DE74A2E257A57A500EEFBB0 /* ModuleAItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE74A28257A57A400EEFBB0 /* ModuleAItem.swift */; };
 		4DE74A2F257A57A500EEFBB0 /* ModuleAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE74A29257A57A400EEFBB0 /* ModuleAViewController.swift */; };
 		4DE74A30257A57A500EEFBB0 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE74A2A257A57A400EEFBB0 /* Storyboard.swift */; };
+		DF8265B9FF383E8D934DC799 /* Pods_OAComponentManagerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1CA05DF7494FCDD9682E02 /* Pods_OAComponentManagerExample.framework */; };
 		F567FEC7644281C91B7CCB73 /* Pods_OAComponentManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A392E4A790EB255985F8788 /* Pods_OAComponentManagerKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A392E4A790EB255985F8788 /* Pods_OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0E6CF6326878F549509E89 /* Pods-OAComponentManagerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAComponentManagerExample.release.xcconfig"; path = "Target Support Files/Pods-OAComponentManagerExample/Pods-OAComponentManagerExample.release.xcconfig"; sourceTree = "<group>"; };
 		4DE22616257A50150051BF90 /* OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE22619257A50150051BF90 /* OAComponentManagerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAComponentManagerKit.h; sourceTree = "<group>"; };
 		4DE2261A257A50150051BF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,7 +49,9 @@
 		4DE74A29257A57A400EEFBB0 /* ModuleAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleAViewController.swift; sourceTree = "<group>"; };
 		4DE74A2A257A57A400EEFBB0 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		5B2EDE9F64774A08A1EC20BB /* Pods-OAComponentManagerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAComponentManagerKit.release.xcconfig"; path = "Target Support Files/Pods-OAComponentManagerKit/Pods-OAComponentManagerKit.release.xcconfig"; sourceTree = "<group>"; };
+		70091ECB2EBA423671F8F2BC /* Pods-OAComponentManagerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAComponentManagerExample.debug.xcconfig"; path = "Target Support Files/Pods-OAComponentManagerExample/Pods-OAComponentManagerExample.debug.xcconfig"; sourceTree = "<group>"; };
 		BAFC417DE60B322E129ED237 /* Pods-OAComponentManagerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAComponentManagerKit.debug.xcconfig"; path = "Target Support Files/Pods-OAComponentManagerKit/Pods-OAComponentManagerKit.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1CA05DF7494FCDD9682E02 /* Pods_OAComponentManagerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAComponentManagerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8265B9FF383E8D934DC799 /* Pods_OAComponentManagerExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				1A392E4A790EB255985F8788 /* Pods_OAComponentManagerKit.framework */,
+				BC1CA05DF7494FCDD9682E02 /* Pods_OAComponentManagerExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			children = (
 				BAFC417DE60B322E129ED237 /* Pods-OAComponentManagerKit.debug.xcconfig */,
 				5B2EDE9F64774A08A1EC20BB /* Pods-OAComponentManagerKit.release.xcconfig */,
+				70091ECB2EBA423671F8F2BC /* Pods-OAComponentManagerExample.debug.xcconfig */,
+				4B0E6CF6326878F549509E89 /* Pods-OAComponentManagerExample.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -183,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DE74A1F257A578800EEFBB0 /* Build configuration list for PBXNativeTarget "OAComponentManagerExample" */;
 			buildPhases = (
+				4051A9EA504173E7CD2BF3DB /* [CP] Check Pods Manifest.lock */,
 				4DE74A0A257A578800EEFBB0 /* Sources */,
 				4DE74A0B257A578800EEFBB0 /* Frameworks */,
 				4DE74A0C257A578800EEFBB0 /* Resources */,
+				52A2012F7E5C725B3D96F78A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +265,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4051A9EA504173E7CD2BF3DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OAComponentManagerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A2012F7E5C725B3D96F78A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OAComponentManagerExample/Pods-OAComponentManagerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6A574D78CCC03446F2AAB1AA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -503,11 +550,13 @@
 		};
 		4DE74A20257A578800EEFBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70091ECB2EBA423671F8F2BC /* Pods-OAComponentManagerExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OAComponentManagerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,11 +570,13 @@
 		};
 		4DE74A21257A578800EEFBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0E6CF6326878F549509E89 /* Pods-OAComponentManagerExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OAComponentManagerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

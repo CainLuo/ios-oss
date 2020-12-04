@@ -10,4 +10,16 @@
    <FileRef
       location = "group:OAComponentManagerKit/OAComponentManagerKit.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:OAMyKit/OAMyKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OAExtensionsKit/OAExtensionsKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OAGlobalKit/OAGlobalKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OAServiceKit/OAServiceKit.xcodeproj">
+   </FileRef>
 </Workspace>

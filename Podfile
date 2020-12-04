@@ -10,8 +10,10 @@ install! 'cocoapods',
          generate_multiple_pod_projects: true,
          incremental_installation: true
 
-target 'ios-oss' do
-
+def sharePods
+  
+  pod 'CLExtensions+Rx'
+  
   # Network
   pod 'Moya/RxSwift' # https://github.com/Moya/Moya
   pod 'Moya-ObjectMapper/RxSwift' # https://github.com/bmoliveira/Moya-ObjectMapper
@@ -56,6 +58,10 @@ target 'ios-oss' do
 
   # WKWebView Javascript
   pod 'WKWebViewJavascriptBridge' # https://github.com/Lision/WKWebViewJavascriptBridge
+end
+
+target 'ios-oss' do
+
   
   # UI Test Tools
   pod 'LookinServer', :configurations => ['Debug', 'Preview', 'Live']
@@ -90,6 +96,39 @@ post_install do |installer|
     end
 end
 
+# Connector Kits
 target 'OAComponentManagerKit' do
+  sharePods
+  project 'OAComponentManagerKit/OAComponentManagerKit.xcodeproj'
+end
+
+target 'OAMyKit' do
+  sharePods
+  project 'OAMyKit/OAMyKit.xcodeproj'
+end
+
+target 'OAGlobalKit' do
+  sharePods
+  project 'OAGlobalKit/OAGlobalKit.xcodeproj'
+end
+
+target 'OAExtensionsKit' do
+  sharePods
+  project 'OAExtensionsKit/OAExtensionsKit.xcodeproj'
+end
+
+target 'OAServiceKit' do
+  sharePods
+  project 'OAServiceKit/OAServiceKit.xcodeproj'
+end
+
+# Examples
+target 'OAMyExample' do
+  sharePods
+  project 'OAMyKit/OAMyKit.xcodeproj'
+end
+
+target 'OAComponentManagerExample' do
+  sharePods
   project 'OAComponentManagerKit/OAComponentManagerKit.xcodeproj'
 end

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -56,6 +56,7 @@
 		4D02B5372574E11B0002C981 /* PrivacyViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5362574E11B0002C981 /* PrivacyViewController+Component.swift */; };
 		4D02B53A2574E1310002C981 /* QRCodeViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B5392574E1310002C981 /* QRCodeViewController+Component.swift */; };
 		4D15D5572577AA9400FC7CE9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D15D5592577AA9400FC7CE9 /* Localizable.strings */; };
+		4D2C8C85257A5DB6001C832B /* Pods_OAMyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2C8C83257A5DB6001C832B /* Pods_OAMyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D4C376D2577C0130021090F /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C376C2577C0130021090F /* My.storyboard */; };
 		4D67DA0B257A534200FDB68A /* OAComponentManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D67DA0A257A534200FDB68A /* OAComponentManagerKit.framework */; };
 		4D67DA0C257A534200FDB68A /* OAComponentManagerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D67DA0A257A534200FDB68A /* OAComponentManagerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -151,6 +152,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				4D67DA0C257A534200FDB68A /* OAComponentManagerKit.framework in Embed Frameworks */,
+				4D2C8C85257A5DB6001C832B /* Pods_OAMyKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +211,7 @@
 		4D15D52C25779E7A00FC7CE9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		4D15D5582577AA9400FC7CE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4D15D55B2577AA9600FC7CE9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4D2C8C83257A5DB6001C832B /* Pods_OAMyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_OAMyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4C37642577BFE00021090F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		4D4C37652577BFE00021090F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4D4C37672577BFE40021090F /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -838,7 +841,7 @@
 		4DE81BE2256CA02D0013C1F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					4DA46F1A257892D700C91078 = {
@@ -953,11 +956,9 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-oss/Pods-ios-oss-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-oss/Pods-ios-oss-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
