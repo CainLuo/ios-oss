@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  OAComponentManager
+//  OAComponentManagerExample
 //
-//  Created by CainLuo on 2020/11/28.
+//  Created by YYKJ0048 on 2020/12/4.
 //
 
 import UIKit
@@ -14,10 +14,10 @@ class ViewController: UIViewController {
         let vc = Storyboard.Main.instantiate(ViewController.self)
         return vc
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // Do any additional setup after loading the view.
     }
     
     @IBAction func pushToModuleA(_ sender: Any) {

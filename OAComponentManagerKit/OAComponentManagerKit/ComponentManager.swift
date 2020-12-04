@@ -48,21 +48,7 @@ public class ComponentManager {
             let vc = value.connectToOpenURL(url, parameters: userParameters, completion: completion)
             
             if let vc = vc, vc.isKind(of: UIViewController.self) {
-                if vc.isKind(of: ErrorTipViewController.self) {
-                    let errorTipVC = vc as! ErrorTipViewController
-                    
-                    if errorTipVC.isNotURLSupport {
-                        isSuccess = true
-                    } else {
-                        isSuccess = false
-                        
-                        #if DEBUG
-                        // Show Debug
-                        assert(false, "传入的参数有误")
-                        #endif
-                    }
-                    
-                } else if checkViewController(vc.className) {
+                if checkViewController(vc.className) {
                     isSuccess = true
                 } else {
                     if let parameters = parameters {
@@ -76,9 +62,9 @@ public class ComponentManager {
         }
         
         #if DEBUG
-//        assert(false, "传入的参数有误")
         if !isSuccess && queryCount == connectorMap.count {
             // Show Debug
+            assert(false, "传入的参数有误")
             return false
         }
         #endif
@@ -114,12 +100,7 @@ public class ComponentManager {
         #endif
         
         if let vc = vc {
-            if vc.isKind(of: ErrorTipViewController.self) {
-                #if DEBUG
-                // Show Debug
-                #endif
-                return nil
-            } else if checkViewController(vc.className) {
+            if checkViewController(vc.className) {
                 return nil
             } else {
                 return vc
