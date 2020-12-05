@@ -44,15 +44,6 @@
 		4DE81C74256CB09E0013C1F9 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C73256CB09E0013C1F9 /* PushNotification.swift */; };
 		4DE81C77256CB2450013C1F9 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C76256CB2450013C1F9 /* BaseNavigationController.swift */; };
 		4DE81C90256CB8590013C1F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C8F256CB8590013C1F9 /* Constants.swift */; };
-		4DE81C9C256CB9410013C1F9 /* ApiNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C94256CB9410013C1F9 /* ApiNetworking.swift */; };
-		4DE81C9D256CB9410013C1F9 /* ApiService+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C95256CB9410013C1F9 /* ApiService+Request.swift */; };
-		4DE81C9E256CB9410013C1F9 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C96256CB9410013C1F9 /* ErrorTracker.swift */; };
-		4DE81C9F256CB9410013C1F9 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C97256CB9410013C1F9 /* ApiProvider.swift */; };
-		4DE81CA0256CB9410013C1F9 /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C98256CB9410013C1F9 /* ErrorType.swift */; };
-		4DE81CA1256CB9410013C1F9 /* CodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C99256CB9410013C1F9 /* CodeResponse.swift */; };
-		4DE81CA2256CB9410013C1F9 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C9A256CB9410013C1F9 /* SessionManager.swift */; };
-		4DE81CA3256CB9410013C1F9 /* NetworkingTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C9B256CB9410013C1F9 /* NetworkingTypes.swift */; };
-		4DE81CA6256CB9570013C1F9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CA5256CB9570013C1F9 /* ActivityIndicator.swift */; };
 		4DE81CAA256CB9B40013C1F9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CA9256CB9B40013C1F9 /* Router.swift */; };
 		4DE81CAD256CB9C40013C1F9 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CAC256CB9C40013C1F9 /* ApiService.swift */; };
 		4DE81CB0256CB9CD0013C1F9 /* ApiServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CAF256CB9CD0013C1F9 /* ApiServiceType.swift */; };
@@ -65,6 +56,9 @@
 		4DE81D04256CE3870013C1F9 /* JSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81D03256CE3870013C1F9 /* JSWebViewController.swift */; };
 		7D0E9F572578893C007F321A /* BaseNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E9F562578893C007F321A /* BaseNavigationBar.swift */; };
 		AC4D7706F9F8989C73731B60 /* Pods_ios_oss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E69E6E0AF006C41D128308 /* Pods_ios_oss.framework */; };
+		BFC727EE257B40B0006B7301 /* ApiNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC727E5257B40B0006B7301 /* ApiNetworking.swift */; };
+		BFC727EF257B40B0006B7301 /* ApiService+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC727E6257B40B0006B7301 /* ApiService+Request.swift */; };
+		BFC727F4257B40B0006B7301 /* CodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC727EB257B40B0006B7301 /* CodeResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,15 +144,6 @@
 		4DE81C73256CB09E0013C1F9 /* PushNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
 		4DE81C76256CB2450013C1F9 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		4DE81C8F256CB8590013C1F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		4DE81C94256CB9410013C1F9 /* ApiNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiNetworking.swift; sourceTree = "<group>"; };
-		4DE81C95256CB9410013C1F9 /* ApiService+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiService+Request.swift"; sourceTree = "<group>"; };
-		4DE81C96256CB9410013C1F9 /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
-		4DE81C97256CB9410013C1F9 /* ApiProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
-		4DE81C98256CB9410013C1F9 /* ErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
-		4DE81C99256CB9410013C1F9 /* CodeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeResponse.swift; sourceTree = "<group>"; };
-		4DE81C9A256CB9410013C1F9 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
-		4DE81C9B256CB9410013C1F9 /* NetworkingTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingTypes.swift; sourceTree = "<group>"; };
-		4DE81CA5256CB9570013C1F9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		4DE81CA9256CB9B40013C1F9 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		4DE81CAC256CB9C40013C1F9 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		4DE81CAF256CB9CD0013C1F9 /* ApiServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceType.swift; sourceTree = "<group>"; };
@@ -173,6 +158,9 @@
 		7D0E9F562578893C007F321A /* BaseNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationBar.swift; sourceTree = "<group>"; };
 		9E4484CF2A05AF49022748FA /* Pods-ios-oss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-oss.release.xcconfig"; path = "Target Support Files/Pods-ios-oss/Pods-ios-oss.release.xcconfig"; sourceTree = "<group>"; };
 		A4E69E6E0AF006C41D128308 /* Pods_ios_oss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_oss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC727E5257B40B0006B7301 /* ApiNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiNetworking.swift; sourceTree = "<group>"; };
+		BFC727E6257B40B0006B7301 /* ApiService+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiService+Request.swift"; sourceTree = "<group>"; };
+		BFC727EB257B40B0006B7301 /* CodeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeResponse.swift; sourceTree = "<group>"; };
 		C4F95267566E4F3B43E24030 /* Pods-ios-oss.live.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-oss.live.xcconfig"; path = "Target Support Files/Pods-ios-oss/Pods-ios-oss.live.xcconfig"; sourceTree = "<group>"; };
 		F64B8D4A7C8638B886BFD81A /* Pods-ios-oss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-oss.debug.xcconfig"; path = "Target Support Files/Pods-ios-oss/Pods-ios-oss.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -388,26 +376,12 @@
 			children = (
 				4DE81CAC256CB9C40013C1F9 /* ApiService.swift */,
 				4DE81CAF256CB9CD0013C1F9 /* ApiServiceType.swift */,
-				4DE81C93256CB9410013C1F9 /* NetworkingConfig */,
 				4DE81CA9256CB9B40013C1F9 /* Router.swift */,
+				BFC727E5257B40B0006B7301 /* ApiNetworking.swift */,
+				BFC727E6257B40B0006B7301 /* ApiService+Request.swift */,
+				BFC727EB257B40B0006B7301 /* CodeResponse.swift */,
 			);
 			path = API;
-			sourceTree = "<group>";
-		};
-		4DE81C93256CB9410013C1F9 /* NetworkingConfig */ = {
-			isa = PBXGroup;
-			children = (
-				4DE81CA5256CB9570013C1F9 /* ActivityIndicator.swift */,
-				4DE81C94256CB9410013C1F9 /* ApiNetworking.swift */,
-				4DE81C97256CB9410013C1F9 /* ApiProvider.swift */,
-				4DE81C95256CB9410013C1F9 /* ApiService+Request.swift */,
-				4DE81C99256CB9410013C1F9 /* CodeResponse.swift */,
-				4DE81C96256CB9410013C1F9 /* ErrorTracker.swift */,
-				4DE81C98256CB9410013C1F9 /* ErrorType.swift */,
-				4DE81C9B256CB9410013C1F9 /* NetworkingTypes.swift */,
-				4DE81C9A256CB9410013C1F9 /* SessionManager.swift */,
-			);
-			path = NetworkingConfig;
 			sourceTree = "<group>";
 		};
 		4DE81CE5256CD4E30013C1F9 /* Register */ = {
@@ -684,36 +658,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE81CA3256CB9410013C1F9 /* NetworkingTypes.swift in Sources */,
 				4DE81C90256CB8590013C1F9 /* Constants.swift in Sources */,
 				4DE81C51256CA75F0013C1F9 /* BaseTabBarController.swift in Sources */,
+				BFC727EF257B40B0006B7301 /* ApiService+Request.swift in Sources */,
 				4DE81C47256CA6BE0013C1F9 /* BaseViewController.swift in Sources */,
 				4DE81C2A256CA54C0013C1F9 /* KeyValueStore.swift in Sources */,
+				BFC727EE257B40B0006B7301 /* ApiNetworking.swift in Sources */,
 				4DDC9E82256E36B90034D86E /* LoginViewModel.swift in Sources */,
-				4DE81C9E256CB9410013C1F9 /* ErrorTracker.swift in Sources */,
 				4DE81CE8256CD4F40013C1F9 /* RegisterViewController.swift in Sources */,
 				4DE81C77256CB2450013C1F9 /* BaseNavigationController.swift in Sources */,
 				4DE81CAD256CB9C40013C1F9 /* ApiService.swift in Sources */,
 				7D0E9F572578893C007F321A /* BaseNavigationBar.swift in Sources */,
-				4DE81CA1256CB9410013C1F9 /* CodeResponse.swift in Sources */,
-				4DE81CA2256CB9410013C1F9 /* SessionManager.swift in Sources */,
-				4DE81CA6256CB9570013C1F9 /* ActivityIndicator.swift in Sources */,
 				4DE81CAA256CB9B40013C1F9 /* Router.swift in Sources */,
+				BFC727F4257B40B0006B7301 /* CodeResponse.swift in Sources */,
 				4DE81CF4256CD5180013C1F9 /* ForgetViewController.swift in Sources */,
 				4DE81D00256CE3490013C1F9 /* WebViewController.swift in Sources */,
 				4DE81C23256CA4FB0013C1F9 /* TabBarViewController.swift in Sources */,
 				4DE81C42256CA6AB0013C1F9 /* LaunchViewController.swift in Sources */,
-				4DE81CA0256CB9410013C1F9 /* ErrorType.swift in Sources */,
 				4DE81C4E256CA7350013C1F9 /* BaseCollectionViewController.swift in Sources */,
 				4DE81C74256CB09E0013C1F9 /* PushNotification.swift in Sources */,
 				4DE81BEE256CA02D0013C1F9 /* AppDelegate.swift in Sources */,
 				4DE81C4B256CA72C0013C1F9 /* BaseTableViewController.swift in Sources */,
-				4DE81C9C256CB9410013C1F9 /* ApiNetworking.swift in Sources */,
-				4DE81C9F256CB9410013C1F9 /* ApiProvider.swift in Sources */,
 				4DE81C5A256CAA170013C1F9 /* LoginViewController.swift in Sources */,
 				4DE81C1F256CA4CC0013C1F9 /* Storyboard.swift in Sources */,
 				4DE81C6A256CAC400013C1F9 /* SettingViewController.swift in Sources */,
-				4DE81C9D256CB9410013C1F9 /* ApiService+Request.swift in Sources */,
 				4DE81CFB256CE2BC0013C1F9 /* HUD.swift in Sources */,
 				4DE81CB0256CB9CD0013C1F9 /* ApiServiceType.swift in Sources */,
 				4DE81D04256CE3870013C1F9 /* JSWebViewController.swift in Sources */,

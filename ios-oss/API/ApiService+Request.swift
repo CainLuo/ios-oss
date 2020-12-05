@@ -12,6 +12,7 @@ import RxSwift
 import Moya
 import ObjectMapper
 import Moya_ObjectMapper
+import OAServiceKit
 
 // MARK: Moya Request Extension
 extension ApiService {
