@@ -123,6 +123,20 @@
 		BF5D04F1257AA1D600E191ED /* Personal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0467257AA06500E191ED /* Personal.storyboard */; };
 		BF5D04F2257AA1D600E191ED /* Privacy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D046B257AA06500E191ED /* Privacy.storyboard */; };
 		BF5D04F3257AA1D600E191ED /* QRCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0443257AA06400E191ED /* QRCode.storyboard */; };
+		BFC72888257B4F69006B7301 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72882257B4F68006B7301 /* ApiService.swift */; };
+		BFC72889257B4F69006B7301 /* ApiService+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72883257B4F68006B7301 /* ApiService+Request.swift */; };
+		BFC7288A257B4F69006B7301 /* CodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72884257B4F69006B7301 /* CodeResponse.swift */; };
+		BFC7288B257B4F69006B7301 /* ApiNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72885257B4F69006B7301 /* ApiNetworking.swift */; };
+		BFC7288C257B4F69006B7301 /* ApiServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72886257B4F69006B7301 /* ApiServiceType.swift */; };
+		BFC7288D257B4F69006B7301 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72887257B4F69006B7301 /* Router.swift */; };
+		BFC7288F257B4F6D006B7301 /* ApiNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72885257B4F69006B7301 /* ApiNetworking.swift */; };
+		BFC72890257B4F6D006B7301 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72882257B4F68006B7301 /* ApiService.swift */; };
+		BFC72891257B4F6D006B7301 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72887257B4F69006B7301 /* Router.swift */; };
+		BFC72892257B4F6D006B7301 /* ApiServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72886257B4F69006B7301 /* ApiServiceType.swift */; };
+		BFC72893257B4F6D006B7301 /* ApiService+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72883257B4F68006B7301 /* ApiService+Request.swift */; };
+		BFC72894257B4F6E006B7301 /* CodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72884257B4F69006B7301 /* CodeResponse.swift */; };
+		BFC72897257B503B006B7301 /* MyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72896257B503B006B7301 /* MyConstants.swift */; };
+		BFC7289A257B5075006B7301 /* MyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72896257B503B006B7301 /* MyConstants.swift */; };
 		C61AE652E23F037738F028FC /* Pods_OAMyExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CC0D737F2D79F804299C88 /* Pods_OAMyExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -213,6 +227,13 @@
 		BF5D04AE257AA17500E191ED /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
 		BF5D04AF257AA17500E191ED /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		BF5D04B0257AA17500E191ED /* MyConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConnector.swift; sourceTree = "<group>"; };
+		BFC72882257B4F68006B7301 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		BFC72883257B4F68006B7301 /* ApiService+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiService+Request.swift"; sourceTree = "<group>"; };
+		BFC72884257B4F69006B7301 /* CodeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeResponse.swift; sourceTree = "<group>"; };
+		BFC72885257B4F69006B7301 /* ApiNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiNetworking.swift; sourceTree = "<group>"; };
+		BFC72886257B4F69006B7301 /* ApiServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceType.swift; sourceTree = "<group>"; };
+		BFC72887257B4F69006B7301 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		BFC72896257B503B006B7301 /* MyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,9 +281,11 @@
 		4DE8A19C257A5E2D0078B93B /* OAMyKit */ = {
 			isa = PBXGroup;
 			children = (
+				BFC72873257B4F0C006B7301 /* Api */,
 				4DE8A19D257A5E2D0078B93B /* OAMyKit.h */,
 				4DE8A19E257A5E2D0078B93B /* Info.plist */,
 				BF5D0426257A9F4A00E191ED /* MyStoryboard.swift */,
+				BFC72896257B503B006B7301 /* MyConstants.swift */,
 				BF5D0429257A9F6F00E191ED /* About */,
 				BF5D045A257AA06400E191ED /* Collections */,
 				BF5D046E257AA06500E191ED /* Comments */,
@@ -449,13 +472,26 @@
 		BF5D04AB257AA17500E191ED /* My */ = {
 			isa = PBXGroup;
 			children = (
+				BF5D04AE257AA17500E191ED /* My.storyboard */,
+				BF5D04B0257AA17500E191ED /* MyConnector.swift */,
+				BF5D04AF257AA17500E191ED /* MyViewController.swift */,
 				BF5D04AC257AA17500E191ED /* MyViewController+Component.swift */,
 				BF5D04AD257AA17500E191ED /* MyViewModel.swift */,
-				BF5D04AE257AA17500E191ED /* My.storyboard */,
-				BF5D04AF257AA17500E191ED /* MyViewController.swift */,
-				BF5D04B0257AA17500E191ED /* MyConnector.swift */,
 			);
 			path = My;
+			sourceTree = "<group>";
+		};
+		BFC72873257B4F0C006B7301 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				BFC72885257B4F69006B7301 /* ApiNetworking.swift */,
+				BFC72882257B4F68006B7301 /* ApiService.swift */,
+				BFC72883257B4F68006B7301 /* ApiService+Request.swift */,
+				BFC72886257B4F69006B7301 /* ApiServiceType.swift */,
+				BFC72884257B4F69006B7301 /* CodeResponse.swift */,
+				BFC72887257B4F69006B7301 /* Router.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -654,6 +690,7 @@
 				BF5D04A0257AA0D700E191ED /* Follows.storyboard in Sources */,
 				BF5D04A1257AA0D700E191ED /* General.storyboard in Sources */,
 				BF5D04A2257AA0D700E191ED /* Niche.storyboard in Sources */,
+				BFC72890257B4F6D006B7301 /* ApiService.swift in Sources */,
 				BF5D04A3257AA0D700E191ED /* NotifyList.storyboard in Sources */,
 				BF5D04A4257AA0D700E191ED /* NotifySetup.storyboard in Sources */,
 				BF5D04B4257AA17500E191ED /* MyViewController.swift in Sources */,
@@ -671,6 +708,7 @@
 				BF5D0499257AA06500E191ED /* CommentsViewController.swift in Sources */,
 				BF5D0489257AA06500E191ED /* CollectionsViewModel.swift in Sources */,
 				BF5D0495257AA06500E191ED /* PrivacyViewController+Component.swift in Sources */,
+				BFC72891257B4F6D006B7301 /* Router.swift in Sources */,
 				BF5D043C257A9FD500E191ED /* FeedbackViewController+Component.swift in Sources */,
 				BF5D047A257AA06500E191ED /* NicheViewController+Component.swift in Sources */,
 				BF5D0480257AA06500E191ED /* FollowsViewController+Component.swift in Sources */,
@@ -684,18 +722,23 @@
 				BF5D0481257AA06500E191ED /* FollowsViewModel.swift in Sources */,
 				BF5D0473257AA06500E191ED /* QRCodeViewController+Component.swift in Sources */,
 				BF5D0477257AA06500E191ED /* NicheViewController.swift in Sources */,
+				BFC7288F257B4F6D006B7301 /* ApiNetworking.swift in Sources */,
 				BF5D0475257AA06500E191ED /* QRCodeViewController.swift in Sources */,
 				BF5D0492257AA06500E191ED /* PersonalViewController+Component.swift in Sources */,
 				BF5D0476257AA06500E191ED /* QRCodeViewModel.swift in Sources */,
+				BFC72894257B4F6E006B7301 /* CodeResponse.swift in Sources */,
 				BF5D048B257AA06500E191ED /* NotifyListViewModel.swift in Sources */,
 				BF5D0496257AA06500E191ED /* PrivacyViewController.swift in Sources */,
 				BF5D0488257AA06500E191ED /* CollectionsViewController.swift in Sources */,
 				BF5D04B1257AA17500E191ED /* MyViewController+Component.swift in Sources */,
 				BF5D047D257AA06500E191ED /* NotifySetupViewModel.swift in Sources */,
 				BF5D0431257A9F6F00E191ED /* AboutViewController+Component.swift in Sources */,
+				BFC72892257B4F6D006B7301 /* ApiServiceType.swift in Sources */,
 				BF5D0427257A9F4A00E191ED /* MyStoryboard.swift in Sources */,
+				BFC72897257B503B006B7301 /* MyConstants.swift in Sources */,
 				BF5D0490257AA06500E191ED /* PersonalViewModel.swift in Sources */,
 				BF5D04B2257AA17500E191ED /* MyViewModel.swift in Sources */,
+				BFC72893257B4F6D006B7301 /* ApiService+Request.swift in Sources */,
 				BF5D0430257A9F6F00E191ED /* AboutViewController.swift in Sources */,
 				BF5D048A257AA06500E191ED /* CollectionsViewController+Component.swift in Sources */,
 				BF5D0493257AA06500E191ED /* PrivacyViewModel.swift in Sources */,
@@ -717,14 +760,18 @@
 				BF5D04C7257AA1CD00E191ED /* CollectionsViewController+Component.swift in Sources */,
 				BF5D04C8257AA1CD00E191ED /* CommentsViewModel.swift in Sources */,
 				BF5D04C9257AA1CD00E191ED /* CommentsViewController+Component.swift in Sources */,
+				BFC7288B257B4F69006B7301 /* ApiNetworking.swift in Sources */,
+				BFC7288C257B4F69006B7301 /* ApiServiceType.swift in Sources */,
 				BF5D04CA257AA1CD00E191ED /* CommentsViewController.swift in Sources */,
 				BF5D04CB257AA1CD00E191ED /* FeedbackViewController.swift in Sources */,
 				BF5D04CC257AA1CD00E191ED /* FeedbackViewController+Component.swift in Sources */,
 				BF5D04CD257AA1CD00E191ED /* FollowsViewController+Component.swift in Sources */,
+				BFC7289A257B5075006B7301 /* MyConstants.swift in Sources */,
 				BF5D04CE257AA1CD00E191ED /* FollowsViewModel.swift in Sources */,
 				BF5D04CF257AA1CD00E191ED /* FollowsViewController.swift in Sources */,
 				BF5D04D0257AA1CD00E191ED /* GeneralViewModel.swift in Sources */,
 				BF5D04D1257AA1CD00E191ED /* GeneralController+Component.swift in Sources */,
+				BFC72889257B4F69006B7301 /* ApiService+Request.swift in Sources */,
 				BF5D04D2257AA1CD00E191ED /* GeneralController.swift in Sources */,
 				BF5D04D3257AA1CD00E191ED /* NicheViewController.swift in Sources */,
 				BF5D04D4257AA1CD00E191ED /* NicheViewModel.swift in Sources */,
@@ -734,8 +781,10 @@
 				BF5D04D8257AA1CD00E191ED /* NotifyListViewController+Component.swift in Sources */,
 				BF5D04D9257AA1CD00E191ED /* NotifySetupViewController+Component.swift in Sources */,
 				BF5D04DA257AA1CD00E191ED /* NotifySetupViewController.swift in Sources */,
+				BFC72888257B4F69006B7301 /* ApiService.swift in Sources */,
 				BF5D04DB257AA1CD00E191ED /* NotifySetupViewModel.swift in Sources */,
 				BF5D04DC257AA1CD00E191ED /* PersonalViewController.swift in Sources */,
+				BFC7288D257B4F69006B7301 /* Router.swift in Sources */,
 				BF5D04DD257AA1CD00E191ED /* PersonalViewModel.swift in Sources */,
 				BF5D04DE257AA1CD00E191ED /* PersonalViewController+Component.swift in Sources */,
 				BF5D04DF257AA1CD00E191ED /* PrivacyViewModel.swift in Sources */,
@@ -745,6 +794,7 @@
 				BF5D04E3257AA1CD00E191ED /* QRCodeViewController.swift in Sources */,
 				BF5D04E4257AA1CD00E191ED /* QRCodeViewModel.swift in Sources */,
 				BF5D04BC257AA19800E191ED /* MyViewController+Component.swift in Sources */,
+				BFC7288A257B4F69006B7301 /* CodeResponse.swift in Sources */,
 				BF5D04BD257AA19800E191ED /* MyViewModel.swift in Sources */,
 				BF5D04BE257AA19800E191ED /* MyViewController.swift in Sources */,
 				BF5D04BF257AA19800E191ED /* MyConnector.swift in Sources */,

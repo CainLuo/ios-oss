@@ -8,12 +8,16 @@
 import Foundation
 import RxSwift
 import RxCocoa
+import OAServiceKit
+import OAGlobalKit
 
 protocol MyViewModelInputs {
     var viewWillAppear: AnyObserver<Void> { get }
 }
 
 protocol MyViewModelOutputs {
+    var error: Driver<Error> { get }
+    var isLoading: Driver<Bool> { get }
     var title: Driver<String> { get }
     var collectionTitle: Driver<String> { get }
     var followTitle: Driver<String> { get }
@@ -38,11 +42,29 @@ protocol MyViewModelTypes {
 class MyViewModel: MyViewModelInputs, MyViewModelOutputs, MyViewModelTypes {
     
     init() {
+        let error = ErrorTracker()
+        let isLoading = ActivityIndicator()
+        let apiServer: ApiServiceType = ApiService()
         
+        let profile = viewWillAppearSubject
+            .flatMap {
+                apiServer.profile()
+                    .trackError(error)
+                    .trackActivity(isLoading)
+                    .asDriverOnErrorJustComplete()
+            }
+            .share()
+        
+        _ = profile.subscribe(onNext: { result in
+                log.debug(result)
+            })
+
         // inputs
         self.viewWillAppear = viewWillAppearSubject.asObserver()
         
         // outputs
+        self.error = error.asDriver()
+        self.isLoading = isLoading.asDriver()
         self.title = viewWillAppearSubject.map { "My_Title".localized() }.asDriverOnErrorJustComplete()
         self.collectionTitle = viewWillAppearSubject.map { "My_Collection".localized() }.asDriverOnErrorJustComplete()
         self.followTitle = viewWillAppearSubject.map { "My_Follow".localized() }.asDriverOnErrorJustComplete()
@@ -66,6 +88,8 @@ class MyViewModel: MyViewModelInputs, MyViewModelOutputs, MyViewModelTypes {
     let viewWillAppear: AnyObserver<Void>
 
     // MARK: outputs
+    let error: Driver<Error>
+    let isLoading: Driver<Bool>
     let title: Driver<String>
     let collectionTitle: Driver<String>
     let followTitle: Driver<String>

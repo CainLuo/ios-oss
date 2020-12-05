@@ -102,6 +102,17 @@ public class MyViewController: BaseTableViewController {
         viewModel.outputs.logoutTitle
             .drive(logoutButton.rx.title(for: .normal))
             .disposed(by: disposeBag)
+        
+        viewModel.outputs.error
+            .drive(onNext: { error in
+//                HUD.show(error.localizedDescription)
+                log.debug(error)
+            })
+            .disposed(by: disposeBag)
+        
+//        viewModel.outputs.isLoading
+//            .drive(loadingView.rx.isLoading)
+//            .disposed(by: disposeBag)
     }
     
     @IBAction func logout(_ sender: Any) {
