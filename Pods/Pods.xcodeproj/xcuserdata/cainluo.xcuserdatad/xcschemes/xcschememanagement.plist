@@ -4,51 +4,63 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-OAComponentManagerExample.xcscheme_^#shared#^_</key>
+		<key>Pods-OAComponentManagerExample.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-OAComponentManagerKit.xcscheme_^#shared#^_</key>
+		<key>Pods-OAComponentManagerKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>26</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-OAExtensionsKit.xcscheme_^#shared#^_</key>
+		<key>Pods-OAExtensionsKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>14</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-OAGlobalKit.xcscheme_^#shared#^_</key>
+		<key>Pods-OAGlobalKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>22</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-OAMyExample.xcscheme_^#shared#^_</key>
+		<key>Pods-OALaunchKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>45</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-OAMyKit.xcscheme_^#shared#^_</key>
+		<key>Pods-OALoginKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-OANavigatorKit.xcscheme_^#shared#^_</key>
+		<key>Pods-OAMyExample.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>39</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-OAServiceKit.xcscheme_^#shared#^_</key>
+		<key>Pods-OAMyKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>18</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-ios-oss.xcscheme_^#shared#^_</key>
+		<key>Pods-OANavigatorKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>46</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-OAServiceKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ios-oss.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>

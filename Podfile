@@ -124,6 +124,14 @@ target 'OANavigatorKit' do
   project 'OANavigatorKit/OANavigatorKit.xcodeproj'
 end
 
+target 'OALoginKit' do
+  project 'OALoginKit/OALoginKit.xcodeproj'
+end
+
+target 'OALaunchKit' do
+  project 'OALaunchKit/OALaunchKit.xcodeproj'
+end
+
 # Examples
 target 'OAMyExample' do
   sharePods
