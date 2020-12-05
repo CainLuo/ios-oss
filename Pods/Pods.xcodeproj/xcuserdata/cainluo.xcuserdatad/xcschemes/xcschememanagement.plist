@@ -7,47 +7,47 @@
 		<key>Pods-OAComponentManagerExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Pods-OAComponentManagerKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>26</integer>
 		</dict>
 		<key>Pods-OAExtensionsKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>14</integer>
 		</dict>
 		<key>Pods-OAGlobalKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>22</integer>
 		</dict>
 		<key>Pods-OAMyExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>45</integer>
 		</dict>
 		<key>Pods-OAMyKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Pods-OANavigatorKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>39</integer>
 		</dict>
 		<key>Pods-OAServiceKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>36</integer>
+			<integer>18</integer>
 		</dict>
 		<key>Pods-ios-oss.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>46</integer>
 		</dict>
 	</dict>
 </dict>

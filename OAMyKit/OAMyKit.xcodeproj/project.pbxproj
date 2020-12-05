@@ -123,6 +123,30 @@
 		BF5D04F1257AA1D600E191ED /* Personal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0467257AA06500E191ED /* Personal.storyboard */; };
 		BF5D04F2257AA1D600E191ED /* Privacy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D046B257AA06500E191ED /* Privacy.storyboard */; };
 		BF5D04F3257AA1D600E191ED /* QRCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0443257AA06400E191ED /* QRCode.storyboard */; };
+		BF8A03B5257BAF560009DF40 /* MyModuleConnectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03B4257BAF560009DF40 /* MyModuleConnectors.swift */; };
+		BF8A03B7257BAF580009DF40 /* MyModuleConnectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03B4257BAF560009DF40 /* MyModuleConnectors.swift */; };
+		BF8A03BB257BB0AB0009DF40 /* CollectionsConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03BA257BB0AB0009DF40 /* CollectionsConnector.swift */; };
+		BF8A03BF257BB1360009DF40 /* CommentsConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03BE257BB1360009DF40 /* CommentsConnector.swift */; };
+		BF8A03C2257BB1920009DF40 /* FeedbackConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03C1257BB1920009DF40 /* FeedbackConnector.swift */; };
+		BF8A03C5257BB1B10009DF40 /* FeedbackConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03C1257BB1920009DF40 /* FeedbackConnector.swift */; };
+		BF8A03C7257BB1B40009DF40 /* CommentsConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03BE257BB1360009DF40 /* CommentsConnector.swift */; };
+		BF8A03C8257BB1B70009DF40 /* CollectionsConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03BA257BB0AB0009DF40 /* CollectionsConnector.swift */; };
+		BF8A03CB257BB2A20009DF40 /* FollowsConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03CA257BB2A20009DF40 /* FollowsConnector.swift */; };
+		BF8A03CE257BB2CD0009DF40 /* GeneralConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03CD257BB2CD0009DF40 /* GeneralConnector.swift */; };
+		BF8A03D1257BB2FD0009DF40 /* FollowsConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03CA257BB2A20009DF40 /* FollowsConnector.swift */; };
+		BF8A03D3257BB3010009DF40 /* GeneralConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03CD257BB2CD0009DF40 /* GeneralConnector.swift */; };
+		BF8A03D6257BB30E0009DF40 /* NicheConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03D5257BB30E0009DF40 /* NicheConnector.swift */; };
+		BF8A03D9257BB3310009DF40 /* NotifyListConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03D8257BB3310009DF40 /* NotifyListConnector.swift */; };
+		BF8A03DB257BB3970009DF40 /* NotifyListConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03D8257BB3310009DF40 /* NotifyListConnector.swift */; };
+		BF8A03DD257BB39B0009DF40 /* NicheConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03D5257BB30E0009DF40 /* NicheConnector.swift */; };
+		BF8A03E0257BB3AA0009DF40 /* NotifySetupConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03DF257BB3AA0009DF40 /* NotifySetupConnector.swift */; };
+		BF8A03E1257BB3AA0009DF40 /* NotifySetupConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03DF257BB3AA0009DF40 /* NotifySetupConnector.swift */; };
+		BF8A03E4257BB3C40009DF40 /* PersonalConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03E3257BB3C40009DF40 /* PersonalConnector.swift */; };
+		BF8A03E5257BB3C40009DF40 /* PersonalConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03E3257BB3C40009DF40 /* PersonalConnector.swift */; };
+		BF8A03E8257BB3DE0009DF40 /* PrivacyConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03E7257BB3DE0009DF40 /* PrivacyConnector.swift */; };
+		BF8A03E9257BB3DE0009DF40 /* PrivacyConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03E7257BB3DE0009DF40 /* PrivacyConnector.swift */; };
+		BF8A03EC257BB3F70009DF40 /* QRCodeConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03EB257BB3F70009DF40 /* QRCodeConnector.swift */; };
+		BF8A03ED257BB3F70009DF40 /* QRCodeConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03EB257BB3F70009DF40 /* QRCodeConnector.swift */; };
 		BFC72888257B4F69006B7301 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72882257B4F68006B7301 /* ApiService.swift */; };
 		BFC72889257B4F69006B7301 /* ApiService+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72883257B4F68006B7301 /* ApiService+Request.swift */; };
 		BFC7288A257B4F69006B7301 /* CodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC72884257B4F69006B7301 /* CodeResponse.swift */; };
@@ -227,6 +251,18 @@
 		BF5D04AE257AA17500E191ED /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
 		BF5D04AF257AA17500E191ED /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		BF5D04B0257AA17500E191ED /* MyConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConnector.swift; sourceTree = "<group>"; };
+		BF8A03B4257BAF560009DF40 /* MyModuleConnectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModuleConnectors.swift; sourceTree = "<group>"; };
+		BF8A03BA257BB0AB0009DF40 /* CollectionsConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsConnector.swift; sourceTree = "<group>"; };
+		BF8A03BE257BB1360009DF40 /* CommentsConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsConnector.swift; sourceTree = "<group>"; };
+		BF8A03C1257BB1920009DF40 /* FeedbackConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackConnector.swift; sourceTree = "<group>"; };
+		BF8A03CA257BB2A20009DF40 /* FollowsConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowsConnector.swift; sourceTree = "<group>"; };
+		BF8A03CD257BB2CD0009DF40 /* GeneralConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralConnector.swift; sourceTree = "<group>"; };
+		BF8A03D5257BB30E0009DF40 /* NicheConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheConnector.swift; sourceTree = "<group>"; };
+		BF8A03D8257BB3310009DF40 /* NotifyListConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyListConnector.swift; sourceTree = "<group>"; };
+		BF8A03DF257BB3AA0009DF40 /* NotifySetupConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifySetupConnector.swift; sourceTree = "<group>"; };
+		BF8A03E3257BB3C40009DF40 /* PersonalConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalConnector.swift; sourceTree = "<group>"; };
+		BF8A03E7257BB3DE0009DF40 /* PrivacyConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyConnector.swift; sourceTree = "<group>"; };
+		BF8A03EB257BB3F70009DF40 /* QRCodeConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeConnector.swift; sourceTree = "<group>"; };
 		BFC72882257B4F68006B7301 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		BFC72883257B4F68006B7301 /* ApiService+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiService+Request.swift"; sourceTree = "<group>"; };
 		BFC72884257B4F69006B7301 /* CodeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeResponse.swift; sourceTree = "<group>"; };
@@ -281,12 +317,13 @@
 		4DE8A19C257A5E2D0078B93B /* OAMyKit */ = {
 			isa = PBXGroup;
 			children = (
-				BFC72873257B4F0C006B7301 /* Api */,
 				4DE8A19D257A5E2D0078B93B /* OAMyKit.h */,
 				4DE8A19E257A5E2D0078B93B /* Info.plist */,
-				BF5D0426257A9F4A00E191ED /* MyStoryboard.swift */,
 				BFC72896257B503B006B7301 /* MyConstants.swift */,
+				BF8A03B4257BAF560009DF40 /* MyModuleConnectors.swift */,
+				BF5D0426257A9F4A00E191ED /* MyStoryboard.swift */,
 				BF5D0429257A9F6F00E191ED /* About */,
+				BFC72873257B4F0C006B7301 /* Api */,
 				BF5D045A257AA06400E191ED /* Collections */,
 				BF5D046E257AA06500E191ED /* Comments */,
 				BF5D0436257A9FD500E191ED /* Feedback */,
@@ -341,8 +378,8 @@
 		BF5D0429257A9F6F00E191ED /* About */ = {
 			isa = PBXGroup;
 			children = (
-				BF5D042A257A9F6F00E191ED /* AboutConnector.swift */,
 				BF5D042B257A9F6F00E191ED /* About.storyboard */,
+				BF5D042A257A9F6F00E191ED /* AboutConnector.swift */,
 				BF5D042C257A9F6F00E191ED /* AboutViewController.swift */,
 				BF5D042D257A9F6F00E191ED /* AboutViewController+Component.swift */,
 			);
@@ -353,6 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				BF5D0437257A9FD500E191ED /* Feedback.storyboard */,
+				BF8A03C1257BB1920009DF40 /* FeedbackConnector.swift */,
 				BF5D0438257A9FD500E191ED /* FeedbackViewController.swift */,
 				BF5D0439257A9FD500E191ED /* FeedbackViewController+Component.swift */,
 			);
@@ -362,9 +400,10 @@
 		BF5D0441257AA06400E191ED /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
-				BF5D0442257AA06400E191ED /* QRCodeViewController+Component.swift */,
 				BF5D0443257AA06400E191ED /* QRCode.storyboard */,
+				BF8A03EB257BB3F70009DF40 /* QRCodeConnector.swift */,
 				BF5D0444257AA06400E191ED /* QRCodeViewController.swift */,
+				BF5D0442257AA06400E191ED /* QRCodeViewController+Component.swift */,
 				BF5D0445257AA06400E191ED /* QRCodeViewModel.swift */,
 			);
 			path = QRCode;
@@ -373,10 +412,11 @@
 		BF5D0446257AA06400E191ED /* Niche */ = {
 			isa = PBXGroup;
 			children = (
-				BF5D0447257AA06400E191ED /* NicheViewController.swift */,
 				BF5D0448257AA06400E191ED /* Niche.storyboard */,
-				BF5D0449257AA06400E191ED /* NicheViewModel.swift */,
+				BF8A03D5257BB30E0009DF40 /* NicheConnector.swift */,
+				BF5D0447257AA06400E191ED /* NicheViewController.swift */,
 				BF5D044A257AA06400E191ED /* NicheViewController+Component.swift */,
+				BF5D0449257AA06400E191ED /* NicheViewModel.swift */,
 			);
 			path = Niche;
 			sourceTree = "<group>";
@@ -384,10 +424,11 @@
 		BF5D044B257AA06400E191ED /* NotifySetup */ = {
 			isa = PBXGroup;
 			children = (
-				BF5D044C257AA06400E191ED /* NotifySetupViewController+Component.swift */,
-				BF5D044D257AA06400E191ED /* NotifySetupViewController.swift */,
-				BF5D044E257AA06400E191ED /* NotifySetupViewModel.swift */,
 				BF5D044F257AA06400E191ED /* NotifySetup.storyboard */,
+				BF8A03DF257BB3AA0009DF40 /* NotifySetupConnector.swift */,
+				BF5D044D257AA06400E191ED /* NotifySetupViewController.swift */,
+				BF5D044C257AA06400E191ED /* NotifySetupViewController+Component.swift */,
+				BF5D044E257AA06400E191ED /* NotifySetupViewModel.swift */,
 			);
 			path = NotifySetup;
 			sourceTree = "<group>";
@@ -396,9 +437,10 @@
 			isa = PBXGroup;
 			children = (
 				BF5D0451257AA06400E191ED /* Follows.storyboard */,
+				BF8A03CA257BB2A20009DF40 /* FollowsConnector.swift */,
+				BF5D0454257AA06400E191ED /* FollowsViewController.swift */,
 				BF5D0452257AA06400E191ED /* FollowsViewController+Component.swift */,
 				BF5D0453257AA06400E191ED /* FollowsViewModel.swift */,
-				BF5D0454257AA06400E191ED /* FollowsViewController.swift */,
 			);
 			path = Follows;
 			sourceTree = "<group>";
@@ -406,10 +448,11 @@
 		BF5D0455257AA06400E191ED /* General */ = {
 			isa = PBXGroup;
 			children = (
-				BF5D0456257AA06400E191ED /* GeneralViewModel.swift */,
-				BF5D0457257AA06400E191ED /* GeneralController+Component.swift */,
 				BF5D0458257AA06400E191ED /* General.storyboard */,
+				BF8A03CD257BB2CD0009DF40 /* GeneralConnector.swift */,
 				BF5D0459257AA06400E191ED /* GeneralController.swift */,
+				BF5D0457257AA06400E191ED /* GeneralController+Component.swift */,
+				BF5D0456257AA06400E191ED /* GeneralViewModel.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -418,9 +461,10 @@
 			isa = PBXGroup;
 			children = (
 				BF5D045B257AA06400E191ED /* Collections.storyboard */,
+				BF8A03BA257BB0AB0009DF40 /* CollectionsConnector.swift */,
 				BF5D045C257AA06400E191ED /* CollectionsViewController.swift */,
-				BF5D045D257AA06400E191ED /* CollectionsViewModel.swift */,
 				BF5D045E257AA06400E191ED /* CollectionsViewController+Component.swift */,
+				BF5D045D257AA06400E191ED /* CollectionsViewModel.swift */,
 			);
 			path = Collections;
 			sourceTree = "<group>";
@@ -428,10 +472,11 @@
 		BF5D045F257AA06400E191ED /* NotifyList */ = {
 			isa = PBXGroup;
 			children = (
-				BF5D0460257AA06400E191ED /* NotifyListViewModel.swift */,
+				BF5D0463257AA06400E191ED /* NotifyList.storyboard */,
+				BF8A03D8257BB3310009DF40 /* NotifyListConnector.swift */,
 				BF5D0461257AA06400E191ED /* NotifyListViewController.swift */,
 				BF5D0462257AA06400E191ED /* NotifyListViewController+Component.swift */,
-				BF5D0463257AA06400E191ED /* NotifyList.storyboard */,
+				BF5D0460257AA06400E191ED /* NotifyListViewModel.swift */,
 			);
 			path = NotifyList;
 			sourceTree = "<group>";
@@ -439,10 +484,11 @@
 		BF5D0464257AA06500E191ED /* Personal */ = {
 			isa = PBXGroup;
 			children = (
-				BF5D0465257AA06500E191ED /* PersonalViewController.swift */,
-				BF5D0466257AA06500E191ED /* PersonalViewModel.swift */,
 				BF5D0467257AA06500E191ED /* Personal.storyboard */,
+				BF8A03E3257BB3C40009DF40 /* PersonalConnector.swift */,
+				BF5D0465257AA06500E191ED /* PersonalViewController.swift */,
 				BF5D0468257AA06500E191ED /* PersonalViewController+Component.swift */,
+				BF5D0466257AA06500E191ED /* PersonalViewModel.swift */,
 			);
 			path = Personal;
 			sourceTree = "<group>";
@@ -450,10 +496,11 @@
 		BF5D0469257AA06500E191ED /* Privacy */ = {
 			isa = PBXGroup;
 			children = (
-				BF5D046A257AA06500E191ED /* PrivacyViewModel.swift */,
 				BF5D046B257AA06500E191ED /* Privacy.storyboard */,
-				BF5D046C257AA06500E191ED /* PrivacyViewController+Component.swift */,
+				BF8A03E7257BB3DE0009DF40 /* PrivacyConnector.swift */,
 				BF5D046D257AA06500E191ED /* PrivacyViewController.swift */,
+				BF5D046C257AA06500E191ED /* PrivacyViewController+Component.swift */,
+				BF5D046A257AA06500E191ED /* PrivacyViewModel.swift */,
 			);
 			path = Privacy;
 			sourceTree = "<group>";
@@ -461,10 +508,11 @@
 		BF5D046E257AA06500E191ED /* Comments */ = {
 			isa = PBXGroup;
 			children = (
-				BF5D046F257AA06500E191ED /* CommentsViewModel.swift */,
-				BF5D0470257AA06500E191ED /* CommentsViewController+Component.swift */,
-				BF5D0471257AA06500E191ED /* CommentsViewController.swift */,
 				BF5D0472257AA06500E191ED /* Comments.storyboard */,
+				BF8A03BE257BB1360009DF40 /* CommentsConnector.swift */,
+				BF5D0471257AA06500E191ED /* CommentsViewController.swift */,
+				BF5D0470257AA06500E191ED /* CommentsViewController+Component.swift */,
+				BF5D046F257AA06500E191ED /* CommentsViewModel.swift */,
 			);
 			path = Comments;
 			sourceTree = "<group>";
@@ -689,7 +737,9 @@
 				BF5D049F257AA0D700E191ED /* Comments.storyboard in Sources */,
 				BF5D04A0257AA0D700E191ED /* Follows.storyboard in Sources */,
 				BF5D04A1257AA0D700E191ED /* General.storyboard in Sources */,
+				BF8A03E8257BB3DE0009DF40 /* PrivacyConnector.swift in Sources */,
 				BF5D04A2257AA0D700E191ED /* Niche.storyboard in Sources */,
+				BF8A03E0257BB3AA0009DF40 /* NotifySetupConnector.swift in Sources */,
 				BFC72890257B4F6D006B7301 /* ApiService.swift in Sources */,
 				BF5D04A3257AA0D700E191ED /* NotifyList.storyboard in Sources */,
 				BF5D04A4257AA0D700E191ED /* NotifySetup.storyboard in Sources */,
@@ -706,7 +756,9 @@
 				BF5D048F257AA06500E191ED /* PersonalViewController.swift in Sources */,
 				BF5D048C257AA06500E191ED /* NotifyListViewController.swift in Sources */,
 				BF5D0499257AA06500E191ED /* CommentsViewController.swift in Sources */,
+				BF8A03CE257BB2CD0009DF40 /* GeneralConnector.swift in Sources */,
 				BF5D0489257AA06500E191ED /* CollectionsViewModel.swift in Sources */,
+				BF8A03B5257BAF560009DF40 /* MyModuleConnectors.swift in Sources */,
 				BF5D0495257AA06500E191ED /* PrivacyViewController+Component.swift in Sources */,
 				BFC72891257B4F6D006B7301 /* Router.swift in Sources */,
 				BF5D043C257A9FD500E191ED /* FeedbackViewController+Component.swift in Sources */,
@@ -717,11 +769,18 @@
 				BF5D0483257AA06500E191ED /* GeneralViewModel.swift in Sources */,
 				BF5D048D257AA06500E191ED /* NotifyListViewController+Component.swift in Sources */,
 				BF5D04B5257AA17500E191ED /* MyConnector.swift in Sources */,
+				BF8A03C2257BB1920009DF40 /* FeedbackConnector.swift in Sources */,
+				BF8A03BF257BB1360009DF40 /* CommentsConnector.swift in Sources */,
 				BF5D0482257AA06500E191ED /* FollowsViewController.swift in Sources */,
 				BF5D0484257AA06500E191ED /* GeneralController+Component.swift in Sources */,
+				BF8A03EC257BB3F70009DF40 /* QRCodeConnector.swift in Sources */,
 				BF5D0481257AA06500E191ED /* FollowsViewModel.swift in Sources */,
 				BF5D0473257AA06500E191ED /* QRCodeViewController+Component.swift in Sources */,
 				BF5D0477257AA06500E191ED /* NicheViewController.swift in Sources */,
+				BF8A03E4257BB3C40009DF40 /* PersonalConnector.swift in Sources */,
+				BF8A03D6257BB30E0009DF40 /* NicheConnector.swift in Sources */,
+				BF8A03BB257BB0AB0009DF40 /* CollectionsConnector.swift in Sources */,
+				BF8A03D9257BB3310009DF40 /* NotifyListConnector.swift in Sources */,
 				BFC7288F257B4F6D006B7301 /* ApiNetworking.swift in Sources */,
 				BF5D0475257AA06500E191ED /* QRCodeViewController.swift in Sources */,
 				BF5D0492257AA06500E191ED /* PersonalViewController+Component.swift in Sources */,
@@ -733,6 +792,7 @@
 				BF5D04B1257AA17500E191ED /* MyViewController+Component.swift in Sources */,
 				BF5D047D257AA06500E191ED /* NotifySetupViewModel.swift in Sources */,
 				BF5D0431257A9F6F00E191ED /* AboutViewController+Component.swift in Sources */,
+				BF8A03CB257BB2A20009DF40 /* FollowsConnector.swift in Sources */,
 				BFC72892257B4F6D006B7301 /* ApiServiceType.swift in Sources */,
 				BF5D0427257A9F4A00E191ED /* MyStoryboard.swift in Sources */,
 				BFC72897257B503B006B7301 /* MyConstants.swift in Sources */,
@@ -754,20 +814,26 @@
 				BF5D04C1257AA1CD00E191ED /* MyStoryboard.swift in Sources */,
 				BF5D04C2257AA1CD00E191ED /* AboutConnector.swift in Sources */,
 				BF5D04C3257AA1CD00E191ED /* AboutViewController.swift in Sources */,
+				BF8A03DB257BB3970009DF40 /* NotifyListConnector.swift in Sources */,
 				BF5D04C4257AA1CD00E191ED /* AboutViewController+Component.swift in Sources */,
 				BF5D04C5257AA1CD00E191ED /* CollectionsViewController.swift in Sources */,
 				BF5D04C6257AA1CD00E191ED /* CollectionsViewModel.swift in Sources */,
 				BF5D04C7257AA1CD00E191ED /* CollectionsViewController+Component.swift in Sources */,
+				BF8A03C7257BB1B40009DF40 /* CommentsConnector.swift in Sources */,
 				BF5D04C8257AA1CD00E191ED /* CommentsViewModel.swift in Sources */,
 				BF5D04C9257AA1CD00E191ED /* CommentsViewController+Component.swift in Sources */,
+				BF8A03D3257BB3010009DF40 /* GeneralConnector.swift in Sources */,
 				BFC7288B257B4F69006B7301 /* ApiNetworking.swift in Sources */,
 				BFC7288C257B4F69006B7301 /* ApiServiceType.swift in Sources */,
 				BF5D04CA257AA1CD00E191ED /* CommentsViewController.swift in Sources */,
 				BF5D04CB257AA1CD00E191ED /* FeedbackViewController.swift in Sources */,
 				BF5D04CC257AA1CD00E191ED /* FeedbackViewController+Component.swift in Sources */,
+				BF8A03ED257BB3F70009DF40 /* QRCodeConnector.swift in Sources */,
+				BF8A03C8257BB1B70009DF40 /* CollectionsConnector.swift in Sources */,
 				BF5D04CD257AA1CD00E191ED /* FollowsViewController+Component.swift in Sources */,
 				BFC7289A257B5075006B7301 /* MyConstants.swift in Sources */,
 				BF5D04CE257AA1CD00E191ED /* FollowsViewModel.swift in Sources */,
+				BF8A03E1257BB3AA0009DF40 /* NotifySetupConnector.swift in Sources */,
 				BF5D04CF257AA1CD00E191ED /* FollowsViewController.swift in Sources */,
 				BF5D04D0257AA1CD00E191ED /* GeneralViewModel.swift in Sources */,
 				BF5D04D1257AA1CD00E191ED /* GeneralController+Component.swift in Sources */,
@@ -775,19 +841,24 @@
 				BF5D04D2257AA1CD00E191ED /* GeneralController.swift in Sources */,
 				BF5D04D3257AA1CD00E191ED /* NicheViewController.swift in Sources */,
 				BF5D04D4257AA1CD00E191ED /* NicheViewModel.swift in Sources */,
+				BF8A03C5257BB1B10009DF40 /* FeedbackConnector.swift in Sources */,
 				BF5D04D5257AA1CD00E191ED /* NicheViewController+Component.swift in Sources */,
 				BF5D04D6257AA1CD00E191ED /* NotifyListViewModel.swift in Sources */,
 				BF5D04D7257AA1CD00E191ED /* NotifyListViewController.swift in Sources */,
 				BF5D04D8257AA1CD00E191ED /* NotifyListViewController+Component.swift in Sources */,
 				BF5D04D9257AA1CD00E191ED /* NotifySetupViewController+Component.swift in Sources */,
 				BF5D04DA257AA1CD00E191ED /* NotifySetupViewController.swift in Sources */,
+				BF8A03E9257BB3DE0009DF40 /* PrivacyConnector.swift in Sources */,
 				BFC72888257B4F69006B7301 /* ApiService.swift in Sources */,
+				BF8A03B7257BAF580009DF40 /* MyModuleConnectors.swift in Sources */,
 				BF5D04DB257AA1CD00E191ED /* NotifySetupViewModel.swift in Sources */,
 				BF5D04DC257AA1CD00E191ED /* PersonalViewController.swift in Sources */,
 				BFC7288D257B4F69006B7301 /* Router.swift in Sources */,
 				BF5D04DD257AA1CD00E191ED /* PersonalViewModel.swift in Sources */,
+				BF8A03DD257BB39B0009DF40 /* NicheConnector.swift in Sources */,
 				BF5D04DE257AA1CD00E191ED /* PersonalViewController+Component.swift in Sources */,
 				BF5D04DF257AA1CD00E191ED /* PrivacyViewModel.swift in Sources */,
+				BF8A03E5257BB3C40009DF40 /* PersonalConnector.swift in Sources */,
 				BF5D04E0257AA1CD00E191ED /* PrivacyViewController+Component.swift in Sources */,
 				BF5D04E1257AA1CD00E191ED /* PrivacyViewController.swift in Sources */,
 				BF5D04E2257AA1CD00E191ED /* QRCodeViewController+Component.swift in Sources */,
@@ -796,6 +867,7 @@
 				BF5D04BC257AA19800E191ED /* MyViewController+Component.swift in Sources */,
 				BFC7288A257B4F69006B7301 /* CodeResponse.swift in Sources */,
 				BF5D04BD257AA19800E191ED /* MyViewModel.swift in Sources */,
+				BF8A03D1257BB2FD0009DF40 /* FollowsConnector.swift in Sources */,
 				BF5D04BE257AA19800E191ED /* MyViewController.swift in Sources */,
 				BF5D04BF257AA19800E191ED /* MyConnector.swift in Sources */,
 				4DE8A1AD257A5E3D0078B93B /* AppDelegate.swift in Sources */,

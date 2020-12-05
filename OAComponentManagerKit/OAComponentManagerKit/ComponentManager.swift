@@ -23,6 +23,12 @@ public class ComponentManager {
         if !keys.contains(classString) {
             connectorMap.updateValue(object, forKey: classString)
         }
+        
+        #if DEBUG
+        print("💎💎💎 - Register Connectors: \(connectorMap) - 💎💎💎")
+        print("💎💎💎 - Register count: \(connectorMap.count) - 💎💎💎")
+        print("💎💎💎 - Register keys: \(connectorMap.keys) - 💎💎💎")
+        #endif
     }
     
     /// 判断某个URL能否导航

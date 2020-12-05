@@ -1,16 +1,16 @@
 //
-//  AboutConnector.swift
+//  CommentsConnector.swift
 //  OAMyKit
 //
-//  Created by CainLuo on 2020/12/4.
+//  Created by CainLuo on 2020/12/5.
 //
 
 import UIKit
 import OAComponentManagerKit
 
-public class AboutConnector: NSObject {
-    public static func instance() -> AboutConnector {
-        let connector = AboutConnector()
+public class CommentsConnector: NSObject {
+    public static func instance() -> CommentsConnector {
+        let connector = CommentsConnector()
         return connector
     }
     
@@ -19,15 +19,15 @@ public class AboutConnector: NSObject {
     }
 }
 
-extension AboutConnector: ComponentManagerPrt {
+extension CommentsConnector: ComponentManagerPrt {
     public func canOpenURL(_ url: URL) -> Bool {
-        return url.host == "ModuleAbout"
+        return url.host == "ModuleComments"
     }
     
     public func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>?, completion: (([String : Any]) -> Void)?) -> UIViewController? {
         guard canOpenURL(url) else { return nil }
         
-        let vc = AboutViewController.configureWith()
+        let vc = CommentsViewController.configureWith()
         return vc
     }
 }

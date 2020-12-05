@@ -18,6 +18,8 @@ class TabBarViewController: BaseTabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        MyModuleConnectors.register()
+
         viewControllers = configViewControllers()
     }
     
