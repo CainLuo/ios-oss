@@ -8,6 +8,7 @@
 import UIKit
 import OAGlobalKit
 import OAMyKit
+import OALoginKit
 
 class TabBarViewController: BaseTabBarController {
 
@@ -19,6 +20,7 @@ class TabBarViewController: BaseTabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         MyModuleConnectors.register()
+        LoginModuleConnectors.register()
 
         viewControllers = configViewControllers()
     }
@@ -42,6 +44,9 @@ extension TabBarViewController {
         let my = MyConnector.instance().connectToOpenURL(Constants.Scheme.my, parameters: nil, completion: nil)!
         let myNavi = BaseNavigationController(rootViewController: my)
         
-        return [myNavi]
+        let login = LoginConnector.instance().connectToOpenURL(Constants.Scheme.login, parameters: nil, completion: nil)!
+        let loginNavi = BaseNavigationController(rootViewController: login)
+
+        return [myNavi, loginNavi]
     }
 }

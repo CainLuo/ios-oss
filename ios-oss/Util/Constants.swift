@@ -21,5 +21,6 @@ struct Constants {
 extension Constants {
     enum Scheme {
         static let my = URL(string: "productScheme://ModuleMy")!
+        static let login = URL(string: "productScheme://ModuleLogin")!
     }
 }

@@ -160,12 +160,16 @@ CACHE_KEYS:
       Release: 97745ebadae58685d86d9fd7a6c9afff
   Pods-OALaunchKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: b95286beeb8ea407e13ee26874fb1254
-      Release: b95286beeb8ea407e13ee26874fb1254
+      Debug: 97745ebadae58685d86d9fd7a6c9afff
+      Release: 97745ebadae58685d86d9fd7a6c9afff
+  Pods-OALoginExample:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: afc5dcf911807294e620f648b39d8e33
+      Release: afc5dcf911807294e620f648b39d8e33
   Pods-OALoginKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: b95286beeb8ea407e13ee26874fb1254
-      Release: b95286beeb8ea407e13ee26874fb1254
+      Debug: 97745ebadae58685d86d9fd7a6c9afff
+      Release: 97745ebadae58685d86d9fd7a6c9afff
   Pods-OAMyExample:
     BUILD_SETTINGS_CHECKSUM:
       Debug: afc5dcf911807294e620f648b39d8e33

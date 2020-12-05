@@ -125,10 +125,12 @@ target 'OANavigatorKit' do
 end
 
 target 'OALoginKit' do
+  sharePods
   project 'OALoginKit/OALoginKit.xcodeproj'
 end
 
 target 'OALaunchKit' do
+  sharePods
   project 'OALaunchKit/OALaunchKit.xcodeproj'
 end
 
@@ -141,4 +143,9 @@ end
 target 'OAComponentManagerExample' do
   sharePods
   project 'OAComponentManagerKit/OAComponentManagerKit.xcodeproj'
+end
+
+target 'OALoginExample' do
+  sharePods
+  project 'OALoginKit/OALoginKit.xcodeproj'
 end

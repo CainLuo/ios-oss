@@ -90,6 +90,10 @@ Pods-OALaunchKit:
   LABEL: Pods-OALaunchKit
   PROJECT_PATH: Pods.xcodeproj
   UUID: 0535244C6D1E5A1CD0A5FA7A18B98F24
+Pods-OALoginExample:
+  LABEL: Pods-OALoginExample
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: AE85917C2B2D31F22B453A0C4D604BEA
 Pods-OALoginKit:
   LABEL: Pods-OALoginKit
   PROJECT_PATH: Pods.xcodeproj

@@ -33,19 +33,19 @@ class LoginViewModel: LoginViewModelInputs, LoginViewModelOutputs, LoginViewMode
     init() {
         let error = ErrorTracker()
         let isLoading = ActivityIndicator()
-        let apiServer: ApiServiceType = ApiService()
-        
-        let requestSuccess = viewWillAppearSubject
-            .flatMap {
-                apiServer.login()
-                    .trackError(error)
-                    .trackActivity(isLoading)
-                    .asDriverOnErrorJustComplete()
-            }.share()
-        
-        _ = requestSuccess.subscribe(onNext: { result in
-                log.debug(result)
-            })
+//        let apiServer: ApiServiceType = ApiService()
+//
+//        let requestSuccess = viewWillAppearSubject
+//            .flatMap {
+//                apiServer.login()
+//                    .trackError(error)
+//                    .trackActivity(isLoading)
+//                    .asDriverOnErrorJustComplete()
+//            }.share()
+//
+//        _ = requestSuccess.subscribe(onNext: { result in
+//                log.debug(result)
+//            })
 
         // inputs
         self.viewWillAppear = viewWillAppearSubject.asObserver()
