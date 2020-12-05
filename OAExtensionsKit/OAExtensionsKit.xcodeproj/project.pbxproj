@@ -30,6 +30,7 @@
 		4D6D1340257A69C2009AE5D9 /* OAGlobalKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D133E257A69C2009AE5D9 /* OAGlobalKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DC0A66F257A65DB0008BB39 /* OAExtensionsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC0A66D257A65DB0008BB39 /* OAExtensionsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67A365288CD9CB206E7B363D /* Pods_OAExtensionsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4656737501E0750BFBE6960 /* Pods_OAExtensionsKit.framework */; };
+		BF8A03FC257BB8570009DF40 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03FB257BB8570009DF40 /* HUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +72,7 @@
 		4DC0A66D257A65DB0008BB39 /* OAExtensionsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAExtensionsKit.h; sourceTree = "<group>"; };
 		4DC0A66E257A65DB0008BB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAAD8114A8ED82B20BDA8C30 /* Pods-OAExtensionsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAExtensionsKit.release.xcconfig"; path = "Target Support Files/Pods-OAExtensionsKit/Pods-OAExtensionsKit.release.xcconfig"; sourceTree = "<group>"; };
+		BF8A03FB257BB8570009DF40 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		E00FF1913BE0C471FD5134A0 /* Pods-OAExtensionsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAExtensionsKit.debug.xcconfig"; path = "Target Support Files/Pods-OAExtensionsKit/Pods-OAExtensionsKit.debug.xcconfig"; sourceTree = "<group>"; };
 		F4656737501E0750BFBE6960 /* Pods_OAExtensionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAExtensionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -145,8 +147,9 @@
 			isa = PBXGroup;
 			children = (
 				4D6D1315257A6999009AE5D9 /* Extensions */,
-				4DC0A66D257A65DB0008BB39 /* OAExtensionsKit.h */,
+				BF8A03FB257BB8570009DF40 /* HUD.swift */,
 				4DC0A66E257A65DB0008BB39 /* Info.plist */,
+				4DC0A66D257A65DB0008BB39 /* OAExtensionsKit.h */,
 			);
 			path = OAExtensionsKit;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D6D133A257A6999009AE5D9 /* UIViewController+EmptyData.swift in Sources */,
+				BF8A03FC257BB8570009DF40 /* HUD.swift in Sources */,
 				4D6D1338257A6999009AE5D9 /* UIBarButtonItem+Extension.swift in Sources */,
 				4D6D132A257A6999009AE5D9 /* UIFont+Extension.swift in Sources */,
 				4D6D1330257A6999009AE5D9 /* UIViewController+Swizzle.swift in Sources */,

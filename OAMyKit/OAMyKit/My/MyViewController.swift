@@ -12,6 +12,7 @@ import Localize_Swift
 import HBDNavigationBar
 import OAServiceKit
 import OAGlobalKit
+import OAExtensionsKit
 
 public class MyViewController: BaseTableViewController {
     
@@ -105,7 +106,7 @@ public class MyViewController: BaseTableViewController {
         
         viewModel.outputs.error
             .drive(onNext: { error in
-//                HUD.show(error.localizedDescription)
+                HUD.show(error.localizedDescription)
                 log.debug(error)
             })
             .disposed(by: disposeBag)

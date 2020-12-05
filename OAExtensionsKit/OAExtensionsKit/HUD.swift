@@ -1,8 +1,8 @@
 //
 //  HUD.swift
-//  ios-oss
+//  OAExtensionsKit
 //
-//  Created by YYKJ0048 on 2020/11/24.
+//  Created by CainLuo on 2020/12/5.
 //
 
 import UIKit
@@ -10,25 +10,25 @@ import RxSwift
 import RxCocoa
 import MBProgressHUD
 
-class HUD: NSObject {
+public class HUD: NSObject {
     
-    @objc static func instantiate() -> HUD {
+    @objc public static func instantiate() -> HUD {
         return HUD()
     }
     
-    @objc var isLoading: Bool = false {
+    @objc public var isLoading: Bool = false {
         didSet {
             isLoading ? HUD.loading(isSubmit: false) : HUD.dismiss()
         }
     }
     
-    @objc var isSubmitting: Bool = false {
+    @objc public var isSubmitting: Bool = false {
         didSet {
             isSubmitting ? HUD.loading(isSubmit: true) : HUD.dismiss()
         }
     }
     
-    @objc static func show(_ message: String, delay: TimeInterval = 1.5) {
+    @objc public static func show(_ message: String, delay: TimeInterval = 1.5) {
         guard message.count > 0 else { return }
         DispatchQueue.main.async {
             let hud = self.windowHud()
@@ -40,7 +40,7 @@ class HUD: NSObject {
         }
     }
     
-    @objc static func show(_ message: String? = nil, view: UIView? = nil, delay: TimeInterval = 1.5) {
+    @objc public static func show(_ message: String? = nil, view: UIView? = nil, delay: TimeInterval = 1.5) {
         DispatchQueue.main.async {
             let hud = self.hud(view)
             hud?.detailsLabel.font = UIFont.fitFont(13)
@@ -51,7 +51,7 @@ class HUD: NSObject {
         }
     }
     
-    @objc static func loading(_ message: String? = nil, isSubmit: Bool = true) {
+    @objc public static func loading(_ message: String? = nil, isSubmit: Bool = true) {
         DispatchQueue.main.async {
             let hud = self.windowHud()
             hud?.mode = .indeterminate
@@ -61,7 +61,7 @@ class HUD: NSObject {
         }
     }
     
-    @objc static func loading(_ message: String? = nil, view: UIView? = nil, isSubmit: Bool = false) {
+    @objc public static func loading(_ message: String? = nil, view: UIView? = nil, isSubmit: Bool = false) {
         DispatchQueue.main.async {
             let hud = self.hud(view)
             hud?.mode = .indeterminate
@@ -71,7 +71,7 @@ class HUD: NSObject {
         }
     }
         
-    @objc static func dismiss(_ view: UIView? = nil) {
+    @objc public static func dismiss(_ view: UIView? = nil) {
         DispatchQueue.main.async {
             if let view = view {
                 MBProgressHUD.hide(for: view, animated: true)
@@ -109,7 +109,7 @@ class HUD: NSObject {
 }
 
 // RxSwift Vresion
-extension Reactive where Base: HUD {
+public extension Reactive where Base: HUD {
     var isLoading: Binder<Bool> {
         return Binder(self.base) { view, isLoading in
             view.isLoading = isLoading

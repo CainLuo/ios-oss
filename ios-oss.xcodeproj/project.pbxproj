@@ -51,7 +51,6 @@
 		4DE81CEB256CD4F80013C1F9 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE81CEA256CD4F80013C1F9 /* Register.storyboard */; };
 		4DE81CF1256CD5140013C1F9 /* Forget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE81CF0256CD5140013C1F9 /* Forget.storyboard */; };
 		4DE81CF4256CD5180013C1F9 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CF3256CD5180013C1F9 /* ForgetViewController.swift */; };
-		4DE81CFB256CE2BC0013C1F9 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CFA256CE2BC0013C1F9 /* HUD.swift */; };
 		4DE81D00256CE3490013C1F9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CFF256CE3490013C1F9 /* WebViewController.swift */; };
 		4DE81D04256CE3870013C1F9 /* JSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81D03256CE3870013C1F9 /* JSWebViewController.swift */; };
 		7D0E9F572578893C007F321A /* BaseNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E9F562578893C007F321A /* BaseNavigationBar.swift */; };
@@ -151,7 +150,6 @@
 		4DE81CEA256CD4F80013C1F9 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		4DE81CF0256CD5140013C1F9 /* Forget.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Forget.storyboard; sourceTree = "<group>"; };
 		4DE81CF3256CD5180013C1F9 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
-		4DE81CFA256CE2BC0013C1F9 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		4DE81CFF256CE3490013C1F9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		4DE81D03256CE3870013C1F9 /* JSWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSWebViewController.swift; sourceTree = "<group>"; };
 		6EA5C715A9C6BFBBEC89045D /* Pods-ios-oss.preview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-oss.preview.xcconfig"; path = "Target Support Files/Pods-ios-oss/Pods-ios-oss.preview.xcconfig"; sourceTree = "<group>"; };
@@ -275,7 +273,6 @@
 				4DE81C0A256CA42F0013C1F9 /* Modules */,
 				4DE81C09256CA4250013C1F9 /* Resource */,
 				4DE81C19256CA4710013C1F9 /* Util */,
-				4DE81CF9256CE2AB0013C1F9 /* Views */,
 			);
 			path = "ios-oss";
 			sourceTree = "<group>";
@@ -410,14 +407,6 @@
 				4DE81CE5256CD4E30013C1F9 /* Register */,
 			);
 			path = Logins;
-			sourceTree = "<group>";
-		};
-		4DE81CF9256CE2AB0013C1F9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				4DE81CFA256CE2BC0013C1F9 /* HUD.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		4DE81CFE256CE3230013C1F9 /* Webs */ = {
@@ -682,7 +671,6 @@
 				4DE81C5A256CAA170013C1F9 /* LoginViewController.swift in Sources */,
 				4DE81C1F256CA4CC0013C1F9 /* Storyboard.swift in Sources */,
 				4DE81C6A256CAC400013C1F9 /* SettingViewController.swift in Sources */,
-				4DE81CFB256CE2BC0013C1F9 /* HUD.swift in Sources */,
 				4DE81CB0256CB9CD0013C1F9 /* ApiServiceType.swift in Sources */,
 				4DE81D04256CE3870013C1F9 /* JSWebViewController.swift in Sources */,
 			);
