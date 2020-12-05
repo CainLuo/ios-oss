@@ -8,6 +8,7 @@
 import UIKit
 import SwifterSwift
 import OAMyKit
+import OALoginKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -33,7 +34,8 @@ extension AppDelegate {
     }
     
     func logout() {
-        window?.switchRootViewController(to: Storyboard.Login.instantiateRoot(), options: .transitionCrossDissolve)
+        let login = LoginConnector.instance().connectToOpenURL(Constants.Scheme.login, parameters: nil, completion: nil)!
+        window?.switchRootViewController(to: login, options: .transitionCrossDissolve)
     }
 }
 
