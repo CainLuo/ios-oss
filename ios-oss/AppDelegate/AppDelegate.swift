@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configNavigationBar()
                 
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = Storyboard.Launch.instantiate(LaunchViewController.self)
+        window?.rootViewController = Storyboard.TabBar.instantiate(TabBarViewController.self)
         window?.makeKeyAndVisible()
 
         return true

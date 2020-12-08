@@ -123,6 +123,7 @@
 		BF5D04F1257AA1D600E191ED /* Personal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0467257AA06500E191ED /* Personal.storyboard */; };
 		BF5D04F2257AA1D600E191ED /* Privacy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D046B257AA06500E191ED /* Privacy.storyboard */; };
 		BF5D04F3257AA1D600E191ED /* QRCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5D0443257AA06400E191ED /* QRCode.storyboard */; };
+		BF861ACF257FD6D90037BB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8A1B5257A5E3D0078B93B /* Assets.xcassets */; };
 		BF8A03B5257BAF560009DF40 /* MyModuleConnectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03B4257BAF560009DF40 /* MyModuleConnectors.swift */; };
 		BF8A03B7257BAF580009DF40 /* MyModuleConnectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03B4257BAF560009DF40 /* MyModuleConnectors.swift */; };
 		BF8A03BB257BB0AB0009DF40 /* CollectionsConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A03BA257BB0AB0009DF40 /* CollectionsConnector.swift */; };
@@ -637,6 +638,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF861ACF257FD6D90037BB12 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

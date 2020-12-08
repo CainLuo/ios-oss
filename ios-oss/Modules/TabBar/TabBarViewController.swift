@@ -22,7 +22,7 @@ class TabBarViewController: BaseTabBarController {
         super.viewDidLoad()
         MyModuleConnectors.register()
         LoginModuleConnectors.register()
-
+        
         viewControllers = configViewControllers()
     }
     
