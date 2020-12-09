@@ -35,6 +35,10 @@
 		4DE81C90256CB8590013C1F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C8F256CB8590013C1F9 /* Constants.swift */; };
 		4DE81D00256CE3490013C1F9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CFF256CE3490013C1F9 /* WebViewController.swift */; };
 		4DE81D04256CE3870013C1F9 /* JSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81D03256CE3870013C1F9 /* JSWebViewController.swift */; };
+		4DEDCF772580BDF10033D2A4 /* TabBarConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDCF762580BDF10033D2A4 /* TabBarConnector.swift */; };
+		4DEDCF7B2580BE040033D2A4 /* TabBarViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDCF7A2580BE040033D2A4 /* TabBarViewController+Component.swift */; };
+		4DEDCF812580BEA60033D2A4 /* OALaunchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEDCF802580BEA60033D2A4 /* OALaunchKit.framework */; };
+		4DEDCF822580BEA60033D2A4 /* OALaunchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEDCF802580BEA60033D2A4 /* OALaunchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AC4D7706F9F8989C73731B60 /* Pods_ios_oss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E69E6E0AF006C41D128308 /* Pods_ios_oss.framework */; };
 		BF8A05F5257BC6630009DF40 /* OALoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8A05F4257BC6630009DF40 /* OALoginKit.framework */; };
 		BF8A05F6257BC6630009DF40 /* OALoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF8A05F4257BC6630009DF40 /* OALoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -73,6 +77,7 @@
 				4D6D1359257A6C41009AE5D9 /* OAServiceKit.framework in Embed Frameworks */,
 				4D2C8C85257A5DB6001C832B /* Pods_OAMyKit.framework in Embed Frameworks */,
 				4D6D1348257A6A8B009AE5D9 /* OAGlobalKit.framework in Embed Frameworks */,
+				4DEDCF822580BEA60033D2A4 /* OALaunchKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +121,9 @@
 		4DE81C8F256CB8590013C1F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4DE81CFF256CE3490013C1F9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		4DE81D03256CE3870013C1F9 /* JSWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSWebViewController.swift; sourceTree = "<group>"; };
+		4DEDCF762580BDF10033D2A4 /* TabBarConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConnector.swift; sourceTree = "<group>"; };
+		4DEDCF7A2580BE040033D2A4 /* TabBarViewController+Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabBarViewController+Component.swift"; sourceTree = "<group>"; };
+		4DEDCF802580BEA60033D2A4 /* OALaunchKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OALaunchKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA5C715A9C6BFBBEC89045D /* Pods-ios-oss.preview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-oss.preview.xcconfig"; path = "Target Support Files/Pods-ios-oss/Pods-ios-oss.preview.xcconfig"; sourceTree = "<group>"; };
 		9E4484CF2A05AF49022748FA /* Pods-ios-oss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-oss.release.xcconfig"; path = "Target Support Files/Pods-ios-oss/Pods-ios-oss.release.xcconfig"; sourceTree = "<group>"; };
 		A4E69E6E0AF006C41D128308 /* Pods_ios_oss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_oss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +160,7 @@
 				4D6D1358257A6C41009AE5D9 /* OAServiceKit.framework in Frameworks */,
 				4D67DA0B257A534200FDB68A /* OAComponentManagerKit.framework in Frameworks */,
 				4D6D1347257A6A8B009AE5D9 /* OAGlobalKit.framework in Frameworks */,
+				4DEDCF812580BEA60033D2A4 /* OALaunchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +283,8 @@
 			children = (
 				4DE81C26256CA5070013C1F9 /* TabBar.storyboard */,
 				4DE81C22256CA4FB0013C1F9 /* TabBarViewController.swift */,
+				4DEDCF762580BDF10033D2A4 /* TabBarConnector.swift */,
+				4DEDCF7A2580BE040033D2A4 /* TabBarViewController+Component.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -315,6 +326,7 @@
 		7A5BD1161A8313DC7D49ECF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DEDCF802580BEA60033D2A4 /* OALaunchKit.framework */,
 				BF8A05F4257BC6630009DF40 /* OALoginKit.framework */,
 				4D6D135A257A6C4B009AE5D9 /* OAMyKit.framework */,
 				4D6D1357257A6C41009AE5D9 /* OAServiceKit.framework */,
@@ -538,11 +550,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEDCF7B2580BE040033D2A4 /* TabBarViewController+Component.swift in Sources */,
 				4DE81C90256CB8590013C1F9 /* Constants.swift in Sources */,
 				4DE81C2A256CA54C0013C1F9 /* KeyValueStore.swift in Sources */,
 				4DE81D00256CE3490013C1F9 /* WebViewController.swift in Sources */,
 				4DE81C23256CA4FB0013C1F9 /* TabBarViewController.swift in Sources */,
 				4DE81C42256CA6AB0013C1F9 /* LaunchViewController.swift in Sources */,
+				4DEDCF772580BDF10033D2A4 /* TabBarConnector.swift in Sources */,
 				4DE81C74256CB09E0013C1F9 /* PushNotification.swift in Sources */,
 				BF8A06AC257BCC310009DF40 /* Storyboard.swift in Sources */,
 				4DE81BEE256CA02D0013C1F9 /* AppDelegate.swift in Sources */,

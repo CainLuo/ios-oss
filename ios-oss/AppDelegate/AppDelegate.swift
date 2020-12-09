@@ -9,6 +9,8 @@ import UIKit
 import SwifterSwift
 import OAMyKit
 import OALoginKit
+import OALaunchKit
+import OAComponentManagerKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,9 +21,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIViewController.doBadSwizzleStuff()
         UIView.doBadSwizzleStuff()
         configNavigationBar()
+        
+        TabBarConnector.instance().register()
+        LaunchConnector.instance().register()
+        LoginConnector.instance().register()
+        MyConnector.instance().register()
                 
+        let vc = ComponentManager.viewControllerForURL(URL(string: "productScheme://ModuleLaunch")!)
+        
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = Storyboard.TabBar.instantiate(TabBarViewController.self)
+        window?.rootViewController = vc
         window?.makeKeyAndVisible()
 
         return true
@@ -30,12 +39,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 extension AppDelegate {
     func login() {
-        window?.switchRootViewController(to: TabBarViewController.configureWith(), options: .transitionCrossDissolve)
+//        window?.switchRootViewController(to: TabBarViewController.configureWith(), options: .transitionCrossDissolve)
     }
     
     func logout() {
-        let login = LoginConnector.instance().connectToOpenURL(Constants.Scheme.login, parameters: nil, completion: nil)!
-        window?.switchRootViewController(to: login, options: .transitionCrossDissolve)
+//        let login = LoginConnector.instance().connectToOpenURL(Constants.Scheme.login, parameters: nil, completion: nil)!
+//        window?.switchRootViewController(to: login, options: .transitionCrossDissolve)
     }
 }
 

@@ -10,6 +10,6 @@ import Foundation
 enum LaunchConstants {
     
     enum ModuleURL {
-        static let tabBar = URL(string: "")!
+        static let tabBar = URL(string: "productScheme://ModuleTabBar")!
     }
 }

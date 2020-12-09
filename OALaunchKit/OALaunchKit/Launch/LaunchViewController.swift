@@ -18,15 +18,7 @@ class LaunchViewController: BaseViewController {
     }
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        _ = ComponentManager.routeURL(URL(string: "")!,
-                                      parameters: [routerModeKey: NavigatorType.push],
-                                      completion: { [weak self] info in
-                                        self?.switchWindowRootViewController()
-                                      })
-
-        
+        super.viewDidLoad()        
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.switchWindowRootViewController()
         }

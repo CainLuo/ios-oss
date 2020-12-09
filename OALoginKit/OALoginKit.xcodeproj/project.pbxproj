@@ -208,8 +208,8 @@
 		4D3942392580B17900CBC359 /* Register */ = {
 			isa = PBXGroup;
 			children = (
-				4D39423A2580B17900CBC359 /* RegisterConnector.swift */,
 				4D39423B2580B17900CBC359 /* Register.storyboard */,
+				4D39423A2580B17900CBC359 /* RegisterConnector.swift */,
 				4D39423C2580B17900CBC359 /* RegisterViewController.swift */,
 			);
 			path = Register;
