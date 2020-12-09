@@ -10,6 +10,14 @@
 		494DF04D71B822066D8F3A81 /* Pods_OAMyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A89AA260560E1C6559E966 /* Pods_OAMyKit.framework */; };
 		4D4455D3257A61190098204F /* OAComponentManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4455D2257A61190098204F /* OAComponentManagerKit.framework */; };
 		4D4455D4257A61190098204F /* OAComponentManagerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4455D2257A61190098204F /* OAComponentManagerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D4DEFB32580F2BA007291E9 /* OAComponentManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DEFB22580F2BA007291E9 /* OAComponentManagerKit.framework */; };
+		4D4DEFB42580F2BA007291E9 /* OAComponentManagerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DEFB22580F2BA007291E9 /* OAComponentManagerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D4DEFB72580F2CD007291E9 /* OAGlobalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DEFB62580F2CD007291E9 /* OAGlobalKit.framework */; };
+		4D4DEFB82580F2CD007291E9 /* OAGlobalKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DEFB62580F2CD007291E9 /* OAGlobalKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D4DEFBA2580F2D0007291E9 /* OAServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DEFB92580F2D0007291E9 /* OAServiceKit.framework */; };
+		4D4DEFBB2580F2D0007291E9 /* OAServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DEFB92580F2D0007291E9 /* OAServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D4DEFBD2580F2D4007291E9 /* OAExtensionsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DEFBC2580F2D4007291E9 /* OAExtensionsKit.framework */; };
+		4D4DEFBE2580F2D4007291E9 /* OAExtensionsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DEFBC2580F2D4007291E9 /* OAExtensionsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D62A8592580D5A6006237A8 /* MySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8582580D5A6006237A8 /* MySectionView.swift */; };
 		4D62A85A2580D5A6006237A8 /* MySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8582580D5A6006237A8 /* MySectionView.swift */; };
 		4D62A85D2580D5C1006237A8 /* MyItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A85C2580D5C1006237A8 /* MyItemCell.swift */; };
@@ -188,11 +196,29 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D4DEFB52580F2BA007291E9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D4DEFBB2580F2D0007291E9 /* OAServiceKit.framework in Embed Frameworks */,
+				4D4DEFBE2580F2D4007291E9 /* OAExtensionsKit.framework in Embed Frameworks */,
+				4D4DEFB82580F2CD007291E9 /* OAGlobalKit.framework in Embed Frameworks */,
+				4D4DEFB42580F2BA007291E9 /* OAComponentManagerKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1DEE89DE66043B8736101BA0 /* Pods-OAMyKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAMyKit.release.xcconfig"; path = "Target Support Files/Pods-OAMyKit/Pods-OAMyKit.release.xcconfig"; sourceTree = "<group>"; };
 		4D4455D2257A61190098204F /* OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4DEFB22580F2BA007291E9 /* OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4DEFB62580F2CD007291E9 /* OAGlobalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAGlobalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4DEFB92580F2D0007291E9 /* OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4DEFBC2580F2D4007291E9 /* OAExtensionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAExtensionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D62A8582580D5A6006237A8 /* MySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySectionView.swift; sourceTree = "<group>"; };
 		4D62A85C2580D5C1006237A8 /* MyItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyItemCell.swift; sourceTree = "<group>"; };
 		4D62A8602580D5D0006237A8 /* MyProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileCell.swift; sourceTree = "<group>"; };
@@ -294,6 +320,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				494DF04D71B822066D8F3A81 /* Pods_OAMyKit.framework in Frameworks */,
+				4D4DEFB32580F2BA007291E9 /* OAComponentManagerKit.framework in Frameworks */,
+				4D4DEFBD2580F2D4007291E9 /* OAExtensionsKit.framework in Frameworks */,
+				4D4DEFB72580F2CD007291E9 /* OAGlobalKit.framework in Frameworks */,
+				4D4DEFBA2580F2D0007291E9 /* OAServiceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +424,10 @@
 		9341353B13FDB15E42F12AA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D4DEFBC2580F2D4007291E9 /* OAExtensionsKit.framework */,
+				4D4DEFB92580F2D0007291E9 /* OAServiceKit.framework */,
+				4D4DEFB62580F2CD007291E9 /* OAGlobalKit.framework */,
+				4D4DEFB22580F2BA007291E9 /* OAComponentManagerKit.framework */,
 				4D6D137B257A6CDF009AE5D9 /* OAServiceKit.framework */,
 				4D4455D2257A61190098204F /* OAComponentManagerKit.framework */,
 				74A89AA260560E1C6559E966 /* Pods_OAMyKit.framework */,
@@ -595,6 +629,7 @@
 				4DE8A197257A5E2D0078B93B /* Frameworks */,
 				4DE8A198257A5E2D0078B93B /* Resources */,
 				4B844BC229940C3D48E1F2DA /* [CP] Copy Pods Resources */,
+				4D4DEFB52580F2BA007291E9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1095,8 +1130,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A43682227DA50F038D449C76 /* Pods-OAMyKit.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 39944VQMR4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1120,8 +1157,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1DEE89DE66043B8736101BA0 /* Pods-OAMyKit.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 39944VQMR4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1148,6 +1187,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39944VQMR4;
 				INFOPLIST_FILE = OAMyExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1169,6 +1209,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39944VQMR4;
 				INFOPLIST_FILE = OAMyExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

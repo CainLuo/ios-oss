@@ -29,8 +29,6 @@
 		4DE81C23256CA4FB0013C1F9 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C22256CA4FB0013C1F9 /* TabBarViewController.swift */; };
 		4DE81C27256CA5070013C1F9 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE81C26256CA5070013C1F9 /* TabBar.storyboard */; };
 		4DE81C2A256CA54C0013C1F9 /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C29256CA54C0013C1F9 /* KeyValueStore.swift */; };
-		4DE81C42256CA6AB0013C1F9 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C41256CA6AB0013C1F9 /* LaunchViewController.swift */; };
-		4DE81C55256CA8610013C1F9 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE81C54256CA8610013C1F9 /* Launch.storyboard */; };
 		4DE81C74256CB09E0013C1F9 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C73256CB09E0013C1F9 /* PushNotification.swift */; };
 		4DE81C90256CB8590013C1F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81C8F256CB8590013C1F9 /* Constants.swift */; };
 		4DE81D00256CE3490013C1F9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81CFF256CE3490013C1F9 /* WebViewController.swift */; };
@@ -115,8 +113,6 @@
 		4DE81C22256CA4FB0013C1F9 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		4DE81C26256CA5070013C1F9 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
 		4DE81C29256CA54C0013C1F9 /* KeyValueStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueStore.swift; sourceTree = "<group>"; };
-		4DE81C41256CA6AB0013C1F9 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
-		4DE81C54256CA8610013C1F9 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		4DE81C73256CB09E0013C1F9 /* PushNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
 		4DE81C8F256CB8590013C1F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4DE81CFF256CE3490013C1F9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
@@ -252,7 +248,6 @@
 		4DE81C0A256CA42F0013C1F9 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4DE81C40256CA6930013C1F9 /* Launch */,
 				4DE81C21256CA4E90013C1F9 /* TabBar */,
 				4DE81CFE256CE3230013C1F9 /* Webs */,
 			);
@@ -287,15 +282,6 @@
 				4DEDCF7A2580BE040033D2A4 /* TabBarViewController+Component.swift */,
 			);
 			path = TabBar;
-			sourceTree = "<group>";
-		};
-		4DE81C40256CA6930013C1F9 /* Launch */ = {
-			isa = PBXGroup;
-			children = (
-				4DE81C54256CA8610013C1F9 /* Launch.storyboard */,
-				4DE81C41256CA6AB0013C1F9 /* LaunchViewController.swift */,
-			);
-			path = Launch;
 			sourceTree = "<group>";
 		};
 		4DE81CFE256CE3230013C1F9 /* Webs */ = {
@@ -468,7 +454,6 @@
 				4DE81C27256CA5070013C1F9 /* TabBar.storyboard in Resources */,
 				4DE81BF7256CA02E0013C1F9 /* Assets.xcassets in Resources */,
 				4D15D5572577AA9400FC7CE9 /* Localizable.strings in Resources */,
-				4DE81C55256CA8610013C1F9 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +540,6 @@
 				4DE81C2A256CA54C0013C1F9 /* KeyValueStore.swift in Sources */,
 				4DE81D00256CE3490013C1F9 /* WebViewController.swift in Sources */,
 				4DE81C23256CA4FB0013C1F9 /* TabBarViewController.swift in Sources */,
-				4DE81C42256CA6AB0013C1F9 /* LaunchViewController.swift in Sources */,
 				4DEDCF772580BDF10033D2A4 /* TabBarConnector.swift in Sources */,
 				4DE81C74256CB09E0013C1F9 /* PushNotification.swift in Sources */,
 				BF8A06AC257BCC310009DF40 /* Storyboard.swift in Sources */,

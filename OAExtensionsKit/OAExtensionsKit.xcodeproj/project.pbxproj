@@ -437,8 +437,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E00FF1913BE0C471FD5134A0 /* Pods-OAExtensionsKit.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 39944VQMR4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -462,8 +464,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BAAD8114A8ED82B20BDA8C30 /* Pods-OAExtensionsKit.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 39944VQMR4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
