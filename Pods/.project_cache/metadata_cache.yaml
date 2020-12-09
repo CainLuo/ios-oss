@@ -102,6 +102,14 @@ Pods-OAComponentManagerKit:
   LABEL: Pods-OAComponentManagerKit
   PROJECT_PATH: Pods.xcodeproj
   UUID: 3651447EB3682999147B0E61F1523C82
+Pods-OAContactExample:
+  LABEL: Pods-OAContactExample
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 802B3351ACDBE2F1DF5419C328E2C6D1
+Pods-OAContactKit:
+  LABEL: Pods-OAContactKit
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: E9FA32BC620C443FAACBF5C2A9A82EE1
 Pods-OAExtensionsKit:
   LABEL: Pods-OAExtensionsKit
   PROJECT_PATH: Pods.xcodeproj
@@ -110,6 +118,14 @@ Pods-OAGlobalKit:
   LABEL: Pods-OAGlobalKit
   PROJECT_PATH: Pods.xcodeproj
   UUID: 692BED3FB6A20DEDADF803708B5B6393
+Pods-OAInformationExample:
+  LABEL: Pods-OAInformationExample
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: DC33B7FE114126BCFE7117C32827499F
+Pods-OAInformationKit:
+  LABEL: Pods-OAInformationKit
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: C30D6CF251685E06C4C41C56DDBFAE0B
 Pods-OALaunchExample:
   LABEL: Pods-OALaunchExample
   PROJECT_PATH: Pods.xcodeproj

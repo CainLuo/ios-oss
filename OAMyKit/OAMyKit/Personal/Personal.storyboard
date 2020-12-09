@@ -12,7 +12,7 @@
         <!--Personal View Controller-->
         <scene sceneID="YwN-c2-jea">
             <objects>
-                <viewController storyboardIdentifier="PersonalViewController" hidesBottomBarWhenPushed="YES" id="NHF-5D-Gsl" customClass="PersonalViewController" customModule="ios_oss" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PersonalViewController" hidesBottomBarWhenPushed="YES" id="NHF-5D-Gsl" customClass="PersonalViewController" customModule="OAMyExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C2C-7C-Rf7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -146,6 +146,16 @@ target 'OALaunchKit' do
   project 'OALaunchKit/OALaunchKit.xcodeproj'
 end
 
+target 'OAContactKit' do
+  sharePods
+  project 'OAContactKit/OAContactKit.xcodeproj'
+end
+
+target 'OAInformationKit' do
+    sharePods
+    project 'OAInformationKit/OAInformationKit.xcodeproj'
+end
+
 # Examples
 target 'OAMyExample' do
   sharePods
@@ -165,4 +175,14 @@ end
 target 'OALaunchExample' do
   sharePods
   project 'OALaunchKit/OALaunchKit.xcodeproj'
+end
+
+target 'OAContactExample' do
+  sharePods
+  project 'OAContactKit/OAContactKit.xcodeproj'
+end
+
+target 'OAInformationExample' do
+    sharePods
+    project 'OAInformationKit/OAInformationKit.xcodeproj'
 end

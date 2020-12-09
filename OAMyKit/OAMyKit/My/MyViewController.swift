@@ -101,7 +101,7 @@ extension MyViewController: UICollectionViewDataSource {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyProfileCell", for: indexPath) as! MyProfileCell
             return cell
         case .commerces:
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCommercesCell", for: indexPath) as! MyCommercesCell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCommerceCell", for: indexPath) as! MyCommerceCell
             return cell
         case .personal,
              .management:

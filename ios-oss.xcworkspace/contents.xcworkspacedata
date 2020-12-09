@@ -31,4 +31,10 @@
    <FileRef
       location = "group:OALaunchKit/OALaunchKit.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:OAContactKit/OAContactKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OAInformationKit/OAInformationKit.xcodeproj">
+   </FileRef>
 </Workspace>

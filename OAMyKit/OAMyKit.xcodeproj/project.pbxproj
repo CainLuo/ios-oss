@@ -16,8 +16,8 @@
 		4D62A85E2580D5C1006237A8 /* MyItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A85C2580D5C1006237A8 /* MyItemCell.swift */; };
 		4D62A8612580D5D0006237A8 /* MyProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8602580D5D0006237A8 /* MyProfileCell.swift */; };
 		4D62A8622580D5D0006237A8 /* MyProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8602580D5D0006237A8 /* MyProfileCell.swift */; };
-		4D62A8652580D603006237A8 /* MyCommercesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8642580D603006237A8 /* MyCommercesCell.swift */; };
-		4D62A8662580D603006237A8 /* MyCommercesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8642580D603006237A8 /* MyCommercesCell.swift */; };
+		4D62A8652580D603006237A8 /* MyCommerceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8642580D603006237A8 /* MyCommerceCell.swift */; };
+		4D62A8662580D603006237A8 /* MyCommerceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8642580D603006237A8 /* MyCommerceCell.swift */; };
 		4D62A86A2580D7B7006237A8 /* MyItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8692580D7B7006237A8 /* MyItemsModel.swift */; };
 		4D62A86B2580D7B7006237A8 /* MyItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8692580D7B7006237A8 /* MyItemsModel.swift */; };
 		4D6D137C257A6CDF009AE5D9 /* OAServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D137B257A6CDF009AE5D9 /* OAServiceKit.framework */; };
@@ -196,7 +196,7 @@
 		4D62A8582580D5A6006237A8 /* MySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySectionView.swift; sourceTree = "<group>"; };
 		4D62A85C2580D5C1006237A8 /* MyItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyItemCell.swift; sourceTree = "<group>"; };
 		4D62A8602580D5D0006237A8 /* MyProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileCell.swift; sourceTree = "<group>"; };
-		4D62A8642580D603006237A8 /* MyCommercesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCommercesCell.swift; sourceTree = "<group>"; };
+		4D62A8642580D603006237A8 /* MyCommerceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCommerceCell.swift; sourceTree = "<group>"; };
 		4D62A8692580D7B7006237A8 /* MyItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyItemsModel.swift; sourceTree = "<group>"; };
 		4D6D137B257A6CDF009AE5D9 /* OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6D1387257A6FC1009AE5D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -313,7 +313,7 @@
 		4D62A8562580D584006237A8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4D62A8642580D603006237A8 /* MyCommercesCell.swift */,
+				4D62A8642580D603006237A8 /* MyCommerceCell.swift */,
 				4D62A85C2580D5C1006237A8 /* MyItemCell.swift */,
 				4D62A8602580D5D0006237A8 /* MyProfileCell.swift */,
 				4D62A8582580D5A6006237A8 /* MySectionView.swift */,
@@ -831,7 +831,7 @@
 				BF5D042E257A9F6F00E191ED /* AboutConnector.swift in Sources */,
 				BF5D0483257AA06500E191ED /* GeneralViewModel.swift in Sources */,
 				BF5D048D257AA06500E191ED /* NotifyListViewController+Component.swift in Sources */,
-				4D62A8652580D603006237A8 /* MyCommercesCell.swift in Sources */,
+				4D62A8652580D603006237A8 /* MyCommerceCell.swift in Sources */,
 				BF5D04B5257AA17500E191ED /* MyConnector.swift in Sources */,
 				BF8A03C2257BB1920009DF40 /* FeedbackConnector.swift in Sources */,
 				BF8A03BF257BB1360009DF40 /* CommentsConnector.swift in Sources */,
@@ -899,7 +899,7 @@
 				BF8A03ED257BB3F70009DF40 /* QRCodeConnector.swift in Sources */,
 				BF8A03C8257BB1B70009DF40 /* CollectionsConnector.swift in Sources */,
 				BF5D04CD257AA1CD00E191ED /* FollowsViewController+Component.swift in Sources */,
-				4D62A8662580D603006237A8 /* MyCommercesCell.swift in Sources */,
+				4D62A8662580D603006237A8 /* MyCommerceCell.swift in Sources */,
 				BFC7289A257B5075006B7301 /* MyConstants.swift in Sources */,
 				BF5D04CE257AA1CD00E191ED /* FollowsViewModel.swift in Sources */,
 				BF8A03E1257BB3AA0009DF40 /* NotifySetupConnector.swift in Sources */,
