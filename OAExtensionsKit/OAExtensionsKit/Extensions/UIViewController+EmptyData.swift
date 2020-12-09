@@ -8,24 +8,38 @@
 import UIKit
 import DZNEmptyDataSet
 
-public protocol EmptyDataDelegate {
+extension UIScrollView {
+    weak var emptyDataDelegate: EmptyDataDelegate? {
+        get {
+            return (objc_getAssociatedObject(self, &kEmptyDataDelegateKey) as? EmptyDataDelegate)
+        }
+        set(newValue) {
+            self.emptyDataSetSource = newValue
+            self.emptyDataSetDelegate = newValue
+            objc_setAssociatedObject(self, &kEmptyDataDelegateKey, newValue, .OBJC_ASSOCIATION_ASSIGN)
+        }
+    }
+}
+
+protocol EmptyDataDelegate: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate{
+    func showEmtypDataView()
     func showEmtypDataView(options: EmptyDataOptions)
     func hideEmtypDataView()
 }
 
-public enum EmptyDataType {
+enum EmptyDataType {
     case noData
     case noNetWork
     case searchFail
     case custom
 }
 
-public struct EmptyDataOptions {
-    public var title: String
-    public var detail: String
-    public var imageName: String
-    public var type: EmptyDataType
-    public init(title: String = "", detail: String = "", imageName: String = "placeholder_search", type: EmptyDataType = .noData) {
+struct EmptyDataOptions {
+    var title: String
+    var detail: String
+    var imageName: String
+    var type: EmptyDataType
+    init(title: String = "", detail: String = "", imageName: String = "placeholder_search", type: EmptyDataType = .noData) {
         self.title = title
         self.detail = detail
         self.type = type
@@ -48,8 +62,9 @@ public struct EmptyDataOptions {
 
 private var kCanShowEmptyDataKey: Bool = false
 private var kEmptyDataOptionKey: EmptyDataOptions = EmptyDataOptions()
+private weak var kEmptyDataDelegateKey: EmptyDataDelegate?
 
-public extension UIViewController {
+extension UIViewController {
     var canShowEmptyData: Bool? {
         get {
             return (objc_getAssociatedObject(self, &kCanShowEmptyDataKey) as? Bool)
@@ -102,19 +117,31 @@ extension UIViewController: DZNEmptyDataSetDelegate {
     public func emptyDataSetShouldAllowScroll(_ scrollView: UIScrollView!) -> Bool {
         return true
     }
+    
+    public func emptyDataSetShouldAllowTouch(_ scrollView: UIScrollView!) -> Bool {
+        return true
+    }
 
     public func emptyDataSet(_ scrollView: UIScrollView!, didTap button: UIButton!) {
   
     }
+    
+    public func emptyDataSet(_ scrollView: UIScrollView!, didTap view: UIView!) {
+        
+    }
 }
 
 extension UIViewController : EmptyDataDelegate {
-    public func showEmtypDataView(options: EmptyDataOptions) {
+    func showEmtypDataView() {
+        showEmtypDataView(options: EmptyDataOptions())
+    }
+    
+    func showEmtypDataView(options: EmptyDataOptions) {
         canShowEmptyData = true
         emptyDataOption = options
     }
     
-    public func hideEmtypDataView() {
+    func hideEmtypDataView() {
         canShowEmptyData = false
     }
 }
