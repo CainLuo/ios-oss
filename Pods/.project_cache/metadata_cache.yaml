@@ -110,6 +110,10 @@ Pods-OAGlobalKit:
   LABEL: Pods-OAGlobalKit
   PROJECT_PATH: Pods.xcodeproj
   UUID: 692BED3FB6A20DEDADF803708B5B6393
+Pods-OALaunchExample:
+  LABEL: Pods-OALaunchExample
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: E66D411514AAA20880A9124AEB8BB654
 Pods-OALaunchKit:
   LABEL: Pods-OALaunchKit
   PROJECT_PATH: Pods.xcodeproj

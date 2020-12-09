@@ -52,8 +52,27 @@
 		4D3942722580B17900CBC359 /* LoginStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39424B2580B17900CBC359 /* LoginStoryboard.swift */; };
 		4D3942732580B17900CBC359 /* LoginConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39424C2580B17900CBC359 /* LoginConstants.swift */; };
 		4D3942742580B17900CBC359 /* LoginConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39424C2580B17900CBC359 /* LoginConstants.swift */; };
+		4D3944322580B55A00CBC359 /* OAServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3944312580B55A00CBC359 /* OAServiceKit.framework */; };
+		4D3944332580B55A00CBC359 /* OAServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3944312580B55A00CBC359 /* OAServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D3944372580B55F00CBC359 /* OAComponentManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3944362580B55F00CBC359 /* OAComponentManagerKit.framework */; };
+		4D3944382580B55F00CBC359 /* OAComponentManagerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3944362580B55F00CBC359 /* OAComponentManagerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F335A87E28C54CE2424EFEB3 /* Pods_OALoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1208B2D2274F260099A4CE9 /* Pods_OALoginKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D3944342580B55A00CBC359 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D3944332580B55A00CBC359 /* OAServiceKit.framework in Embed Frameworks */,
+				4D3944382580B55F00CBC359 /* OAComponentManagerKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2FC431852CFBB205786F209B /* Pods-OALoginKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OALoginKit.release.xcconfig"; path = "Target Support Files/Pods-OALoginKit/Pods-OALoginKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +104,9 @@
 		4D39424A2580B17900CBC359 /* CodeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeResponse.swift; sourceTree = "<group>"; };
 		4D39424B2580B17900CBC359 /* LoginStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginStoryboard.swift; sourceTree = "<group>"; };
 		4D39424C2580B17900CBC359 /* LoginConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginConstants.swift; sourceTree = "<group>"; };
+		4D39442D2580B54B00CBC359 /* OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3944312580B55A00CBC359 /* OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3944362580B55F00CBC359 /* OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5185619D984BAC0F83F23282 /* Pods-OALoginExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OALoginExample.debug.xcconfig"; path = "Target Support Files/Pods-OALoginExample/Pods-OALoginExample.debug.xcconfig"; sourceTree = "<group>"; };
 		614A3FD184AF98ECAB6AEFF8 /* Pods-OALoginKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OALoginKit.debug.xcconfig"; path = "Target Support Files/Pods-OALoginKit/Pods-OALoginKit.debug.xcconfig"; sourceTree = "<group>"; };
 		88815D996C794DADE90A2DA5 /* Pods_OALoginExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OALoginExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +127,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3944372580B55F00CBC359 /* OAComponentManagerKit.framework in Frameworks */,
 				451E6CB3AA5B653F5D878AFB /* Pods_OALoginExample.framework in Frameworks */,
+				4D3944322580B55A00CBC359 /* OAServiceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +139,9 @@
 		1B8AB56870E6EFF7FCFA8008 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D3944362580B55F00CBC359 /* OAComponentManagerKit.framework */,
+				4D3944312580B55A00CBC359 /* OAServiceKit.framework */,
+				4D39442D2580B54B00CBC359 /* OAServiceKit.framework */,
 				88815D996C794DADE90A2DA5 /* Pods_OALoginExample.framework */,
 				F1208B2D2274F260099A4CE9 /* Pods_OALoginKit.framework */,
 			);
@@ -269,6 +296,7 @@
 				4D3942192580B15700CBC359 /* Resources */,
 				2B13AB7D777A03C55B58AD18 /* [CP] Embed Pods Frameworks */,
 				D295B643C0EFED259711D74C /* [CP] Copy Pods Resources */,
+				4D3944342580B55A00CBC359 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

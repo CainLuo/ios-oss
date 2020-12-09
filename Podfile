@@ -161,3 +161,8 @@ target 'OALoginExample' do
   sharePods
   project 'OALoginKit/OALoginKit.xcodeproj'
 end
+
+target 'OALaunchExample' do
+  sharePods
+  project 'OALaunchKit/OALaunchKit.xcodeproj'
+end
