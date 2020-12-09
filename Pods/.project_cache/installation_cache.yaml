@@ -200,8 +200,8 @@ CACHE_KEYS:
   Pods-ios-oss:
     BUILD_SETTINGS_CHECKSUM:
       Debug: 080d520efadea60c9a7b5850a4075e58
-      Live: 080d520efadea60c9a7b5850a4075e58
-      Preview: 080d520efadea60c9a7b5850a4075e58
+      Live: b217db7ce9119d40d84cdf3d8c2a9610
+      Preview: b217db7ce9119d40d84cdf3d8c2a9610
       Release: b217db7ce9119d40d84cdf3d8c2a9610
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -209,7 +209,7 @@ CACHE_KEYS:
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAComponentManagerExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: fdcf669720f6d1fefa27ec3761313342
+      Debug: b3193b9529bd44d565dcfc5e5f78a208
       Release: fdcf669720f6d1fefa27ec3761313342
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -217,7 +217,7 @@ CACHE_KEYS:
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAComponentManagerKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 8154a31f92b2960a40d4ae8ce6112281
       Release: 8bd8e015064b6921af4052aaade1de5f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -225,7 +225,7 @@ CACHE_KEYS:
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAExtensionsKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 8154a31f92b2960a40d4ae8ce6112281
       Release: 8bd8e015064b6921af4052aaade1de5f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -233,7 +233,7 @@ CACHE_KEYS:
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAGlobalKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 8154a31f92b2960a40d4ae8ce6112281
       Release: 8bd8e015064b6921af4052aaade1de5f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -241,7 +241,7 @@ CACHE_KEYS:
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OALaunchExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: fdcf669720f6d1fefa27ec3761313342
+      Debug: b3193b9529bd44d565dcfc5e5f78a208
       Release: fdcf669720f6d1fefa27ec3761313342
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -249,7 +249,7 @@ CACHE_KEYS:
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OALaunchKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 8154a31f92b2960a40d4ae8ce6112281
       Release: 8bd8e015064b6921af4052aaade1de5f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -257,7 +257,7 @@ CACHE_KEYS:
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OALoginExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: fdcf669720f6d1fefa27ec3761313342
+      Debug: b3193b9529bd44d565dcfc5e5f78a208
       Release: fdcf669720f6d1fefa27ec3761313342
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -265,7 +265,7 @@ CACHE_KEYS:
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OALoginKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 8154a31f92b2960a40d4ae8ce6112281
       Release: 8bd8e015064b6921af4052aaade1de5f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -273,7 +273,7 @@ CACHE_KEYS:
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAMyExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: fdcf669720f6d1fefa27ec3761313342
+      Debug: b3193b9529bd44d565dcfc5e5f78a208
       Release: fdcf669720f6d1fefa27ec3761313342
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -281,7 +281,7 @@ CACHE_KEYS:
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAMyKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 8154a31f92b2960a40d4ae8ce6112281
       Release: 8bd8e015064b6921af4052aaade1de5f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
@@ -293,7 +293,7 @@ CACHE_KEYS:
       Release: b95286beeb8ea407e13ee26874fb1254
   Pods-OAServiceKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 8154a31f92b2960a40d4ae8ce6112281
       Release: 8bd8e015064b6921af4052aaade1de5f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"

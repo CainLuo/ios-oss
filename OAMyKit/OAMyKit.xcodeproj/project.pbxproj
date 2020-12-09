@@ -10,6 +10,16 @@
 		494DF04D71B822066D8F3A81 /* Pods_OAMyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A89AA260560E1C6559E966 /* Pods_OAMyKit.framework */; };
 		4D4455D3257A61190098204F /* OAComponentManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4455D2257A61190098204F /* OAComponentManagerKit.framework */; };
 		4D4455D4257A61190098204F /* OAComponentManagerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4455D2257A61190098204F /* OAComponentManagerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D62A8592580D5A6006237A8 /* MySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8582580D5A6006237A8 /* MySectionView.swift */; };
+		4D62A85A2580D5A6006237A8 /* MySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8582580D5A6006237A8 /* MySectionView.swift */; };
+		4D62A85D2580D5C1006237A8 /* MyItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A85C2580D5C1006237A8 /* MyItemCell.swift */; };
+		4D62A85E2580D5C1006237A8 /* MyItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A85C2580D5C1006237A8 /* MyItemCell.swift */; };
+		4D62A8612580D5D0006237A8 /* MyProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8602580D5D0006237A8 /* MyProfileCell.swift */; };
+		4D62A8622580D5D0006237A8 /* MyProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8602580D5D0006237A8 /* MyProfileCell.swift */; };
+		4D62A8652580D603006237A8 /* MyCommercesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8642580D603006237A8 /* MyCommercesCell.swift */; };
+		4D62A8662580D603006237A8 /* MyCommercesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8642580D603006237A8 /* MyCommercesCell.swift */; };
+		4D62A86A2580D7B7006237A8 /* MyItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8692580D7B7006237A8 /* MyItemsModel.swift */; };
+		4D62A86B2580D7B7006237A8 /* MyItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62A8692580D7B7006237A8 /* MyItemsModel.swift */; };
 		4D6D137C257A6CDF009AE5D9 /* OAServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D137B257A6CDF009AE5D9 /* OAServiceKit.framework */; };
 		4D6D137D257A6CDF009AE5D9 /* OAServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D137B257A6CDF009AE5D9 /* OAServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D6D1386257A6FC1009AE5D9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D6D1388257A6FC1009AE5D9 /* Localizable.strings */; };
@@ -183,6 +193,11 @@
 /* Begin PBXFileReference section */
 		1DEE89DE66043B8736101BA0 /* Pods-OAMyKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAMyKit.release.xcconfig"; path = "Target Support Files/Pods-OAMyKit/Pods-OAMyKit.release.xcconfig"; sourceTree = "<group>"; };
 		4D4455D2257A61190098204F /* OAComponentManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAComponentManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D62A8582580D5A6006237A8 /* MySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySectionView.swift; sourceTree = "<group>"; };
+		4D62A85C2580D5C1006237A8 /* MyItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyItemCell.swift; sourceTree = "<group>"; };
+		4D62A8602580D5D0006237A8 /* MyProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileCell.swift; sourceTree = "<group>"; };
+		4D62A8642580D603006237A8 /* MyCommercesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCommercesCell.swift; sourceTree = "<group>"; };
+		4D62A8692580D7B7006237A8 /* MyItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyItemsModel.swift; sourceTree = "<group>"; };
 		4D6D137B257A6CDF009AE5D9 /* OAServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6D1387257A6FC1009AE5D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4D6D138A257A6FC4009AE5D9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -295,6 +310,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D62A8562580D584006237A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D62A8642580D603006237A8 /* MyCommercesCell.swift */,
+				4D62A85C2580D5C1006237A8 /* MyItemCell.swift */,
+				4D62A8602580D5D0006237A8 /* MyProfileCell.swift */,
+				4D62A8582580D5A6006237A8 /* MySectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4DE8A190257A5E2D0078B93B = {
 			isa = PBXGroup;
 			children = (
@@ -523,9 +549,11 @@
 			children = (
 				BF5D04AE257AA17500E191ED /* My.storyboard */,
 				BF5D04B0257AA17500E191ED /* MyConnector.swift */,
+				4D62A8692580D7B7006237A8 /* MyItemsModel.swift */,
 				BF5D04AF257AA17500E191ED /* MyViewController.swift */,
 				BF5D04AC257AA17500E191ED /* MyViewController+Component.swift */,
 				BF5D04AD257AA17500E191ED /* MyViewModel.swift */,
+				4D62A8562580D584006237A8 /* Views */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -772,6 +800,7 @@
 				BF5D04A0257AA0D700E191ED /* Follows.storyboard in Sources */,
 				BF5D04A1257AA0D700E191ED /* General.storyboard in Sources */,
 				BF8A03E8257BB3DE0009DF40 /* PrivacyConnector.swift in Sources */,
+				4D62A86A2580D7B7006237A8 /* MyItemsModel.swift in Sources */,
 				BF5D04A2257AA0D700E191ED /* Niche.storyboard in Sources */,
 				BF8A03E0257BB3AA0009DF40 /* NotifySetupConnector.swift in Sources */,
 				BFC72890257B4F6D006B7301 /* ApiService.swift in Sources */,
@@ -802,6 +831,7 @@
 				BF5D042E257A9F6F00E191ED /* AboutConnector.swift in Sources */,
 				BF5D0483257AA06500E191ED /* GeneralViewModel.swift in Sources */,
 				BF5D048D257AA06500E191ED /* NotifyListViewController+Component.swift in Sources */,
+				4D62A8652580D603006237A8 /* MyCommercesCell.swift in Sources */,
 				BF5D04B5257AA17500E191ED /* MyConnector.swift in Sources */,
 				BF8A03C2257BB1920009DF40 /* FeedbackConnector.swift in Sources */,
 				BF8A03BF257BB1360009DF40 /* CommentsConnector.swift in Sources */,
@@ -824,6 +854,7 @@
 				BF5D0496257AA06500E191ED /* PrivacyViewController.swift in Sources */,
 				BF5D0488257AA06500E191ED /* CollectionsViewController.swift in Sources */,
 				BF5D04B1257AA17500E191ED /* MyViewController+Component.swift in Sources */,
+				4D62A8592580D5A6006237A8 /* MySectionView.swift in Sources */,
 				BF5D047D257AA06500E191ED /* NotifySetupViewModel.swift in Sources */,
 				BF5D0431257A9F6F00E191ED /* AboutViewController+Component.swift in Sources */,
 				BF8A03CB257BB2A20009DF40 /* FollowsConnector.swift in Sources */,
@@ -831,11 +862,13 @@
 				BF5D0427257A9F4A00E191ED /* MyStoryboard.swift in Sources */,
 				BFC72897257B503B006B7301 /* MyConstants.swift in Sources */,
 				BF5D0490257AA06500E191ED /* PersonalViewModel.swift in Sources */,
+				4D62A85D2580D5C1006237A8 /* MyItemCell.swift in Sources */,
 				BF5D04B2257AA17500E191ED /* MyViewModel.swift in Sources */,
 				BFC72893257B4F6D006B7301 /* ApiService+Request.swift in Sources */,
 				BF5D0430257A9F6F00E191ED /* AboutViewController.swift in Sources */,
 				BF5D048A257AA06500E191ED /* CollectionsViewController+Component.swift in Sources */,
 				BF5D0493257AA06500E191ED /* PrivacyViewModel.swift in Sources */,
+				4D62A8612580D5D0006237A8 /* MyProfileCell.swift in Sources */,
 				BF5D047C257AA06500E191ED /* NotifySetupViewController.swift in Sources */,
 				BF5D047B257AA06500E191ED /* NotifySetupViewController+Component.swift in Sources */,
 			);
@@ -848,6 +881,7 @@
 				BF5D04C1257AA1CD00E191ED /* MyStoryboard.swift in Sources */,
 				BF5D04C2257AA1CD00E191ED /* AboutConnector.swift in Sources */,
 				BF5D04C3257AA1CD00E191ED /* AboutViewController.swift in Sources */,
+				4D62A86B2580D7B7006237A8 /* MyItemsModel.swift in Sources */,
 				BF8A03DB257BB3970009DF40 /* NotifyListConnector.swift in Sources */,
 				BF5D04C4257AA1CD00E191ED /* AboutViewController+Component.swift in Sources */,
 				BF5D04C5257AA1CD00E191ED /* CollectionsViewController.swift in Sources */,
@@ -865,6 +899,7 @@
 				BF8A03ED257BB3F70009DF40 /* QRCodeConnector.swift in Sources */,
 				BF8A03C8257BB1B70009DF40 /* CollectionsConnector.swift in Sources */,
 				BF5D04CD257AA1CD00E191ED /* FollowsViewController+Component.swift in Sources */,
+				4D62A8662580D603006237A8 /* MyCommercesCell.swift in Sources */,
 				BFC7289A257B5075006B7301 /* MyConstants.swift in Sources */,
 				BF5D04CE257AA1CD00E191ED /* FollowsViewModel.swift in Sources */,
 				BF8A03E1257BB3AA0009DF40 /* NotifySetupConnector.swift in Sources */,
@@ -872,10 +907,13 @@
 				BF5D04D0257AA1CD00E191ED /* GeneralViewModel.swift in Sources */,
 				BF5D04D1257AA1CD00E191ED /* GeneralController+Component.swift in Sources */,
 				BFC72889257B4F69006B7301 /* ApiService+Request.swift in Sources */,
+				4D62A8622580D5D0006237A8 /* MyProfileCell.swift in Sources */,
 				BF5D04D2257AA1CD00E191ED /* GeneralController.swift in Sources */,
 				BF5D04D3257AA1CD00E191ED /* NicheViewController.swift in Sources */,
 				BF5D04D4257AA1CD00E191ED /* NicheViewModel.swift in Sources */,
 				BF8A03C5257BB1B10009DF40 /* FeedbackConnector.swift in Sources */,
+				4D62A85A2580D5A6006237A8 /* MySectionView.swift in Sources */,
+				4D62A85E2580D5C1006237A8 /* MyItemCell.swift in Sources */,
 				BF5D04D5257AA1CD00E191ED /* NicheViewController+Component.swift in Sources */,
 				BF5D04D6257AA1CD00E191ED /* NotifyListViewModel.swift in Sources */,
 				BF5D04D7257AA1CD00E191ED /* NotifyListViewController.swift in Sources */,

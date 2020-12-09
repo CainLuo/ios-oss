@@ -68,13 +68,13 @@ def sharePods
 
   # WKWebView Javascript
   pod 'WKWebViewJavascriptBridge' # https://github.com/Lision/WKWebViewJavascriptBridge
+  
+  # UI Test Tools
+  pod 'LookinServer', :configurations => ['Debug']
 end
 
 target 'ios-oss' do
   sharePods
-  
-  # UI Test Tools
-  pod 'LookinServer', :configurations => ['Debug', 'Preview', 'Live']
 end
 
 post_install do |installer|

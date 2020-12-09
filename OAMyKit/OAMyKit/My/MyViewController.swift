@@ -13,34 +13,24 @@ import HBDNavigationBar
 import OAServiceKit
 import OAGlobalKit
 import OAExtensionsKit
+import SwifterSwift
 
-public class MyViewController: BaseTableViewController {
+public class MyViewController: BaseViewController {
     
     public static func configureWith() -> UIViewController? {
         return MyStoryboard.My.instantiate(MyViewController.self)
     }
     
-    @IBOutlet weak var avatarImageView: UIImageView!
-    @IBOutlet weak var phoneLabel: UILabel!
-    @IBOutlet weak var certifiedLabel: UILabel!
-    @IBOutlet weak var qrCodeButton: UIButton!
-    @IBOutlet weak var collectionButton: UIButton!
-    @IBOutlet weak var followButton: UIButton!
-    @IBOutlet weak var commentButton: UIButton!
-    @IBOutlet weak var notifyListLabel: UILabel!
-    @IBOutlet weak var nicheLabel: UILabel!
-    @IBOutlet weak var notifySetupLabel: UILabel!
-    @IBOutlet weak var privacyLabel: UILabel!
-    @IBOutlet weak var generalLabel: UILabel!
-    @IBOutlet weak var aboutLabel: UILabel!
-    @IBOutlet weak var feedbackLabel: UILabel!
-    @IBOutlet weak var logoutButton: UIButton!
-
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     private let viewModel: MyViewModelTypes = MyViewModel()
+    private var dataSource: [MySectionModel] = []
 
     public override func viewDidLoad() {
         super.viewDidLoad()
-        self.hbd_barHidden = true
+        hbd_barShadowHidden = true
+        hbd_barTintColor = .white
+        hbd_tintColor = UIColor(hex: 0x333333)
     }
                 
     public override func bindViewModel() {
@@ -49,61 +39,9 @@ public class MyViewController: BaseTableViewController {
             .disposed(by: disposeBag)
 
         viewModel.outputs.title
-            .drive(self.rx.title)
+            .drive(rx.title)
             .disposed(by: disposeBag)
 
-        viewModel.outputs.certifiedTitle
-            .drive(certifiedLabel.rx.text)
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.qrCodeTitle
-            .drive(qrCodeButton.rx.title(for: .normal))
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.collectionTitle
-            .drive(collectionButton.rx.title(for: .normal))
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.followTitle
-            .drive(followButton.rx.title(for: .normal))
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.commentTitle
-            .drive(commentButton.rx.title(for: .normal))
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.notifyListTitle
-            .drive(notifyListLabel.rx.text)
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.nicheTitle
-            .drive(nicheLabel.rx.text)
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.notifySetupTitle
-            .drive(notifySetupLabel.rx.text)
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.privacyTitle
-            .drive(privacyLabel.rx.text)
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.generalTitle
-            .drive(generalLabel.rx.text)
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.aboutTitle
-            .drive(aboutLabel.rx.text)
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.feedbackTitle
-            .drive(feedbackLabel.rx.text)
-            .disposed(by: disposeBag)
-
-        viewModel.outputs.logoutTitle
-            .drive(logoutButton.rx.title(for: .normal))
-            .disposed(by: disposeBag)
-        
         viewModel.outputs.error
             .drive(onNext: { error in
                 HUD.show(error.localizedDescription)
@@ -111,26 +49,116 @@ public class MyViewController: BaseTableViewController {
             })
             .disposed(by: disposeBag)
         
+        viewModel.outputs.sections
+            .drive(onNext: { [weak self] sections in
+                self?.dataSource = sections
+                self?.collectionView.reloadData()
+            })
+            .disposed(by: disposeBag)
+        
+        collectionView.rx
+            .setDelegate(self)
+            .disposed(by: disposeBag)
+
+        collectionView.rx
+            .setDataSource(self)
+            .disposed(by: disposeBag)
+
 //        viewModel.outputs.isLoading
 //            .drive(loadingView.rx.isLoading)
 //            .disposed(by: disposeBag)
     }
-    
-    @IBAction func logout(_ sender: Any) {
-//        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
-//            appDelegate.logout()
-//        }
+}
+
+// MARK: UICollectionViewDelegate
+extension MyViewController: UICollectionViewDelegate {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+}
+
+// MARK: UICollectionViewDataSource
+extension MyViewController: UICollectionViewDataSource {
+    public func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return dataSource.count
     }
     
-    @IBAction func qrCodeAction(_ sender: Any) {
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        let model = dataSource[section]
+        switch model.type {
+        case .personal,
+             .management:
+            return model.items?.count ?? 0
+        default:
+            return 1
+        }
     }
     
-    @IBAction func collectionAction(_ sender: Any) {
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let model = dataSource[indexPath.section]
+        switch model.type {
+        case .profile:
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyProfileCell", for: indexPath) as! MyProfileCell
+            return cell
+        case .commerces:
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCommercesCell", for: indexPath) as! MyCommercesCell
+            return cell
+        case .personal,
+             .management:
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyItemCell", for: indexPath) as! MyItemCell
+            if let item = model.items?[indexPath.row] {
+                cell.item = item
+            }
+            return cell
+        default:
+            return UICollectionViewCell()
+        }
     }
     
-    @IBAction func followAction(_ sender: Any) {
+    public func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        if kind == UICollectionView.elementKindSectionHeader {
+            let resuableView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "MySectionView", for: indexPath) as! MySectionView
+            let model = dataSource[indexPath.section]
+            resuableView.titleLabel.text = model.sectionTitle
+            return resuableView
+        }
+        
+        let resuableView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "MyFooterView", for: indexPath)
+        resuableView.backgroundColor = UIColor(hex: 0xf5f5f5)
+        return resuableView
+    }
+}
+
+// MARK: UICollectionViewDelegateFlowLayout
+extension MyViewController: UICollectionViewDelegateFlowLayout {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        let model = dataSource[section]
+        switch model.type {
+        case .personal,
+             .management:
+            return CGSize(width: UIScreen.main.width, height: 44)
+        default:
+            return .zero
+        }
     }
     
-    @IBAction func commentAction(_ sender: Any) {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+        return (dataSource[section].type == .management) ? .zero : CGSize(width: UIScreen.main.width, height: 10)
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let model = dataSource[indexPath.section]
+        log.debug(model)
+        switch model.type {
+        case .profile:
+            return CGSize(width: UIScreen.main.bounds.size.width, height: 100)
+        case .commerces:
+            return CGSize(width: UIScreen.main.bounds.size.width, height: 44)
+        case .personal,
+             .management:
+            return CGSize(width: floor(UIScreen.main.bounds.size.width / 4), height: floor(UIScreen.main.bounds.size.width / 4))
+        default:
+            return .zero
+        }
     }
 }

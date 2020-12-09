@@ -19,19 +19,7 @@ protocol MyViewModelOutputs {
     var error: Driver<Error> { get }
     var isLoading: Driver<Bool> { get }
     var title: Driver<String> { get }
-    var collectionTitle: Driver<String> { get }
-    var followTitle: Driver<String> { get }
-    var commentTitle: Driver<String> { get }
-    var qrCodeTitle: Driver<String> { get }
-    var certifiedTitle: Driver<String> { get }
-    var notifyListTitle: Driver<String> { get }
-    var nicheTitle: Driver<String> { get }
-    var notifySetupTitle: Driver<String> { get }
-    var privacyTitle: Driver<String> { get }
-    var generalTitle: Driver<String> { get }
-    var aboutTitle: Driver<String> { get }
-    var feedbackTitle: Driver<String> { get }
-    var logoutTitle: Driver<String> { get }
+    var sections: Driver<[MySectionModel]> { get }
 }
 
 protocol MyViewModelTypes {
@@ -55,6 +43,8 @@ class MyViewModel: MyViewModelInputs, MyViewModelOutputs, MyViewModelTypes {
             }
             .share()
         
+        let sections = viewWillAppearSubject.map(filterDataSource)
+        
         _ = profile.subscribe(onNext: { result in
                 log.debug(result)
             })
@@ -66,19 +56,7 @@ class MyViewModel: MyViewModelInputs, MyViewModelOutputs, MyViewModelTypes {
         self.error = error.asDriver()
         self.isLoading = isLoading.asDriver()
         self.title = viewWillAppearSubject.map { "My_Title".localized() }.asDriverOnErrorJustComplete()
-        self.collectionTitle = viewWillAppearSubject.map { "My_Collection".localized() }.asDriverOnErrorJustComplete()
-        self.followTitle = viewWillAppearSubject.map { "My_Follow".localized() }.asDriverOnErrorJustComplete()
-        self.commentTitle = viewWillAppearSubject.map { "My_Comment".localized() }.asDriverOnErrorJustComplete()
-        self.qrCodeTitle = viewWillAppearSubject.map { "My_QRCode".localized() }.asDriverOnErrorJustComplete()
-        self.certifiedTitle = viewWillAppearSubject.map { "My_Certified".localized() }.asDriverOnErrorJustComplete()
-        self.notifyListTitle = viewWillAppearSubject.map { "My_NotifyList".localized() }.asDriverOnErrorJustComplete()
-        self.nicheTitle = viewWillAppearSubject.map { "My_Niche".localized() }.asDriverOnErrorJustComplete()
-        self.notifySetupTitle = viewWillAppearSubject.map { "My_NotifySetup".localized() }.asDriverOnErrorJustComplete()
-        self.privacyTitle = viewWillAppearSubject.map { "My_Privacy".localized() }.asDriverOnErrorJustComplete()
-        self.generalTitle = viewWillAppearSubject.map { "My_General".localized() }.asDriverOnErrorJustComplete()
-        self.aboutTitle = viewWillAppearSubject.map { "My_About".localized() }.asDriverOnErrorJustComplete()
-        self.feedbackTitle = viewWillAppearSubject.map { "My_Feedback".localized() }.asDriverOnErrorJustComplete()
-        self.logoutTitle = viewWillAppearSubject.map { "My_Logout".localized() }.asDriverOnErrorJustComplete()
+        self.sections = sections.asDriverOnErrorJustComplete()
     }
     
     // MARK: subjects
@@ -86,25 +64,48 @@ class MyViewModel: MyViewModelInputs, MyViewModelOutputs, MyViewModelTypes {
     
     // MARK: inputs
     let viewWillAppear: AnyObserver<Void>
+    let sections: Driver<[MySectionModel]>
 
     // MARK: outputs
     let error: Driver<Error>
     let isLoading: Driver<Bool>
     let title: Driver<String>
-    let collectionTitle: Driver<String>
-    let followTitle: Driver<String>
-    let commentTitle: Driver<String>
-    let qrCodeTitle: Driver<String>
-    let certifiedTitle: Driver<String>
-    let notifyListTitle: Driver<String>
-    let nicheTitle: Driver<String>
-    let notifySetupTitle: Driver<String>
-    let privacyTitle: Driver<String>
-    let generalTitle: Driver<String>
-    let aboutTitle: Driver<String>
-    let feedbackTitle: Driver<String>
-    let logoutTitle: Driver<String>
 
     var inputs: MyViewModelInputs { return self }
     var outputs: MyViewModelOutputs { return self }
+}
+
+private func filterDataSource() -> [MySectionModel] {
+    return [filterProfileSection(),
+            filterCommercesSection(),
+            filterPersonalSection(),
+            filterManagementSection()]
+}
+
+private func filterProfileSection() -> MySectionModel {
+    return MySectionModel(type: .profile, profile: nil)
+}
+
+private func filterCommercesSection() -> MySectionModel {
+    return MySectionModel(type: .commerces, commerces: nil)
+}
+
+private func filterPersonalSection() -> MySectionModel {
+    let items = [MyItemModel(title: "1", icon: UIImage(named: "profile_header"), moduleURL: URL(string: "")),
+                 MyItemModel(title: "2", icon: UIImage(named: "profile_header"), moduleURL: URL(string: "")),
+                 MyItemModel(title: "3", icon: UIImage(named: "profile_header"), moduleURL: URL(string: "")),
+                 MyItemModel(title: "4", icon: UIImage(named: "profile_header"), moduleURL: URL(string: "")),
+                 MyItemModel(title: "5", icon: UIImage(named: "profile_header"), moduleURL: URL(string: "")),
+                 MyItemModel(title: "6", icon: UIImage(named: "profile_header"), moduleURL: URL(string: "")),
+                 MyItemModel(title: "7", icon: UIImage(named: "profile_header"), moduleURL: URL(string: ""))]
+    return MySectionModel(type: .personal, sectionTitle: "个人中心", items: items)
+}
+
+private func filterManagementSection() -> MySectionModel {
+    let items = [MyItemModel(title: "1", icon: UIImage(named: "profile_header"), moduleURL: URL(string: "")),
+                 MyItemModel(title: "2", icon: UIImage(named: "profile_header"), moduleURL: URL(string: "")),
+                 MyItemModel(title: "3", icon: UIImage(named: "profile_header"), moduleURL: URL(string: "")),
+                 MyItemModel(title: "4", icon: UIImage(named: "profile_header"), moduleURL: URL(string: "")),
+                 MyItemModel(title: "5", icon: UIImage(named: "profile_header"), moduleURL: URL(string: ""))]
+    return MySectionModel(type: .management, sectionTitle: "商会管理", items: items)
 }
