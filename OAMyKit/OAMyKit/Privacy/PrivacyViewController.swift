@@ -24,24 +24,23 @@ class PrivacyViewController: BaseTableViewController {
         self.hbd_tintColor = UIColor.white
         self.hbd_titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         
-        self.tableView.emptyDataSetSource = self
-        self.tableView.emptyDataSetDelegate = self
+        self.tableView.emptyDataDelegate = self
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { [weak self] in
-            self?.showEmtypDataView(options: EmptyDataOptions())
+            self?.showEmtypDataView()
             self?.tableView.reloadData()
         }
-        
+
         DispatchQueue.main.asyncAfter(deadline: .now() + 4.0) { [weak self] in
             self?.showEmtypDataView(options: EmptyDataOptions(type:.noNetWork))
             self?.tableView.reloadEmptyDataSet()
         }
-        
+
         DispatchQueue.main.asyncAfter(deadline: .now() + 6.0) { [weak self] in
             self?.showEmtypDataView(options: EmptyDataOptions(detail: "自定义",imageName: "no_data_list", type:.custom))
             self?.tableView.reloadData()
         }
-        
+
         DispatchQueue.main.asyncAfter(deadline: .now() + 8.0) { [weak self] in
             self?.hideEmtypDataView()
             self?.tableView.reloadData()
@@ -49,4 +48,9 @@ class PrivacyViewController: BaseTableViewController {
     }
 }
 
+extension PrivacyViewController {
+    override func emptyDataSet(_ scrollView: UIScrollView!, didTap view: UIView!) {
+        debugPrint("C点击View")
+    }
+}
 

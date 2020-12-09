@@ -45,7 +45,7 @@ public class Navigator {
     public func showURL(_ vc: UIViewController, base: UIViewController?, routerType: NavigatorType, screenType: NavigatorScreenType = .normal) {
         switch routerType {
         case .push, .none:
-            push(vc, base: base)
+            push2(vc, base: base)
         case .popTo:
             popTo(vc, base: base)
         case .present:
