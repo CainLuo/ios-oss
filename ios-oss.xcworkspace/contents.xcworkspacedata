@@ -26,9 +26,9 @@
       location = "group:OANavigatorKit/OANavigatorKit.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:OALaunchKit/OALaunchKit.xcodeproj">
+      location = "group:OALoginKit/OALoginKit.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:OALoginKit/OALoginKit.xcodeproj">
+      location = "group:OALaunchKit/OALaunchKit.xcodeproj">
    </FileRef>
 </Workspace>
