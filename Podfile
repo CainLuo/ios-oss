@@ -10,8 +10,8 @@ install! 'cocoapods',
          generate_multiple_pod_projects: true,
          incremental_installation: true
 
-target 'ios-oss' do
-
+def sharePods
+  
   # Network
   pod 'Moya/RxSwift' # https://github.com/Moya/Moya
   pod 'Moya-ObjectMapper/RxSwift' # https://github.com/bmoliveira/Moya-ObjectMapper
@@ -28,9 +28,9 @@ target 'ios-oss' do
   pod 'RxOptional' # https://github.com/RxSwiftCommunity/RxOptional
   
   # ShareSDKs
-#  pod 'mob_sharesdk'#, '~> 4.3.13.1'
-#  pod 'mob_sharesdk/ShareSDKPlatforms/Facebook'
-#  pod 'mob_sharesdk/ShareSDKPlatforms/Apple'
+  pod 'mob_sharesdk'#, '~> 4.3.13.1'
+  pod 'mob_sharesdk/ShareSDKPlatforms/Facebook'
+  pod 'mob_sharesdk/ShareSDKPlatforms/Apple'
 
   # Log
   pod 'XCGLogger' # https://github.com/DaveWoodCom/XCGLogger
@@ -50,12 +50,28 @@ target 'ios-oss' do
   pod 'HBDNavigationBar' # https://github.com/listenzz/HBDNavigationBar
   pod 'MBProgressHUD' # https://github.com/jdg/MBProgressHUD
   pod 'DZNEmptyDataSet' # https://github.com/dzenbot/DZNEmptyDataSet
+  pod 'JQUnitField' # https://github.com/xiaohange/JQUnitField
+  pod 'BRPickerView' # https://github.com/91renb/BRPickerView
+  
+  # Date
+  pod 'DateToolsSwift' # https://github.com/MatthewYork/DateTools
+  pod 'SwiftDate' # https://github.com/malcommac/SwiftDate
+  
+  # Keyboard Manager
+  pod 'IQKeyboardManagerSwift' # https://github.com/hackiftekhar/IQKeyboardManager
+  
+  # Timer
+  pod 'Schedule' # https://github.com/luoxiu/Schedule
 
   # Auto Layout
   pod 'SnapKit' # https://github.com/SnapKit/SnapKit
 
   # WKWebView Javascript
   pod 'WKWebViewJavascriptBridge' # https://github.com/Lision/WKWebViewJavascriptBridge
+end
+
+target 'ios-oss' do
+  sharePods
   
   # UI Test Tools
   pod 'LookinServer', :configurations => ['Debug', 'Preview', 'Live']
@@ -90,6 +106,63 @@ post_install do |installer|
     end
 end
 
-target 'OAComponentManager' do
-  project 'OAComponentManager/OAComponentManager.xcodeproj'
+# Connector Kits
+target 'OAComponentManagerKit' do
+  sharePods
+  project 'OAComponentManagerKit/OAComponentManagerKit.xcodeproj'
+end
+
+target 'OAMyKit' do
+  sharePods
+  project 'OAMyKit/OAMyKit.xcodeproj'
+end
+
+target 'OAGlobalKit' do
+  sharePods
+  project 'OAGlobalKit/OAGlobalKit.xcodeproj'
+end
+
+target 'OAExtensionsKit' do
+  sharePods
+  project 'OAExtensionsKit/OAExtensionsKit.xcodeproj'
+end
+
+target 'OAServiceKit' do
+  sharePods
+  project 'OAServiceKit/OAServiceKit.xcodeproj'
+end
+
+target 'OANavigatorKit' do
+  project 'OANavigatorKit/OANavigatorKit.xcodeproj'
+end
+
+target 'OALoginKit' do
+  sharePods
+  project 'OALoginKit/OALoginKit.xcodeproj'
+end
+
+target 'OALaunchKit' do
+  sharePods
+  project 'OALaunchKit/OALaunchKit.xcodeproj'
+end
+
+# Examples
+target 'OAMyExample' do
+  sharePods
+  project 'OAMyKit/OAMyKit.xcodeproj'
+end
+
+target 'OAComponentManagerExample' do
+  sharePods
+  project 'OAComponentManagerKit/OAComponentManagerKit.xcodeproj'
+end
+
+target 'OALoginExample' do
+  sharePods
+  project 'OALoginKit/OALoginKit.xcodeproj'
+end
+
+target 'OALaunchExample' do
+  sharePods
+  project 'OALaunchKit/OALaunchKit.xcodeproj'
 end

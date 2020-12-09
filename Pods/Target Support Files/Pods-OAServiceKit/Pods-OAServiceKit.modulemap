@@ -1,0 +1,6 @@
+framework module Pods_OAServiceKit {
+  umbrella header "Pods-OAServiceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  OAMyKit
+
+  Created by YYKJ0048 on 2020/12/4.
+  
+*/
+
+"My_Title"       = "My";
+"My_Collection"  = "Collection";
+"My_Follow"      = "Follow";
+"My_Comment"     = "Comment";
+"My_QRCode"      = "QRCode";
+"My_Certified"   = "Certified";
+"My_NotifyList"  = "Message";
+"My_Niche"       = "Niche";
+"My_NotifySetup" = "Notificationa";
+"My_Privacy"     = "Privacy";
+"My_General"     = "General";
+"My_About"       = "About";
+"My_Feedback"    = "Feedback";
+"My_Logout"      = "Logout";

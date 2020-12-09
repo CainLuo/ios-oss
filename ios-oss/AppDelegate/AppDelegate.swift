@@ -7,6 +7,8 @@
 
 import UIKit
 import SwifterSwift
+import OAMyKit
+import OALoginKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,9 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIViewController.doBadSwizzleStuff()
         UIView.doBadSwizzleStuff()
         configNavigationBar()
-
+                
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = Storyboard.Launch.instantiate(LaunchViewController.self)
+        window?.rootViewController = Storyboard.TabBar.instantiate(TabBarViewController.self)
         window?.makeKeyAndVisible()
 
         return true
@@ -32,7 +34,8 @@ extension AppDelegate {
     }
     
     func logout() {
-        window?.switchRootViewController(to: Storyboard.Login.instantiateRoot(), options: .transitionCrossDissolve)
+        let login = LoginConnector.instance().connectToOpenURL(Constants.Scheme.login, parameters: nil, completion: nil)!
+        window?.switchRootViewController(to: login, options: .transitionCrossDissolve)
     }
 }
 
