@@ -8,7 +8,21 @@
 import UIKit
 import DZNEmptyDataSet
 
-protocol EmptyDataDelegate {
+extension UIScrollView {
+    weak var emptyDataDelegate: EmptyDataDelegate? {
+        get {
+            return (objc_getAssociatedObject(self, &kEmptyDataDelegateKey) as? EmptyDataDelegate)
+        }
+        set(newValue) {
+            self.emptyDataSetSource = newValue
+            self.emptyDataSetDelegate = newValue
+            objc_setAssociatedObject(self, &kEmptyDataDelegateKey, newValue, .OBJC_ASSOCIATION_ASSIGN)
+        }
+    }
+}
+
+protocol EmptyDataDelegate: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate{
+    func showEmtypDataView()
     func showEmtypDataView(options: EmptyDataOptions)
     func hideEmtypDataView()
 }
@@ -48,6 +62,7 @@ struct EmptyDataOptions {
 
 private var kCanShowEmptyDataKey: Bool = false
 private var kEmptyDataOptionKey: EmptyDataOptions = EmptyDataOptions()
+private weak var kEmptyDataDelegateKey: EmptyDataDelegate?
 
 extension UIViewController {
     var canShowEmptyData: Bool? {
@@ -102,13 +117,25 @@ extension UIViewController: DZNEmptyDataSetDelegate {
     public func emptyDataSetShouldAllowScroll(_ scrollView: UIScrollView!) -> Bool {
         return true
     }
+    
+    public func emptyDataSetShouldAllowTouch(_ scrollView: UIScrollView!) -> Bool {
+        return true
+    }
 
     public func emptyDataSet(_ scrollView: UIScrollView!, didTap button: UIButton!) {
   
     }
+    
+    public func emptyDataSet(_ scrollView: UIScrollView!, didTap view: UIView!) {
+        
+    }
 }
 
 extension UIViewController : EmptyDataDelegate {
+    func showEmtypDataView() {
+        showEmtypDataView(options: EmptyDataOptions())
+    }
+    
     func showEmtypDataView(options: EmptyDataOptions) {
         canShowEmptyData = true
         emptyDataOption = options
