@@ -566,6 +566,7 @@
 				4DE8A196257A5E2D0078B93B /* Sources */,
 				4DE8A197257A5E2D0078B93B /* Frameworks */,
 				4DE8A198257A5E2D0078B93B /* Resources */,
+				4B844BC229940C3D48E1F2DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -586,6 +587,7 @@
 				4DE8A1A8257A5E3D0078B93B /* Resources */,
 				4D4455D5257A61190098204F /* Embed Frameworks */,
 				4C151FAE16787B5E06B8467C /* [CP] Embed Pods Frameworks */,
+				6E1EA25F45F09DADF334067E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -712,6 +714,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4B844BC229940C3D48E1F2DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OAMyKit/Pods-OAMyKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4C151FAE16787B5E06B8467C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -725,6 +742,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OAMyExample/Pods-OAMyExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1EA25F45F09DADF334067E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OAMyExample/Pods-OAMyExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

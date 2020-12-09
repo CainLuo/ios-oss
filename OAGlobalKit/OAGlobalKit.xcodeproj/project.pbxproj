@@ -105,6 +105,7 @@
 				4DC0A63A257A658B0008BB39 /* Sources */,
 				4DC0A63B257A658B0008BB39 /* Frameworks */,
 				4DC0A63C257A658B0008BB39 /* Resources */,
+				1735E885FEECEB8F1BA81EFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +159,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1735E885FEECEB8F1BA81EFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OAGlobalKit/Pods-OAGlobalKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DF785C38BC7A2F99063A0F11 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -194,6 +194,7 @@
 				4DE22613257A50150051BF90 /* Frameworks */,
 				4DE22614257A50150051BF90 /* Resources */,
 				4D6D1211257A67B3009AE5D9 /* Embed Frameworks */,
+				0251BDACC3DBDB24AAE496AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +214,7 @@
 				4DE74A0B257A578800EEFBB0 /* Frameworks */,
 				4DE74A0C257A578800EEFBB0 /* Resources */,
 				52A2012F7E5C725B3D96F78A /* [CP] Embed Pods Frameworks */,
+				F8F93AB9F3BBAEA879BB026B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +284,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0251BDACC3DBDB24AAE496AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OAComponentManagerKit/Pods-OAComponentManagerKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4051A9EA504173E7CD2BF3DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +356,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F93AB9F3BBAEA879BB026B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OAComponentManagerExample/Pods-OAComponentManagerExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

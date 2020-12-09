@@ -28,9 +28,9 @@ def sharePods
   pod 'RxOptional' # https://github.com/RxSwiftCommunity/RxOptional
   
   # ShareSDKs
-#  pod 'mob_sharesdk'#, '~> 4.3.13.1'
-#  pod 'mob_sharesdk/ShareSDKPlatforms/Facebook'
-#  pod 'mob_sharesdk/ShareSDKPlatforms/Apple'
+  pod 'mob_sharesdk'#, '~> 4.3.13.1'
+  pod 'mob_sharesdk/ShareSDKPlatforms/Facebook'
+  pod 'mob_sharesdk/ShareSDKPlatforms/Apple'
 
   # Log
   pod 'XCGLogger' # https://github.com/DaveWoodCom/XCGLogger
@@ -50,6 +50,18 @@ def sharePods
   pod 'HBDNavigationBar' # https://github.com/listenzz/HBDNavigationBar
   pod 'MBProgressHUD' # https://github.com/jdg/MBProgressHUD
   pod 'DZNEmptyDataSet' # https://github.com/dzenbot/DZNEmptyDataSet
+  pod 'JQUnitField' # https://github.com/xiaohange/JQUnitField
+  pod 'BRPickerView' # https://github.com/91renb/BRPickerView
+  
+  # Date
+  pod 'DateToolsSwift' # https://github.com/MatthewYork/DateTools
+  pod 'SwiftDate' # https://github.com/malcommac/SwiftDate
+  
+  # Keyboard Manager
+  pod 'IQKeyboardManagerSwift' # https://github.com/hackiftekhar/IQKeyboardManager
+  
+  # Timer
+  pod 'Schedule' # https://github.com/luoxiu/Schedule
 
   # Auto Layout
   pod 'SnapKit' # https://github.com/SnapKit/SnapKit

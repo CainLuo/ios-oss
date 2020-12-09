@@ -178,6 +178,7 @@
 				4DC0A651257A65BD0008BB39 /* Frameworks */,
 				4DC0A652257A65BD0008BB39 /* Resources */,
 				BF5D03F4257A90C400E191ED /* Embed Frameworks */,
+				8DBE6CE5F5ABAD017F06AAE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8DBE6CE5F5ABAD017F06AAE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OAServiceKit/Pods-OAServiceKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DCCEFF91D0EA5F41399BB123 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -6,6 +6,10 @@ Alamofire:
   LABEL: Alamofire
   PROJECT_PATH: Alamofire.xcodeproj
   UUID: 81B7E9B7CD0CADA087A4BB042FBA92E7
+BRPickerView:
+  LABEL: BRPickerView
+  PROJECT_PATH: BRPickerView.xcodeproj
+  UUID: A4FD0C70B8C8A2108AB9388EB7BB376E
 CLExtensions:
   LABEL: CLExtensions
   PROJECT_PATH: CLExtensions.xcodeproj
@@ -14,6 +18,10 @@ CLExtensions:
   LABEL: "CLExtensions+Rx"
   PROJECT_PATH: "CLExtensions+Rx.xcodeproj"
   UUID: 935E7BC08C1B6EF7663E70D1435D4440
+DateToolsSwift:
+  LABEL: DateToolsSwift
+  PROJECT_PATH: DateToolsSwift.xcodeproj
+  UUID: 3DB4F7341470DDAF9EBAF3F379ABEA9C
 Differentiator:
   LABEL: Differentiator
   PROJECT_PATH: Differentiator.xcodeproj
@@ -26,6 +34,14 @@ HBDNavigationBar:
   LABEL: HBDNavigationBar
   PROJECT_PATH: HBDNavigationBar.xcodeproj
   UUID: 380C65EDA78C5D8049F92F64B442D4D1
+IQKeyboardManagerSwift:
+  LABEL: IQKeyboardManagerSwift
+  PROJECT_PATH: IQKeyboardManagerSwift.xcodeproj
+  UUID: 29F73A40F1F145F65BBA049AC76AB585
+JQUnitField:
+  LABEL: JQUnitField
+  PROJECT_PATH: JQUnitField.xcodeproj
+  UUID: 46AEF3068049868A55D57C6F4220F7D3
 Localize-Swift:
   LABEL: Localize-Swift
   PROJECT_PATH: Localize-Swift.xcodeproj
@@ -42,6 +58,14 @@ MJRefresh:
   LABEL: MJRefresh
   PROJECT_PATH: MJRefresh.xcodeproj
   UUID: E94AEF767442EDAAAAB2129CDFA2C2ED
+mob_sharesdk:
+  LABEL: mob_sharesdk
+  PROJECT_PATH: mob_sharesdk.xcodeproj
+  UUID: D09310D7E9A593BC3D33843E9785644D
+MOBFoundation:
+  LABEL: MOBFoundation
+  PROJECT_PATH: MOBFoundation.xcodeproj
+  UUID: 94B3C794B90C02AC61C66EC97E5FAD0F
 Moya:
   LABEL: Moya
   PROJECT_PATH: Moya.xcodeproj
@@ -146,6 +170,10 @@ RxWebKit:
   LABEL: RxWebKit
   PROJECT_PATH: RxWebKit.xcodeproj
   UUID: B4D89BC98E598F84A079407879005A60
+Schedule:
+  LABEL: Schedule
+  PROJECT_PATH: Schedule.xcodeproj
+  UUID: 96F684EC021472422D2D3B5E9E066D8A
 SDWebImage:
   LABEL: SDWebImage
   PROJECT_PATH: SDWebImage.xcodeproj
@@ -158,6 +186,10 @@ STPopup:
   LABEL: STPopup
   PROJECT_PATH: STPopup.xcodeproj
   UUID: 54E0565E3EA65B5131926D785512AF21
+SwiftDate:
+  LABEL: SwiftDate
+  PROJECT_PATH: SwiftDate.xcodeproj
+  UUID: 084C1733B4DEB4359B4EFB893E424972
 SwifterSwift:
   LABEL: SwifterSwift
   PROJECT_PATH: SwifterSwift.xcodeproj
