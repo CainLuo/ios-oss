@@ -1,5 +1,5 @@
 //
-//  RegisterConnector.swift
+//  FindPasswordConnector.swift
 //  OALoginKit
 //
 //  Created by CainLuo on 2020/12/5.
@@ -8,9 +8,9 @@
 import UIKit
 import OAComponentManagerKit
 
-public class RegisterConnector: NSObject {
-    public static func instance() -> RegisterConnector {
-    let connector = RegisterConnector()
+public class FindPasswordConnector: NSObject {
+    public static func instance() -> FindPasswordConnector {
+    let connector = FindPasswordConnector()
     return connector
     }
     
@@ -19,7 +19,7 @@ public class RegisterConnector: NSObject {
     }
 }
 
-extension RegisterConnector: ComponentManagerPrt {
+extension FindPasswordConnector: ComponentManagerPrt {
     public func canOpenURL(_ url: URL) -> Bool {
         return url.host == "ModuleRegister"
     }
@@ -27,7 +27,7 @@ extension RegisterConnector: ComponentManagerPrt {
     public func connectToOpenURL(_ url: URL, parameters: Dictionary<String, Any>?, completion: (([String : Any]) -> Void)?) -> UIViewController? {
         guard canOpenURL(url) else { return nil }
         
-        let vc = RegisterViewController.configureWith()
+        let vc = FindPasswordViewController.configureWith()
         return vc
     }
 }

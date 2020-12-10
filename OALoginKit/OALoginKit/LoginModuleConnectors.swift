@@ -12,6 +12,6 @@ public class LoginModuleConnectors {
     public static func register() {
         ForgetConnector.instance().register()
         LoginConnector.instance().register()
-        RegisterConnector.instance().register()
+        FindPasswordConnector.instance().register()
     }
 }

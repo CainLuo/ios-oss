@@ -12,7 +12,7 @@ private let bundle = Bundle(identifier: "com.yunyu.OALoginKit")
 enum LoginStoryboard: String {
     case Login
     case Forget
-    case Register
+    case FindPassword
         
     func instantiate<VC: UIViewController>(_ viewController: VC.Type) -> VC {
         guard let vc = UIStoryboard(name: self.rawValue, bundle: bundle)

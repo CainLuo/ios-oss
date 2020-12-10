@@ -18,12 +18,12 @@
 		4D3942502580B17900CBC359 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3942372580B17900CBC359 /* ForgetViewController.swift */; };
 		4D3942512580B17900CBC359 /* Forget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3942382580B17900CBC359 /* Forget.storyboard */; };
 		4D3942522580B17900CBC359 /* Forget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3942382580B17900CBC359 /* Forget.storyboard */; };
-		4D3942532580B17900CBC359 /* RegisterConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423A2580B17900CBC359 /* RegisterConnector.swift */; };
-		4D3942542580B17900CBC359 /* RegisterConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423A2580B17900CBC359 /* RegisterConnector.swift */; };
-		4D3942552580B17900CBC359 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D39423B2580B17900CBC359 /* Register.storyboard */; };
-		4D3942562580B17900CBC359 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D39423B2580B17900CBC359 /* Register.storyboard */; };
-		4D3942572580B17900CBC359 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423C2580B17900CBC359 /* RegisterViewController.swift */; };
-		4D3942582580B17900CBC359 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423C2580B17900CBC359 /* RegisterViewController.swift */; };
+		4D3942532580B17900CBC359 /* FindPasswordConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423A2580B17900CBC359 /* FindPasswordConnector.swift */; };
+		4D3942542580B17900CBC359 /* FindPasswordConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423A2580B17900CBC359 /* FindPasswordConnector.swift */; };
+		4D3942552580B17900CBC359 /* FindPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D39423B2580B17900CBC359 /* FindPassword.storyboard */; };
+		4D3942562580B17900CBC359 /* FindPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D39423B2580B17900CBC359 /* FindPassword.storyboard */; };
+		4D3942572580B17900CBC359 /* FindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423C2580B17900CBC359 /* FindPasswordViewController.swift */; };
+		4D3942582580B17900CBC359 /* FindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423C2580B17900CBC359 /* FindPasswordViewController.swift */; };
 		4D3942592580B17900CBC359 /* LoginModuleConnectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423D2580B17900CBC359 /* LoginModuleConnectors.swift */; };
 		4D39425A2580B17900CBC359 /* LoginModuleConnectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423D2580B17900CBC359 /* LoginModuleConnectors.swift */; };
 		4D39425B2580B17900CBC359 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39423F2580B17900CBC359 /* LoginViewModel.swift */; };
@@ -34,8 +34,6 @@
 		4D3942602580B17900CBC359 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3942412580B17900CBC359 /* LoginViewController.swift */; };
 		4D3942612580B17900CBC359 /* LoginConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3942422580B17900CBC359 /* LoginConnector.swift */; };
 		4D3942622580B17900CBC359 /* LoginConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3942422580B17900CBC359 /* LoginConnector.swift */; };
-		4D3942632580B17900CBC359 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3942432580B17900CBC359 /* InputView.swift */; };
-		4D3942642580B17900CBC359 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3942432580B17900CBC359 /* InputView.swift */; };
 		4D3942652580B17900CBC359 /* ApiNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3942452580B17900CBC359 /* ApiNetworking.swift */; };
 		4D3942662580B17900CBC359 /* ApiNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3942452580B17900CBC359 /* ApiNetworking.swift */; };
 		4D3942672580B17900CBC359 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3942462580B17900CBC359 /* ApiService.swift */; };
@@ -109,15 +107,14 @@
 		4D3942362580B17900CBC359 /* ForgetConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetConnector.swift; sourceTree = "<group>"; };
 		4D3942372580B17900CBC359 /* ForgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
 		4D3942382580B17900CBC359 /* Forget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Forget.storyboard; sourceTree = "<group>"; };
-		4D39423A2580B17900CBC359 /* RegisterConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterConnector.swift; sourceTree = "<group>"; };
-		4D39423B2580B17900CBC359 /* Register.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
-		4D39423C2580B17900CBC359 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4D39423A2580B17900CBC359 /* FindPasswordConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindPasswordConnector.swift; sourceTree = "<group>"; };
+		4D39423B2580B17900CBC359 /* FindPassword.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FindPassword.storyboard; sourceTree = "<group>"; };
+		4D39423C2580B17900CBC359 /* FindPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindPasswordViewController.swift; sourceTree = "<group>"; };
 		4D39423D2580B17900CBC359 /* LoginModuleConnectors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleConnectors.swift; sourceTree = "<group>"; };
 		4D39423F2580B17900CBC359 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		4D3942402580B17900CBC359 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		4D3942412580B17900CBC359 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4D3942422580B17900CBC359 /* LoginConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginConnector.swift; sourceTree = "<group>"; };
-		4D3942432580B17900CBC359 /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		4D3942452580B17900CBC359 /* ApiNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiNetworking.swift; sourceTree = "<group>"; };
 		4D3942462580B17900CBC359 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		4D3942472580B17900CBC359 /* ApiService+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiService+Request.swift"; sourceTree = "<group>"; };
@@ -211,9 +208,9 @@
 				4D39423D2580B17900CBC359 /* LoginModuleConnectors.swift */,
 				4D39424B2580B17900CBC359 /* LoginStoryboard.swift */,
 				4D3942442580B17900CBC359 /* Api */,
+				4D3942392580B17900CBC359 /* FindPassword */,
 				4D3942352580B17900CBC359 /* Forget */,
 				4D39423E2580B17900CBC359 /* Login */,
-				4D3942392580B17900CBC359 /* Register */,
 			);
 			path = OALoginKit;
 			sourceTree = "<group>";
@@ -232,31 +229,30 @@
 		4D3942352580B17900CBC359 /* Forget */ = {
 			isa = PBXGroup;
 			children = (
+				4D3942382580B17900CBC359 /* Forget.storyboard */,
 				4D3942362580B17900CBC359 /* ForgetConnector.swift */,
 				4D3942372580B17900CBC359 /* ForgetViewController.swift */,
-				4D3942382580B17900CBC359 /* Forget.storyboard */,
 			);
 			path = Forget;
 			sourceTree = "<group>";
 		};
-		4D3942392580B17900CBC359 /* Register */ = {
+		4D3942392580B17900CBC359 /* FindPassword */ = {
 			isa = PBXGroup;
 			children = (
-				4D39423B2580B17900CBC359 /* Register.storyboard */,
-				4D39423A2580B17900CBC359 /* RegisterConnector.swift */,
-				4D39423C2580B17900CBC359 /* RegisterViewController.swift */,
+				4D39423B2580B17900CBC359 /* FindPassword.storyboard */,
+				4D39423A2580B17900CBC359 /* FindPasswordConnector.swift */,
+				4D39423C2580B17900CBC359 /* FindPasswordViewController.swift */,
 			);
-			path = Register;
+			path = FindPassword;
 			sourceTree = "<group>";
 		};
 		4D39423E2580B17900CBC359 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				4D39423F2580B17900CBC359 /* LoginViewModel.swift */,
 				4D3942402580B17900CBC359 /* Login.storyboard */,
-				4D3942412580B17900CBC359 /* LoginViewController.swift */,
 				4D3942422580B17900CBC359 /* LoginConnector.swift */,
-				4D3942432580B17900CBC359 /* InputView.swift */,
+				4D3942412580B17900CBC359 /* LoginViewController.swift */,
+				4D39423F2580B17900CBC359 /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -385,7 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D3942512580B17900CBC359 /* Forget.storyboard in Resources */,
-				4D3942552580B17900CBC359 /* Register.storyboard in Resources */,
+				4D3942552580B17900CBC359 /* FindPassword.storyboard in Resources */,
 				4D39425D2580B17900CBC359 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +394,7 @@
 				4D3942272580B15800CBC359 /* Assets.xcassets in Resources */,
 				4D39425E2580B17900CBC359 /* Login.storyboard in Resources */,
 				4D3942522580B17900CBC359 /* Forget.storyboard in Resources */,
-				4D3942562580B17900CBC359 /* Register.storyboard in Resources */,
+				4D3942562580B17900CBC359 /* FindPassword.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,10 +508,9 @@
 				4D3942652580B17900CBC359 /* ApiNetworking.swift in Sources */,
 				4D39425B2580B17900CBC359 /* LoginViewModel.swift in Sources */,
 				4D3942672580B17900CBC359 /* ApiService.swift in Sources */,
-				4D3942532580B17900CBC359 /* RegisterConnector.swift in Sources */,
-				4D3942632580B17900CBC359 /* InputView.swift in Sources */,
+				4D3942532580B17900CBC359 /* FindPasswordConnector.swift in Sources */,
 				4D39426D2580B17900CBC359 /* Router.swift in Sources */,
-				4D3942572580B17900CBC359 /* RegisterViewController.swift in Sources */,
+				4D3942572580B17900CBC359 /* FindPasswordViewController.swift in Sources */,
 				4D3942692580B17900CBC359 /* ApiService+Request.swift in Sources */,
 				4D3942592580B17900CBC359 /* LoginModuleConnectors.swift in Sources */,
 			);
@@ -528,17 +523,16 @@
 				4D3942722580B17900CBC359 /* LoginStoryboard.swift in Sources */,
 				4D3942702580B17900CBC359 /* CodeResponse.swift in Sources */,
 				4D39421E2580B15700CBC359 /* AppDelegate.swift in Sources */,
-				4D3942582580B17900CBC359 /* RegisterViewController.swift in Sources */,
+				4D3942582580B17900CBC359 /* FindPasswordViewController.swift in Sources */,
 				4D39425A2580B17900CBC359 /* LoginModuleConnectors.swift in Sources */,
 				4D39426A2580B17900CBC359 /* ApiService+Request.swift in Sources */,
-				4D3942542580B17900CBC359 /* RegisterConnector.swift in Sources */,
+				4D3942542580B17900CBC359 /* FindPasswordConnector.swift in Sources */,
 				4D3942502580B17900CBC359 /* ForgetViewController.swift in Sources */,
 				4D3942742580B17900CBC359 /* LoginConstants.swift in Sources */,
 				4D39424E2580B17900CBC359 /* ForgetConnector.swift in Sources */,
 				4D3942662580B17900CBC359 /* ApiNetworking.swift in Sources */,
 				4D3942622580B17900CBC359 /* LoginConnector.swift in Sources */,
 				4D39426E2580B17900CBC359 /* Router.swift in Sources */,
-				4D3942642580B17900CBC359 /* InputView.swift in Sources */,
 				4D39426C2580B17900CBC359 /* ApiServiceType.swift in Sources */,
 				4D3942602580B17900CBC359 /* LoginViewController.swift in Sources */,
 				4D3942682580B17900CBC359 /* ApiService.swift in Sources */,
