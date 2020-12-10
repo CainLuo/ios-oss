@@ -62,9 +62,9 @@ extension ShareManager {
     /// - Parameters:
     ///   - object: 用于监听Apple登录状态, 比如AppDelegate, 也可以与登录页面进行生命周期的绑定
     ///   - completion: 返回对应的SSDKResponseState, SSDKUser?, Error?
-    public static func authorizeAppleSign(_ object: Any, completion: @escaping((SSDKAppleAccountState, Dictionary<AnyHashable, Any>?, Error?) -> Void)) {
+    public static func authorizeAppleSign(_ object: Any, completion: @escaping((SSDKAppleAccountState, SSDKUser?, Error?) -> Void)) {
         AppleAccountConnector.addObserve(object, isFirstAddCallBack: true) { (state, user, error) in
-            completion(state, user.dictionaryValue(), error)
+            completion(state, user, error)
         }
     }
 }
