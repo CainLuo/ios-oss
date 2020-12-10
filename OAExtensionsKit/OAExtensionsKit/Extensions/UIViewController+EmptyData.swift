@@ -8,63 +8,86 @@
 import UIKit
 import DZNEmptyDataSet
 
-extension UIScrollView {
-    weak var emptyDataDelegate: EmptyDataDelegate? {
+/// 交换Key
+private var kCanShowEmptyDataKey: Bool = false
+private var kEmptyDataOptionKey: EmptyDataOptions = EmptyDataOptions()
+private weak var kEmptyDataRendererKey: EmptyDataRenderer?
+private var kEmptyDataDelegateKey: EmptyDataDelegate?
+
+/// 默认实现的协议
+public protocol EmptyDataRenderer: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate{
+    func showEmytpDataView()
+    func showEmptyDataView(options: EmptyDataOptions)
+    func hideEmptyDataView()
+}
+
+/// 为外部提供事件回调
+@objc public protocol EmptyDataDelegate: NSObjectProtocol {
+    @objc optional func clickEmptyDataView()
+}
+
+public extension UIScrollView {
+    weak var emptyDataRenderer: EmptyDataRenderer? {
         get {
-            return (objc_getAssociatedObject(self, &kEmptyDataDelegateKey) as? EmptyDataDelegate)
+            return (objc_getAssociatedObject(self, &kEmptyDataRendererKey) as? EmptyDataRenderer)
         }
         set(newValue) {
             self.emptyDataSetSource = newValue
             self.emptyDataSetDelegate = newValue
-            objc_setAssociatedObject(self, &kEmptyDataDelegateKey, newValue, .OBJC_ASSOCIATION_ASSIGN)
+            objc_setAssociatedObject(self, &kEmptyDataRendererKey, newValue, .OBJC_ASSOCIATION_ASSIGN)
         }
     }
 }
 
-protocol EmptyDataDelegate: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate{
-    func showEmtypDataView()
-    func showEmtypDataView(options: EmptyDataOptions)
-    func hideEmtypDataView()
-}
-
-enum EmptyDataType {
+/// 空数据显示的类型
+public enum EmptyDataType {
     case noData
     case noNetWork
     case searchFail
     case custom
 }
 
-struct EmptyDataOptions {
+/// 显示用的值
+public struct EmptyDataOptions {
+    private var _type : EmptyDataType = .noData
+    
     var title: String
     var detail: String
     var imageName: String
-    var type: EmptyDataType
-    init(title: String = "", detail: String = "", imageName: String = "placeholder_search", type: EmptyDataType = .noData) {
+    var isAuto: Bool
+    var type: EmptyDataType {
+        get { return _type }
+        set {
+            _type = newValue
+            switch self.type {
+            case .noData:
+                detail = "没有数据"
+                imageName = "placeholder_search"
+            case .noNetWork:
+                detail = "请检查网络"
+                imageName = "placeholder_search"
+            case .searchFail:
+                detail = "搜索为空"
+                imageName = "placeholder_search"
+            case .custom:
+                break
+            }
+        }
+    }
+    
+    public init(title: String = "", detail: String = "", imageName: String = "placeholder_search", type: EmptyDataType = .noData, isAuto: Bool = true) {
+        self.isAuto = isAuto
+        if type != .noData {
+            self.isAuto = false
+        }
         self.title = title
         self.detail = detail
-        self.type = type
         self.imageName = imageName
-
-        switch type {
-        case .noData:
-            self.detail = "没有数据"
-        case .noNetWork:
-            self.detail = "请检查网络"
-        case .searchFail:
-            self.detail = "搜索为空"
-        case .custom:
-            self.title = title
-            self.detail = detail
-            self.imageName = imageName
-        }
+        self.type = type
     }
 }
 
-private var kCanShowEmptyDataKey: Bool = false
-private var kEmptyDataOptionKey: EmptyDataOptions = EmptyDataOptions()
-private weak var kEmptyDataDelegateKey: EmptyDataDelegate?
-
-extension UIViewController {
+public extension UIViewController {
     var canShowEmptyData: Bool? {
         get {
             return (objc_getAssociatedObject(self, &kCanShowEmptyDataKey) as? Bool)
@@ -82,27 +105,36 @@ extension UIViewController {
             objc_setAssociatedObject(self, &kEmptyDataOptionKey, newValue, .OBJC_ASSOCIATION_RETAIN)
         }
     }
+    
+    var emptyDataDelegate: EmptyDataDelegate? {
+        get {
+            return (objc_getAssociatedObject(self, &kEmptyDataDelegateKey) as? EmptyDataDelegate)
+        }
+        set(newValue) {
+            objc_setAssociatedObject(self, &kEmptyDataDelegateKey, newValue, .OBJC_ASSOCIATION_ASSIGN)
+        }
+    }
 }
 
 extension UIViewController: DZNEmptyDataSetSource {
 
-    public func title(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+    open func title(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
         return NSAttributedString(string: "")
     }
 
-    public func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+    open func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
         return  NSAttributedString(string: emptyDataOption?.detail ?? "")
     }
 
-    public func image(forEmptyDataSet scrollView: UIScrollView!) -> UIImage! {
+    open func image(forEmptyDataSet scrollView: UIScrollView!) -> UIImage! {
         return UIImage(named: emptyDataOption?.imageName ?? "")
     }
 
-    public func backgroundColor(forEmptyDataSet scrollView: UIScrollView!) -> UIColor! {
+    open func backgroundColor(forEmptyDataSet scrollView: UIScrollView!) -> UIColor! {
         return .clear
     }
 
-    public func verticalOffset(forEmptyDataSet scrollView: UIScrollView!) -> CGFloat {
+    open func verticalOffset(forEmptyDataSet scrollView: UIScrollView!) -> CGFloat {
         let top = scrollView.contentInset.top
         return top - 44 // FIXME: Magical number (Tab Bar Height)
     }
@@ -110,38 +142,63 @@ extension UIViewController: DZNEmptyDataSetSource {
 
 extension UIViewController: DZNEmptyDataSetDelegate {
 
-    public func emptyDataSetShouldDisplay(_ scrollView: UIScrollView!) -> Bool {
+    open func emptyDataSetShouldDisplay(_ scrollView: UIScrollView!) -> Bool {
         return self.canShowEmptyData ?? false
     }
 
-    public func emptyDataSetShouldAllowScroll(_ scrollView: UIScrollView!) -> Bool {
+    open func emptyDataSetShouldAllowScroll(_ scrollView: UIScrollView!) -> Bool {
         return true
     }
     
-    public func emptyDataSetShouldAllowTouch(_ scrollView: UIScrollView!) -> Bool {
+    open func emptyDataSetShouldAllowTouch(_ scrollView: UIScrollView!) -> Bool {
         return true
     }
 
-    public func emptyDataSet(_ scrollView: UIScrollView!, didTap button: UIButton!) {
-  
+    open func emptyDataSet(_ scrollView: UIScrollView!, didTap button: UIButton!) {
+        
     }
     
-    public func emptyDataSet(_ scrollView: UIScrollView!, didTap view: UIView!) {
-        
+    open func emptyDataSet(_ scrollView: UIScrollView!, didTap view: UIView!) {
+        if let delegate = emptyDataDelegate, delegate.responds(to: #selector(EmptyDataDelegate.clickEmptyDataView)){
+            emptyDataDelegate?.clickEmptyDataView?()
+        }
+    }
+    
+    public func emptyDataSetWillAppear(_ scrollView: UIScrollView!) {
+        if isNoNetWork() {
+            if let option = emptyDataOption, option.isAuto{
+                emptyDataOption?.type = .noNetWork
+            }
+        }else {
+            if let option = emptyDataOption, option.isAuto {
+                emptyDataOption?.type = .noData
+            }
+        }
     }
 }
 
-extension UIViewController : EmptyDataDelegate {
-    func showEmtypDataView() {
-        showEmtypDataView(options: EmptyDataOptions())
+/// 默认实现
+extension UIViewController : EmptyDataRenderer {
+    open func showEmytpDataView() {
+        showEmptyDataView(options: EmptyDataOptions())
     }
     
-    func showEmtypDataView(options: EmptyDataOptions) {
+    open func showEmptyDataView(options: EmptyDataOptions) {
         canShowEmptyData = true
         emptyDataOption = options
     }
     
-    func hideEmtypDataView() {
+    open func hideEmptyDataView() {
         canShowEmptyData = false
     }
 }
+
+extension UIViewController {
+    
+    /// 判断网络状态
+    /// - Returns: Bool
+    private func isNoNetWork() -> Bool {
+        return false
+    }
+}
+
