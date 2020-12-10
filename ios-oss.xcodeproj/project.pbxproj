@@ -23,6 +23,7 @@
 		4D6D135C257A6C4B009AE5D9 /* OAMyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D135A257A6C4B009AE5D9 /* OAMyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DA46F1E257892D700C91078 /* ios_ossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46F1D257892D700C91078 /* ios_ossUITests.swift */; };
 		4DA46F30257892DC00C91078 /* ios_ossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46F2F257892DC00C91078 /* ios_ossTests.swift */; };
+		4DE43A9F2581BDC20046ECF0 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE43A9E2581BDC20046ECF0 /* ShareManager.swift */; };
 		4DE81BEE256CA02D0013C1F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81BED256CA02D0013C1F9 /* AppDelegate.swift */; };
 		4DE81BF7256CA02E0013C1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE81BF6256CA02E0013C1F9 /* Assets.xcassets */; };
 		4DE81BFA256CA02E0013C1F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE81BF8256CA02E0013C1F9 /* LaunchScreen.storyboard */; };
@@ -105,6 +106,8 @@
 		4DA46F2D257892DC00C91078 /* ios-ossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ossTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA46F2F257892DC00C91078 /* ios_ossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ossTests.swift; sourceTree = "<group>"; };
 		4DA46F31257892DC00C91078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE43A9E2581BDC20046ECF0 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
+		4DE43AA22581BDE70046ECF0 /* ios-oss-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-oss-Bridging-Header.h"; sourceTree = "<group>"; };
 		4DE81BEA256CA02D0013C1F9 /* ios-oss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-oss.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE81BED256CA02D0013C1F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DE81BF6256CA02E0013C1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -241,6 +244,7 @@
 				4DE81BF8256CA02E0013C1F9 /* LaunchScreen.storyboard */,
 				4DE81BFB256CA02E0013C1F9 /* Info.plist */,
 				4D15D5592577AA9400FC7CE9 /* Localizable.strings */,
+				4DE43AA22581BDE70046ECF0 /* ios-oss-Bridging-Header.h */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -250,6 +254,7 @@
 			children = (
 				4DE81C21256CA4E90013C1F9 /* TabBar */,
 				4DE81CFE256CE3230013C1F9 /* Webs */,
+				4DE43A9E2581BDC20046ECF0 /* ShareManager.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -404,6 +409,7 @@
 					};
 					4DE81BE9256CA02D0013C1F9 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -538,6 +544,7 @@
 				4DEDCF7B2580BE040033D2A4 /* TabBarViewController+Component.swift in Sources */,
 				4DE81C90256CB8590013C1F9 /* Constants.swift in Sources */,
 				4DE81C2A256CA54C0013C1F9 /* KeyValueStore.swift in Sources */,
+				4DE43A9F2581BDC20046ECF0 /* ShareManager.swift in Sources */,
 				4DE81D00256CE3490013C1F9 /* WebViewController.swift in Sources */,
 				4DE81C23256CA4FB0013C1F9 /* TabBarViewController.swift in Sources */,
 				4DEDCF772580BDF10033D2A4 /* TabBarConnector.swift in Sources */,
@@ -873,6 +880,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39944VQMR4;
 				INFOPLIST_FILE = "$(SRCROOT)/ios-oss/Resource/Info.plist";
@@ -884,6 +892,8 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-oss";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-oss/Resource/ios-oss-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -895,6 +905,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39944VQMR4;
 				INFOPLIST_FILE = "$(SRCROOT)/ios-oss/Resource/Info.plist";
@@ -906,6 +917,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-oss";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-oss/Resource/ios-oss-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -979,6 +991,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39944VQMR4;
 				INFOPLIST_FILE = "$(SRCROOT)/ios-oss/Resource/Info.plist";
@@ -990,6 +1003,8 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-oss";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-oss/Resource/ios-oss-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1063,6 +1078,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39944VQMR4;
 				INFOPLIST_FILE = "$(SRCROOT)/ios-oss/Resource/Info.plist";
@@ -1074,6 +1090,8 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yunyu.ios-oss";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-oss/Resource/ios-oss-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
