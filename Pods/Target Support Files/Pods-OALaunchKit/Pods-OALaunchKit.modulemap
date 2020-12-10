@@ -1,6 +1,0 @@
-framework module Pods_OALaunchKit {
-  umbrella header "Pods-OALaunchKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

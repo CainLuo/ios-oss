@@ -1,6 +1,0 @@
-framework module Pods_OAMyKit {
-  umbrella header "Pods-OAMyKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

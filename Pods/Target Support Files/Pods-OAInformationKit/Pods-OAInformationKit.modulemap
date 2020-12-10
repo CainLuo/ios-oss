@@ -1,6 +1,0 @@
-framework module Pods_OAInformationKit {
-  umbrella header "Pods-OAInformationKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
