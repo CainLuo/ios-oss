@@ -7,12 +7,12 @@
 		<key>OALoginExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>68</integer>
+			<integer>55</integer>
 		</dict>
 		<key>OALoginKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>67</integer>
+			<integer>51</integer>
 		</dict>
 	</dict>
 </dict>

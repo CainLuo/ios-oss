@@ -23,9 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configNavigationBar()
         
         TabBarConnector.instance().register()
-        LaunchConnector.instance().register()
-        LoginConnector.instance().register()
-        MyConnector.instance().register()
+//        LaunchConnector.instance().register()
+//        LoginConnector.instance().register()
+//        MyConnector.instance().register()
                 
         let vc = ComponentManager.viewControllerForURL(URL(string: "productScheme://ModuleLaunch")!)
         

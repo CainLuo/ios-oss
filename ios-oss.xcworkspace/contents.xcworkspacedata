@@ -7,34 +7,4 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:OAComponentManagerKit/OAComponentManagerKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:OAMyKit/OAMyKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:OAExtensionsKit/OAExtensionsKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:OAGlobalKit/OAGlobalKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:OAServiceKit/OAServiceKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:OANavigatorKit/OANavigatorKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:OALoginKit/OALoginKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:OALaunchKit/OALaunchKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:OAContactKit/OAContactKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:OAInformationKit/OAInformationKit.xcodeproj">
-   </FileRef>
 </Workspace>

@@ -8,19 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4D15D5572577AA9400FC7CE9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D15D5592577AA9400FC7CE9 /* Localizable.strings */; };
-		4D2C8C85257A5DB6001C832B /* Pods_OAMyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2C8C83257A5DB6001C832B /* Pods_OAMyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4D67DA0B257A534200FDB68A /* OAComponentManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D67DA0A257A534200FDB68A /* OAComponentManagerKit.framework */; };
-		4D67DA0C257A534200FDB68A /* OAComponentManagerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D67DA0A257A534200FDB68A /* OAComponentManagerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4D6D1347257A6A8B009AE5D9 /* OAGlobalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1346257A6A8B009AE5D9 /* OAGlobalKit.framework */; };
-		4D6D1348257A6A8B009AE5D9 /* OAGlobalKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1346257A6A8B009AE5D9 /* OAGlobalKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4D6D134C257A6A91009AE5D9 /* OAExtensionsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D134B257A6A91009AE5D9 /* OAExtensionsKit.framework */; };
-		4D6D134D257A6A91009AE5D9 /* OAExtensionsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D134B257A6A91009AE5D9 /* OAExtensionsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4D6D1353257A6C3B009AE5D9 /* OANavigatorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1352257A6C3B009AE5D9 /* OANavigatorKit.framework */; };
-		4D6D1354257A6C3B009AE5D9 /* OANavigatorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1352257A6C3B009AE5D9 /* OANavigatorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4D6D1358257A6C41009AE5D9 /* OAServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1357257A6C41009AE5D9 /* OAServiceKit.framework */; };
-		4D6D1359257A6C41009AE5D9 /* OAServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D1357257A6C41009AE5D9 /* OAServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4D6D135B257A6C4B009AE5D9 /* OAMyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D135A257A6C4B009AE5D9 /* OAMyKit.framework */; };
-		4D6D135C257A6C4B009AE5D9 /* OAMyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6D135A257A6C4B009AE5D9 /* OAMyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DA46F1E257892D700C91078 /* ios_ossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46F1D257892D700C91078 /* ios_ossUITests.swift */; };
 		4DA46F30257892DC00C91078 /* ios_ossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46F2F257892DC00C91078 /* ios_ossTests.swift */; };
 		4DE43A9F2581BDC20046ECF0 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE43A9E2581BDC20046ECF0 /* ShareManager.swift */; };
@@ -36,11 +23,7 @@
 		4DE81D04256CE3870013C1F9 /* JSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE81D03256CE3870013C1F9 /* JSWebViewController.swift */; };
 		4DEDCF772580BDF10033D2A4 /* TabBarConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDCF762580BDF10033D2A4 /* TabBarConnector.swift */; };
 		4DEDCF7B2580BE040033D2A4 /* TabBarViewController+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDCF7A2580BE040033D2A4 /* TabBarViewController+Component.swift */; };
-		4DEDCF812580BEA60033D2A4 /* OALaunchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEDCF802580BEA60033D2A4 /* OALaunchKit.framework */; };
-		4DEDCF822580BEA60033D2A4 /* OALaunchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEDCF802580BEA60033D2A4 /* OALaunchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AC4D7706F9F8989C73731B60 /* Pods_ios_oss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E69E6E0AF006C41D128308 /* Pods_ios_oss.framework */; };
-		BF8A05F5257BC6630009DF40 /* OALoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8A05F4257BC6630009DF40 /* OALoginKit.framework */; };
-		BF8A05F6257BC6630009DF40 /* OALoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF8A05F4257BC6630009DF40 /* OALoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF8A06AC257BCC310009DF40 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A06AB257BCC310009DF40 /* Storyboard.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,28 +43,6 @@
 			remoteInfo = "ios-oss";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		4D67DA0D257A534200FDB68A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4D6D1354257A6C3B009AE5D9 /* OANavigatorKit.framework in Embed Frameworks */,
-				BF8A05F6257BC6630009DF40 /* OALoginKit.framework in Embed Frameworks */,
-				4D6D135C257A6C4B009AE5D9 /* OAMyKit.framework in Embed Frameworks */,
-				4D67DA0C257A534200FDB68A /* OAComponentManagerKit.framework in Embed Frameworks */,
-				4D6D134D257A6A91009AE5D9 /* OAExtensionsKit.framework in Embed Frameworks */,
-				4D6D1359257A6C41009AE5D9 /* OAServiceKit.framework in Embed Frameworks */,
-				4D2C8C85257A5DB6001C832B /* Pods_OAMyKit.framework in Embed Frameworks */,
-				4D6D1348257A6A8B009AE5D9 /* OAGlobalKit.framework in Embed Frameworks */,
-				4DEDCF822580BEA60033D2A4 /* OALaunchKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4D15D52C25779E7A00FC7CE9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -151,15 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D6D1353257A6C3B009AE5D9 /* OANavigatorKit.framework in Frameworks */,
-				BF8A05F5257BC6630009DF40 /* OALoginKit.framework in Frameworks */,
-				4D6D135B257A6C4B009AE5D9 /* OAMyKit.framework in Frameworks */,
 				AC4D7706F9F8989C73731B60 /* Pods_ios_oss.framework in Frameworks */,
-				4D6D134C257A6A91009AE5D9 /* OAExtensionsKit.framework in Frameworks */,
-				4D6D1358257A6C41009AE5D9 /* OAServiceKit.framework in Frameworks */,
-				4D67DA0B257A534200FDB68A /* OAComponentManagerKit.framework in Frameworks */,
-				4D6D1347257A6A8B009AE5D9 /* OAGlobalKit.framework in Frameworks */,
-				4DEDCF812580BEA60033D2A4 /* OALaunchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +331,6 @@
 				4DE81BE7256CA02D0013C1F9 /* Frameworks */,
 				4DE81BE8256CA02D0013C1F9 /* Resources */,
 				5B4C270B0C9C8C433F15004B /* [CP] Embed Pods Frameworks */,
-				4D67DA0D257A534200FDB68A /* Embed Frameworks */,
 				A27ABBA0BEFF3B71EB7F3CCE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (

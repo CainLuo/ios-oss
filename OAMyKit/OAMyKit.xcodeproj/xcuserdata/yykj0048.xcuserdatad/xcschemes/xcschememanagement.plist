@@ -7,12 +7,12 @@
 		<key>OAMyExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>65</integer>
+			<integer>56</integer>
 		</dict>
 		<key>OAMyKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>66</integer>
+			<integer>50</integer>
 		</dict>
 	</dict>
 </dict>
