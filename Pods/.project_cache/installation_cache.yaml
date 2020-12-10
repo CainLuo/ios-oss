@@ -190,21 +190,30 @@ CACHE_KEYS:
   OAExtensionsKit:
     BUILD_SETTINGS_CHECKSUM:
       OAExtensionsKit:
-        :debug: b68f91174617cd38a95566cd9473486f
-        :release: b68f91174617cd38a95566cd9473486f
-    CHECKSUM: 31c979915c19a96d8f8507a66d3fb45175c8b78e
+        :debug: c9e0f0e0ce3fdc8f41e90cd11124fde6
+        :release: c9e0f0e0ce3fdc8f41e90cd11124fde6
+    CHECKSUM: 44e2b4423eafcf75c529fac796ed5f6579c66d7b
     PROJECT_NAME: OAExtensionsKit
     SPECS:
-      - OAExtensionsKit (1.0.0)
+      - OAExtensionsKit (1.0.2)
   OAGlobalKit:
     BUILD_SETTINGS_CHECKSUM:
       OAGlobalKit:
-        :debug: 10bf83d7833a1f7bfd0788f43cc9cee3
-        :release: 10bf83d7833a1f7bfd0788f43cc9cee3
-    CHECKSUM: 8df416a588ff11c10202edee120c1e1ac6c37774
+        :debug: c1b0a16e730a7e581d07a209ad31264c
+        :release: c1b0a16e730a7e581d07a209ad31264c
+    CHECKSUM: 8d38ca1107608b974cf8aec033976e7225568909
     PROJECT_NAME: OAGlobalKit
     SPECS:
-      - OAGlobalKit (1.0.0)
+      - OAGlobalKit (1.0.1)
+  OAMyKit:
+    BUILD_SETTINGS_CHECKSUM:
+      OAMyKit:
+        :debug: eb9d9b82589ba37bf98638897feb76d1
+        :release: eb9d9b82589ba37bf98638897feb76d1
+    CHECKSUM: cdd0c45b0d11342fc41fb90ec951525a79b7a247
+    PROJECT_NAME: OAMyKit
+    SPECS:
+      - OAMyKit (1.0.0)
   OANavigatorKit:
     BUILD_SETTINGS_CHECKSUM:
       OANavigatorKit:
@@ -244,10 +253,10 @@ CACHE_KEYS:
       - ObjectMapper (4.2.0)
   Pods-ios-oss:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 4bc932ef219bfbf8a271f0e2a365940b
-      Live: 23f42ff4e035f8e5d2fb4df1d938b1b7
-      Preview: 23f42ff4e035f8e5d2fb4df1d938b1b7
-      Release: 23f42ff4e035f8e5d2fb4df1d938b1b7
+      Debug: b72eb3d6da36963bb734c2c38520b0dd
+      Live: d4e2699fb2a9c4d2ed92b278d7b3e5a2
+      Preview: d4e2699fb2a9c4d2ed92b278d7b3e5a2
+      Release: d4e2699fb2a9c4d2ed92b278d7b3e5a2
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"

@@ -78,6 +78,8 @@ def sharePods
   pod 'OAGlobalKit'
   pod 'OAExtensionsKit'
   pod 'OANavigatorKit'
+  
+  pod 'OAMyKit'
 
 end
 

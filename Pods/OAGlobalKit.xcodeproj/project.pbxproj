@@ -7,48 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29F076E22332BDB82719D72FBA63959F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4725C26C9757982CBFE2291E1CF229 /* Logger.swift */; };
-		B795F3AB946EFFB6E25BB4C5D0AD7695 /* OAGlobalKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B36D8AC5FAF5B6D233002F61340E2A /* OAGlobalKit-dummy.m */; };
-		B937BA1C64E47BA8A626693AA81EFEBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5730D03613765B4CBD31C46D3AD9E2AD /* Foundation.framework */; };
-		D180391A0F66EEBCCA3FFDB66A3ED8C7 /* OAGlobalKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E808F1C3F8F551F9C2244A5D8792A7 /* OAGlobalKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B8A2E8E38DAADBB0AAAF8BEF82337A /* OAExtensionsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A623871FB41A7D57AF46FF627BE54EC /* OAExtensionsKit.framework */; };
+		5FDBA8EAE0312A757CA5124260136038 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4946057BD5F825AEA49463937180CC /* HUD.swift */; };
+		7BC8696CAE6311882B503FE716C566BC /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FCA70E5CBB93B1DCF6B686581BA14 /* Logger.swift */; };
+		B6A5204C420085B1CDA93214EE57EBC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECF87A548F54B3E19C9860767E1AAE0 /* Foundation.framework */; };
+		C36F57436E35EFD3AE82840C7AF5AD3E /* OAGlobalKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1C659E35B266FC1C76D35DA8289F /* OAGlobalKit-dummy.m */; };
+		EC2C7BC703FB54D53CB7E45743D9A914 /* OAGlobalKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A778A6AFCFB5272109B012EE75D95CB /* OAGlobalKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F894F4F248B51399E6DB5B7063849A6B /* PBXContainerItemProxy */ = {
+		2745712181D7F94F1B2636ABCB2E71D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3EFE80D63B61E5CA57764B28E98F3605 /* XCGLogger.xcodeproj */;
+			containerPortal = 0E0AFF15A369B262F2F6A122378C1EC5 /* MBProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F48A71D28991325602E8C8A19DF1F64;
+			remoteInfo = MBProgressHUD;
+		};
+		27E61929C6391A9FE31D6AB37139E512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB93214C423E36D66E103DCF433FEFE5 /* RxCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5183FBB16A06C1D86620B00CFE6269;
+			remoteInfo = RxCocoa;
+		};
+		2FA575384FF91C3E004D81EE3A40A96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38316A82627D78D6F78714FA3994429 /* XCGLogger.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 71759EF46212B099898E1C13E387F905;
 			remoteInfo = XCGLogger;
 		};
+		52E2452695344D79599DEF0D608A2671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90516BEC57A36F32FB4A3338E544B021 /* RxSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F0179EE061353B7A322F596E97844774;
+			remoteInfo = RxSwift;
+		};
+		5707830056B4463EA10D90A400EB5047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01119DC0758067E09ABD26F2EE665275 /* OAExtensionsKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CB137AF5347F3520050AC6EDCBDB0183;
+			remoteInfo = OAExtensionsKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B4725C26C9757982CBFE2291E1CF229 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = OAGlobalKit/Logger.swift; sourceTree = "<group>"; };
-		3EFE80D63B61E5CA57764B28E98F3605 /* XCGLogger */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XCGLogger; path = XCGLogger.xcodeproj; sourceTree = "<group>"; };
-		4D6A23324C0CEF1555EA89EB1EAD1910 /* OAGlobalKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAGlobalKit.release.xcconfig; sourceTree = "<group>"; };
-		5730D03613765B4CBD31C46D3AD9E2AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		876B6859844D9CF42564F35127A8A0DC /* OAGlobalKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OAGlobalKit.modulemap; sourceTree = "<group>"; };
-		A13ECB5C6A4440B70E3E6ABB23D8254D /* OAGlobalKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAGlobalKit-prefix.pch"; sourceTree = "<group>"; };
+		01119DC0758067E09ABD26F2EE665275 /* OAExtensionsKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAExtensionsKit; path = OAExtensionsKit.xcodeproj; sourceTree = "<group>"; };
+		0A8EBE45B24DF2CA7386462ED2B598E0 /* OAGlobalKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAGlobalKit-prefix.pch"; sourceTree = "<group>"; };
+		0E0AFF15A369B262F2F6A122378C1EC5 /* MBProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD; path = MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		110FCA70E5CBB93B1DCF6B686581BA14 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = OAGlobalKit/Logger.swift; sourceTree = "<group>"; };
+		29FD1C659E35B266FC1C76D35DA8289F /* OAGlobalKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAGlobalKit-dummy.m"; sourceTree = "<group>"; };
+		2A778A6AFCFB5272109B012EE75D95CB /* OAGlobalKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAGlobalKit-umbrella.h"; sourceTree = "<group>"; };
+		2E006CB424111CA41B02C7B1B1717F31 /* OAGlobalKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAGlobalKit.release.xcconfig; sourceTree = "<group>"; };
+		334C101F58DBD00DE0C80648546CEA31 /* OAGlobalKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAGlobalKit.debug.xcconfig; sourceTree = "<group>"; };
+		3A623871FB41A7D57AF46FF627BE54EC /* OAExtensionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAExtensionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECF87A548F54B3E19C9860767E1AAE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		90516BEC57A36F32FB4A3338E544B021 /* RxSwift */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxSwift; path = RxSwift.xcodeproj; sourceTree = "<group>"; };
+		98716CE5D9C2A9789D6D2EE74DB7FF3D /* OAGlobalKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OAGlobalKit.modulemap; sourceTree = "<group>"; };
 		A33FE63CE8DC674C174AC85B8838DFCF /* OAGlobalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OAGlobalKit.framework; path = OAGlobalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0CAFF56DC20DD4D70EDAC48BFB40FC9 /* OAGlobalKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OAGlobalKit-Info.plist"; sourceTree = "<group>"; };
-		C3B36D8AC5FAF5B6D233002F61340E2A /* OAGlobalKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAGlobalKit-dummy.m"; sourceTree = "<group>"; };
-		D7FEA0E689915D87248BD1437193AFAE /* OAGlobalKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAGlobalKit.debug.xcconfig; sourceTree = "<group>"; };
-		F9E808F1C3F8F551F9C2244A5D8792A7 /* OAGlobalKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAGlobalKit-umbrella.h"; sourceTree = "<group>"; };
+		BB93214C423E36D66E103DCF433FEFE5 /* RxCocoa */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxCocoa; path = RxCocoa.xcodeproj; sourceTree = "<group>"; };
+		D38316A82627D78D6F78714FA3994429 /* XCGLogger */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XCGLogger; path = XCGLogger.xcodeproj; sourceTree = "<group>"; };
+		DB4946057BD5F825AEA49463937180CC /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = OAGlobalKit/HUD.swift; sourceTree = "<group>"; };
+		F447ABD6B839F9F61E0433BBC3FD70BC /* OAGlobalKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OAGlobalKit-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F07212242C6B0EBE234AE0CAE40B46B6 /* Frameworks */ = {
+		CA56F27B71180D3430BF003A76380EB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B937BA1C64E47BA8A626693AA81EFEBC /* Foundation.framework in Frameworks */,
+				B6A5204C420085B1CDA93214EE57EBC0 /* Foundation.framework in Frameworks */,
+				40B8A2E8E38DAADBB0AAAF8BEF82337A /* OAExtensionsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EDFBDC95955FE07F7F5D261A2541A81 /* OAGlobalKit */ = {
+			isa = PBXGroup;
+			children = (
+				DB4946057BD5F825AEA49463937180CC /* HUD.swift */,
+				110FCA70E5CBB93B1DCF6B686581BA14 /* Logger.swift */,
+				6B408A52B9B74150D0D5EAFE5758906A /* Support Files */,
+			);
+			name = OAGlobalKit;
+			path = OAGlobalKit;
+			sourceTree = "<group>";
+		};
 		10676EADF660F9AB54253AE5A22D57C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,10 +105,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36476B52A56DE3CD39B88BB4F3DBA41C /* iOS */ = {
+		1C5B6E38AD2A991894D95C00DB9CBA80 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5730D03613765B4CBD31C46D3AD9E2AD /* Foundation.framework */,
+				4ECF87A548F54B3E19C9860767E1AAE0 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -68,50 +116,45 @@
 		69B80E6814277D0AC2C954DD06B84FA2 = {
 			isa = PBXGroup;
 			children = (
-				D0A95D1D16C1F351B78B4672B0167F81 /* Dependencies */,
-				F1F3C8840EFF5BDF77359D0D820CDDC5 /* Frameworks */,
-				AEBF8071133FD5F4A108E180B3444933 /* OAGlobalKit */,
+				9E63610D09B43907A2BF293C90F7959B /* Dependencies */,
+				ACF46F0FFD5A2DFED3D19ABDA821F4CF /* Frameworks */,
+				0EDFBDC95955FE07F7F5D261A2541A81 /* OAGlobalKit */,
 				10676EADF660F9AB54253AE5A22D57C6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6E4BC1009224E21B8CCD0C406F6A1005 /* Support Files */ = {
+		6B408A52B9B74150D0D5EAFE5758906A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				876B6859844D9CF42564F35127A8A0DC /* OAGlobalKit.modulemap */,
-				C3B36D8AC5FAF5B6D233002F61340E2A /* OAGlobalKit-dummy.m */,
-				C0CAFF56DC20DD4D70EDAC48BFB40FC9 /* OAGlobalKit-Info.plist */,
-				A13ECB5C6A4440B70E3E6ABB23D8254D /* OAGlobalKit-prefix.pch */,
-				F9E808F1C3F8F551F9C2244A5D8792A7 /* OAGlobalKit-umbrella.h */,
-				D7FEA0E689915D87248BD1437193AFAE /* OAGlobalKit.debug.xcconfig */,
-				4D6A23324C0CEF1555EA89EB1EAD1910 /* OAGlobalKit.release.xcconfig */,
+				98716CE5D9C2A9789D6D2EE74DB7FF3D /* OAGlobalKit.modulemap */,
+				29FD1C659E35B266FC1C76D35DA8289F /* OAGlobalKit-dummy.m */,
+				F447ABD6B839F9F61E0433BBC3FD70BC /* OAGlobalKit-Info.plist */,
+				0A8EBE45B24DF2CA7386462ED2B598E0 /* OAGlobalKit-prefix.pch */,
+				2A778A6AFCFB5272109B012EE75D95CB /* OAGlobalKit-umbrella.h */,
+				334C101F58DBD00DE0C80648546CEA31 /* OAGlobalKit.debug.xcconfig */,
+				2E006CB424111CA41B02C7B1B1717F31 /* OAGlobalKit.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/OAGlobalKit";
 			sourceTree = "<group>";
 		};
-		AEBF8071133FD5F4A108E180B3444933 /* OAGlobalKit */ = {
+		9E63610D09B43907A2BF293C90F7959B /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				3B4725C26C9757982CBFE2291E1CF229 /* Logger.swift */,
-				6E4BC1009224E21B8CCD0C406F6A1005 /* Support Files */,
-			);
-			name = OAGlobalKit;
-			path = OAGlobalKit;
-			sourceTree = "<group>";
-		};
-		D0A95D1D16C1F351B78B4672B0167F81 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				3EFE80D63B61E5CA57764B28E98F3605 /* XCGLogger */,
+				0E0AFF15A369B262F2F6A122378C1EC5 /* MBProgressHUD */,
+				01119DC0758067E09ABD26F2EE665275 /* OAExtensionsKit */,
+				BB93214C423E36D66E103DCF433FEFE5 /* RxCocoa */,
+				90516BEC57A36F32FB4A3338E544B021 /* RxSwift */,
+				D38316A82627D78D6F78714FA3994429 /* XCGLogger */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		F1F3C8840EFF5BDF77359D0D820CDDC5 /* Frameworks */ = {
+		ACF46F0FFD5A2DFED3D19ABDA821F4CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				36476B52A56DE3CD39B88BB4F3DBA41C /* iOS */,
+				3A623871FB41A7D57AF46FF627BE54EC /* OAExtensionsKit.framework */,
+				1C5B6E38AD2A991894D95C00DB9CBA80 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,11 +162,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		80DE7EBE98356767A638D7BBDA479E1E /* Headers */ = {
+		500A6B6F9F11798B00C0B3DB9F2117C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D180391A0F66EEBCCA3FFDB66A3ED8C7 /* OAGlobalKit-umbrella.h in Headers */,
+				EC2C7BC703FB54D53CB7E45743D9A914 /* OAGlobalKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,17 +175,21 @@
 /* Begin PBXNativeTarget section */
 		F2877716CE2D01B89EAD1594F9B04447 /* OAGlobalKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EFAA0E4490624A53172F107C79CE6F9 /* Build configuration list for PBXNativeTarget "OAGlobalKit" */;
+			buildConfigurationList = D53751529259FE4F3CB0B577AD8E4002 /* Build configuration list for PBXNativeTarget "OAGlobalKit" */;
 			buildPhases = (
-				80DE7EBE98356767A638D7BBDA479E1E /* Headers */,
-				09EBBBED60B4E5A0D1AEF7F9723BA6BB /* Sources */,
-				F07212242C6B0EBE234AE0CAE40B46B6 /* Frameworks */,
-				8904AA6EE5BFEEE40B0167367A7F705B /* Resources */,
+				500A6B6F9F11798B00C0B3DB9F2117C7 /* Headers */,
+				E934109E6C1EDBE7828D5CF6CB9F96C4 /* Sources */,
+				CA56F27B71180D3430BF003A76380EB1 /* Frameworks */,
+				2EBE5E64B00020E82FC48E8C275AA734 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D1116D81051B3713C02E611BDCA035C0 /* PBXTargetDependency */,
+				38D658243D053D399C01FC4BD375E0E7 /* PBXTargetDependency */,
+				5305B81B200821CD106D186F245AD937 /* PBXTargetDependency */,
+				0A0426231ACCD30020BC271BBD1CA1A3 /* PBXTargetDependency */,
+				D7D9399A0482B82A186BC635F0EA8D91 /* PBXTargetDependency */,
+				12D376AD763AB63947FB17574CE3A095 /* PBXTargetDependency */,
 			);
 			name = OAGlobalKit;
 			productName = OAGlobalKit;
@@ -171,7 +218,19 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = 3EFE80D63B61E5CA57764B28E98F3605 /* XCGLogger */;
+					ProjectRef = D38316A82627D78D6F78714FA3994429 /* XCGLogger */;
+				},
+				{
+					ProjectRef = 90516BEC57A36F32FB4A3338E544B021 /* RxSwift */;
+				},
+				{
+					ProjectRef = BB93214C423E36D66E103DCF433FEFE5 /* RxCocoa */;
+				},
+				{
+					ProjectRef = 0E0AFF15A369B262F2F6A122378C1EC5 /* MBProgressHUD */;
+				},
+				{
+					ProjectRef = 01119DC0758067E09ABD26F2EE665275 /* OAExtensionsKit */;
 				},
 			);
 			projectRoot = "";
@@ -182,7 +241,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8904AA6EE5BFEEE40B0167367A7F705B /* Resources */ = {
+		2EBE5E64B00020E82FC48E8C275AA734 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,22 +251,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		09EBBBED60B4E5A0D1AEF7F9723BA6BB /* Sources */ = {
+		E934109E6C1EDBE7828D5CF6CB9F96C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29F076E22332BDB82719D72FBA63959F /* Logger.swift in Sources */,
-				B795F3AB946EFFB6E25BB4C5D0AD7695 /* OAGlobalKit-dummy.m in Sources */,
+				5FDBA8EAE0312A757CA5124260136038 /* HUD.swift in Sources */,
+				7BC8696CAE6311882B503FE716C566BC /* Logger.swift in Sources */,
+				C36F57436E35EFD3AE82840C7AF5AD3E /* OAGlobalKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D1116D81051B3713C02E611BDCA035C0 /* PBXTargetDependency */ = {
+		0A0426231ACCD30020BC271BBD1CA1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxCocoa;
+			targetProxy = 27E61929C6391A9FE31D6AB37139E512 /* PBXContainerItemProxy */;
+		};
+		12D376AD763AB63947FB17574CE3A095 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XCGLogger;
-			targetProxy = F894F4F248B51399E6DB5B7063849A6B /* PBXContainerItemProxy */;
+			targetProxy = 2FA575384FF91C3E004D81EE3A40A96C /* PBXContainerItemProxy */;
+		};
+		38D658243D053D399C01FC4BD375E0E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			targetProxy = 2745712181D7F94F1B2636ABCB2E71D7 /* PBXContainerItemProxy */;
+		};
+		5305B81B200821CD106D186F245AD937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAExtensionsKit;
+			targetProxy = 5707830056B4463EA10D90A400EB5047 /* PBXContainerItemProxy */;
+		};
+		D7D9399A0482B82A186BC635F0EA8D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			targetProxy = 52E2452695344D79599DEF0D608A2671 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -340,9 +420,9 @@
 			};
 			name = Release;
 		};
-		12E600C08551F1D9EE9037A3D9BDF88B /* Release */ = {
+		738233DDBF5B99599B754CCAC2AFA031 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D6A23324C0CEF1555EA89EB1EAD1910 /* OAGlobalKit.release.xcconfig */;
+			baseConfigurationReference = 2E006CB424111CA41B02C7B1B1717F31 /* OAGlobalKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -378,46 +458,9 @@
 			};
 			name = Release;
 		};
-		2D901F037BA4BD664F7C741CCB6E3EBE /* Debug */ = {
+		83CC12E15390242E393075D43482102C /* Preview */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7FEA0E689915D87248BD1437193AFAE /* OAGlobalKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OAGlobalKit/OAGlobalKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OAGlobalKit/OAGlobalKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOS_DEPLOYMENT_TARGET = 10.15;
-				MODULEMAP_FILE = "Target Support Files/OAGlobalKit/OAGlobalKit.modulemap";
-				PRODUCT_MODULE_NAME = OAGlobalKit;
-				PRODUCT_NAME = OAGlobalKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		69D8B9116C42D06B22C315045249E049 /* Live */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D6A23324C0CEF1555EA89EB1EAD1910 /* OAGlobalKit.release.xcconfig */;
+			baseConfigurationReference = 2E006CB424111CA41B02C7B1B1717F31 /* OAGlobalKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -451,7 +494,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Live;
+			name = Preview;
 		};
 		842A589755F5D07F4D1A67DAED218AF9 /* Preview */ = {
 			isa = XCBuildConfiguration;
@@ -514,44 +557,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Preview;
-		};
-		AD5915FFBCCB0A970B6ABF3D3FB0B3DD /* Preview */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D6A23324C0CEF1555EA89EB1EAD1910 /* OAGlobalKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OAGlobalKit/OAGlobalKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OAGlobalKit/OAGlobalKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOS_DEPLOYMENT_TARGET = 10.15;
-				MODULEMAP_FILE = "Target Support Files/OAGlobalKit/OAGlobalKit.modulemap";
-				PRODUCT_MODULE_NAME = OAGlobalKit;
-				PRODUCT_NAME = OAGlobalKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Preview;
 		};
@@ -623,20 +628,84 @@
 			};
 			name = Debug;
 		};
+		EB5228641D4CB64DE90810BAD0548B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334C101F58DBD00DE0C80648546CEA31 /* OAGlobalKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAGlobalKit/OAGlobalKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OAGlobalKit/OAGlobalKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOS_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/OAGlobalKit/OAGlobalKit.modulemap";
+				PRODUCT_MODULE_NAME = OAGlobalKit;
+				PRODUCT_NAME = OAGlobalKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7BF2D65C36D024F307C5DC21220ECCF /* Live */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E006CB424111CA41B02C7B1B1717F31 /* OAGlobalKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAGlobalKit/OAGlobalKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OAGlobalKit/OAGlobalKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOS_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/OAGlobalKit/OAGlobalKit.modulemap";
+				PRODUCT_MODULE_NAME = OAGlobalKit;
+				PRODUCT_NAME = OAGlobalKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Live;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EFAA0E4490624A53172F107C79CE6F9 /* Build configuration list for PBXNativeTarget "OAGlobalKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D901F037BA4BD664F7C741CCB6E3EBE /* Debug */,
-				69D8B9116C42D06B22C315045249E049 /* Live */,
-				AD5915FFBCCB0A970B6ABF3D3FB0B3DD /* Preview */,
-				12E600C08551F1D9EE9037A3D9BDF88B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		180C4EC566C0A5C84DEB58208DC501B5 /* Build configuration list for PBXProject "OAGlobalKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -644,6 +713,17 @@
 				024464E0E39EEF73444F4F4AD398831E /* Live */,
 				842A589755F5D07F4D1A67DAED218AF9 /* Preview */,
 				0AF062F73649534492ED3F13386D3F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53751529259FE4F3CB0B577AD8E4002 /* Build configuration list for PBXNativeTarget "OAGlobalKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5228641D4CB64DE90810BAD0548B97 /* Debug */,
+				F7BF2D65C36D024F307C5DC21220ECCF /* Live */,
+				83CC12E15390242E393075D43482102C /* Preview */,
+				738233DDBF5B99599B754CCAC2AFA031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,8 +8,8 @@
 import UIKit
 import SwifterSwift
 import OAMyKit
-import OALoginKit
-import OALaunchKit
+//import OALoginKit
+//import OALaunchKit
 import OAComponentManagerKit
 
 @main
@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         TabBarConnector.instance().register()
 //        LaunchConnector.instance().register()
 //        LoginConnector.instance().register()
-//        MyConnector.instance().register()
+        MyConnector.instance().register()
                 
         let vc = ComponentManager.viewControllerForURL(URL(string: "productScheme://ModuleLaunch")!)
         

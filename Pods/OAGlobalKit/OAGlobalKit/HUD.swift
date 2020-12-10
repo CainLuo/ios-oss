@@ -9,12 +9,11 @@ import UIKit
 import RxSwift
 import RxCocoa
 import MBProgressHUD
+import OAExtensionsKit
 
-public class HUD: NSObject {
+public class HUD {
     
-    @objc public static func instantiate() -> HUD {
-        return HUD()
-    }
+    static let instantiate = HUD()
     
     @objc public var isLoading: Bool = false {
         didSet {
