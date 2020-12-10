@@ -132,13 +132,13 @@ CACHE_KEYS:
       mob_sharesdk:
         :debug: f942fd4e51256ade522276a554d5ef20
         :release: f942fd4e51256ade522276a554d5ef20
-    CHECKSUM: 55e3cbbf594f1abf4a23e198922bcc11ce86ddbb
+    CHECKSUM: c0b0fb2d37b0b4a408fddd32109f9ef5a51361b9
     PROJECT_NAME: mob_sharesdk
     SPECS:
-      - mob_sharesdk (4.3.14)
-      - mob_sharesdk/ShareSDK (4.3.14)
-      - mob_sharesdk/ShareSDKPlatforms/Apple (4.3.14)
-      - mob_sharesdk/ShareSDKPlatforms/Facebook (4.3.14)
+      - mob_sharesdk (4.3.15)
+      - mob_sharesdk/ShareSDK (4.3.15)
+      - mob_sharesdk/ShareSDKPlatforms/Apple (4.3.15)
+      - mob_sharesdk/ShareSDKPlatforms/Facebook (4.3.15)
   MOBFoundation:
     BUILD_SETTINGS_CHECKSUM:
       MOBFoundation:
@@ -178,6 +178,51 @@ CACHE_KEYS:
     PROJECT_NAME: "NSObject+Rx"
     SPECS:
       - "NSObject+Rx (5.1.0)"
+  OAComponentManagerKit:
+    BUILD_SETTINGS_CHECKSUM:
+      OAComponentManagerKit:
+        :debug: 1f06d49714ceade9e46979a46c88bfa9
+        :release: 1f06d49714ceade9e46979a46c88bfa9
+    CHECKSUM: 2d1910fb34110e19905b60ea80505fd416d9000f
+    PROJECT_NAME: OAComponentManagerKit
+    SPECS:
+      - OAComponentManagerKit (1.0.0)
+  OAExtensionsKit:
+    BUILD_SETTINGS_CHECKSUM:
+      OAExtensionsKit:
+        :debug: b68f91174617cd38a95566cd9473486f
+        :release: b68f91174617cd38a95566cd9473486f
+    CHECKSUM: 31c979915c19a96d8f8507a66d3fb45175c8b78e
+    PROJECT_NAME: OAExtensionsKit
+    SPECS:
+      - OAExtensionsKit (1.0.0)
+  OAGlobalKit:
+    BUILD_SETTINGS_CHECKSUM:
+      OAGlobalKit:
+        :debug: 10bf83d7833a1f7bfd0788f43cc9cee3
+        :release: 10bf83d7833a1f7bfd0788f43cc9cee3
+    CHECKSUM: 8df416a588ff11c10202edee120c1e1ac6c37774
+    PROJECT_NAME: OAGlobalKit
+    SPECS:
+      - OAGlobalKit (1.0.0)
+  OANavigatorKit:
+    BUILD_SETTINGS_CHECKSUM:
+      OANavigatorKit:
+        :debug: afd2fa65bb5bcc547e497b08f6c44963
+        :release: afd2fa65bb5bcc547e497b08f6c44963
+    CHECKSUM: 353b45e523204475fd6f95982d2f6554a9462d37
+    PROJECT_NAME: OANavigatorKit
+    SPECS:
+      - OANavigatorKit (1.0.0)
+  OAServiceKit:
+    BUILD_SETTINGS_CHECKSUM:
+      OAServiceKit:
+        :debug: eaf75b23eef779b868bc577e9660b10d
+        :release: eaf75b23eef779b868bc577e9660b10d
+    CHECKSUM: d1eef6e858a748acf6801539cee34a3f72d44feb
+    PROJECT_NAME: OAServiceKit
+    SPECS:
+      - OAServiceKit (1.0.1)
   ObjcExceptionBridging:
     BUILD_SETTINGS_CHECKSUM:
       ObjcExceptionBridging:
@@ -199,134 +244,90 @@ CACHE_KEYS:
       - ObjectMapper (4.2.0)
   Pods-ios-oss:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 080d520efadea60c9a7b5850a4075e58
-      Live: b217db7ce9119d40d84cdf3d8c2a9610
-      Preview: b217db7ce9119d40d84cdf3d8c2a9610
-      Release: b217db7ce9119d40d84cdf3d8c2a9610
-    FILES:
-      - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
-      - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
-      - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
-  Pods-OAComponentManagerExample:
-    BUILD_SETTINGS_CHECKSUM:
-      Debug: b3193b9529bd44d565dcfc5e5f78a208
-      Release: fdcf669720f6d1fefa27ec3761313342
-    FILES:
-      - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
-      - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
-      - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
-  Pods-OAComponentManagerKit:
-    BUILD_SETTINGS_CHECKSUM:
-      Debug: 8154a31f92b2960a40d4ae8ce6112281
-      Release: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 4bc932ef219bfbf8a271f0e2a365940b
+      Live: 23f42ff4e035f8e5d2fb4df1d938b1b7
+      Preview: 23f42ff4e035f8e5d2fb4df1d938b1b7
+      Release: 23f42ff4e035f8e5d2fb4df1d938b1b7
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAContactExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: b3193b9529bd44d565dcfc5e5f78a208
-      Release: fdcf669720f6d1fefa27ec3761313342
+      Debug: f92f7b37ff01ae6f177a9662b5539b3e
+      Release: eafc1a56e11666c8f4f2531d1834768f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAContactKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8154a31f92b2960a40d4ae8ce6112281
-      Release: 8bd8e015064b6921af4052aaade1de5f
-    FILES:
-      - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
-      - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
-      - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
-  Pods-OAExtensionsKit:
-    BUILD_SETTINGS_CHECKSUM:
-      Debug: 8154a31f92b2960a40d4ae8ce6112281
-      Release: 8bd8e015064b6921af4052aaade1de5f
-    FILES:
-      - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
-      - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
-      - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
-  Pods-OAGlobalKit:
-    BUILD_SETTINGS_CHECKSUM:
-      Debug: 8154a31f92b2960a40d4ae8ce6112281
-      Release: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 9f46e621c4bd83d8d8b851c401c792e7
+      Release: 2ccfd96912698112b6b5a6c78039d38c
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAInformationExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: b3193b9529bd44d565dcfc5e5f78a208
-      Release: fdcf669720f6d1fefa27ec3761313342
+      Debug: f92f7b37ff01ae6f177a9662b5539b3e
+      Release: eafc1a56e11666c8f4f2531d1834768f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAInformationKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8154a31f92b2960a40d4ae8ce6112281
-      Release: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 9f46e621c4bd83d8d8b851c401c792e7
+      Release: 2ccfd96912698112b6b5a6c78039d38c
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OALaunchExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: b3193b9529bd44d565dcfc5e5f78a208
-      Release: fdcf669720f6d1fefa27ec3761313342
+      Debug: f92f7b37ff01ae6f177a9662b5539b3e
+      Release: eafc1a56e11666c8f4f2531d1834768f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OALaunchKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8154a31f92b2960a40d4ae8ce6112281
-      Release: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 9f46e621c4bd83d8d8b851c401c792e7
+      Release: 2ccfd96912698112b6b5a6c78039d38c
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OALoginExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: b3193b9529bd44d565dcfc5e5f78a208
-      Release: fdcf669720f6d1fefa27ec3761313342
+      Debug: f92f7b37ff01ae6f177a9662b5539b3e
+      Release: eafc1a56e11666c8f4f2531d1834768f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OALoginKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8154a31f92b2960a40d4ae8ce6112281
-      Release: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 9f46e621c4bd83d8d8b851c401c792e7
+      Release: 2ccfd96912698112b6b5a6c78039d38c
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAMyExample:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: b3193b9529bd44d565dcfc5e5f78a208
-      Release: fdcf669720f6d1fefa27ec3761313342
+      Debug: f92f7b37ff01ae6f177a9662b5539b3e
+      Release: eafc1a56e11666c8f4f2531d1834768f
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
       - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
   Pods-OAMyKit:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8154a31f92b2960a40d4ae8ce6112281
-      Release: 8bd8e015064b6921af4052aaade1de5f
-    FILES:
-      - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
-      - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
-      - "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle"
-  Pods-OANavigatorKit:
-    BUILD_SETTINGS_CHECKSUM:
-      Debug: b95286beeb8ea407e13ee26874fb1254
-      Release: b95286beeb8ea407e13ee26874fb1254
-  Pods-OAServiceKit:
-    BUILD_SETTINGS_CHECKSUM:
-      Debug: 8154a31f92b2960a40d4ae8ce6112281
-      Release: 8bd8e015064b6921af4052aaade1de5f
+      Debug: 9f46e621c4bd83d8d8b851c401c792e7
+      Release: 2ccfd96912698112b6b5a6c78039d38c
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_Facebook.bundle"
@@ -419,11 +420,11 @@ CACHE_KEYS:
       SDWebImage:
         :debug: 93d285ff7461c228fe2b1d20b64d8b5f
         :release: 93d285ff7461c228fe2b1d20b64d8b5f
-    CHECKSUM: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+    CHECKSUM: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
     PROJECT_NAME: SDWebImage
     SPECS:
-      - SDWebImage (5.9.4)
-      - SDWebImage/Core (5.9.4)
+      - SDWebImage (5.10.0)
+      - SDWebImage/Core (5.10.0)
   SnapKit:
     BUILD_SETTINGS_CHECKSUM:
       SnapKit:

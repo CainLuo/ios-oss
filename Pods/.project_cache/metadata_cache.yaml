@@ -78,6 +78,26 @@ Moya-ObjectMapper:
   LABEL: "NSObject+Rx"
   PROJECT_PATH: "NSObject+Rx.xcodeproj"
   UUID: 8959B62B3AF892ED95EA44BE841842BD
+OAComponentManagerKit:
+  LABEL: OAComponentManagerKit
+  PROJECT_PATH: OAComponentManagerKit.xcodeproj
+  UUID: 4CA9D23EC6ACDB2E9599C72950E3A14C
+OAExtensionsKit:
+  LABEL: OAExtensionsKit
+  PROJECT_PATH: OAExtensionsKit.xcodeproj
+  UUID: CB137AF5347F3520050AC6EDCBDB0183
+OAGlobalKit:
+  LABEL: OAGlobalKit
+  PROJECT_PATH: OAGlobalKit.xcodeproj
+  UUID: F2877716CE2D01B89EAD1594F9B04447
+OANavigatorKit:
+  LABEL: OANavigatorKit
+  PROJECT_PATH: OANavigatorKit.xcodeproj
+  UUID: 8A39E0CE51DB1EB2505F57E39817C25D
+OAServiceKit:
+  LABEL: OAServiceKit
+  PROJECT_PATH: OAServiceKit.xcodeproj
+  UUID: C01DDFF337ADB67543FC54F6DCC2FB7F
 ObjcExceptionBridging:
   LABEL: ObjcExceptionBridging
   PROJECT_PATH: ObjcExceptionBridging.xcodeproj

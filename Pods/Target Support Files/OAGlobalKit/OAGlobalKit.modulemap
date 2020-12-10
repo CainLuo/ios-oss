@@ -1,0 +1,6 @@
+framework module OAGlobalKit {
+  umbrella header "OAGlobalKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module OANavigatorKit {
+  umbrella header "OANavigatorKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

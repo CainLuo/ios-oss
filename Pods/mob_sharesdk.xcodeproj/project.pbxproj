@@ -15,7 +15,7 @@
 			dependencies = (
 				6AB7859B040495D82AD8C67F39C832F3 /* PBXTargetDependency */,
 				6C8E41BD5EA9C3AE84E3098A4FE1ADE6 /* PBXTargetDependency */,
-				71EB9AC8A587390C5FE2C53F8A30630B /* PBXTargetDependency */,
+				1C2FF4AA7E13C96CE34A0265094BEC66 /* PBXTargetDependency */,
 			);
 			name = mob_sharesdk;
 		};
@@ -31,6 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		54AE55802074A56BABE344563BECF172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DED7DAEEC5A0A5CD70355F420702886 /* MOBFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B3C794B90C02AC61C66EC97E5FAD0F;
+			remoteInfo = MOBFoundation;
+		};
 		98FAB662BCDE2E15A0041DF9728EBAD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BAA14379BB572E70E606EF85CB9D65B2 /* Project object */;
@@ -44,13 +51,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = CA2ED215550603AD1DE567F7A03E5012;
 			remoteInfo = "mob_sharesdk-ShareSDK_JS_Facebook";
-		};
-		CAB597C6B8C885EA81A11C756349472D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6DED7DAEEC5A0A5CD70355F420702886 /* MOBFoundation.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 94B3C794B90C02AC61C66EC97E5FAD0F;
-			remoteInfo = MOBFoundation;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -349,6 +349,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1C2FF4AA7E13C96CE34A0265094BEC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOBFoundation;
+			targetProxy = 54AE55802074A56BABE344563BECF172 /* PBXContainerItemProxy */;
+		};
 		6AB7859B040495D82AD8C67F39C832F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "mob_sharesdk-ShareSDK";
@@ -360,11 +365,6 @@
 			name = "mob_sharesdk-ShareSDK_JS_Facebook";
 			target = CA2ED215550603AD1DE567F7A03E5012 /* mob_sharesdk-ShareSDK_JS_Facebook */;
 			targetProxy = BB389D80C82ACEBFA56527320F437EA9 /* PBXContainerItemProxy */;
-		};
-		71EB9AC8A587390C5FE2C53F8A30630B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MOBFoundation;
-			targetProxy = CAB597C6B8C885EA81A11C756349472D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

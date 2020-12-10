@@ -1,4 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.work.yunyugz.com/ios/yypodspec.git'
 
 platform :ios, '12.0'
 use_frameworks!
@@ -71,6 +72,13 @@ def sharePods
   
   # UI Test Tools
   pod 'LookinServer', :configurations => ['Debug']
+  
+  pod 'OAComponentManagerKit'
+  pod 'OAServiceKit'
+  pod 'OAGlobalKit'
+  pod 'OAExtensionsKit'
+  pod 'OANavigatorKit'
+
 end
 
 target 'ios-oss' do
@@ -104,85 +112,4 @@ post_install do |installer|
         end
       end
     end
-end
-
-# Connector Kits
-target 'OAComponentManagerKit' do
-  sharePods
-  project 'OAComponentManagerKit/OAComponentManagerKit.xcodeproj'
-end
-
-target 'OAMyKit' do
-  sharePods
-  project 'OAMyKit/OAMyKit.xcodeproj'
-end
-
-target 'OAGlobalKit' do
-  sharePods
-  project 'OAGlobalKit/OAGlobalKit.xcodeproj'
-end
-
-target 'OAExtensionsKit' do
-  sharePods
-  project 'OAExtensionsKit/OAExtensionsKit.xcodeproj'
-end
-
-target 'OAServiceKit' do
-  sharePods
-  project 'OAServiceKit/OAServiceKit.xcodeproj'
-end
-
-target 'OANavigatorKit' do
-  project 'OANavigatorKit/OANavigatorKit.xcodeproj'
-end
-
-target 'OALoginKit' do
-  sharePods
-  project 'OALoginKit/OALoginKit.xcodeproj'
-end
-
-target 'OALaunchKit' do
-  sharePods
-  project 'OALaunchKit/OALaunchKit.xcodeproj'
-end
-
-target 'OAContactKit' do
-  sharePods
-  project 'OAContactKit/OAContactKit.xcodeproj'
-end
-
-target 'OAInformationKit' do
-    sharePods
-    project 'OAInformationKit/OAInformationKit.xcodeproj'
-end
-
-# Examples
-target 'OAMyExample' do
-  sharePods
-  project 'OAMyKit/OAMyKit.xcodeproj'
-end
-
-target 'OAComponentManagerExample' do
-  sharePods
-  project 'OAComponentManagerKit/OAComponentManagerKit.xcodeproj'
-end
-
-target 'OALoginExample' do
-  sharePods
-  project 'OALoginKit/OALoginKit.xcodeproj'
-end
-
-target 'OALaunchExample' do
-  sharePods
-  project 'OALaunchKit/OALaunchKit.xcodeproj'
-end
-
-target 'OAContactExample' do
-  sharePods
-  project 'OAContactKit/OAContactKit.xcodeproj'
-end
-
-target 'OAInformationExample' do
-    sharePods
-    project 'OAInformationKit/OAInformationKit.xcodeproj'
 end
