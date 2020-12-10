@@ -23,26 +23,24 @@ class PrivacyViewController: BaseTableViewController {
         self.hbd_barTintColor = UIColor.red
         self.hbd_tintColor = UIColor.white
         self.hbd_titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        
-        self.tableView.emptyDataDelegate = self
-        
+        self.tableView.emptyDataRenderer = self
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { [weak self] in
-            self?.showEmtypDataView()
+            self?.showEmytpDataView()
             self?.tableView.reloadData()
         }
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 4.0) { [weak self] in
-            self?.showEmtypDataView(options: EmptyDataOptions(type:.noNetWork))
+            self?.showEmptyDataView(options: EmptyDataOptions(type:.noNetWork))
             self?.tableView.reloadEmptyDataSet()
         }
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 6.0) { [weak self] in
-            self?.showEmtypDataView(options: EmptyDataOptions(detail: "自定义",imageName: "no_data_list", type:.custom))
+            self?.showEmptyDataView(options: EmptyDataOptions(detail: "自定义",imageName: "no_data_list", type:.custom))
             self?.tableView.reloadData()
         }
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 8.0) { [weak self] in
-            self?.hideEmtypDataView()
+            self?.hideEmptyDataView()
             self?.tableView.reloadData()
         }
     }
