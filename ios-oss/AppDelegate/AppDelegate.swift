@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        LoginConnector.instance().register()
         MyConnector.instance().register()
                 
-        let vc = ComponentManager.viewControllerForURL(URL(string: "productScheme://ModuleLaunch")!)
+        let vc = ComponentManager.viewControllerForURL(URL(string: "productScheme://ModuleMy")!)
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = vc

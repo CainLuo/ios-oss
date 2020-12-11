@@ -8,7 +8,7 @@
 import UIKit
 import OAGlobalKit
 import OAMyKit
-import OALoginKit
+//import OALoginKit
 import OAServiceKit
 
 class TabBarViewController: BaseTabBarController {
@@ -21,7 +21,7 @@ class TabBarViewController: BaseTabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         MyModuleConnectors.register()
-        LoginModuleConnectors.register()
+//        LoginModuleConnectors.register()
         
         viewControllers = configViewControllers()
     }
@@ -46,10 +46,11 @@ extension TabBarViewController {
         let myNavi = BaseNavigationController(rootViewController: my)
         myNavi.tabBarItem.title = "我的"
 
-        let login = LoginConnector.instance().connectToOpenURL(Constants.Scheme.login, parameters: nil, completion: nil)!
-        let loginNavi = BaseNavigationController(rootViewController: login)
-        loginNavi.tabBarItem.title = "登录"
+//        let login = LoginConnector.instance().connectToOpenURL(Constants.Scheme.login, parameters: nil, completion: nil)!
+//        let loginNavi = BaseNavigationController(rootViewController: login)
+//        loginNavi.tabBarItem.title = "登录"
 
-        return [myNavi, loginNavi]
+//        return [myNavi, loginNavi]
+        return [myNavi]
     }
 }
