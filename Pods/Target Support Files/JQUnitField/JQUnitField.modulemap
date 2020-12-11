@@ -1,6 +1,0 @@
-framework module JQUnitField {
-  umbrella header "JQUnitField-umbrella.h"
-
-  export *
-  module * { export * }
-}

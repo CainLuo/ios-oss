@@ -3,45 +3,18 @@ PODS:
     - RxCocoa (< 7.0, >= 5.0)
     - RxSwift (< 7.0, >= 5.0)
   - Alamofire (5.4.0)
-  - BRPickerView (2.7.3):
-    - BRPickerView/AddressPickerView (= 2.7.3)
-    - BRPickerView/Base (= 2.7.3)
-    - BRPickerView/DatePickerView (= 2.7.3)
-    - BRPickerView/StringPickerView (= 2.7.3)
-  - BRPickerView/AddressPickerView (2.7.3):
-    - BRPickerView/Base
-  - BRPickerView/Base (2.7.3)
-  - BRPickerView/DatePickerView (2.7.3):
-    - BRPickerView/Base
-  - BRPickerView/StringPickerView (2.7.3):
-    - BRPickerView/Base
   - DateToolsSwift (5.0.0)
   - Differentiator (4.0.1)
   - DZNEmptyDataSet (1.8.1)
   - HBDNavigationBar (1.7.7)
   - IQKeyboardManagerSwift (6.5.6)
-  - JQUnitField (1.0.0)
   - Localize-Swift (3.2.0):
     - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
     - Localize-Swift/UIKit (= 3.2.0)
   - Localize-Swift/LocalizeSwiftCore (3.2.0)
   - Localize-Swift/UIKit (3.2.0):
     - Localize-Swift/LocalizeSwiftCore
-  - LookinServer (1.0.0)
   - MBProgressHUD (1.2.0)
-  - MJRefresh (3.5.0)
-  - mob_sharesdk (4.3.15):
-    - mob_sharesdk/ShareSDK (= 4.3.15)
-    - MOBFoundation (>= 3.2.9)
-  - mob_sharesdk/ShareSDK (4.3.15):
-    - MOBFoundation (>= 3.2.9)
-  - mob_sharesdk/ShareSDKPlatforms/Apple (4.3.15):
-    - mob_sharesdk/ShareSDK
-    - MOBFoundation (>= 3.2.9)
-  - mob_sharesdk/ShareSDKPlatforms/Facebook (4.3.15):
-    - mob_sharesdk/ShareSDK
-    - MOBFoundation (>= 3.2.9)
-  - MOBFoundation (3.2.24)
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya-ObjectMapper/Core (2.9):
@@ -116,9 +89,6 @@ PODS:
   - RxGesture (3.0.2):
     - RxCocoa (~> 5.1)
     - RxSwift (~> 5.1)
-  - RxOptional (4.1.0):
-    - RxCocoa (~> 5)
-    - RxSwift (~> 5)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
@@ -133,11 +103,9 @@ PODS:
   - RxWebKit (1.0.2):
     - RxCocoa (~> 5.0)
     - RxSwift (~> 5.0)
-  - Schedule (2.1.0)
   - SDWebImage (5.10.0):
     - SDWebImage/Core (= 5.10.0)
   - SDWebImage/Core (5.10.0)
-  - SnapKit (5.0.1)
   - STPopup (1.8.7)
   - SwiftDate (6.3.1)
   - SwifterSwift (5.2.0):
@@ -165,51 +133,18 @@ PODS:
   - SwifterSwift/StoreKit (5.2.0)
   - SwifterSwift/SwiftStdlib (5.2.0)
   - SwifterSwift/UIKit (5.2.0)
-  - WKWebViewJavascriptBridge (1.2.1)
   - XCGLogger (7.0.1):
     - XCGLogger/Core (= 7.0.1)
   - XCGLogger/Core (7.0.1):
     - ObjcExceptionBridging
 
 DEPENDENCIES:
-  - Action
-  - BRPickerView
-  - DateToolsSwift
-  - DZNEmptyDataSet
-  - HBDNavigationBar
-  - IQKeyboardManagerSwift
-  - JQUnitField
-  - Localize-Swift
-  - LookinServer
-  - MBProgressHUD
-  - MJRefresh
-  - mob_sharesdk
-  - mob_sharesdk/ShareSDKPlatforms/Apple
-  - mob_sharesdk/ShareSDKPlatforms/Facebook
-  - Moya-ObjectMapper/RxSwift
-  - Moya/RxSwift
-  - "NSObject+Rx"
   - OAComponentManagerKit
   - OAExtensionsKit
   - OAGlobalKit
   - OAMyKit
   - OANavigatorKit
   - OAServiceKit
-  - RxCocoa
-  - RxDataSources
-  - RxGesture
-  - RxOptional
-  - RxSwift
-  - RxSwiftExt
-  - RxWebKit
-  - Schedule
-  - SDWebImage
-  - SnapKit
-  - STPopup
-  - SwiftDate
-  - SwifterSwift
-  - WKWebViewJavascriptBridge
-  - XCGLogger
 
 SPEC REPOS:
   https://git.work.yunyugz.com/ios/yypodspec.git:
@@ -221,19 +156,13 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Action
     - Alamofire
-    - BRPickerView
     - DateToolsSwift
     - Differentiator
     - DZNEmptyDataSet
     - HBDNavigationBar
     - IQKeyboardManagerSwift
-    - JQUnitField
     - Localize-Swift
-    - LookinServer
     - MBProgressHUD
-    - MJRefresh
-    - mob_sharesdk
-    - MOBFoundation
     - Moya
     - Moya-ObjectMapper
     - "NSObject+Rx"
@@ -243,36 +172,26 @@ SPEC REPOS:
     - RxCocoa
     - RxDataSources
     - RxGesture
-    - RxOptional
     - RxRelay
     - RxSwift
     - RxSwiftExt
     - RxWebKit
-    - Schedule
     - SDWebImage
-    - SnapKit
     - STPopup
     - SwiftDate
     - SwifterSwift
-    - WKWebViewJavascriptBridge
     - XCGLogger
 
 SPEC CHECKSUMS:
   Action: 5dc2194f7a0b77857c82a677b0da655f197c005f
   Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
-  BRPickerView: 9cc11880ac79c4872d081ccb88f306224c1501d7
   DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
-  JQUnitField: c352e80f56906eb49726efa6543ccb90fbc53716
   Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
-  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
-  mob_sharesdk: c0b0fb2d37b0b4a408fddd32109f9ef5a51361b9
-  MOBFoundation: 934ee1a43aed452d51942b416bc3dc4d0813ac82
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   Moya-ObjectMapper: 967a99d9ea3aa9c93ddbe112aeca3667f53bfe93
   "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
@@ -287,20 +206,16 @@ SPEC CHECKSUMS:
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
-  RxOptional: b1fcd60856807a564c0215c2184b8d33e7826dc2
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
   RxWebKit: a3085e7cd8b57182b452692686675702474014dd
-  Schedule: 00e6d7bbdbdb000fd1f51a7d10e9f88a8c451fda
   SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
-  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   STPopup: a9045557bc48a0df51fbb7bf0544447c5fe84d34
   SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
   SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
-  WKWebViewJavascriptBridge: 07ad0cab27cd61ccdb90b5deb223f6df3a03c3d7
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
 
-PODFILE CHECKSUM: ea5a98d0ad7ef7819c3fb0f01a5cdcd093febc90
+PODFILE CHECKSUM: 690782fabc6336a151e448a1cbe5a3fefda6797b
 
 COCOAPODS: 1.10.0
