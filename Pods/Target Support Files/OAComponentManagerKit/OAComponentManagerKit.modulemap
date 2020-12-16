@@ -1,6 +1,0 @@
-framework module OAComponentManagerKit {
-  umbrella header "OAComponentManagerKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

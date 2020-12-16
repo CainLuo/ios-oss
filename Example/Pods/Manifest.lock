@@ -1,0 +1,21 @@
+PODS:
+  - HomeModule (0.1.0)
+  - ios-oss (1.0.0)
+
+DEPENDENCIES:
+  - HomeModule (from `../HomeModule/`)
+  - ios-oss (from `../`)
+
+EXTERNAL SOURCES:
+  HomeModule:
+    :path: "../HomeModule/"
+  ios-oss:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HomeModule: c86daed8866ab2495503f724cdbd954e64d15ac0
+  ios-oss: c95dc4be096e8faf67ac5663e15ac949fbf97ac7
+
+PODFILE CHECKSUM: fe896986c747e6af91d81b9c9b2d868a5f14333b
+
+COCOAPODS: 1.10.0

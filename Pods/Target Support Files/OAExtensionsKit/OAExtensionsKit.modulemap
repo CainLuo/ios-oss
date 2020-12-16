@@ -1,6 +1,0 @@
-framework module OAExtensionsKit {
-  umbrella header "OAExtensionsKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

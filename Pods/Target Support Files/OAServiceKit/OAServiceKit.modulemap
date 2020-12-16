@@ -1,6 +1,0 @@
-framework module OAServiceKit {
-  umbrella header "OAServiceKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

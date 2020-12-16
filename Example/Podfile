@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+platform :ios, '10.0'
+inhibit_all_warnings!
+
+target 'ios-oss_Example' do
+  pod 'ios-oss', :path => '../'
+  
+  pod 'HomeModule', :path => '../HomeModule/'
+
+  target 'ios-oss_Tests' do
+    inherit! :search_paths
+
+#    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
